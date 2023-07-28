@@ -10,7 +10,7 @@ title = 'Classes w/ Prof. Nat Tuck'
   displayName = "EN"
   rtl = false
 
-  dateFormat = "2006 January 02"
+  dateFormat = "2006 Jan 02"
 
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"

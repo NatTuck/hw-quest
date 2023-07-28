@@ -166,15 +166,20 @@ Labs:
 
  1. Hello Java
  1. Structure Types, Nested Structures
- 1. Linked Lists
+ 1. Linked Lists, Generics
  1. Arrays
- 1. Generics
  1. ArrayList (then Midterm)
  1. Stacks (LinkedList vs ArrayList)
  1. Queue (Two Lists vs. Circular Buffer Variants)
- 1. Binary Search Tree
- 1. HashMap
+ 1. Binary Search Tree I
+ 1. Binary Search Tree II
+ 1. HashMap I
+ 1. HashMap II
  1. Set
  1. Priority Queue
  1. Graph
  1. Network GUI Game
+
+## Class Resources
+
+ - [Programming Style]({{< ref "style" >}})

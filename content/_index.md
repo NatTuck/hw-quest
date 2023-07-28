@@ -6,6 +6,8 @@ title: "Welcome"
 
  - [CS2381: Data Structures and Intermediate Programming](
      {{< ref "/classes/2023-09/cs2381" >}})
+ - [CS4140: Software Engineering](
+     {{< ref "/classes/2023-09/cs4140" >}})
 
 
 
