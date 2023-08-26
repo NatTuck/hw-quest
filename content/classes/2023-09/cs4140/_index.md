@@ -6,6 +6,8 @@ title: "CS4140 Course Site and Syllabus"
 Software Engineering
 {{< /lead >}}
 
+<h2>2023 Aug 15 - This is a draft!</h2>
+
 <blockquote> 
 <b>Course Catalog:</b><br> 
 Presents fundamental principles of software engineering. Emphasizes
@@ -24,13 +26,13 @@ design and implementation. Falls.
 <tr>
 	<td>1</td>
 	<td>Aug 28</td>
-	<td>Intros: Class, Java, Data</td>
+	<td>Class Intro</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>Sep 4 †</td>
-	<td>Types, Patterns, Lists</td>
+	<td>Project Start</td>
 	<td></td>
 </tr>
 <tr>
@@ -66,7 +68,7 @@ design and implementation. Falls.
 <tr>
 	<td>8</td>
 	<td>Oct 16</td>
-	<td></td>
+	<td>Midterm Pivot?</td>
 	<td></td>
 </tr>
 <tr>
@@ -114,7 +116,7 @@ design and implementation. Falls.
 <tr>
 	<td>-</td>
 	<td>Dec 11</td>
-	<td colspan="2">Finals Week</td>
+	<td colspan="2">Finals Week: Presentations</td>
 </tr>
 
 {{< /schedule >}}
@@ -138,13 +140,13 @@ Week 1:
 
 Week 2:
 
+ - Webapp basics
  - M: The Github Workflow
- - W: Processes
  - F: meeting 1
 
 Week 3: 
 
- - Webapp basics
+ - W: Processes
  - ORM, Logic, Template structure
 
 Topics: 
@@ -171,8 +173,12 @@ Programming methodology:
  - Automated tests, test first
  - Continuous integration
 
+## Class Supplies
 
-
+Each student is expected to maintain a virtual private server to
+deploy their project to. This must be a commodity VPS with at least a
+1GB of RAM and 20 GB of disk space. From Vultr, Linode or Digital
+Ocean, this is will cost $5/month or $20 for the semester.
 
 ## Grading
 

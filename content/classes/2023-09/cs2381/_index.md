@@ -6,6 +6,8 @@ title: "CS2381 Course Site and Syllabus"
 Data Structures and Intermediate Programming
 {{< /lead >}}
 
+<h2>2023 Aug 15: This is a draft!</h2>
+
 <blockquote>
 <b>Course Catalog:</b><br>
 A second programming course which reinforces the programming
@@ -165,12 +167,22 @@ Old Labs:
 Labs:
 
  1. Hello Java
+    - Inkfish starter code archive
+	- Creating and submitting archive to Inkfish
+	- Basic layout of Maven project
+	- Editing Java source
+    - Creating new source file
+	- Defining data structure with ```record``` keyword.
+	- Passing existing tests.
+	- Inline unit tests.
+	- Leaves out: toString, getters, setters, generics
  1. Structure Types, Nested Structures
  1. Linked Lists, Generics
+ 1. Simple Game
  1. Arrays
- 1. ArrayList (then Midterm)
- 1. Stacks (LinkedList vs ArrayList)
- 1. Queue (Two Lists vs. Circular Buffer Variants)
+ 1. ArrayList
+ 1. Stacks (LinkedList vs ArrayList) & Queues (Two Lists vs. Circular Buffer Variants), 
+    then Midterm Exam
  1. Binary Search Tree I
  1. Binary Search Tree II
  1. HashMap I
