@@ -1,13 +1,14 @@
 
+server: deps
+	hugo server
+
 deps:
 	(cd themes/congo && npm install)
 
 ship:
-	echo "Ship!"
+	hugo
+	rsync -avz --delete public/ nat@homework.quest:/home/nat/www/homework.quest
 
 s: server
-
-server:
-	npm run dev
 
 .PHONY: deps ship s server
