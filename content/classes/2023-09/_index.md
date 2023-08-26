@@ -1,4 +1,4 @@
 ---
-title: "/classes/2023-09"
+title: "Classes, Fall 2023"
 ---
 

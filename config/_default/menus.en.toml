@@ -12,17 +12,17 @@
 
 [[main]]
   name = "Home"
-  pageRef = "home"
+  pageRef = "/"
   weight = 10
 
 [[main]]
   name = "cs2381"
-  pageRef = "cs2381-2309"
+  pageRef = "/classes/2023-09/cs2381"
   weight = 20
 
 [[main]]
   name = "cs4140"
-  pageRef = "cs4140-2309"
+  pageRef = "/classes/2023-09/cs4140"
   weight = 30
 
 [[main]]

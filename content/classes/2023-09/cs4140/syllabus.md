@@ -1,6 +1,5 @@
 ---
 title: "CS4140 Course Site and Syllabus"
-menu: "cs4140-2309"
 ---
 
 {{< lead >}}
@@ -18,6 +17,7 @@ design and implementation. Falls.
 </blockquote>
 
 ## Tentative Schedule
+
 
 
 {{< schedule >}}
