@@ -11,25 +11,25 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Home"
+  pageRef = "home"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "cs2381"
+  pageRef = "cs2381-2309"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "cs4140"
+  pageRef = "cs4140-2309"
   weight = 30
 
 [[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
+  name = "Inkfish"
+  url = "https://inkfish.homework.quest/"
+  weight = 40
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
