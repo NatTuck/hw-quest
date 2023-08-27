@@ -27,6 +27,7 @@ lab. Falls and Springs.
  - Instructor: Nat Tuck 
    - Email: <nathaniel.tuck@plymouth.edu>
    - Office: D&M 305
+ - Course Site: https://homework.quest/ click "cs2381"
  - Semester: Fall 2023 (Aug 28 - Dec 15)
  - Lecture: Mon, Wed, Fri at 11:15am-12:05pm in D&M 442
  - Lab in D&M 404
@@ -94,9 +95,21 @@ else (&lt; 60) &rarr; F
 
 **Labs**
 
-Lab projects will be assigned weekly throughout the semester. These may
-have both programming components and questions to answer. These may be
-assigned in pairs, in which case pair programming is strongly suggested.
+Lab projects will be assigned weekly throughout the semester. These
+may have both programming components and questions to answer. 
+
+You may be assigned to work with a partner, in which case pair
+programming is strongly suggested. In assigning partners, sometimes
+there ends up being a team of one or three. Students not present at a
+lab meeting may be assigned to work alone for the associated
+assignment.
+
+All team members are responsible for and get credit for any work
+submitted as a team. Any team member who believes their teammates
+aren't doing their share of the work can leave a team and work alone
+until teams are next reassigned, but only such that the remaining
+members of the team have at least four days to complete any assignment
+before the due date.
 
 Lab projects will be provided through an online web application and
 must be submitted through the same system. Unsolicited emailed labs
@@ -235,7 +248,7 @@ You may not post solutions for assignments in this class publicly.
 
 ## Tentative Schedule
 
-Assignments will frequently be due at 11:59pm on Monday.
+The initial plan is for assignments to be due at 11:59pm on Monday.
 
 {{< schedule >}}
 

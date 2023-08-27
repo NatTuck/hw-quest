@@ -1,11 +1,13 @@
 ---
-title: "CS4140 Course Site and Syllabus"
-menu: "cs4140-2309"
+title: "CS4140 Fall 2023: Course Site"
+date: "2023-08-27"
 ---
 
 {{< lead >}}
 Software Engineering
 {{< /lead >}}
+
+[Syllabus](./syllabus)
 
 ## Design Notes
 
