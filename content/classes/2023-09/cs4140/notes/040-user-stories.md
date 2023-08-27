@@ -1,5 +1,7 @@
 ---
-title: "Notes: User Stories"
+title: "Notes: 040 User Stories"
+date: "2023-08-27"
+draft: true
 ---
 
 A user story is a thing a user wants to do that the developers can build

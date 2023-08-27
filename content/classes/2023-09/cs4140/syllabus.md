@@ -65,9 +65,9 @@ following services and maintain them for remainder of the semester:
  - A commodity virtual private server
  - A domain name
  
-This can be done for under $20.
+This can be done for under $20 for the semester.
 
-Please wait to do this until the task is assigned, as there are
+Please wait to get these until the task is assigned, as there are
 several specific requirements.
 
 ## Software Project
@@ -146,6 +146,10 @@ individual report. Each student will recieve a grade on their own
 report, reflecting the report itself and their individual
 contributions as reported by themselves and their teammates.
 
+Report templates will be provided through an online system called
+Inkfish. All assignments must be submitted through that system.
+Unsolicited emailed assignments will not be accepted.
+
 Each week there may be assigned tasks or new project requirements
 which will be reported on in one or both of that week's reports. Not
 doing the task or managing the requirement will lose you points.
@@ -212,9 +216,7 @@ bonus to everyone's final grade. This bonus applies if at least 75%
 of the students complete their evaluations by 10am on the Monday
 of finals week.
 
-# Resources
-
-## Accomodations
+# Accomodations
 
 Plymouth State University is committed to providing students with
 documented disabilities equal access to all university programs and
@@ -381,96 +383,3 @@ The initial plan is for reports to be due at 11:59pm on Monday.
  - † No class on Monday (Labor Day)
  - ‡ No class Wed, Thu, Fri (Thanksgiving)
 
-## Design Notes
-
- - Class is M/W/F with 50 minute lectures from 10:10am-11am
- - Friday is going to be in-class work day
-   - Team meeting
-   - Collaborative status report and project submission.
- - Deliverables and status reports due Friday at noon
-
-Week 1:
-
- - M: Introductions, Syllabus
- - W: Software Engineering Process (Agile)
- - F: Teams, setup
-
-Week 2:
-
- - M: The Github Workflow
- - W: Processes
- - F: meeting 1
-
-Week 3: 
-
- - Webapp basics
- - ORM, Logic, Template structure
-
-Topics: 
-
- - Automated Testing: Unit, Integration 
- - Manual Testing: Acceptance Testing
- - External libraries, dependency management, security, licensing
-
-Github:
-
- - Base workflow
- - Github Actions
- - Github Actions to push to production
-
-Taiga.io:
-
- - Kanban board
- - Sprints
-
-Programming methodology:
-
- - User stories
- - Sprints (two weeks)
- - Automated tests, test first
- - Continuous integration
-
-
-
-
-## Grading
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-	  <td>Thing</td>
-	  <td>Weight</td>
-	</tr>
-  </thead>
-  <tbody>
-	<tr>
-	  <td>Final Presentation</td>
-	  <td>30%</td>
-	</tr>
-    <tr>
-	  <td>Project Checks</td>
-	  <td>30%</td>
-	</tr>
-    <tr>
-	  <td>Peer Evaluations</td>
-	  <td>20%</td>
-	</tr>
-    <tr>
-	  <td>Meeting Participation</td>
-	  <td>20%</td>
-	</tr>
-  </tbody>
-</table>
-
-
-## Readings
-
- - https://community.taiga.io/t/quick-intro-to-scrum-module/124
- - https://community.taiga.io/t/what-is-scrum-the-dark-side-of-scrum/129
-
-
-
-## Notes
-
- - Kyle: Focus on OO patterns
- - Sriharsha: Focus on conceptual process
