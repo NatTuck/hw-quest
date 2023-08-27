@@ -1,10 +1,13 @@
 ---
-title: "CS4140 Course Site and Syllabus"
+title: "CS 4140 Fall 2023: Syllabus"
+date: "2023-08-27"
 ---
 
 {{< lead >}}
 Software Engineering
 {{< /lead >}}
+
+[&larr; Back to Course Site](../)
 
 <blockquote> 
 <b>Course Catalog:</b><br> 
@@ -14,11 +17,77 @@ the major phases of the software life cycle such as rapid prototyping,
 object-oriented design and module testing, are discussed. Software
 teams complete a term project that includes system documentation,
 design and implementation. Falls.
+<br>Prereqs: CS 2381 and CS 3720.
 </blockquote>
 
-## Tentative Schedule
+# Course Info
+
+ - Instructor: Nat Tuck 
+   - Email: <nathaniel.tuck@plymouth.edu>
+   - Office: D&M 305
+ - Semester: Fall 2023 (Aug 28 - Dec 15)
+ - Lecture: Mon, Wed, Fri at 10:10am-11am in D&M 419
+ - Final Exam: Fri Dec 15th, 8am-10:30am in D&M 442
+ - Office Hours:
+   - Mon 1-2pm @ D&M 305
+   - Wed 9-10am @ D&M 305
+   - By appointment
+
+## Student Learning Outcomes
+
+Successful students will: 
+
+ - Work in a team to develop a complex web application.
+ - Use a selection of specific tools, techniques, and methodologies
+   for software engineering, software development, and project
+   management.
+ - Discover project tasks and break large tasks down into smaller pieces.
+ - Assist in allocation of tasks between team members then personally
+   do a fair share of the work.
+ - Deploy to a commodity virtual private server.
+ - Independently investigate and evaluate new software tools,
+   libraries, and APIs and integrate them into their software project
+   if appropriate.
+ - Collect and implement user stories from a person outside the team.
+
+## Texts
+
+There is no required textbook 🪳 for this course.
+
+# Grading
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+	  <td>Thing</td>
+	  <td>Weight</td>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+	  <td>Final Presentation</td>
+	  <td>30</td>
+	</tr>
+    <tr>
+	  <td>Project Checks</td>
+	  <td>30</td>
+	</tr>
+    <tr>
+	  <td>Peer Evaluations</td>
+	  <td>20</td>
+	</tr>
+    <tr>
+	  <td>Meeting Participation</td>
+	  <td>20</td>
+	</tr>
+  </tbody>
+</table>
+
+The number of points available in an assessment may (or may not)
+exceed the denominator used in the grade calculation.
 
 
+# Tentative Schedule
 
 {{< schedule >}}
 
