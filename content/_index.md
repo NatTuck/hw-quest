@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-menu: "home"
+date: "2023-08-27"
 ---
 
 ## This Semester
@@ -10,9 +10,6 @@ menu: "home"
  - [CS4140: Software Engineering](
      {{< ref "/classes/2023-09/cs4140" >}})
 
+## Links
 
-
-## Tech Docs
-
- - Theme: [Congo](https://jpanther.github.io/congo/)
- - Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes)
+ - Tech notes on [this site](./site-tech)
