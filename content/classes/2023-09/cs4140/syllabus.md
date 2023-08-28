@@ -28,7 +28,7 @@ design and implementation. Falls.
  - Course Site: https://homework.quest/ click "cs4140"
  - Semester: Fall 2023 (Aug 28 - Dec 15)
  - Lecture: Mon, Wed, Fri at 10:10am-11am in D&M 419
- - Final Exam: Fri Dec 15th, 8am-10:30am in D&M 442
+ - Final Exam: Fri Dec 15th, 8am-10:30am in D&M 419
  - Office Hours:
    - Mon 1-2pm @ D&M 305
    - Wed 9-10am @ D&M 305

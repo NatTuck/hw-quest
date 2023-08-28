@@ -1,5 +1,5 @@
 ---
-title: "CS2381: Java Style Rules"
+title: "CS2381: JavaDoc Guidelines"
 date: "2023-07-08"
 ---
 
