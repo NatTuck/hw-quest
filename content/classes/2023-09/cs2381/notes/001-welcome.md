@@ -1,5 +1,5 @@
 ---
-title: "Notes: 001 Welcome"
+title: "cs2381 Notes: 001 Welcome"
 date: "2023-08-27"
 ---
 
