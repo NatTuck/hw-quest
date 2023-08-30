@@ -80,6 +80,13 @@ I'd prefer to not see PHP here. I don't really want to contribute to filling any
 
 Go ahead and spin up a Rails app, then run a generator and walk through the layout.
 
+Let's do a Jokes app for this initial demo, and then use it to demonstrate github
+and the pull request workflow.
+
+Print out the guide:
+
+https://guides.rubyonrails.org/getting_started.html
+
 # Process: Github, tease Taiga
 
 ## Git/Github Concepts
@@ -100,7 +107,6 @@ For this week's reports, you should:
  - Use your Github account to get a taiga.io account
  - Look at persistent chat options and be prepared to suggest one
  - Look into web frameworks and think about which ones you'd be interested in using for the first half the semester.
-
 
 ## Notes to self
 
