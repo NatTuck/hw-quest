@@ -19,3 +19,4 @@ Software Engineering
 
  - Read the [Syllabus](./syllabus)
  - See [Inkfish](https://inkfish.homework.quest) for assignments.
+ - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2023-09)
