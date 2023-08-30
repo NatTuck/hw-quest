@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 002 First Lab"
+title: "cs2381 Notes: lab01 Moon Lander"
 date: "2023-08-29"
 ---
 

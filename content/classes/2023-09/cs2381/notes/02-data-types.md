@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 003 Simple Data and Records"
+title: "cs2381 Notes: 02 Simple Data and Records"
 date: "2023-08-29"
 ---
 
