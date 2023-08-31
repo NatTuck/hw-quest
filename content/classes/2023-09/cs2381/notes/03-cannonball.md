@@ -3,6 +3,7 @@ title: "cs2381 Notes: 03 Cannonball"
 date: "2023-08-29"
 ---
 
+## Delay attendence until after the baloon example
 
 ## Balloon Example
 
@@ -50,6 +51,54 @@ class LaunchWorld extends World {
 ```bash
 javac -cp .:JavaWorld.jar Launch.java
 java -cp .:JavaWorld.jar Launch
+```
+
+## Take Attendence
+
+## Extended Bird Example
+
+```
+class BirdMain {
+  static Bird biggerBird(Bird aa, Bird bb) {
+		if (aa.weight > bb.weight) {
+			return aa;
+		}
+		else {
+			return bb;
+		}
+	}
+
+	public static void main(String args[]) {
+		Bird b1 = new Bird();
+		b1.color = "blue";
+		b1.weight = 7.0; // pounds
+				 //
+		Bird b2 = new Bird();
+		b2.color = "red";
+		b2.weight = 9.0; // pounds
+
+		var b3 = biggerBird(b1, b2);
+
+		System.out.println("Biggest bird is " + b3.color);
+	}
+}
+
+class Bird {
+    String color;
+    double weight;
+}
+
+class Bird {
+    String color;
+    double weight;
+   
+    Bird(String color, double weight) {
+       this.color = color;
+       this.weight = weight;
+    }
+}
+
+record Bird(String color, double weight) {}
 ```
 
 ## Cannonball example 
@@ -116,4 +165,9 @@ class CannonWorld extends World {
     }
 }
 ```
+
+## Lab 01
+
+ - Open it up
+ - Reiterate that students only need to change Rocket#tick and Rocket#burn
 

@@ -21,5 +21,6 @@ Data Structures and Intermediate Programming
 # Essential Resources
 
  - Read the [Syllabus](./syllabus)
- - See [Inkfish](https://inkfish.homework.quest) for assignments.
+ - See [Inkfish](https://inkfish.homework.quest) for assignments
  - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2023-09)
+ - Install [required software](./required-software) to work on your personal machine
