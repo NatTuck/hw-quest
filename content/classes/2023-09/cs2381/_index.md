@@ -24,3 +24,12 @@ Data Structures and Intermediate Programming
  - See [Inkfish](https://inkfish.homework.quest) for assignments
  - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2023-09)
  - Install [required software](./required-software) to work on your personal machine
+
+# Suggested Resources
+
+ - If you're not comfortable touch typing, now's a good time to learn that skill.
+   [TypingClub](https://www.typingclub.com/) seems like it might be decent.
+ - The official documentation for Java: 
+   - [The Language](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
+   - [The Standard Library](
+     https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html)

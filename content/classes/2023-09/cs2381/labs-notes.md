@@ -7,11 +7,34 @@ draft: true
 
 ## Lab Sequence
 
+Topic is covered covered Wednesday, Friday, Monday then
+practiced in lab on Tuesday
+
+Lab X covers topics mostly discussed in week (X-1).
+
+Labs:
+
+ 1. Submit an Empty Project
+ 2. Simple Types, Record Types
+ 3. Linked Lists, Generics
+ 1. Arrays, ArrayList (then Midterm)
+ 1. Stacks (LinkedList vs ArrayList)
+ 1. Queues (Two Lists vs. Circular Buffer Variants)
+ 1. Binary Tree
+ 1. HashMap
+ 1. Set, BST
+ 1. Priority Queue
+ 1. Graph
+ 1. Network GUI Game
+
+
+
+
 Lab Periods are on Tuesdays, which is near the beginning of the week.
 
 Lab assignments are due the following Monday at midnight.
 
-Old Labs:
+## Old Labs:
 
  1. Intro: 
     Writing code, JavaDoc, Pair Class, Constructor, Style (indentation), Declaring
@@ -43,19 +66,4 @@ Old Labs:
 	voting example, zombie example
  1. Build a Splay Tree (bonus):
     method signatures provided
-
-Labs:
-
- 1. Hello Java
- 1. Structure Types, Nested Structures
- 1. Linked Lists, Generics
- 1. Arrays, ArrayList (then Midterm)
- 1. Stacks (LinkedList vs ArrayList)
- 1. Queues (Two Lists vs. Circular Buffer Variants)
- 1. Binary Tree
- 1. HashMap
- 1. Set, BST
- 1. Priority Queue
- 1. Graph
- 1. Network GUI Game
 
