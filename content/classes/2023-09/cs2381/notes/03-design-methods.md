@@ -233,6 +233,8 @@ Then we can just stick our tests in the main method.
 
 ```java
     static Bird biggerBird(Bird aa, Bird bb) {
+        // Generally bad practice to access fields on instances other classes, 
+        // we'll fix that shortly
         aa.color
         aa.weight
         bb.color
@@ -275,7 +277,7 @@ Then we can just stick our tests in the main method.
 
 **give it a try**
 
-**constructor to clean up**
+**constructor and getters to clean up**
 
 ```java
 class Bird {
@@ -286,14 +288,30 @@ class Bird {
        this.color = color;
        this.weight = weight;
     }
+    
+    String color() { return this.color; }
+    double weight() { return this.weight; }
 }
 ```
+
+And go through and make that consistent.
 
 **now let's make it a record**
 
 ```java
 record Bird(String color, double weight) {}
 ```
+
+This gives us:
+
+ - Constructor
+ - Getters
+ - equals method
+ - a couple other standard methods
+ - immutability
+
+And we'll go back through and make any more needed changes.
+
 
 ## Lab 01
 

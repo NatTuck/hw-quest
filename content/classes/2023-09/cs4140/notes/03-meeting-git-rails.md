@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 02 Github and Frameworks"
+title: "cs4140 Notes: 03 First Meeting, Rails Demo, More Git"
 date: "2023-08-27"
 ---
 
