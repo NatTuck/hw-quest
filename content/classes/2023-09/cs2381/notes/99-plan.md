@@ -14,8 +14,8 @@ Week 1:
 Week 2:
 
  - Lab: Data with Structures
- - Wednesday: Interfaces
- - Friday:
+ - Wednesday: Introduce Interfaces
+ - Friday: 
 
 
 Week 3:

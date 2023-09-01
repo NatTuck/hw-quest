@@ -28,8 +28,6 @@ Labs:
  1. Network GUI Game
 
 
-
-
 Lab Periods are on Tuesdays, which is near the beginning of the week.
 
 Lab assignments are due the following Monday at midnight.

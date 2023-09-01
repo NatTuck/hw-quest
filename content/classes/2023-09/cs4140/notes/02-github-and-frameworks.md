@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 002 Github and Frameworks"
+title: "cs4140 Notes: 02 Github and Frameworks"
 date: "2023-08-27"
 ---
 
@@ -76,39 +76,3 @@ In the general case, a web application is a program that:
 
 I'd prefer to not see PHP here. I don't really want to contribute to filling anyone's brain with that.
 
-## Ruby on Rails Demo
-
-Go ahead and spin up a Rails app, then run a generator and walk through the layout.
-
-Let's do a Jokes app for this initial demo, and then use it to demonstrate github
-and the pull request workflow.
-
-Print out the guide:
-
-https://guides.rubyonrails.org/getting_started.html
-
-# Process: Github, tease Taiga
-
-## Git/Github Concepts
-
- - Distributed version control
- - Repositories
- - Branches
- - Feature branches
- - Pull requests
- - Forks
- - Code reviews
-
-# Task Summary
-
-For this week's reports, you should:
-
- - Get a Github account.
- - Use your Github account to get a taiga.io account
- - Look at persistent chat options and be prepared to suggest one
- - Look into web frameworks and think about which ones you'd be interested in using for the first half the semester.
-
-## Notes to self
-
- - We can use Github Pages for more complicated reports.
- - We can use Github Pages to demonstrate the core workflow.
