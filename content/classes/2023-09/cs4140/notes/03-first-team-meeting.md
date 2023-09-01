@@ -1,6 +1,6 @@
 ---
-title: "cs4140 Notes: 03 First Meeting, Rails Demo, More Git"
-date: "2023-08-27"
+title: "cs4140 Notes: 03 First Team Meeting"
+date: "2023-09-01"
 ---
 
 ## Assignments Posted

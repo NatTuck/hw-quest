@@ -17,7 +17,6 @@ Week 2:
  - Wednesday: Introduce Interfaces
  - Friday: 
 
-
 Week 3:
 
  - Lab: Linked Lists and Generics
