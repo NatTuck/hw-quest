@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 02 Introducing Frameworks, Github"
+title: "cs4140 Notes: 02 Web Development"
 date: "2023-08-27"
 ---
 

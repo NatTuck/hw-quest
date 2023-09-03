@@ -1,5 +1,5 @@
 ---
-title: "CS 2381 Fall 2023: Syllabus"
+title: "cs2381 Fall 2023: Syllabus"
 date: "2023-08-27"
 ---
 

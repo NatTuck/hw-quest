@@ -8,9 +8,7 @@ draft: true
 
 Teachers create quizzes for students to take.
 
-
-
-## User Stories
+## Possible User Stories
 
  - As a Teacher, I want to create quizzes so that students can take them.
  - As a Teacher, I want to be able to share a quiz with a list of students.
@@ -18,8 +16,7 @@ Teachers create quizzes for students to take.
  - As a Student, I want to take a quiz I have recieved so I can get credit for it.
  - As a Teacher, I want to see quiz results so I can give 
 
-
-## Data Model
+## Possible Data Model
 
 DB Tables:
 
@@ -33,14 +30,13 @@ DB Tables:
    - belongs to Student
    - belongs to Question
 
-## Versions
+## Minimum Non-viable Product
 
- - Quizon - Python/Django
- - Quizby - Ruby/Rails
- - Quizix - JS/Remix
-
-...
-
- - Quizir - Elixir/Phoenix
- - Quizet - Rust/Rocket
- - QuizKit - Clojure/Kit
+ - Users resource
+   - Name field
+   - Teacher flag
+ - Teachers can create quizzes
+ - Teachers can create true/false questions, with correct answers
+ - Students can answer questions for a quiz, then submit
+ - Students can see their score
+ - Teachers can see a report showing everyone's score

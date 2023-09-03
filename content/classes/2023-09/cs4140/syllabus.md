@@ -1,5 +1,5 @@
 ---
-title: "CS 4140 Fall 2023: Syllabus"
+title: "cs4140 Fall 2023: Syllabus"
 date: "2023-08-27"
 ---
 
