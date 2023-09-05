@@ -28,8 +28,14 @@ sudo apt install openjdk-17-jdk maven
 To run the test script and see how autograding will go:
 
  - Windows: [Strawberry Perl](https://strawberryperl.com/) (>= 5.32 64 bit)
- - Linux and Mac: Probably installed by default. On Linux, a missing
+ - Linux and Mac: Perl is probably installed by default. On Linux, a missing
    "Foo::Bar" is generally the "libfoo-bar-perl" package.
+
+Other recommendations on Windows:
+
+ - Linux commands in Windows command prompt: [GoW](https://github.com/bmatzelle/gow/releases)
+ - Just get a whole Linux on Windows: [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
+   with Debian or Ubuntu
 
 **Installing Maven on Windows/Mac**
 
