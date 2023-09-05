@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: lab01 Moon Lander"
-date: "2023-08-29"
+title: "cs2381 Notes: lab02 Design Recipe and Records"
+date: "2023-09-04"
 ---
 
 Make sure software is good:
