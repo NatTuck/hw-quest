@@ -3,23 +3,16 @@ title: "cs4140 Fall 2023: Assigned Tasks"
 date: "2023-09-03"
 ---
 
+# Week 3:
 
-# Week 2:
+**All tasks worked on after Week 2 should be on your Taiga.io Kanban board**
 
-**This list may not be complete / final**
-
-Tasks due with the Week 2 report:
-
- - Sign up for Taiga.io, using your github account
- - Make sure you have a Slack channel for your team
- - Set your name and icon in Slack
- - (team) Make sure a story has been assigned to each team member
-
-**All tasks due after Week 2 should be on your Taiga.io Kanban board**
+**(current week) This list may not be complete / final**
 
 Tasks due with the Week 3 report, all team tasks:
 
- - Use your web framework to create your initial [Quiz App](./quiz-app)
+ - Use your selected web framework to create your initial 
+   [Quiz App](../quiz-app)
    - Push it to a primary github repository
    - Set permissions so team members can merge PRs, manage issues
    - All other team members should fork on github
@@ -38,6 +31,18 @@ Tasks to start (and possibly complete) by the Week 3 report:
    intentionally layout and style your gobal page header
  - Implement the full quiz workflow up through a student getting
    a score on a set of true/false questions
+
+# Week 2:
+
+Tasks due with the Week 2 report:
+
+ - Sign up for Taiga.io, using your github account
+ - Set your name and icon in Slack
+ - (team) What web framework did you pick?
+ - (team) Make sure you have a Slack channel for your team
+ - (team) Create a project on Taiga.io and add your team and Prof.
+   Tuck to it.
+ - (team) Make sure a story has been assigned to each team member
 
 # Week 1:
 

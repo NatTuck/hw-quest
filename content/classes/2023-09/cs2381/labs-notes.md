@@ -17,15 +17,15 @@ Labs:
  1. Submit an Empty Project
  2. Simple Types, Record Types
  3. Linked Lists, Generics
- 1. Arrays, ArrayList (then Midterm)
- 1. Stacks (LinkedList vs ArrayList)
- 1. Queues (Two Lists vs. Circular Buffer Variants)
- 1. Binary Tree
- 1. HashMap
- 1. Set, BST
- 1. Priority Queue
- 1. Graph
- 1. Network GUI Game
+ 4. Arrays, ArrayList (then Midterm)
+ 5. Stacks (LinkedList vs ArrayList)
+ 6. Queues (Two Lists vs. Circular Buffer Variants)
+ 7. Binary Tree
+ 8. HashMap
+ 9. Set, BST
+ 10. Priority Queue
+ 11. Graph
+ 12. Network GUI Game
 
 
 Lab Periods are on Tuesdays, which is near the beginning of the week.

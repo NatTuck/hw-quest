@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 04 Github and Taiga.io"
-date: "2023-09-03"
+date: "2023-09-05"
 ---
 
 ## Git / Github concepts
@@ -14,6 +14,11 @@ date: "2023-09-03"
  - Code reviews
 
 # Attendance
+
+## Tasks for This Week
+
+ - Pull up the tasks page
+ - This is week two
 
 ## Kanban Board / Taiga.io
 
@@ -204,3 +209,6 @@ criteria.
 **Done**
 
 Once it's been acceptence tested, it gets moved to DONE.
+
+
+## Overflow: walk through Sphinx more
