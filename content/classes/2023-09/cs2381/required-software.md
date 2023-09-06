@@ -1,6 +1,6 @@
 ---
 title: "cs2381: Required Software"
-date: "2023-08-31"
+date: "2023-09-01"
 ---
 
 The software you need to install to work on a personal machine is:
@@ -8,23 +8,36 @@ The software you need to install to work on a personal machine is:
 An Editor:
 
  - [VS Code](https://code.visualstudio.com/) (>= 1.78) or 
-   [VScodium](https://vscodium.com/) with "Extension Pack for Java" or some 
-   other editor
+   [VScodium](https://vscodium.com/) with "Extension Pack for Java"
+ - Alternatives: [Neovim](https://neovim.io/), 
+   [Emacs](https://www.gnu.org/software/emacs/) (
+   [Spacemacs](https://github.com/syl20bnr/spacemacs),
+   [Doom Emacs](https://github.com/doomemacs/doomemacs) )
 
 The dev tools:
 
  - [OpenJDK](https://adoptium.net/temurin/releases/?os=any&arch=x64&package=jdk) >= 17
  - [Apache Maven](https://maven.apache.org/) (>= 3.9.4)
 
+On Linux (Mint, Ubuntu, Debian), that's:
+
+```bash
+sudo apt install openjdk-17-jdk maven
+```
+
 To run the test script and see how autograding will go:
 
- - [Strawberry Perl](https://strawberryperl.com/) (>= 5.32 64 bit) for Windows
- - Perl might be installed by default on Mac?
+ - Windows: [Strawberry Perl](https://strawberryperl.com/) (>= 5.32 64 bit)
+ - Linux and Mac: Perl is probably installed by default. On Linux, a missing
+   "Foo::Bar" is generally the "libfoo-bar-perl" package.
 
-Links are for Windows and maybe Mac. On Linux you can install these
-(even Maven) from your distribution package repository.
+Other recommendations on Windows:
 
-**Installing Maven**
+ - Linux commands in Windows command prompt: [GoW](https://github.com/bmatzelle/gow/releases)
+ - Just get a whole Linux on Windows: [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
+   with Debian or Ubuntu
+
+**Installing Maven on Windows/Mac**
 
 Maven is tricky, because it doesn't come with an installer. Start by
 reading the installation instructions, and then cosider:
