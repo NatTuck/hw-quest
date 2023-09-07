@@ -1,6 +1,6 @@
 ---
 title: "cs2381: Required Software"
-date: "2023-09-01"
+date: "2023-09-07"
 ---
 
 The software you need to install to work on a personal machine is:
@@ -36,6 +36,7 @@ Other recommendations on Windows:
  - Linux commands in Windows command prompt: [GoW](https://github.com/bmatzelle/gow/releases)
  - Just get a whole Linux on Windows: [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
    with Debian or Ubuntu
+ - The [7-Zip](https://www.7-zip.org/) archive tool might help for inspecting .tar.gz archives
 
 **Installing Maven on Windows/Mac**
 
