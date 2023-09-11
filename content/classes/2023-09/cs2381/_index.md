@@ -33,3 +33,7 @@ Data Structures and Intermediate Programming
    - [The Language](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
    - [The Standard Library](
      https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html)
+ - Documentation for JavaWorld library:
+   - [world.World](http://bryanchadwick.com/javaworld/doc/world/World.html)
+   - [image.Image](http://bryanchadwick.com/javaworld/doc/image/Image.html)
+   - [The whole thing](http://bryanchadwick.com/javaworld/doc/)

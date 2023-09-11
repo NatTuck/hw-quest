@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Fall 2023: Github Workflow"
-date: "2023-09-03"
+date: "2023-09-08"
 ---
 
 This document describes a particular workflow using Github. This isn't
