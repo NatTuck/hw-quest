@@ -4,14 +4,26 @@ date: "2023-08-27"
 draft: true
 ---
 
-## Design Notes
+Week 1:
 
  - M: Introductions, Syllabus
  - W: Software Engineering Process (Agile)
  - F: Teams, setup
- - Webapp basics
+
+Week 2:
+
  - M: The Github Workflow
  - W: Processes
+ - F: Agile
+ 
+Week 3:
+
+ - Framework Setup: Rails, NextJS
+ - Probably more NextJS
+ - New tasks
+
+More:
+ 
  - ORM, Logic, Template structure
  - Automated Testing: Unit, Integration 
  - Manual Testing: Acceptance Testing

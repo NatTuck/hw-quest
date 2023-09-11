@@ -1,6 +1,6 @@
 ---
 title: "cs2381: Design Recipe"
-date: "2023-09-01"
+date: "2023-09-10"
 ---
 
 ## Design Recipe for a Method
@@ -72,6 +72,9 @@ Follow this design recipe:
    - Since these are stub methods, they only need:
      - Stub, with no body
      - Javadoc
+ - Note: Methods that implement interface methods should
+   say ```@Override```, which means they don't need their
+   own Javadoc.
 
 ## Design Recipe for a Program
 

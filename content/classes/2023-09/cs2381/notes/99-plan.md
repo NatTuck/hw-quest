@@ -14,7 +14,7 @@ Week 2:
 
  - => Lab: 02 Data with Structures (designing with methods)
  - Wednesday: Classes to Records, Nested Structures
- - Friday: Interfaces
+ - Friday: Interfaces, Solve lab01
 
 Week 3:
 
