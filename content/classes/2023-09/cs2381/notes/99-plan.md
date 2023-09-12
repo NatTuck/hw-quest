@@ -20,14 +20,14 @@ Week 3:
 
  - Monday: Linked Lists, O(1), O(n)
  - => Lab: 03 Concrete Lists, Interfaces
- - Wednesday: Generic List
- - Friday: Implementing List Operations
+ - Wednesday: Abstraction, Generic List
+ - Friday: The bird problem from lab02; Using lists
 
 Week 4:
 
- - 
+ - Lambda, Building List#map
  - => Lab: 04 Linked Lists and Generics
- -  
+ - Wednesday: Building List#filter
  - Friday: Arrays, O(n)
 
 Week 5: 
