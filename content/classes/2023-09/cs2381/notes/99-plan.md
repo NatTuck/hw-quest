@@ -25,7 +25,7 @@ Week 3:
 
 Week 4:
 
- - Lambda, Building List#map
+ - Monday: Lambda, Building List#map
  - => Lab: 04 Linked Lists and Generics
  - Wednesday: Building List#filter
  - Friday: Arrays, O(n)
