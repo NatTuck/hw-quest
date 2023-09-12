@@ -21,11 +21,11 @@ Week 3:
  - Monday: Linked Lists, O(1), O(n)
  - => Lab: 03 Concrete Lists, Interfaces
  - Wednesday: Generic List
- - Friday: Implementing List Operations
+ - Friday: ??, Bird?
 
 Week 4:
 
- - 
+ - Monday: Implementing List Operations
  - => Lab: 04 Linked Lists and Generics
  -  
  - Friday: Arrays, O(n)

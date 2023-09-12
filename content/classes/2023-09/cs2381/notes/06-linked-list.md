@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 06 Lists and Generics"
+title: "cs2381 Notes: 06 Linked List"
 date: "2023-09-10"
 ---
 
@@ -144,38 +144,3 @@ Demo code:
         System.out.println("xs.sum() = " + xs.sum());
 ```
 
-**Generic Linked List**
-
-
-```java
-interface List<T> {
-    T first();
-    List<T> rest();
-
-    boolean empty();
-    int length();
-}
-```
-
-More fixes:
-
- - Edit through List -> ```List<T>```
- - Transform sum into length, since we can't sum an unknown type
-
-
-```java
-    static int sumList(List<Integer> xs) {
-        if (xs.empty()) {
-            return 0;
-        }
-        else {
-            return xs.first() + sumList(xs.rest());
-        }
-    }
-```
-
-```java
-    static String longest(List<String> xs) {
-       // do it
-    }
-```
