@@ -8,19 +8,26 @@ Week 1:
 
  - M: Introductions, Syllabus
  - W: Software Engineering Process (Agile)
- - F: Teams, setup
+ - F: (M) Teams, setup
 
 Week 2:
 
  - M: The Github Workflow
  - W: Processes
- - F: Agile
+ - F: (M) Agile
  
 Week 3:
 
- - Framework Setup: Rails, NextJS
- - Probably more NextJS
- - New tasks
+ - M: Framework Setup: Rails, NextJS
+ - W: Probably more NextJS
+ - F: (M) Rails & Next, Archetecture & Logic Flow
+
+Week 4: 
+
+(Contact customers to start coordination; plan for meetings in Week 6.)
+
+ - M: Automated Testing: Unit Tests
+ - W: Automated Testing: Page Tests
 
 More:
  
