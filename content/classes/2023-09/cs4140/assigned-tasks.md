@@ -3,11 +3,35 @@ title: "cs4140 Fall 2023: Assigned Tasks"
 date: "2023-09-03"
 ---
 
+# Week 4:
+
+**(current week) This list may not be complete / final**
+
+Tasks due with week 4 report:
+
+ - Deploy your initial app to a team member's VPS
+ - Using a CSS framework and your app framework's layout mechanism
+   intentionally layout and style your gobal page header
+ - Start and make progress on implementng the full quiz workflow up
+   through a student getting a score on a set of true/false questions.
+   This should involve:
+    - RDB tables for: Question, Answer, Student 
+    - Tables should be connected with integer keys
+    - You can assume one teacher and one quiz
+    - You should have web UI to manage students (just a name),
+      manage questions, take the quiz, and show the results.
+    - By the week 4 report, at least one resource should be fully
+      CRUDable through the web UI.
+ - Start and make progress on testing server-side logic using the
+   standard test tools for your language / framework.
+    - By the week 4 report, running the standard test command should
+      run unit tests for models and pages, several of which should pass.
+ - Use in-browser javascript to validate a form before submission.
+   This should use a full asset pipeline.
+
 # Week 3:
 
 **All tasks worked on after Week 2 should be on your Taiga.io Kanban board**
-
-**(current week) This list may not be complete / final**
 
 Tasks due with the Week 3 report, all team tasks:
 
@@ -23,14 +47,6 @@ Tasks due with the Week 3 report, all team tasks:
    - Point a public DNS record at it
    - Install nginx, get it to serve a page that says
      "This is [Name]'s server for cs4140, Fall 2023"
-
-Tasks to start (and possibly complete) by the Week 3 report:
- 
- - Deploy your initial app to a team member's VPS
- - Using a CSS framework and your app framework's layout mechanism
-   intentionally layout and style your gobal page header
- - Implement the full quiz workflow up through a student getting
-   a score on a set of true/false questions
 
 # Week 2:
 

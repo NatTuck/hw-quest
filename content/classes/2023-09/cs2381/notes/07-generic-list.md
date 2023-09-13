@@ -57,6 +57,17 @@ goes like this:
 
 New today, abstracting over types without any shared methods.
 
+**Pair => Generic Pair**
+
+```java
+record DoublePair(double left, double right) {}
+record StringPair(String left, String right) {}
+
+record Pair<T>(T left, T right) {}
+```
+
+... examples
+
 **Generic Linked List**
 
 ```java
