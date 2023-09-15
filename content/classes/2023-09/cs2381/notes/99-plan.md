@@ -41,8 +41,8 @@ Week 5:
 
  1. Intro
  2. Types, Templates, Interfaces
- 3. Lists, Generics
- 4. More practice with our toolkit
+ 3. More practice with our toolkit
+ 4. Lists, Generics
  5. Arrays, ArrayList
  6. Stacks ; Midterm Exam Monday
  7. Queues
