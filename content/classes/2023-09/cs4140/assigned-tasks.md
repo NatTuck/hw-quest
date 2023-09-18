@@ -1,11 +1,33 @@
 ---
 title: "cs4140 Fall 2023: Assigned Tasks"
-date: "2023-09-03"
+date: "2023-09-18"
 ---
 
-# Week 4:
+# Week 6:
 
-**(current week) This list may not be complete / final**
+**(future week) This list may not be complete / final**
+
+ - Use github actions or custom scripts on your VPS to
+   continously deploy your quiz app.
+ - Complete initial customer meeting, produce on-paper notes and sketches
+   for your customer's app.
+
+# Week 5:
+
+**(future week) This list may not be complete / final**
+
+Tasks due with week 5 report:
+
+ - Deploy updates to VPS
+ - Complete "full quiz workflow" from week 4.
+ - Generate test coverage for server-side tests.
+ - Set up Github actions to run your server-side tests.
+ - Start: Get testing working for browser JS, with coverage.
+ - Start: Set up Github actions to run your browser JS tests.
+ - Discover and start new user stories for quiz app.
+ - Contact real project customer, set up initial meeting.
+
+# Week 4:
 
 Tasks due with week 4 report:
 

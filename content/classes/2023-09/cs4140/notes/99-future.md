@@ -27,7 +27,8 @@ Week 4:
 (Contact customers to start coordination; plan for meetings in Week 6.)
 
  - M: Automated Testing: Unit Tests
- - W: Automated Testing: Page Tests
+ - W: Simple Deployment
+ - F: (M) Interrogating a Customer
 
 More:
  

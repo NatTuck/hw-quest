@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: lab02 Design Recipe and Records"
-date: "2023-09-04"
+title: "cs2381 Notes: lab03 Lists"
+date: "2023-09-14"
 ---
 
 Overhead:
