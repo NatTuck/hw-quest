@@ -58,7 +58,55 @@ rsync -avz --delete ../"$DIR" $USER@$HOST:~
 ssh $USER@$HOST sudo service nginx restart
 ```
 
-...
+Note: nodejs and npm are installed on this server from the Debian packages.
+
+Let's try the app:
+
+ - Log in
+ - Run ```npm run start```
+ - Visit server:3000
+
+Now let's make it a service:
+
+ - The config file goes in /etc/systemd/system/jokes-next.service
+
+```
+[Unit]
+Description=Jokes Next
+
+[Service]
+Type=simple
+User=jokes-next
+Group=jokes-next
+Restart=on-failure
+Environment=LANG=en_US.UTF-8
+
+WorkingDirectory=/home/jokes-next/jokes-next
+ExecStart=npm run start
+
+[Install]
+WantedBy=multi-user.target
+```
+
+And set up Nginx reverse proxy:
+
+ - The config file goes in /etc/nginx/sites-available/jokes-next
+ - Is symlinked into /etc/nginx/sites-enabled
+ - Then we restart nginx: ```service nginx restart```
+
+```
+server {
+    listen 80;
+    listen [::]:80;
+
+    # TODO: This should be your server name.
+    server_name jokes-next.homework.quest;
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+}
+```
 
 
 ## Deploying jokes-rails
