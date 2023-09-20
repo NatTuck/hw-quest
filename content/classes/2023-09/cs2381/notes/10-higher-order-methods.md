@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 09 Lambda and Map"
-date: "2023-09-17"
+title: "cs2381 Notes: 10 Higher Order Methods"
+date: "2023-09-19"
 ---
 
 **Introducing Map**
