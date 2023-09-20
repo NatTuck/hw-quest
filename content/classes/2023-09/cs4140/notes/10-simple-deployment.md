@@ -53,6 +53,7 @@ export USER=jokes-next
 export DIR=$(basename $(pwd))
 
 npm run build
+
 rsync -avz --delete ../"$DIR" $USER@$HOST:~
 
 ssh $USER@$HOST sudo service nginx restart
@@ -99,7 +100,6 @@ server {
     listen 80;
     listen [::]:80;
 
-    # TODO: This should be your server name.
     server_name jokes-next.homework.quest;
 
     location / {
@@ -108,5 +108,81 @@ server {
 }
 ```
 
-
 ## Deploying jokes-rails
+
+Setup a user:
+
+```bash
+laptop$ pwgen -s 16 1
+[...]
+laptop$ ssh goblin.homework.quest
+server$ sudo su -
+server# adduser jokes-rails
+password: [...]
+server# visudo
+jokes-rails goblin=(root) NOPASSWD: /sbin/service
+^D^D
+laptop$ ssh-copy-id jokes-rails@goblin.homework.quest
+```
+
+Setup a service file
+
+```
+[Unit]
+Description=Jokes Rails
+
+[Service]
+Type=simple
+User=jokes-rails
+Group=jokes-rails
+Restart=on-failure
+Environemnt=RAILS_ENV=production
+Environment=LANG=en_US.UTF-8
+
+WorkingDirectory=/home/jokes-rails/jokes-rails
+ExecStart=bash bin/rails server -p 4000
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Some deploy scripts:
+
+
+```bin/deploy.sh
+export HOST=goblin.homework.quest
+export USER=jokes-rails
+
+export DIR=$(basename $(pwd))
+
+export RAILS_ENV=production
+# If there's a JS or CSS build command, run it here.
+bin/rails assets:precompile
+
+rsync -avz --delete ../"$DIR" $USER@$HOST:~
+
+ssh $USER@$HOST bash -c "(cd /home/$USER/jokes-rails && bash bin/prep.sh)"
+ssh $USER@$HOST sudo service nginx restart
+```
+
+
+```bin/prep.sh
+export RAILS_ENV=production
+bin/rails db migrate
+```
+
+And our nginx config, note that each separate app we run on the same
+server needs its own port:
+
+```
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name jokes-rails.homework.quest;
+
+    location / {
+        proxy_pass http://localhost:4000;
+    }
+}
+```
