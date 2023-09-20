@@ -33,7 +33,7 @@ Week 4:
 Week 5: 
  
   - Monday: ArrayList
-  - => Lab 4: Arrays, ArrayList
+  - => Lab 05: Arrays, ArrayList
   - Wednesday: Stacks?
 
 
