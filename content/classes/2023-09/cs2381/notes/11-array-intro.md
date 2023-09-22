@@ -18,6 +18,7 @@ Facts about Arrays:
    is created.
  - Items in the array can be accessed (and modified)
    by numerical index, starting at 0.
+ - Arrays have a length field that can be accessed directly.
 
 Simple example:
 
@@ -43,4 +44,55 @@ The pattern to manipulate an array is a for loop over an int.
     System.out.println("sum = " + sum);
 ```
 
+**ArrayWrapper**
 
+Add some methods:
+
+ - get(ii)
+ - put(ii, vv)
+ - resize(nn)
+ - pushFront(vv)
+ - pushBack(vv)
+ 
+**ListWrapper**
+
+Same methods.
+
+**Arrays vs Cons Lists**
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+	  <td>Operation</td>
+	  <td>List</td>
+      <td>Array</td>
+	</tr>
+  </thead>
+  <tbody>
+    <tr> 
+      <td>Get first item</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+    </tr> 
+    <tr> 
+      <td>Get item by index i</td>
+      <td>O(n)</td>
+      <td>O(1)</td>
+    </tr>
+    <tr> 
+      <td>Set item at index i</td>
+      <td>O(n)</td>
+      <td>O(1)</td>
+    </tr>
+    <tr> 
+      <td>Add item to front</td>
+      <td>O(1)</td>
+      <td>O(n) (including resize)</td>
+    </tr>
+    <tr> 
+      <td>Insert item after index ii</td>
+      <td>O(n)</td>
+      <td>O(n) (including resize)</td>
+    </tr>
+  </tbody>
+</table> 

@@ -26,9 +26,13 @@ Week 4:
 
 (Contact customers to start coordination; plan for meetings in Week 6.)
 
- - M: Automated Testing: Unit Tests
+ - M (9): Automated Testing: Unit Tests
  - W: Simple Deployment
  - F: (M) Interrogating a Customer
+
+Week 5:
+
+ - M (12): Testing with Github Actions
 
 More:
  

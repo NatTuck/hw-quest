@@ -30,11 +30,24 @@ Week 4:
  - Wednesday: Building List#filter
  - Friday: Arrays, O(n)
 
-Week 5: 
+Week 5 (Sep 25):
  
-  - Monday: ArrayList
+  - Monday (12): ArrayList
   - => Lab 05: Arrays, ArrayList
-  - Wednesday: Stacks?
+  - Wednesday: ArrayList methods
+  - Friday: Introduce Stacks
+
+Week 6 (Oct 2):
+
+  - Monday: Midterm Exam
+  - => Lab 06: Stacks
+  - Wednesday: Applications of Stacks
+  - Friday: Introduce Queues
+
+Week 7 (Oct 9):
+
+  - Monday: Applications of Queues
+  - => Lab 07: Queues
 
 
 ## Week Plan:

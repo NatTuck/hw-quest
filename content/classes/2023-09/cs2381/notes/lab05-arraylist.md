@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: lab05 ArrayList"
-date: "2023-09-18"
+date: "2023-09-25"
 ---
 
 Tasks:
