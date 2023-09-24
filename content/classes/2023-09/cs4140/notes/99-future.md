@@ -33,6 +33,8 @@ Week 4:
 Week 5:
 
  - M (12): Testing with Github Actions
+ - W: External libraries, dependency management, security, licensing
+ - F: (M)
 
 More:
  
