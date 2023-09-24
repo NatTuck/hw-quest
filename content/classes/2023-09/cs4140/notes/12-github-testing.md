@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 12 We Have Customers"
+title: "cs4140 Notes: 12 CI with Github Actions"
 date: "2023-09-24"
 ---
 
