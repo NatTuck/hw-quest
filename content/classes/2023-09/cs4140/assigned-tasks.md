@@ -1,7 +1,15 @@
 ---
 title: "cs4140 Fall 2023: Assigned Tasks"
-date: "2023-09-18"
+date: "2023-09-14"
 ---
+
+# Week 7:
+
+**(future week) This list may not be complete / final**
+
+ - Create and deploy minimal project demo.
+ - Get first customer feedback.
+ - Come up with several user stories.
 
 # Week 6:
 
@@ -9,12 +17,14 @@ date: "2023-09-18"
 
  - Use github actions or custom scripts on your VPS to
    continously deploy your quiz app.
+ - Deploy final release of quiz app.
  - Complete initial customer meeting, produce on-paper notes and sketches
    for your customer's app.
+ - Meet with customer, include meeting notes with Week 6 report.
+ - Create Taiga.io Board for customer project; add team, customer,
+   Prof. Tuck.
 
 # Week 5:
-
-**(future week) This list may not be complete / final**
 
 Tasks due with week 5 report:
 
