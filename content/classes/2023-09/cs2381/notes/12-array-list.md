@@ -3,6 +3,10 @@ title: "cs2381 Notes: 12 Array List"
 date: "2023-09-24"
 ---
 
+**Midterm**
+
+The midterm exam will be in Lecture next Monday, October 2nd.
+
 **Arrays vs Cons Lists**
 
 <table class="table table-striped">

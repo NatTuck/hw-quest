@@ -17,11 +17,11 @@ Skim that first to see what the questions are talking about.
 The answer to an "asymptotic complexity" question on this exam will be
 one of: O(1), O(log n), O(n), O(n log n), O(n^2), or O(2^n).
 
-**1. In the App#main method, what is the type of the ```args``` parameter?**
+**1. In the App#main method, what is the type of the ``args`` parameter?**
 
 <br><br><br><br>
 
-**2. In the App#main method, what is the type of the ```xs``` variable?**
+**2. In the App#main method, what is the type of the ``xs`` variable?**
 
 <br><br><br><br>
 
