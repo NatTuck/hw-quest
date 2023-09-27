@@ -37,3 +37,16 @@ Data Structures and Intermediate Programming
    - [world.World](http://bryanchadwick.com/javaworld/doc/world/World.html)
    - [image.Image](http://bryanchadwick.com/javaworld/doc/image/Image.html)
    - [The whole thing](http://bryanchadwick.com/javaworld/doc/)
+
+# Hints:
+
+ - All statements in a Java source file must be inside a method body.
+ - On Mac, the tar command will put a bunch of junk in your archives unless
+   you [turn Mac junk off](
+   https://unix.stackexchange.com/questions/9665/create-tar-archive-of-a-directory-except-for-hidden-files).
+ - On Mac, it's important that you get the correct version of the JDK for your
+   hardware. Are you x64 or aarch64?
+ - Refurbished Thinkpad x280 or t480 laptops to install Linux on are
+   under $300. The x260 and t460 are under $150.
+ 
+ 
