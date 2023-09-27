@@ -34,20 +34,21 @@ Week 5 (Sep 25):
  
   - Monday (12): ArrayList
   - => Lab 05: Arrays, ArrayList
-  - Wednesday: ArrayList methods
-  - Friday: Introduce Stacks
+  - Wednesday: Introduce Stacks
+  - Friday: Midterm Review
 
 Week 6 (Oct 2):
 
   - Monday: Midterm Exam
   - => Lab 06: Stacks
-  - Wednesday: Applications of Stacks
+  - Wednesday: More about stacks, maybe?
   - Friday: Introduce Queues
 
 Week 7 (Oct 9):
 
   - Monday: Applications of Queues
   - => Lab 07: Queues
+  - Wednesday: Introduce Binary Trees
 
 
 ## Week Plan:

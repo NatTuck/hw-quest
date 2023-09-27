@@ -34,33 +34,40 @@ Week 5:
 
  - M (12): Testing with Github Actions
  - W: External libraries, dependency management, security, licensing
- - F: (M)
+ - F: (M) Deps Overflow
+
+Week 6:
+
+ - M (15): Deploying with Github Actions
+ - W: 
+ - F: Full period meeting
+
+Week 7:
+ - 
 
 More:
+
+ - Overview of React
+ - Using a non-react component with React
  
- - ORM, Logic, Template structure
- - Automated Testing: Unit, Integration 
- - Manual Testing: Acceptance Testing
- - External libraries, dependency management, security, licensing
+ - Test driven development
+ - Integration tests with browser
+ - Test Coverage
+ 
+ - TLS: What, Why, Doing it with Certbot
+ - Web App Security
 
-Github:
+ - Backups
+ 
+ - Setup Documentation
+ - Separate test and production servers
+ 
+ - Web App Performance
+ - Scaling a Web App
 
- - Base workflow
- - Github Actions
- - Github Actions to push to production
-
-Taiga.io:
-
- - Kanban board
- - Sprints
-
-Programming methodology:
-
- - User stories
- - Sprints (two weeks)
- - Automated tests, test first
- - Continuous integration
-
+ - Monitoring
+ - Redundancy, Mirroring, Failover
+ 
 ## Readings
 
  - https://community.taiga.io/t/quick-intro-to-scrum-module/124

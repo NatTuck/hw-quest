@@ -8,6 +8,9 @@ date: "2023-09-14"
 **(future week) This list may not be complete / final**
 
  - Create and deploy minimal project demo.
+ - Your minimal project demo should be in a github repository, all
+   teammates should have access, and it should specifiy the MIT
+   license.
  - Get first customer feedback.
  - Come up with several user stories.
 
@@ -17,6 +20,8 @@ date: "2023-09-14"
 
  - Use github actions or custom scripts on your VPS to
    continously deploy your quiz app.
+ - Add an open source license to your Quiz app github repo. If you
+   have a package.json file, make sure the license field is correct.
  - Deploy final release of quiz app.
  - Complete initial customer meeting, produce on-paper notes and sketches
    for your customer's app.
