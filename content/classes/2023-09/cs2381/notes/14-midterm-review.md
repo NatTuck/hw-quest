@@ -29,7 +29,7 @@ Let's try some examples on the board:
  - 1 31 +
  - 3 4 + 2 1 + *
 
-```
+```java
     public static void main(String[] args) {
         var term = System.console();
         while (true) {
