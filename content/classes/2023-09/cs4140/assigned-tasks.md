@@ -3,6 +3,18 @@ title: "cs4140 Fall 2023: Assigned Tasks"
 date: "2023-09-14"
 ---
 
+# Week 8:
+
+**(future week) This list may not be complete / final**
+
+ - Get CI and CD set up for project.
+ - Set up TLS with Certbot for project.
+ - Make sure you have the MIT license specified in your project repo.
+ - Make and deploy project revisions.
+ - Meet with customer and get more customer feedback.
+ - Make sure forward progress is occuring towards what the customer wants.
+ - Make sure all team members are contributing.
+
 # Week 7:
 
 **(future week) This list may not be complete / final**
@@ -11,18 +23,18 @@ date: "2023-09-14"
  - Your minimal project demo should be in a github repository, all
    teammates should have access, and it should specifiy the MIT
    license.
+ - Schedule short weekly meeting with customer.
  - Get first customer feedback.
  - Come up with several user stories.
 
 # Week 6:
-
-**(future week) This list may not be complete / final**
 
  - Use github actions or custom scripts on your VPS to
    continously deploy your quiz app.
  - Add an open source license to your Quiz app github repo. If you
    have a package.json file, make sure the license field is correct.
  - Deploy final release of quiz app.
+ - Setup TLS for quiz app with Certbot.
  - Complete initial customer meeting, produce on-paper notes and sketches
    for your customer's app.
  - Meet with customer, include meeting notes with Week 6 report.

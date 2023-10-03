@@ -39,11 +39,13 @@ Week 5:
 Week 6:
 
  - M (15): Deploying with Github Actions
- - W: 
+ - W: TLS: What, Why, Certbot; Backups 
  - F: Full period meeting
 
 Week 7:
- - 
+ - M (18): Test-driven development
+ - W: Integration Tests, Test Coverage
+ - F: Full period meeting
 
 More:
 
