@@ -41,14 +41,20 @@ Week 6 (Oct 2):
 
   - Monday: Midterm Exam
   - => Lab 06: Stacks
-  - Wednesday: More about stacks, maybe?
-  - Friday: Introduce Queues
+  - Wednesday: (cancelled)
+  - Friday: Bit Packing, Introduce Queues
 
 Week 7 (Oct 9):
 
-  - Monday: Applications of Queues
+  - Monday: Introduce Deques
   - => Lab 07: Queues
   - Wednesday: Introduce Binary Trees
+  - Friday: Traversals
+
+Week 8 (Oct 16):
+
+  - 
+  - => Lab 08: Binary Trees
 
 
 ## Week Plan:
