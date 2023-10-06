@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 16 HTTPS: Secure HTTP"
+title: "cs4140 Notes: 17 HTTPS: Secure HTTP"
 date: "2023-10-04"
 ---
 
@@ -23,6 +23,57 @@ to set up HTTPS for web sites. Some web browsers block some
 functionality on sites served without HTTPS; an example would be the
 HTML5 location API. This is just trying to encourage HTTPS usage, it
 doesn't provide any significant security benefit.
+
+
+**How does the cryptography work? What does it do?**
+
+Shared key encryption:
+
+ - Alice and Bob share a cryptographic key (~ 32 bytes).
+ - Alice uses the key to encrypt a message.
+ - The encrypted message is the same length, but completely
+   random looking contents.
+ - Alice sends the encrypted message to Bob.
+ - Bob can decrypt the messge with the key, producing the
+   same message Alice started with.
+ - Nobody without the key can go from the encrypted message
+   to the decrypted message.
+
+Message authentication:
+
+ - Alice and Bob share a cryptographic key (~ 32 bytes).
+ - Alice uses the key to generate a Message Authentication Code
+   for the message (~ 32 bytes).
+ - Alice sends the message and the MAC to Bob.
+ - Bob can use the shared key and MAC to determine if the message
+   he got is exactly the same as the one Alice sent.
+ - Nobody without the key can generate a valid MAC and trick Bob
+   into thinking a fake or altered message came from Alice.
+
+Public Key Encryption / Key Exchange:
+
+ - Alice and Bob don't share any cryptographic key.
+ - Bob has generated a cryptographic key pair (a private key and
+   associated public key), and published the public key (1kB).
+ - Alice generates a secret shared key (~ 32B).
+ - Alice uses Bob's public key to encrypt it (encrypted message ~ 1kB).
+ - Alice sends the encrypted message to Bob.
+ - Bob can use his private key to decrypt the message.
+ - Now they have a shared key for encryption and MAC.
+ - Nobody can decrypt a message encrypted with Bob's public key unless
+   they have Bob's private key.
+
+Public Key Signatures:
+
+ - Alice and Bob don't share any cryptographic key.
+ - Alice has generated a cryptographic key pair (a private key and
+   associated public key), and published the public key (1kB).
+ - Alice uses her private key to sign a message, creating a signature
+   (~ 1kB).
+ - Alice sends the message and signature to Bob.
+ - Bob uses Alice's public key to verify the signature.
+ - Nobody can generate a signature that can be verified with Alice's
+   public key unless they have Alice's private key.
 
 **Encryption**
 
