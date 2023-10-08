@@ -39,13 +39,34 @@ Week 5:
 Week 6:
 
  - M (15): Deploying with Github Actions
- - W: TLS: What, Why, Certbot; Backups 
+ - W: (Class Cancelled) 
+ - F: HTTPS, meeting
+ 
+Week 7:
+
+ - M (18): HTTPS Details, Intro React
+ - W: Wrapping a non-react component
  - F: Full period meeting
 
-Week 7:
- - M (18): Test-driven development
+Week 8:
+
+ - M (21): Test-driven development
  - W: Integration Tests, Test Coverage
  - F: Full period meeting
+
+Week 9: Performance & Scaling
+
+Week 10: Monitoring & Redundancy
+
+Week 11: Web App Security; Backups
+
+Week 12: State Management in a Distributed System
+
+Week 13: Thanksgiving
+
+Week 14: Setup Docs, Handoff Docs
+
+
 
 More:
 
