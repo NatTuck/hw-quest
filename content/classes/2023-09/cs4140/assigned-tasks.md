@@ -1,7 +1,25 @@
 ---
 title: "cs4140 Fall 2023: Assigned Tasks"
-date: "2023-09-14"
+date: "2023-10-09"
 ---
+
+# Week 9:
+
+**(future week) This list may not be complete / final**
+
+ - Meet with customer and get more customer feedback.
+ - Make sure forward progress is occuring towards what the customer wants.
+ - Come up with user stories and move those stories across the Kanban board.
+ - Write tests first.
+ - Make, review, and approve pull requests and have them automatically
+   deployed.
+ - Move towards 100% test coverage.
+ - Make sure all team members have the opportunity to contribute to
+   all aspects of the project.
+ - Make sure each team member has written code, made a pull request,
+   and had it approved that touches the server-side logic of the project.
+ - Make sure each team member has written code, made a pull request,
+   and had it approved that touches the browser-side logic of the project.
 
 # Week 8:
 
@@ -17,14 +35,12 @@ date: "2023-09-14"
 
 # Week 7:
 
-**(future week) This list may not be complete / final**
-
  - Create and deploy minimal project demo.
+ - Get first customer feedback.
+ - Schedule short weekly meeting with customer.
  - Your minimal project demo should be in a github repository, all
    teammates should have access, and it should specifiy the MIT
    license.
- - Schedule short weekly meeting with customer.
- - Get first customer feedback.
  - Come up with several user stories.
 
 # Week 6:
