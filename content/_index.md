@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-date: "2023-08-27"
+date: "2023-10-09"
 ---
 
 ## This Semester
@@ -12,4 +12,5 @@ date: "2023-08-27"
 
 ## Links
 
+ - [Advising notes](./advising)
  - Tech notes on [this site](./site-tech)
