@@ -78,8 +78,77 @@ React works exactly like this, with three compliations:
  - The render function, event handlers, and even application state are
    broken up into a bunch of little pieces.
 
-   
+# Simple Example
 
+Start from current jokes-next.
 
+**app/root/page.js**
+
+```react
+export default function Root() {
+  return (
+    <main className="text-center min-h-screen py-4">
+      <p>This is the react component "Root".</p>
+    </main>
+  );
+}
+```
+
+Now more complicated:
+
+```react
+"use client";
+
+import { useState } from 'react';
+
+export default function Root() {
+  const [count, setCount] = useState(0);
+
+  function update(change) {
+    return (ev) => {
+      ev.preventDefault();
+      setCount(change(count));
+    };
+  }
+
+  return (
+    <main className="text-center min-h-screen py-4">
+      <Counter count={count} update={update} />
+    </main>
+  );
+}
+
+function Counter({count, update}) {
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <p><button onClick={update((x) => x + 1)}>++</button></p>
+      <p><button onClick={update((x) => x - 1)}>--</button></p>
+    </div>
+  );
+}
+```
+
+The Counter component is a straightforward functional-reactive element:
+
+ - Counter is a pure render function, taking the current state and returning a view
+   with no side effects.
+ - Events (appear to be) handled by pure update functions, which take
+   the old state and (implicitly) the event and produce a new state.
+
+The Root component shows how React gives the developer control over
+the state management mechanism. Hooks like useState allow components
+to manage pieces of immutable local state while remaining "mostly
+pure".
+
+# Wrapping disfunctional components
+
+This raises a question: How do we deal with JS libraries that want to
+draw stuff directly to the DOM and have side effects and not follow
+the React rules at all, while still using React to manage the rest of
+the page and the page overall?
+
+ - Managed vs unmanaged form controls.
+ - Drawing library example.
 
 
