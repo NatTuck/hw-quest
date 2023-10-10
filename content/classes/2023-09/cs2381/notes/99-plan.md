@@ -48,8 +48,8 @@ Week 7 (Oct 9):
 
   - Monday: Introduce Deques
   - => Lab 07: Queues
-  - Wednesday: Introduce Binary Trees
-  - Friday: Traversals
+  - Wednesday: Simple Sets
+  - Friday: Introduce Binary Trees
 
 Week 8 (Oct 16):
 
@@ -66,9 +66,9 @@ Week 8 (Oct 16):
  5. Arrays, ArrayList
  6. Stacks ; Midterm Exam Monday
  7. Queues
- 8. Binary Trees
- 9. Hash Maps
- 10. Sets, BSTs
+ 8. Simple Sets
+ 9. Balanced Binary Trees 
+ 10. Hash Maps
  11. Priority Queue
  12. Graphs
  13. Network Events
