@@ -31,6 +31,8 @@ Trees are:
 A simple, commonly used tree is the Binary Tree, where each node has
 (up to) two references to other nodes.
 
+## Binary Trees
+
 Without getting more specific, there are some things we can say about binary trees:
 
  - There's one root.
@@ -46,15 +48,43 @@ The minimum height of a tree with n items is log(n).
 
 What's a log?
 
+ - Inverse of exponent
+ - specifically, we're talking about log base 2, log_2(n).
+ - How many digits do we need to represent the number (base 2, so binary digits).
+ - This grows very slowly. O(log(n)) is much more efficient than O(n).
 
+One kind of minimum height tree is called a complete tree:
+ 
+ - All of the levels are full.
+ - Except maybe the last level, which is only missing items on the right.
+ 
+In CS, trees grow down.
 
+At each level, numbering from zero, there's space for 2^x items.
 
- - Basic concept
-   - Complete tree
-   - Balanced (log n height) vs degenerate (O(n) height)
- - Binary heap (min heap)
- - Binary search tree
+So a full tree of height h has 2^h items on the bottom level, 2^(h-1) on the
+previous level, etc for a total of 2^(h+1) - 1 items.
 
-Sets first?
+## Tree Traversals
 
+Commonly, we store values in trees by having each node have an
+associated value.
+
+That gives us some questions on how to traverse the tree and visit the
+values.
+
+ - Pre-order: Visit node before children.
+ - Post-order: Visit node after children.
+ - In-order: Visit node between left and right trees.
+
+## Binary Search Tree
+
+A Binary search tree is tree with the items in sorted order.
+Specifically, in order such that an in-order traversal will visit the
+items in sorted order.
+
+That gives the following invariant:
+
+ - All items in the left subtree are less than item.
+ - All items in right subtree are more than item.
 
