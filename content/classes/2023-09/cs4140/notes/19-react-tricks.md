@@ -149,6 +149,135 @@ the React rules at all, while still using React to manage the rest of
 the page and the page overall?
 
  - Managed vs unmanaged form controls.
- - Drawing library example.
+ - Graph library example.
+ 
+**Forms**
+
+Tabs:
+
+```react
+"use client";
+
+import { useState } from "react";
+
+export default function Form() {
+  const [tab, setTab] = useState(0);
+
+  return (
+    <main className="text-center min-h-screen">
+      <h1 className="text-2xl py-8">Form</h1>
+      <p>
+        <button className="m-2 p-1 ring-1"
+                onClick={() => setTab(0)}>Tab0</button>
+        <button className="m-2 p-1 ring-1"
+                onClick={() => setTab(1)}>Tab1</button>
+      </p>
+      { (tab == 0) ? <Tab0 /> : <Tab1 /> }
+    </main>
+  );
+}
+
+function Tab0() {
+  return (
+    <div>
+      Tab 0
+    </div>
+  );
+}
+
+function Tab1() {
+  return (
+    <p>Tab 1</p>
+  );
+}
+```
+
+Uncontrolled form:
+
+```react
+function Tab0() {
+  return (
+    <div>
+      <input type="text" />
+    </div>
+  );
+}
+```
+
+Controlled form, doesn't help:
+
+```react
+function Tab0() {
+  const [text, setText] = useState("");
+  
+  return (
+    <div>
+      <input type="text" value={text} onChange={(ev) => setText(ev.target.value)} />
+    </div>
+  );
+}
+```
+
+Controlled form, helps:
+
+```react
+export default function Form() {
+  const [tab, setTab] = useState(0);
+  const [text, setText] = useState("");
+
+  ... 
+      
+  { (tab == 0) ? <Tab0 text={text} setText={setText} /> : <Tab1 /> }
+  ...
+}
+
+function Tab0({text, setText}) {
+  return (
+    <div>
+      <input type="text" value={text} onChange={(ev) => setText(ev.target.value)} />
+    </div>
+  );
+}
+```
+
+**app/graph/page.js**
+
+```react
+function makeData(xx) {
+  // https://plotly.com/javascript/bar-charts/
+  return [
+    {
+      x: ['giraffes', 'orangutans', 'monkeys'],
+      y: [xx, 14, 23],
+      type: 'bar'
+    }
+  ];
+}
+
+function Tab0() {
+  var data = makeData(20);
+
+  useEffect(() => {
+    Plotly.newPlot('myDiv', data);
+  });
+
+  var yy = 10;
+  function click(ev) {
+    ev.preventDefault();
+    yy = (yy + 7) % 30;
+    Plotly.react('myDiv', makeData(yy));
+  }
+
+  return (
+    <div className="m-8">
+      <button onClick={click}>click</button>
+      <div id="myDiv" style={{width: "800px", height: "600px"}}>
+        Graph goes here.
+      </div>
+    </div>
+  );
+}
+```
 
 
+How do we fix it?

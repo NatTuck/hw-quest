@@ -20,11 +20,11 @@ B = {"apple", "pear", "grape"}
 
 Mathemtically, sets have the following operations:
 
- - contains?
- - union
- - intersection
- - subset?
- - superset?
+ - contains?(item) - Does the set contain this item?
+ - union(set) - All items in either set.
+ - intersection(set) - All items occurring in both sets.
+ - subset?(setB) - Does this set contain all items in setB?
+ - superset?(setB) - Does setB contain all items in this?
 
 (examples)
 
@@ -56,6 +56,20 @@ interface Set<T> {
 }
 ```
 
+Everything is O(n).
+
+Now let's consider implementing this interface with a sorted ArrayList.
+
+ - Add is O(n)
+ - Remove is O(n)
+ - Union and intersection can both be done in O(n)
+ - Contains is O(n)... unless we do binary search, then it's O(log n)
+ - Superset and subset are O(n)
+ - Size is O(1)
+
+
+**Mutable sets?**
+
 ```java
 interface MutableSet<T> {
     void add(T item);
@@ -71,3 +85,9 @@ interface MutableSet<T> {
     int size();
 }
 ```
+
+ - Lists are immutable, so there's no benefit.
+ - Arrays are mutable... but for a sorted array there's no benefit
+   either.
+ - So we'll ignore this for now, but this may end up being useful
+   at some point in the future.
