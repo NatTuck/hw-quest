@@ -68,18 +68,11 @@ Week 14: Setup Docs, Handoff Docs
 
 
 
-More:
-
- - Overview of React
- - Using a non-react component with React
- 
  - Test driven development
  - Integration tests with browser
  - Test Coverage
  
- - TLS: What, Why, Doing it with Certbot
  - Web App Security
-
  - Backups
  
  - Setup Documentation
