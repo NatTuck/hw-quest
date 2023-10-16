@@ -38,10 +38,48 @@ More specifically, the sequence goes like this:
  
 Let's see this in action:
 
- - Add a feature to Next app.
- - Add a feature to Rails app.
+ - Add a feature to Next app. (```npx run jest```)
+ - Add a feature to Rails app. (```rake test```)
 
 Test coverage
 
- - https://glebbahmutov.com/blog/code-coverage-for-nextjs-app/
+**Test Coverage for Rails**
+ 
  - https://github.com/simplecov-ruby/simplecov
+ - Follow the 'getting started' instructions.
+ - ```rake test```
+ - ```xdg-open coverage/index.html```
+ - Find code that isn't covered, write test.
+
+
+**Test Coverage for Next**
+
+ - https://istanbul.js.org/
+ - in package.json: ```"cov": "jest --coverage"```
+ - ```npm run cov```
+ 
+Now let's extend coverage to everything in app.
+
+In jest.config.mjs:
+
+```js
+const config = {
+  ...
+  collectCoverageFrom: [
+    'app/**/*.{js,jsx}'
+  ]
+```
+
+Now let's check the report:
+
+```bash
+xdg-open coverage/lcov-report/index.html
+```
+
+ - Find code that isn't covered, write test.
+
+
+ 
+Other refs: 
+ 
+ - https://glebbahmutov.com/blog/code-coverage-for-nextjs-app/
