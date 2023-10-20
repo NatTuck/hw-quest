@@ -44,8 +44,8 @@ couple of ways:
    - This feels like an implementation of the idea that data design is the
      core of programming, which is great.
    - I'm not convinced that UML-adjacent stuff is actually helpful.
- - More courses covering low level stuff - that sequence is more
-   typically two courses rather than three.
+ - More courses covering low level stuff. Our archetecture course is a
+   major late project course on a microcontroller, which isn't typical.
  - Missing a Programming Languages course.
  - Very light on late electives.
 
@@ -70,6 +70,36 @@ significantly easier.
 I'm not sure what to do with cs2010 if it's not a prereq for anything.
 Make it a non-majors course maybe?
 
+
+### Alternative: Make cs2010 a Programming Course
+
+Just make it programming: (Click to Zoom)
+
+![graph of courses with cs2010 first](./cs2010-codes.svg)
+
+As I teach through my first semester of cs2381, I'm becoming more and
+more convinced that the students would do better with the course
+material if they had a full semester more of programming prep.
+
+There are a couple of extra changes in this graph to implement
+suggestions I make below.
+
+That raises the question of what programming goes before cs2370, my
+suggestion would be:
+
+ - JavaScript, in the browser, for the browser.
+ - A focus on pure functions and design with value data, using
+   functional-reactive libraries to show web pages and interactive
+   graphics.
+ - Testing with pure functions and immutable data.
+
+This would set up cs2370 to be able to cover topics like an explicit
+imperative notional machine, command line scripting, use of standard
+data structures, external libraries, and testing with mutable data.
+
+This has a similar effect on existing electives as cutting cs2010 and
+moving their pre-reqs up one, but isn't as good at enabling late
+electives since it leaves the graph 6 levels deep.
 
 ## Other Core Suggestions
 
