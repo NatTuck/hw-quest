@@ -15,7 +15,7 @@ Review:
 
 AVL Tree:
 
- - [MIT Slides](../files/mit-6.006-sp110-lec04.pdf)
+ - [MIT Slides](../../files/mit-6.006-sp110-lec04.pdf)
  - Viz: https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
 
 Red-Black Tree:

@@ -22,6 +22,8 @@ date: "2023-10-09"
  - Make sure each team member has written code, made a pull request,
    and had it approved that touches the browser-side logic of the project.
  - Make sure each team member has reviewed a pull request.
+ - Make sure your project site isn't blocked on the campus network. If it is,
+   email psu-helpdesk@plymouth.edu requesting that it be unblocked, cc me.
 
 # Week 8:
 
