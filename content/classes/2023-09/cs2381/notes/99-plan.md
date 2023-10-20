@@ -53,8 +53,30 @@ Week 7 (Oct 9):
 
 Week 8 (Oct 16):
 
-  - 
+  - Monday: Cover Iterable and Comparable
   - => Lab 08: Binary Trees
+  - Wednesday: Binary Tree Code
+  - Friday: Balancing Binary Trees
+
+Week 9 (Oct 23):
+
+  - Monday: Tree Maps
+  - => Lab 09: Balanced TreeMap
+  - Wednesday: Introducing Hash Tables
+  - Friday: Hash Table with Linear Probing
+
+Week 10 (Oct 30):
+
+  - Monday: More Hash Tables
+  - => Lab 10: HashMap
+  - Wednesday: Applications of Priority Queues
+  - Min-heaps
+
+Week 11:
+
+  - ...
+  - => Lab 11: Priority Queues (Tree, Array Heap)
+
 
 
 ## Week Plan:

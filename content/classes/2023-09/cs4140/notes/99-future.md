@@ -56,7 +56,12 @@ Week 8:
 
 Week 9: Performance & Scaling
 
+ - M (24): Pagespeed (https://pagespeed.web.dev)
+ - W: General application structure
+
 Week 10: Monitoring & Redundancy
+
+ - 
 
 Week 11: Web App Security; Backups
 

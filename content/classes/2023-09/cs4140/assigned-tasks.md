@@ -13,6 +13,7 @@ date: "2023-10-09"
  - Write tests first.
  - Make, review, and approve pull requests and have them automatically
    deployed.
+ - Generate test coverage reports.
  - Move towards 100% test coverage.
  - Make sure all team members have the opportunity to contribute to
    all aspects of the project.
@@ -20,10 +21,9 @@ date: "2023-10-09"
    and had it approved that touches the server-side logic of the project.
  - Make sure each team member has written code, made a pull request,
    and had it approved that touches the browser-side logic of the project.
+ - Make sure each team member has reviewed a pull request.
 
 # Week 8:
-
-**(future week) This list may not be complete / final**
 
  - Get CI and CD set up for project.
  - Set up TLS with Certbot for project.
@@ -32,6 +32,10 @@ date: "2023-10-09"
  - Meet with customer and get more customer feedback.
  - Make sure forward progress is occuring towards what the customer wants.
  - Make sure all team members are contributing.
+ - Each person should:
+   - Author at least one pull request with non-test changes.
+   - Author at least one pull request that creates or updates a test.
+   - Review at least one pull request.
 
 # Week 7:
 
