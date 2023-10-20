@@ -6,20 +6,21 @@ digraph {
   cs2381 [label="\N Data Structures"]
   cs2370 -> cs2381
 
-  cs3xxx [label="\N Software Development"]
-  cs2381 -> cs3xxx
-
-  cs4140 [label="\N Software Engineering"]
-  cs3xxx -> cs4140
+  cs31x1 [label="\N Programming Languages"]
+  cs2381 -> cs31x1
 
   // Low Level and OS
   cs2220 [label="\N Computer Hardware"]
 
-  cs2470 [label="\N Systems Programming (C and ASM)"]
-  cs2220 -> cs2470
-  cs2381 -> cs2470
+  cs2470 [label="\N Systems Programming in C/C++"]
+  cs2370 -> cs2470
+
+  cs4250 [label="\N Computer Archetecture"]
+  cs2220 -> cs4250
+  cs2381 -> cs4250
 
   cs4310 [label="\N Operating Systems"]
+  cs4250 -> cs4310
   cs2470 -> cs4310
 
   // Algo and Theory
@@ -32,14 +33,29 @@ digraph {
   cs3780 [label="\N Computational Theory"]
   cs3221 -> cs3780
 
+  // Software Design
+  cs3600 [label="\N Databases"]
+  cs2370 -> cs3600
+  ma2450 -> cs3600
+
+  cs4140 [label="\N Software Engineering"]
+  cs3600 -> cs4140
+
   // Ethics
   cs4520 [label="\N Cyberethics"]
 
   // Math Reqs
   ma2550 [label="\N Calc I"]
 
-  ma3500 [label="\N Stats w/ Calc"]
+  ma3500 [label="\N Stats w/Calc"]
   ma2550 -> ma3500
+
+  // Project Sequence
+  cs4xx1 [label="\n Project Seq 1"]
+  cs2381 -> cs4xx1
+
+  cs4xx2 [label="\n Project Seq 2"]
+  cs4xx1 -> cs4xx2
 
   // Final Project
   cs4760 [label="\N Senior Project"]
@@ -48,5 +64,7 @@ digraph {
   cs4140 -> cs4760
   cs4520 -> cs4760
   ma3500 -> cs4760
+  cs31x1 -> cs4760
+  cs4xx1 -> cs4760
 }
 

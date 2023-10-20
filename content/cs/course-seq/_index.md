@@ -3,6 +3,8 @@ title: "Course Sequence Ideas"
 date: "2023-10-09"
 ---
 
+# The Current Program
+
 Here's the required courses for the Plymouth State CS program:
 
 (Click to Zoom)
@@ -10,6 +12,16 @@ Here's the required courses for the Plymouth State CS program:
 ![graph of required courses](./seq2023.svg)
 
 There are six rows, which students need to fit in over 8 semesters.
+
+Logically, this feels like four sequences:
+
+ - Theory: Mathematical Reasoning -> Algo -> Theory
+ - Software Dev: Intro to Programing -> Data Structs, DBs -> Systems
+   Analysis -> Sw Eng
+ - Low Level: Systems Programming, Hardware -> Archetecture -> OS
+ - Calc
+
+And then there are three other required courses: Fundamentals, Cyberethics,
 
 Students are also required to complete two electives. The electives
 require the following courses:
@@ -20,91 +32,141 @@ require the following courses:
  - cs2381 Data Structures: 1 Course
  - cs3221 Algorithms: 1 Course
  - cs3720 Systems Analysis: 1 Course
+ 
+That means that only three of our electives require two semesters of
+programming. That means the others can't require serious programming
+projects - the students aren't prepared for that.
 
-It takes two or three semesters for students to really get comfortable
-with programming. Advanced programming electives would optimally
-require a Programming III prereq, but minimally Programming II. That
-means the program currently only includes three advanced programming
-electives:
+Compared to other programs I've looked at, our current program is different in a
+couple of ways:
 
- - System Administration (requires Systems Analysis, why?)
- - Artificial Intellegence (requires Algo)
- - Mobile Development (requires Data Structures)
+ - The inclusion of DB and Systems Analysis as requirements.
+   - This feels like an implementation of the idea that data design is the
+     core of programming, which is great.
+   - I'm not convinced that UML-adjacent stuff is actually helpful.
+ - More courses covering low level stuff - that sequence is more
+   typically two courses rather than three.
+ - Missing a Programming Languages course.
+ - Very light on late electives.
 
-Several of the other electives sound like they should cover advanced
-programming topics, but they're restricted by the lack of prereqs:
 
- - Web Programming (aka "Software Engineering with Distributed Systems")
- - The Computer Networks sequence
- - Big Data Admin and Analysis (now more of a CIS/Data Science class?)
- - Computer Security (Crypto? Memory layout stuff?)
+## Top Suggestion: Start Programming Immediately
 
 If we remove the cs2010 prereq for Intro to Programming and suggest
-that students take programming their first semester we're down to five
-rows. Further, we could conceptually change the pre-req for 7
-electives from cs2370 to cs2381, which would make students in those
-courses much more prepared for significant programming projects.
+that students take programming their first semester that reduces the
+depth of the graph from six to five.
 
-That minimum change looks like this:
+Doing this let us increase the pre-req for many of the electives from
+cs2370 to either cs2381 or cs2470, which would allow those electives
+to include more serious programming projects.
 
-(Click to Zoom)
+That minimum change: (Click to Zoom)
 
 ![graph of courses with cs2370 first](./cs2370-first.svg)
 
 I think that change is a good deal even if it means making cs2370
 significantly easier.
 
-## Radical Cuts
+I'm not sure what to do with cs2010 if it's not a prereq for anything.
+Make it a non-majors course maybe?
 
-If I were completely redoing the program, the first thing I'd do is to
-try to free up as much space as possible by removing stuff I don't
-personally need.
 
-Here's some changes:
+## Other Core Suggestions
 
- - Cut Calc II, but move to Calculus-based Prob & Stats
- - Cut Archetecture, split its content into Hardware and Systems
-   Programming
- - Systems Programming in C becomes the prereq for OS
- - Cut Systems Analysis and Databases
- - Add Programming III (Software Development)
+**Cut Calc II**
 
-(Click to Zoom)
+Maybe some electives like Computer Graphics depend directly on heavy
+use of calculus, but I think the main benefit of Calc is simply to
+create a shared knowledge base both between programmers and across
+disciplines.
 
-![graph of cs courses with radical cuts](./radical-cuts.svg)
+I think one semester of Calc provides most of the practical benefit.
 
-That's four cuts, so it leaves space for four new things.
+**Move to Calculus-based Prob & Stats**
 
-## What to add?
+Trying to do Prob & Stats without Calculus is like trying to do
+Physics without Calculus - it's actively not as good. And a good
+understanding of Prob & Stats feeds into more elective topics than
+Calc does directly.
 
-Courses that other schools require:
+**Unnest Computer Hardware**
 
- - Programming Languages (comparative or theoretical)
- - Discrete Math
- - Intro to Linear Algebra
- - Computer Networks
+The topics in this course don't seem to depend on Intro to
+Programming, so if we remove the prereq it makes paths shorter.
 
-Dunno about the math, but the other two seem better than requiring
-Databases. I'd be happy teaching either.
+**Make Systems Programming a Pre-req for OS**
 
-Require a two-elective course sequence, e.g.:
+Knowing C is a logical pre-req for writing complex C code.
+
+**Cut Systems Analysis and Design**
+
+Maybe Chesterton's Fence applies here, but I think data design is
+covered sufficiently elsewhere.
+
+Core suggestions: (Click to Zoom)
+
+![core suggestions](./base-suggestions.svg)
+
+That's three cuts, so that leaves us space to put in new stuff.
+
+
+# Plan A: Required Late-Elective Project Sequence
+
+The thing that I'd personally be looking for as a student in a CS
+program is a good selection of late electives. Once you learn to
+program, getting to play with applications is the fun part.
+
+I really like the idea of a two-course project sequence, e.g.:
 
  - (SW Dev) -> Web Dev -> Web Dev II
  - (SW Dev & Sys Programming) -> Programming Languages -> Compilers
  - (Calc I) -> Calc 2 -> Linear Algebra -> Machine Learning
- - (Stats & Algo) -> AI -> Robot Control in Simulation
+ - (Stats & Algo) -> AI -> Autonomous Robot Control
  - (SW Dev) -> Networks (& OS) -> Distributed Systems
  - (SW Dev) -> Graphics Programming -> Game Development
 
-Given the course sequence, I think SW Engineering can be an elective.
-That gives us space for more math.
+That leaves us one slot for a required course. The most common course
+we're missing is a Programming Languages course, so we could add that.
 
-(Click to Zoom)
+Two-course project v1: (Click to Zoom)
 
-![graph that adds more stuff](./add-more.svg)
+![two-course-a](./two-course-a.svg)
+
+If we want to go all in on this approach, software engineering and the
+senior project are kind of redundant to the course sequence.
+
+And if we cut the rest of the existing SW Dev sequence, then keeping
+Databases doesn't seem nesisary. But having something would be good,
+so we could swap out Databases for a Sw Dev class (probably build a
+web app that uses a database as part of a team).
+
+Two-course project xtreem: (Click to Zoom)
+
+![two-course-b](./two-course-b.svg)
+
+That leaves us two free slots. Either bonus electives or add Calc II
+and Network Programming.
 
 
-Some noteworthy links:
+## Plan B: Focus on Software Dev / Web Dev
+
+Our current curriculum has two more courses in the software design /
+development track than is typical: Databases and Systems Analysis.
+
+Rather than trying to make our curriculum more typical, we could
+double down on that sort of focus.
+
+A practical and broadly applicable domain is Web Development, so we
+could do a sequence that focuses on scaling software projects in that
+area.
+
+Web Dev Sequence: (Click to Zoom)
+
+![web dev sequence a](./web-dev-a.svg)
+
+
+
+# Links
 
  - [The million courses that Dartmouth offers](
  https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/)
