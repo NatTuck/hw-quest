@@ -56,14 +56,18 @@ Week 8:
 
 Week 9: Performance & Scaling
 
- - M (24): Pagespeed (https://pagespeed.web.dev)
- - W: General application structure
+ - M (24): Web App Performance
+ - W: Web App Scaling
+ - F: Full period meeting
 
 Week 10: Monitoring & Redundancy
 
- - 
+ - Manual monitoring with extra VPS
+ - Email / text / IM notifications
+ - https://uptimerobot.com/pricing/
+ - Redundancy
 
-Week 11: Web App Security; Backups
+Week 11: Web App Security; Vendor Risk; Backups
 
 Week 12: State Management in a Distributed System
 

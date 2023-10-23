@@ -195,6 +195,10 @@ Web Dev Sequence: (Click to Zoom)
 ![web dev sequence a](./web-dev-a.svg)
 
 
+## Plan C: Focus on Low Level / Embedded Programming
+
+What if we taught the intro programming sequence in C on an Arduino?
+Would that work more efficiently with Robotics?
 
 # Links
 
