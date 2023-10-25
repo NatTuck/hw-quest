@@ -175,6 +175,22 @@ for data that crosses shards.
 
 **NoSQL**
 
-ACID vs CAP theorem.
+ACID:
 
-Eventual consistency.
+ - Atomicity, Consistency, Isolation, Durability
+
+CAP:
+
+ - Consistency - Every read receives the most recent write or an error.
+ - Availability - Every request receives a (non-error) response,
+   reasonably quickly, without the guarantee that it contains the most
+   recent write.
+ - Partition tolerance - The system continues to operate despite an
+   arbitrary number of messages being dropped (or delayed) by the
+   network between nodes.
+
+Two common modes:
+
+ - Immediate consistency - writes require confirmation by >1/2 of nodes,
+   reads require consensus between >1/2 of nodes. (or n and 1, n-1 and 2, etc)
+ - Eventual consistency.
