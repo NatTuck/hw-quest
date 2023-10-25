@@ -86,3 +86,83 @@ Given any integer ``xx``, we can get a slot in an array of size ``nn``
 by doing ``Math.floorMod(xx, nn)``.
 
 Problem: Collisions
+
+ - We have an array with 4 slots.
+ - We map keys to slots with ``Math.floorMod(key, 4)``
+ - We insert (3 -> 7); 3 mod 4 = 3
+ - We insert (4 -> 5); 4 mod 4 = 0
+ - We insert (7 -> 8); 7 mod 4 = 3 ; but (3 -> 7) is already in that slot.
+
+That's a collision.
+
+ - How to deal with collisions is the tricky part with hash tables.
+ - We can't just pick one or the other, both of those records need to be in our map.
+ - But for the hash table plan to work, we need to be able to find every entry
+   by index.
+
+For now, we can just grow the table.
+
+ - Allocate an 8 slot array.
+ - Copy over the items in the existing table, calculating (xx mod 8) to find the slot.
+ - (3 -> 7) goes in slot 3, (7 -> 8) goes in slot 7.
+
+But we don't always want to grow the table on each collision. Alternate plans:
+
+ - Linked lists: Have each item in the table be a ``ConsList<Entry>``
+   instead of an Entry.
+ - Linear probing: If we can't put it in slot xx, try slot (xx + 1)
+   mod nn. Keep trying slots until we find an empty one.
+ - Without collisons, hash table lookups are O(1). With collisons, if
+   every item ends up in the same slot, lookups become O(n).
+
+Problem: Non-integer keys
+
+ - Most possible key types aren't integers.
+ - But we need an integer to find the right slot in the table.
+ - So we use a hash function: A function from our key type to an integer.
+ - This could conceptually be any function, but we want a function that
+   tends to minimize collisions - so any change in the input should drastically
+   change the integer result.
+ - Hash table hash functions are different from cryptographic hash functions. 
+
+Example function for strings:
+
+```java
+static int hashString(String text) {
+    int yy = 37;
+    for (char cc : text.toCharArray()) {
+       // consider integer overflow
+       // as far as I can tell, signed integer overflow in Java is defined as
+       // being two's-complement wrapping 
+       yy = 257*yy + 5*cc; 
+    }
+    return yy;
+}
+```
+
+In Java, we don't need to write a hash function for String. Java
+strings have a hashCode method, which calculates a reasonable default
+hash function.
+
+Every java Object has a hashCode method. For built in types, most
+standard library types, and records this is provided by default. For
+any class you define you will need to provide your own hashCode method
+if you want to use objects of that type as keys in a hash table.
+
+Demo:
+
+ - Open up a "scala" repl, try some examples:
+ - 5.hashCode()
+ - 6.hashCode()
+ - "a".hashCode()
+ - "b".hashCode()
+ - "aa".hashCode()
+ - "ab".hashCode()
+ - (1, 2).hashCode()
+ - (1, 3).hashCode() 
+
+## Building a Hashmap
+
+Here's a HashMap with Linear Probing:
+
+25/demo/.../HashMap.java
