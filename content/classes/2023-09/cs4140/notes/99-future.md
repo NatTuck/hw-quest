@@ -62,6 +62,10 @@ Week 9: Performance & Scaling
 
 Week 10: Monitoring & Redundancy
 
+ - M: ACID & CAP
+ - W: Monitoring and Redundancy
+ - F: Full period meeting
+
  - Manual monitoring with extra VPS
  - Email / text / IM notifications
  - https://uptimerobot.com/pricing/
@@ -76,6 +80,12 @@ Week 13: Thanksgiving
 Week 14: Setup Docs, Handoff Docs
 
 
+## More topics:
+
+ - Websockets with Next.JS
+ - Websockets with Rails
+
+## Debris
 
  - Test driven development
  - Integration tests with browser
