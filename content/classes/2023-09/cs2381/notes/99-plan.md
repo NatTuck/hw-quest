@@ -67,16 +67,25 @@ Week 9 (Oct 23):
 
 Week 10 (Oct 30):
 
-  - Monday: More Hash Tables
+  - Monday: More Hash Tables; Java Stdlib
   - => Lab 10: HashMap
   - Wednesday: Applications of Priority Queues
   - Min-heaps
 
-Week 11:
+Week 11 (Nov 06):
 
-  - ...
+  - Heap in array
   - => Lab 11: Priority Queues (Tree, Array Heap)
+  - Introducing threads; data races
+  - Locks, 
 
+Week 12 (Nov 13):
+ 
+  - 
+  - => Lab 12: Parallel Speedup
+
+
+  
 
 
 ## Week Plan:

@@ -62,7 +62,7 @@ Week 9: Performance & Scaling
 
 Week 10: Monitoring & Redundancy
 
- - M: ACID & CAP
+ - M (26): ACID & CAP
  - W: Monitoring and Redundancy
  - F: Full period meeting
 
