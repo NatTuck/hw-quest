@@ -66,9 +66,6 @@ Week 10: Monitoring & Redundancy
  - W: Monitoring and Redundancy
  - F: Full period meeting
 
- - Manual monitoring with extra VPS
- - Email / text / IM notifications
- - https://uptimerobot.com/pricing/
  - Redundancy
 
 Week 11: Web App Security; Vendor Risk; Backups
@@ -91,8 +88,9 @@ Week 14: Setup Docs, Handoff Docs
  - Integration tests with browser
  - Test Coverage
  
- - Web App Security
  - Backups
+ 
+ - Web App Security
  
  - Setup Documentation
  - Separate test and production servers

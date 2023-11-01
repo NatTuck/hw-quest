@@ -77,7 +77,7 @@ Week 11 (Nov 06):
   - Heap in array
   - => Lab 11: Priority Queues (Tree, Array Heap)
   - Introducing threads; data races
-  - Locks, 
+  - Locks, Deadlock, 
 
 Week 12 (Nov 13):
  
