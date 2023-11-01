@@ -35,6 +35,18 @@ Common pattern is a REST API:
    - PATCH /jokes/4
    - DELETE /jokes/4
 
+**React Server Actions**
+
+https://nextjs.org/blog/next-14#forms-and-mutations
+
+This appears to be implmented like it's setting up API paths
+implicitly and then accessing them with fetch, but from a programmer
+perspective it feels like you can have code running in a mix between
+the server and the browser.
+
+I'm not sure this is a good idea in general, but it might be useful
+for simple scenarios.
+
 ## Websockets
 
 ssh nat@homework.quest; sudo su - draw; (cd draw && ./start.sh)
@@ -67,6 +79,14 @@ Rails
 NodeJS
 
  - Socket.io
+
+Basic concept:
+
+ - Your base level application router needs to have a path that does
+   an upgrade and then handles socket logic.
+ - This doesn't work like HTTP normal requests - it requires a persistent
+   connections - which is tricky for app structures that assumed stateless
+   and fast HTTP requests.
 
 Let's walk through how the draw app works.
 
