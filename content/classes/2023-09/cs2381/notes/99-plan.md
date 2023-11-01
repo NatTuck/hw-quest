@@ -69,24 +69,46 @@ Week 10 (Oct 30):
 
   - Monday: More Hash Tables; Java Stdlib
   - => Lab 10: HashMap
-  - Wednesday: Applications of Priority Queues
-  - Min-heaps
+  - Wednesday: Priority Queues, Heap in Array
+  - Graphs
 
 Week 11 (Nov 06):
 
-  - Heap in array
-  - => Lab 11: Priority Queues (Tree, Array Heap)
+  - Pathfinding
+  - => Lab 11: Priority Queues and Graphs; Build A*
   - Introducing threads; data races
-  - Locks, Deadlock, 
+  - Locks, Deadlock, Splitting Data
 
 Week 12 (Nov 13):
  
-  - 
+  - Synchronized vs unsync data structures
   - => Lab 12: Parallel Speedup
+  - Wednesday: Alternate Concurrency solutions
+  - Friday: Lab 13 topic
 
+Week 13 (Nov 20):
 
-  
+  - Monday: Lab 13 topic
+  - => Lab 13: Something Easy
+  - Wednesday (Nov 22): Thanksgiving
+  - Friday: More Thanksgiving
 
+Week 14:
+  - Monday: 
+  - => ...: Makeup a Lab
+  - Wednesday:
+  - Friday:
+
+Week 15:
+
+  - Monday: 
+  - => Lab 14: Network events
+  - Wednesday: Semester Review
+  - Friday: Review of Practice Final
+
+Week 15:
+
+  - Final Exam
 
 ## Week Plan:
 

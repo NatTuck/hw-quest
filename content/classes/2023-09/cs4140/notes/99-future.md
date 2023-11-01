@@ -62,51 +62,31 @@ Week 9: Performance & Scaling
 
 Week 10: Monitoring & Redundancy
 
- - M (26): ACID & CAP
- - W: Monitoring and Redundancy
+ - M (26): Redundancy, ACID & CAP
+ - W: Monitoring and WebSockets
  - F: Full period meeting
 
- - Redundancy
+Week 11: Security
 
-Week 11: Web App Security; Vendor Risk; Backups
-
-Week 12: State Management in a Distributed System
+ - M (29): Authentication and Sessions
+ - W: Traditional Attacks
+ - F: Full period meeting 
+ 
+Week 12: State Management in a Distributed System 
 
 Week 13: Thanksgiving
 
 Week 14: Setup Docs, Handoff Docs
 
+Week 15: Polish, Handoff
 
 ## More topics:
 
  - Websockets with Next.JS
  - Websockets with Rails
 
-## Debris
-
- - Test driven development
- - Integration tests with browser
- - Test Coverage
- 
- - Backups
- 
- - Web App Security
- 
- - Setup Documentation
- - Separate test and production servers
- 
- - Web App Performance
- - Scaling a Web App
-
- - Monitoring
- - Redundancy, Mirroring, Failover
- 
 ## Readings
 
  - https://community.taiga.io/t/quick-intro-to-scrum-module/124
  - https://community.taiga.io/t/what-is-scrum-the-dark-side-of-scrum/129
 
-## Notes
-
- - Kyle: Focus on OO patterns
- - Sriharsha: Focus on conceptual process
