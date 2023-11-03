@@ -84,24 +84,24 @@ Week 12 (Nov 13):
   - Synchronized vs unsync data structures
   - => Lab 12: Parallel Speedup
   - Wednesday: Alternate Concurrency solutions
-  - Friday: Lab 13 topic
+  - Friday: Complex Traversal Examples
 
 Week 13 (Nov 20):
 
-  - Monday: Lab 13 topic
-  - => Lab 13: Something Easy
+  - Monday: Complex Traversal Examples
+  - => Lab 13: Complex Traversals
   - Wednesday (Nov 22): Thanksgiving
   - Friday: More Thanksgiving
 
 Week 14:
-  - Monday: 
+  - Monday: More Traversals
   - => ...: Makeup a Lab
-  - Wednesday:
-  - Friday:
+  - Wednesday: Networking Intro
+  - Friday: More Networking
 
 Week 15:
 
-  - Monday: 
+  - Monday: Networking Example
   - => Lab 14: Network events
   - Wednesday: Semester Review
   - Friday: Review of Practice Final
