@@ -70,7 +70,7 @@ Week 11: Security
 
  - M (29): Authentication and Sessions
  - W: Traditional Attacks
- - F: Full period meeting 
+ - F: No class veteran's day
  
 Week 12: State Management in a Distributed System 
 

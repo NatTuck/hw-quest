@@ -77,11 +77,11 @@ Week 11 (Nov 06):
   - Pathfinding
   - => Lab 11: Priority Queues and Graphs; Build A*
   - Introducing threads; data races
-  - Locks, Deadlock, Splitting Data
+  - Fri: No class veteran's day
 
 Week 12 (Nov 13):
  
-  - Synchronized vs unsync data structures
+  - Locks, Deadlock, Splitting Data && Synchronized vs unsync data structures
   - => Lab 12: Parallel Speedup
   - Wednesday: Alternate Concurrency solutions
   - Friday: Complex Traversal Examples

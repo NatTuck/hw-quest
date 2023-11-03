@@ -150,7 +150,6 @@ If we want an immutable data structure:
 
 How to find shortest path?
 
-
 Links:
 
  - NH map from https://www.state-maps.org/
