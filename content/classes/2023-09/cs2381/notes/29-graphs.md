@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 28 Representing Graphs"
+title: "cs2381 Notes: 29 Representing Graphs"
 date: "2023-11-05"
 ---
 
