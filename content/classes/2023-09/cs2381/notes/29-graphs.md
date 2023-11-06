@@ -3,15 +3,6 @@ title: "cs2381 Notes: 29 Representing Graphs"
 date: "2023-11-05"
 ---
 
-**First, Scapegoat Tree**
-
-Let's go ahead and complete that portion of Lab 09.
-
-Notes:
-
- - Starting from starter-lab09
- - Print solution/TreeMap.java
- 
 **Graphs**
 
 Formally, a Graph is:

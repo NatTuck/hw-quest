@@ -1,6 +1,6 @@
 ---
-title: "Notes: 28 Authentication and Authorization"
-date: "2023-10-31"
+title: "Notes: 29 Authentication and Authorization"
+date: "2023-11-05"
 ---
 
 # Authentication

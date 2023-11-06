@@ -1,5 +1,5 @@
 ---
-title: "Notes: 27 Fetch and Websockets"
+title: "Notes: 28 Async for JS"
 date: "2023-10-31"
 ---
 
