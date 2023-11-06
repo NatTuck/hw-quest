@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 28 Representing Graphs"
-date: "2023-11-02"
+date: "2023-11-05"
 ---
 
 **First, Scapegoat Tree**
@@ -148,7 +148,75 @@ If we want an immutable data structure:
  - ```Map<Name, NodeMeta>```
  - ```Map<Name, Set<NeighborName>>```
 
-How to find shortest path?
+
+## Shortest Path on Graph
+
+ - Given a graph.
+ - And a source vertex.
+ - And a destination vertex.
+ - What's the shortest path from source to destination on the graph.
+
+Plan A:
+
+ - Pick an edge from the current node and follow it.
+ - Repeat with the next node
+ - Problem: Cycles
+
+Plan B:
+
+ - Mark the current node (mutate the node, keep a set of marked nodes, etc).
+ - Pick an edge from the current node to an unmarked node.
+ - Repeat with the next node
+ - Problem: Dead ends
+
+Plan C:
+
+ - If we pick the wrong edge, we need to be able to go back and try another
+   choice. This is called "backtracking".
+ - We can handle this recursively:
+
+```
+function findPath(Node current, Node dest, List pathSoFar):
+    if current.equals(dest):
+       return cons(current, pathSoFar).reverse()
+    for (edge : current.outEdges()):
+       if edge not in pathSoFar:
+          return findPath(edge, cons(current, dest, pathSoFar))
+```
+  
+ - Now we will find a path if there is one.
+ - Problem: Inefficient paths
+
+Plan D:
+
+ - For each node, track the following info in a single mutable map:
+   - Estimated distance.
+     - Intially zero for starting node, +inf for others.
+   - Best previous node.
+     - Initially null.
+   - Fully Explored.
+     - Initially false.
+ - Keep a priority queue of next nodes to explore.
+ - For the current node:
+   - Check each neighboring node that isn't fully explored.
+   - If the path through the current node is shorter, update
+     the best previous and distance to use that and add that
+     node to the priority queue with distance as priority.
+   - Once all neighbors have been checked, mark this node as
+     fully explored.
+ - Pull next node from the priority queue. If this one's already
+   explored, pull another one.
+ - Once the dest is reached, traverse previouses.
+
+That's Dijkstra's Algorithm
+
+Plan E:
+
+ - Use estimated distance - including distance to goal - to order
+   priority queue.
+   
+That's A*
+
 
 Links:
 
