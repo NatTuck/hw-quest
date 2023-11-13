@@ -80,16 +80,16 @@ Week 11 (Nov 06):
   - Fri: No class veteran's day
 
 Week 12 (Nov 13):
- 
+
   - Locks, Deadlock, Splitting Data && Synchronized vs unsync data structures
   - => Lab 12: Parallel Speedup
   - Wednesday: Alternate Concurrency solutions
-  - Friday: Complex Traversal Examples
+  - Friday: A Tour of Java's Standard Data Structures
 
 Week 13 (Nov 20):
 
-  - Monday: Complex Traversal Examples
-  - => Lab 13: Complex Traversals
+  - Monday: Java Stdlib Usage Examples
+  - => Lab 13: Java Stdlib
   - Wednesday (Nov 22): Thanksgiving
   - Friday: More Thanksgiving
 
