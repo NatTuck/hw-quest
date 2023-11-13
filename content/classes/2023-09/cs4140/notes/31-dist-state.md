@@ -138,26 +138,58 @@ Note that you can build distributed p2p poker:
 https://crypto.stanford.edu/~pgolle/papers/poker.pdf
 
 
-**Online Store + Cart**
-
-App server stores:
-
- - Products (name, description, price)
- - Stock levels
-
-Let's try storing shopping carts in the browser, in a single-page app.
-
-Browser stores:
-
- - Cache of product info, stock levels.
- - Shopping cart.
-
-... TODO: Think through implications more
-
 **Rules of Thumb for Browser State**
 
  - Make state explicit. Using tools like React's ```useState``` make state in
    your app really obvious, which helps avoid bugs.
- - Have a single source of local truth. You don't want to store the same information
-   in two places because
-   
+ - Have a single source of local truth for each piece of information. If you store
+   copies in two places they can get out of sync.
+ - Centralize state when possible. Tools like Redux, which allow you to build a single
+   state object for your browser logic, are great.
+
+
+**A More Complex Problem**
+
+Shared document editing:
+
+ - You have one text document.
+ - Several users can edit it at the same time.
+ - You'd like to allow offline edits.
+
+Problem: If two people make offline changes to the document and both come online,
+what does the document look like?
+
+This is the problem of merging state, and there's no general solution.
+But there are workable solutions for many specific cases.
+
+Let's look at a simpler case first:
+
+ - You have people standing at the doors of a sports stadium counting how many
+   people leave.
+ - They have a web app with "+1" and "-1" buttons.
+ - The app is primarily online, but is designed to work offline.
+ - When offline, each browser stores a local count.
+ - To merge multiple counts, you sum them together.
+ - Because integer addition is commutative, this correctly merges the
+   local states into a single global state.
+
+But merging edits to a text document is more complicated. Some cases
+are easy, but others are harder - you can see this whenever you get a
+merge conflit in Git.
+
+There isn't really a good answer here - for the shared document
+problem - and the solution that most real apps have come up with is to
+split the document into conflcting versions stored with separate names
+and hope that humans resolve them.
+
+Let's consider another simpler case:
+
+ - A shared address book.
+ - In this case, we can say that every edit to a contact creates a new version of
+   that contact and the edit with the latest timestamp wins.
+ - To avoid losing data, we can save all old versions and who created
+   them and allow users to step through old versions.
+ - Or, rather than storing whole contacts, we could store a log of
+   changes. If two people add a phone # to the same contact simutaniously,
+   it's reasonable to get both #'s added.
+
