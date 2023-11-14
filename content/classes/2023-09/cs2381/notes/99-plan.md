@@ -75,7 +75,7 @@ Week 10 (Oct 30):
 Week 11 (Nov 06):
 
   - Pathfinding
-  - => Lab 11: Priority Queues and Graphs; Build A*
+  - => Lab 11: Priority Queues and Graphs; Build A\*
   - Introducing threads; data races
   - Fri: No class veteran's day
 
@@ -89,13 +89,13 @@ Week 12 (Nov 13):
 Week 13 (Nov 20):
 
   - Monday: Complex Traversal Examples
-  - => Lab 13: Complex Traversals
+  - => ...: Makeup a Lab
   - Wednesday (Nov 22): Thanksgiving
   - Friday: More Thanksgiving
 
 Week 14:
   - Monday: More Traversals
-  - => ...: Makeup a Lab
+  - => Lab 13: Java Stdlib Data Structures
   - Wednesday: Networking Intro
   - Friday: More Networking
 
