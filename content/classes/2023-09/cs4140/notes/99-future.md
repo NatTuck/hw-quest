@@ -72,7 +72,9 @@ Week 11: Security
  - W: Traditional Attacks
  - F: No class veteran's day
  
-Week 12: State Management in a Distributed System 
+Week 12 (Nov 13): State Management in a Distributed System 
+
+ - M (31): The Problem of Distributed State
 
 Week 13: Thanksgiving
 

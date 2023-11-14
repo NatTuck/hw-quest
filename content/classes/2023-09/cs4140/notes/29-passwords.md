@@ -1,5 +1,5 @@
 ---
-title: "Notes: 29 Authentication and Authorization"
+title: "Notes: 29 Passwords"
 date: "2023-11-05"
 ---
 
