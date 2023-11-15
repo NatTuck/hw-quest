@@ -23,6 +23,9 @@ New proposal:
 
  - Let's set up a department account with a virtual server provider.
  - Specifically: Linode
+ - Stephanie would create main account, then she could create a
+   delegated account for me (or others) that could do technical stuff
+   but not access billing info.
  - Once we have an account, we can set me up with two virtual servers
    for $30/month:
     - One production Inkfish server
