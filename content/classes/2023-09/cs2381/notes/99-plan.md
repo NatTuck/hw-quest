@@ -88,12 +88,13 @@ Week 12 (Nov 13):
 
 Week 13 (Nov 20):
 
-  - Monday: Java Stdlib Usage Examples
+  - Monday (34): Java Stdlib Usage Examples
   - => ...: Makeup a Lab
   - Wednesday (Nov 22): Thanksgiving
   - Friday: More Thanksgiving
 
 Week 14 (Nov 27):
+
   - Monday: Stdlib Overview
   - => Lab 13: Java Stdlib
   - Wednesday: Networking Intro
@@ -106,7 +107,7 @@ Week 15 (Dec 4):
   - Wednesday: Semester Review
   - Friday: Review of Practice Final
 
-Week 15:
+Week 15 (Dec 11):
 
   - Final Exam
 
