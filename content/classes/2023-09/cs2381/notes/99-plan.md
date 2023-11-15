@@ -93,13 +93,13 @@ Week 13 (Nov 20):
   - Wednesday (Nov 22): Thanksgiving
   - Friday: More Thanksgiving
 
-Week 14:
+Week 14 (Nov 27):
   - Monday: Stdlib Overview
   - => Lab 13: Java Stdlib
   - Wednesday: Networking Intro
   - Friday: More Networking
 
-Week 15:
+Week 15 (Dec 4):
 
   - Monday: Networking Example
   - => Lab 14: Network events
