@@ -142,8 +142,16 @@ Generally, skip lists are implemented with probablistic heights rather
 than folowing the pattern exactly. Each item has a 1 in 32 chance of
 having a height of 5, etc. 
 
+## LongBitSet
+
+Problem: You want to find primes up to 10B, but BitSet only takes "int" args.
+
+Solution: LongBitSet
+
+ - http://home.apache.org/~rmuir/jacoco-core/org.apache.lucene.util/LongBitSet.java.html
+ - https://mvnrepository.com/artifact/org.apache.lucene/lucene-core/9.8.0
 
 ## Demos
 
-???
-
+ - Show a queue example with LinkedList
+ - Show map / filter from stream
