@@ -80,7 +80,8 @@ Week 12 (Nov 13): State Management in a Distributed System
 
 Week 13 (Nov 20): Thanksgiving
  
- - M (34): The Problem of Distributed State
+ - M (34): Handoff Process
+ - W/F: No Class
 
 Week 14 (Nov 27): Setup Docs, Handoff Docs
 
@@ -88,10 +89,6 @@ Week 15 (Dec 4): Polish, Handoff
 
 Week 16 (Dec 11): Final Exam
 
-## More topics:
-
- - Websockets with Next.JS
- - Websockets with Rails
 
 ## Readings
 

@@ -56,6 +56,17 @@ To get current Java docs, search for java17 + term. For example:
    - Graphs tend to be application-specific; an app or library that
      does graph stuff will give you the graph structure it wants.
 
+Interfaces:
+
+ - Java provides a heirarchy of interfaces, so you can, e.g.,
+   differentiate between Map and Sorted Map.
+ - All of the collections above implement the Collection interface
+   - Pull up docs
+   - Looks like it has a lot of methods, but the ones that do stuff are
+     optional
+   - Most significantly: Collections are iterable
+   - Also neat: Streams
+
 
 ## Noteworthy stuff we haven't seen
 
@@ -77,9 +88,62 @@ Static methods in java.util.Collections:
  - ConcurrentHashMap
  - ConcurrentSkipListMap
 
-Explain skip lists.
+### Skip Lists
+
+Start with a set stored as a Linked List - values in sorted order.
+
+```
+    A -> B -> C -> E -> J -> ∅
+```
+
+Operations:
+
+ - Insert: O(n)
+ - Contains: O(n)
+ - Delete: O(n)
+
+The idea of a skip list is that some of the list nodes have more than
+one forward reference.
+
+Show every other item being height 2.
+
+``` 
+    | ------> | ------> | -> ∅
+    | -> | -> | -> | -> | -> ∅
+    A    B    C    E    J
+```
+
+First we traverse the top list until we've gone too far, then we back
+up and traverse the next list down.
+
+If each level contains half as many items as the level below it, then, for
+a set of 64 items:
+
+ - The bottom layer has 64 items
+ - Next 32
+ - 16
+ - 8
+ - 4
+ - 2
+
+So 64 items requires 6 layers... log2(64) = 6
+
+A traversal only requires looking at 2 items at each layer, which means that
+our operations should be:
+
+ - Insert: O(log n)
+ - Contains: O(log n)
+ - Delete: O(log n)
+
+There's one problem: A bad pattern of inserts / deletes could leave
+you without enough tall items, causing performance to degrade to O(n).
+
+Generally, skip lists are implemented with probablistic heights rather
+than folowing the pattern exactly. Each item has a 1 in 32 chance of
+having a height of 5, etc. 
 
 
 ## Demos
 
-...
+???
+
