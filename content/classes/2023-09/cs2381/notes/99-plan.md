@@ -95,14 +95,14 @@ Week 13 (Nov 20):
 
 Week 14 (Nov 27):
 
-  - Monday: Stdlib Overview
+  - Monday (35): Stdlib Sample Problems
   - => Lab 13: Java Stdlib
   - Wednesday: Networking Intro
   - Friday: More Networking
 
 Week 15 (Dec 4):
 
-  - Monday: Networking Example
+  - Monday (38): Networking Example
   - => Lab 14: Network events
   - Wednesday: Semester Review
   - Friday: Review of Practice Final

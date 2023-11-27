@@ -3,9 +3,49 @@ title: "cs4140 Fall 2023: Assigned Tasks"
 date: "2023-10-09"
 ---
 
-# Week 9:
+# Week 16:
 
-**(future week) This list may not be complete / final**
+ - Present final presentations
+ - Friday, Dec 15, 8:00 - 10:30am
+   - I'm thinking 9-10:30am sounds better
+
+# Week 15:
+
+ - Set up customer infrastructure
+ - Customer should have their own copy of the project on their github
+   - Not a github fork:
+     - customer creates new empty repo
+     - clone project
+     - replace remote in .git/config with new customer repo
+     - push
+   - Old main repo should be renamed
+   - Team should re-fork from customer's repo
+ - Customer should have own VPS: Recommend a Linode $5/month server + backups
+ - Domain should be on customer's registrar account
+   - Transfer if needed
+   - Point domain to Customer's VPS
+ - Deploy to customer VPS
+ - Test Continous Deployment from customer Github to customer VPS when
+   customer clicks the Merge PR button.
+
+# Week 14:
+
+ - Each team member should spin up a VPS and follow the deployment
+   instructions to spin up your app.
+ - Meet with the customer and make sure they have their own:
+   - Github account
+   - Domain registrar account
+   - VPS account: Linode is recommended - they have better auto-backups
+ - Start thinking about final presentations
+
+# Week 13:
+
+Deployment instructions:
+
+The README in your Github repository should provide clear instructions to
+deploy your app on a newly created Debian 12 VPS.
+
+# Week 9:
 
  - Meet with customer and get more customer feedback.
  - Make sure forward progress is occuring towards what the customer wants.

@@ -85,9 +85,19 @@ Week 13 (Nov 20): Thanksgiving
 
 Week 14 (Nov 27): Setup Docs, Handoff Docs
 
+ - M (35): Vendor Risk
+ - W: Wheel of Fortune 1/3
+ - F: Full period meeting
+
 Week 15 (Dec 4): Polish, Handoff
 
+ - M (38): Wheel of Fortune 2/3
+ - W: Wheel of Fortune 2/3
+ - F: Semester Review; Final team meeting
+
 Week 16 (Dec 11): Final Exam
+
+ - Final presentations are On Friday, December 15th, from 9-10:30am.
 
 
 ## Readings
