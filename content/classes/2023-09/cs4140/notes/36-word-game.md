@@ -37,4 +37,9 @@ Construction plan:
      - Spend one point to guess a vowel and reveal all occurances
  - If at any point all the letters are revealed, the player loses.
 
+## Base strategy to walk through changes:
+
+Diff is here:
+
+https://github.com/NatTuck/word-game/compare/main...01-single-player
 
