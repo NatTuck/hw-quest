@@ -67,6 +67,8 @@ have a local state that looks like this:
 In order to make that work, we need to know each user's name. So we'll
 need a "login" screen where the user enters their name.
 
+Logging in will set the user name in local state:
+
 ```js
 // store.js
 
@@ -86,10 +88,6 @@ function user(state = null, action) {
 
 let rfn = combineReducers({secret, guesses, score, user});
 ```
-
-
-
-
 
 
 
