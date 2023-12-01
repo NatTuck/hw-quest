@@ -22,44 +22,10 @@ one of: O(1), O(log n), O(n), O(n log n), O(n^2), O(n^3), O(2^n)
 
 <br><br><br><br>
 
-**2. In the App#main method, what is the type of the ``xs`` variable?**
+**2. If we run the App program, what will it print?**
 
 <br><br><br><br>
 
-**3. If we run the App program, what will it print?**
-
-<br><br><br><br>
-
-**4. Following the pattern for a recursive traversal of a linked list,
-write the body of the App#maximum method.**
-
-<br><br><br><br>
-
-**5. Given a list of length n, what is the asymptotic complexity of
-App#maximum as you implemented it?**
-
-<br><br><br><br>
-
-**6. Give one example of a type in Java that is not a primitive type.**
-
-<br><br><br><br>
-
-**7. In Java, how many bytes does it take to store an int?**
-
-<br><br><br><br>
-
-**8. What are two effects of declaring a type as a record rather than as a class?**
-
-<br><br><br><br>
-
-**9. Given two lists each of length n, what is the asymptotic complexity of the
-App#matches method?**
-
-<br><br><br><br>
-
-**10. What are two things wrong with the code in Walrus.java?**
-
-<br><br><br><br>
 
 
 ## Reference Code
@@ -67,6 +33,12 @@ App#matches method?**
 ```java
 // App.java
 package midterm;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.ArrayDeque;
+import java.util.HashMap;
+import java.util.TreeMap;
 
 public class App {
     public static void main(String[] args) {
@@ -97,92 +69,3 @@ public class App {
 }
 ```
 
-```java
-// ConsList.java
-package midterm;
-
-import java.util.function.Function;
-
-public interface ConsList<T> {
-    @SafeVarargs
-    public static <T> ConsList<T> list(T... args) {
-        ConsList<T> ys = new Empty<T>();
-        for (int ii = args.length - 1; ii >= 0; --ii) {
-            ys = new Cell<T>(args[ii], ys);
-        }
-        return ys;
-    }
-
-    T first();
-    ConsList<T> rest();
-    boolean empty();
-    int length();
-    <U> ConsList<U> map(Function<T, U> op);
-}
-
-record Empty<T>() implements ConsList<T> {
-    @Override
-    public T first() {
-        throw new Error("empty list");
-    }
-
-    @Override
-    public ConsList<T> rest() {
-        throw new Error("empty list");
-    }
-
-    @Override
-    public boolean empty() {
-        return true;
-    }
-
-    @Override
-    public int length() {
-        return 0;
-    }
-
-    @Override
-    public String toString() {
-        return "Empty";
-    }
-
-    @Override
-    public <U> ConsList<U> map(Function<T, U> op) {
-        return new Empty<U>();
-    }
-}
-
-record Cell<T>(T first, ConsList<T> rest) implements ConsList<T> {
-    @Override
-    public boolean empty() {
-        return false;
-    }
-
-    @Override
-    public int length() {
-        return 1 + rest.length();
-    }
-
-    @Override
-    public String toString() {
-        return "(" + first + " " + rest + ")";
-    }
-
-    @Override
-    public <U> ConsList<U> map(Function<T, U> op) {
-        return new Cell<U>(op.apply(this.first()), this.rest.map(op));
-    }
-}
-```
-
-```java
-// Walrus.java
-
-record Walrus(int age, String name) [
-   System.out.println(this.age);
-
-   Walrus sandwich() {
-      new Walrus(14, 29);
-   }
-]
-```
