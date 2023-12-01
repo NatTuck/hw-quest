@@ -97,12 +97,12 @@ Week 14 (Nov 27):
 
   - Monday (35): Stdlib Sample Problems
   - => Lab 13: Java Stdlib
-  - Wednesday: Networking Intro
-  - Friday: More Networking
+  - Wednesday: More Menu
+  - Friday: Word Game
 
 Week 15 (Dec 4):
 
-  - Monday (38): Networking Example
+  - Monday (38): Introduce Networking
   - => Lab 14: Network events
   - Wednesday: Semester Review
   - Friday: Review of Practice Final
