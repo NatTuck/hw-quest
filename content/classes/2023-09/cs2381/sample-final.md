@@ -5,7 +5,7 @@ date: "2023-12-01"
 
 ## Practice Final Exam: cs2381 Fall 2023
 
-2023-09-25: This sample exam is provided to help provide some
+2023-12-02: This sample exam is provided to help provide some
 direction in studying for the upcoming final.
 
 Keep in mind that anything we've covered in class, in lab, or in a lab
@@ -38,11 +38,11 @@ O(n^3), O(2^n)
 
 <br><br><br><br>
 
-**6. What is the asymptotic complexity of the SeaApp#tuna method?**
+**6. What is the asymptotic complexity of the SeaApp#tuna method? Why?**
 
 <br><br><br><br>
 
-**7. How many bytes does it take to store the declared fields of a Pair record?**
+**7. How many bytes does it take to store the declared fields of a Pair record? Why?**
 
 <br><br><br><br>
 
