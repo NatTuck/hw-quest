@@ -1,7 +1,6 @@
 ---
 title: "cs2381: Practice Final"
 date: "2023-12-01"
-draft: true
 ---
 
 ## Practice Final Exam: cs2381 Fall 2023
@@ -16,56 +15,113 @@ These questions reference the code provided at the end of the exam.
 Skim that first to see what the questions are talking about.
 
 The answer to an "asymptotic complexity" question on this exam will be
-one of: O(1), O(log n), O(n), O(n log n), O(n^2), O(n^3), O(2^n)
+one of: O(1), O(log n), O(n), O(n log n), O(n^2), O(n^2 log n),
+O(n^3), O(2^n)
 
-**1. In the App#main method, what is the type of the ``args`` parameter?**
+**1. In the SeaApp#main method, what is the type of the ``args`` parameter?**
+
+<br><br><br><br>
+
+**2. In the SeaApp#main method, what is the type of the ```nums``` variable?**
 
 <br><br><br><br>
 
-**2. If we run the App program, what will it print?**
+**3. If we run the SeaApp program, what will it print?**
 
 <br><br><br><br>
+
+**4. What is the asymptotic complexity of the SeaApp#squid method? Why?**
+
+<br><br><br><br>
+
+**5. What is the asymptotic complexity of the SeaApp#crab method? Why?**
+
+<br><br><br><br>
+
+**6. What is the asymptotic complexity of the SeaApp#tuna method?**
+
+<br><br><br><br>
+
+**7. How many bytes does it take to store the declared fields of a Pair record?**
+
+<br><br><br><br>
+
+**8. Why is the complexity of ArrayList#add "amortized" O(1) rather than just O(1)?**
+
+<br><br><br><br><br><br>
+
+**9. What are the names and descriptions for the standard operations for a Stack?**
+
+<br><br><br><br>
+
+**10. How is a Stack different from a Queue?**
+
+<br><br><br><br>
+
+**11. If a multithreaded program that makes good use of many cores
+takes 12 seconds on 12 processor cores, how long would you expect it
+to take on 6 cores? Why?**
+
+<br><br><br><br>
+
+**12. Write the body of SeaApp#keepUnique. This should return a new
+List, not modify the input, and run in O(n) time in the size of the input.**
+
+<br><br><br><br><br><br>
 
 
 
 ## Reference Code
 
 ```java
-// App.java
-package midterm;
+package exam;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.TreeMap;
+import java.util.List;
+import java.util.HashSet;
 
-public class App {
+public class SeaApp {
     public static void main(String[] args) {
-        var xs = ConsList.list(33, 81, 72, 5, 53, 28);
-        System.out.println("max of " + xs + " is " + maximum(xs));
-        
-        var ys = ConsList.list(5, 84, 16, 28, 11, 41);
-        System.out.println("matches = " + matches(xs, ys));
+        var nums = new ArrayList<>(List.of(1,2,3,4,5));
+        var retv = tuna(nums);
+        System.out.printf("squid => %d, crab => %d\n", retv.xx(), retv.yy());
     }
 
-    
-    static int maximum(ConsList<Integer> xs) {
-        // TODO: Given a ConsList of non-negative integers, 
-        // return the maximum value.
+    static Pair tuna(ArrayList<Integer> xs) {
+        var sq = squid(xs);
+        var cr = crab(xs);
+        return new Pair(sq, cr);
     }
-    
-    static int matches(ConsList<Integer> xs, ConsList<Integer> ys) {
-        int count = 0;
-        for (var xp = xs; !xp.empty(); xp = xp.rest()) {
-           for (var yp = ys; !yp.empty(); yp = yp.rest()) {
-               if (xp.first() == yp.first()) {
-                   count += 1; 
-               }
-           }
+
+    static int squid(ArrayList<Integer> xs) {
+        if (xs.isEmpty()) {
+            return 3;
         }
-        return count;
+        var aa = xs.get(0);
+        xs.remove(0);
+        return aa + squid(xs);
     }
+
+    static int crab(ArrayList<Integer> xs) {
+        var yy = 3;
+        for (var xx : xs) {
+            yy += xx;
+        }
+        return yy;
+    }
+    
+    static List<Integer> keepUnique(List<Integer> xs) {
+       // Build and return a new ArrayList containing
+       // each item from xs only once.
+       
+       // Examples: 
+       //  - keepUnique([1,1,1,1,1,2,1,1,2]) -> [1,2]
+       //  - keepUnique([1,2,1,5,3,2,3,4,5]) -> [1,2,5,3,4]
+    }
+}
+
+record Pair(int xx, int yy) {
+    // pass
 }
 ```
 
