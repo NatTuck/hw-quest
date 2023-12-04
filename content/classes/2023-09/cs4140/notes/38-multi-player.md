@@ -16,7 +16,7 @@ date: "2023-11-30"
    - Gets points equal to the number of letters revealed, except that
      vowels are worth no points.
 
-## How to Move to Multiplayer
+## Setup for Multiplayer
 
  - We're going to have multiple players, each with a separate browser,
    taking sequential turns.
@@ -90,7 +90,55 @@ let rfn = combineReducers({secret, guesses, score, user});
 ```
 
 
+## Server-Side Logic
 
- 
+Web apps built with tools like Ruby and NodeJS tend to handle
+concurrency and parallel scalabilty with multiple OS processes.
 
- 
+This requires the app server code to be stateless between requests.
+Any state either lives in the database or in some sort of state
+service.
+
+Another approach to consider might be to use a single OS process and
+multiple threads. That would provide concurrency and parallel
+scalability on a single server. It would also allow for state to be
+shared between requests with shared memory as long as there was some
+appropriate synchronization mechanism used (e.g. a global variable
+protected with a lock). 
+
+The thread approach might seem reasonable for something that looked
+like a monolithic Java app. There are two big issues with this
+approach: shared memory and locks is extremely bug prone, and it would
+require separate distributed-system logic to scale beyond one server
+while maintaining in-app cross-request state.
+
+My favorite platform - the Erlang VM - starts with the distributed
+system plan. The building blocks is "processes" that logically don't
+share memory and communicate by passing messages, which means that the
+same mechanisms for building a system on one server keep working when
+scaling to multiple servers.
+
+To handle our App state, we'll follow a "state server" pattern, where
+we have a dedicated process to hold our state and pass messages to it
+to interact with that state. Logically, this is a lot like a
+"synchronized" object in Java, but in a more distributed-first
+structure.
+
+We'll start by implemeting our game logic in a Game module.
+
+ - Look at Game.ex, including in REPL. This models the game.
+
+Then we want to store a game. We'll start with one game. To store the
+game, we'll create a dedicated Erlang process using the GenServer
+pattern. Operations on the game instance happen by sending messages to
+the process.
+
+ - Look at GameServer.ex, including in REPL.
+
+Next, it's time to hook up the JS code to the server code. We do that
+through a websocket, or in Phoenix, a Channel.
+
+ - Look at game_channel.ex
+ - Look at updated game.js, login.jsx
+
+
