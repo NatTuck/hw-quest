@@ -23,12 +23,14 @@ Ingredients:
 
 Directions:
 
- - Use instant pot or enameled dutch oven
+ - Works with instant pot, enameled dutch oven, or stainless steel
+   frying pan and crock pot
  - Heat olive oil
  - Fry (insant pot saute) onions until not soaking wet
  - Add celery, salt, black pepper, stir, fry more
  - Add thyme, red pepper, garlic, stir, fry more
  - Add everything else, bring to boil
+ - Break up chicken into small chunks
  - Cook for a while
  - Add extra vegetable broth if not juicy enough
 
