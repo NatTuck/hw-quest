@@ -14,8 +14,8 @@ Ingredients:
  - black pepper, 1/2 tsp
  - dried thyme, 1/2 tsp
  - dried parsley, 1/2 tsp
- - crushed red pepper, 2 tsp
- - Pino Grigio, 1 mini bottle (187 ml)
+ - crushed red pepper, 2 tsp (or more)
+ - Pino Grigio, 1 mini bottle (187 ml ~ 6.5 fl oz)
  - Can of diced tomatoes, 28 oz
  - 2 lbs ground chicken
  - A stick of butter
