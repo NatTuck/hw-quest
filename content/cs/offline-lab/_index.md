@@ -1,7 +1,6 @@
 ---
 title: "Offline Capable Linux Lab"
-date: "2023-12-13"
-draft: true
+date: "2023-12-15"
 ---
 
 We need an offline capable Linux teaching lab.
@@ -23,9 +22,9 @@ Teaching some of our early programming courses (e.g. Intro to
 Programming, Data Structures, System Programming in C) in an offline
 environment would allow the students to learn the material better and
 be better prepared to use the Web to enhance their personal skills.
-This will be especially valuable for them in later courses, where
-trying to find solutions rather than personally solving problems is
-much less feasible.
+These skills will be especially valuable for them in later courses,
+where trying to find solutions rather than personally solving problems
+is much less feasible.
 
 This offline lab should run modern desktop Linux. Setting up an
 offline environment will be easier on Linux. We don't currently have a
@@ -74,7 +73,8 @@ The simplest version of this would be:
  - A lab full of desktop computers
  - Desktop Linux installed normally on each computer
  - The lab configured as a stand-alone LAN.
- - A simple router would issue local IP addresses and provide local DNS name lookup.
+ - A simple gateway/router would issue local IP addresses and provide
+   local DNS name lookup.
  - A single ethernet uplink specifically intended to be easily physically unplugged.
 
 There are some compliations:
@@ -89,7 +89,77 @@ providing LDAP for authentication and NFS for home directories.
 Providing login with USNH credentials is worth exploring, but not
 worth any compromises to local functionality - creating local accounts
 is easy.
-   
-It is explicitly *not* a goal of this proposal to interoperate with
-existing USNH cloud infrastructure - like OneDrive - in any way.
+
+Once we have an in-lab storage server for NFS home directories, it
+should be straightforward to allow the workstations to network-boot.
+This would let us:
+
+ - Have multiple images to boot from, configured with different
+   operating systems for diffrent classes and use cases. For example,
+   the image for an exam might be different from the image for a lab
+   session.
+ - This would mean every boot would get a clean OS image, which has
+   some advantages.
+ - We could even let students have root access on workstations with
+   either by not mounting home directories in that case or by putting
+   in a little bit of effort at setting up LDAP and Kerberos to
+   authenticate NFS mounts.
+ - With a local distro package mirror, we could allow packages to be
+   added to boot images or to be installed using local root even when
+   the lab was offline.
+ 
+It is explicitly a goal of this project to not require access to or
+interoperation with any system-wide USNH cloud infrastructure.
+
+The disconnect mechanism should be a visually obvious physical
+disconnection - preferably a big Dr. Frankenstein style switch - not
+some software thing and certainly not anything that maintains a
+network connection for limited cloud connectivity or remote
+management.
+
+
+## Submitting Assignments
+
+There are two main ways students could submit lab assignments
+completed in this lab:
+
+ - Connect the lab to the internet a few minutes before the end of the
+   period and have the students submit to Canvas or Inkfish.
+ - Have the students submit their work to a service on the local
+   server, either through a web browser or a command line script.
+
+Either way students would not have access to the web for the majority
+of their task time, and would submit their work to a central location
+that the instructor can access for evaluation and feedback.
+
+
+## Secondary Benefits
+
+Although my primary core is to support introductory programming
+courses, this resource would also be useful for projects in later
+courses.
+
+Further, this would provide the classic benefit of exposing students
+to examples of a range of network and computer concepts being applied
+in practice. For example, it would show that computers and even a
+network of computers will still work even when not connected to the
+internet.
+
+
+## Cost
+
+This should easily be able to use existing machines from within USNH,
+including for the server and gateway. The optimal hardware would be
+reasonably low spec and not brand new for maximum software
+compatibility - this would be an excellent use for a bunch of machines
+that were otherwise end-of-life.
+
+The main concern would be how this overlaps with existing lab
+resources. Designing it to allow the machines to run managed Windows
+and and therefore be used for non-CS classes would drastically
+increase the complexity, probably to the point of infeasibility.
+
+I think the baseline question here might be to ask why we can't simply
+convert 419. It already has a really obvious rack for the main network
+drop.
 
