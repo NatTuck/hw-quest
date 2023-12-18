@@ -46,6 +46,20 @@ what's available in the repos for a modern Linux distro (e.g. virsh,
 virt-manager, cockpit).
 
 
+## Networking
+
+To be able to deploy virtual machines, we'd need a delegated IP block.
+This would be easiest to deal with with a separate router/gateway
+device.
+
+To continue the 100% open source theme, this can be an OPNsense box.
+These are reasonably priced and come pre-installed:
+
+https://protectli.com/product/fw4b/
+
+A reasonable router/gateway config is about $300.
+
+
 ## Where does this go?
 
 Optimally, somewhere on the PSU campus where CS faculty can have
