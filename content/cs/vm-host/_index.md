@@ -52,8 +52,7 @@ Optimally, somewhere on the PSU campus where CS faculty can have
 access and students can have at least supervised access.
 
 If there's nowhere this can go in D&M, is there an existing rack in
-Highland or Speare? If we end up relying on this, we'll probably want
-a second one for hardware redundancy.
+another building?
 
 
 ## What would this let us do?
