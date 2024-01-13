@@ -36,6 +36,12 @@ Data Structures and Intermediate Programming
    - [world.World](http://bryanchadwick.com/javaworld/doc/world/World.html)
    - [image.Image](http://bryanchadwick.com/javaworld/doc/image/Image.html)
    - [The whole thing](http://bryanchadwick.com/javaworld/doc/)
+ - Open Licenced Textbooks:
+   - [Think Java](https://greenteapress.com/wp/think-java-2e/)
+   - [Wikibook: Data Structures](https://en.wikibooks.org/wiki/Data_Structures)
+   - [Open Data Structures](https://opendatastructures.org/ods-python/)
+   - [Modern Java in Action](https://www.manning.com/books/modern-java-in-action)
+
 
 # Hints:
 

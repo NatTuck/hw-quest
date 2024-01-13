@@ -116,7 +116,8 @@ of class.
 Minimizing the use of external resources is recommended, and academic
 honesty rules will be strictly enforced.
 
-Homeworks submitted after the deadline loses 1% per hour late.
+Homeworks submitted after the deadline loses 1% per hour late (round
+up).
 
 **Inkfish and Script Grades**
 
@@ -231,7 +232,7 @@ team on team assignments).
 The following things are obvious cheating:
 
  - Submitting code that wasn't written by you (or your team).
-   - Two exceptions: Starter code supplied with the assignment, small
+   - Two exceptions: Starter code supplied with the assignment; small
      examples in the lecture notes, textbook, or official documention.
  - Sharing your soluton code with other students (except teammates).
  - Looking at other solutions to this or similar problems.

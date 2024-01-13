@@ -53,12 +53,7 @@ Successful students will:
 
 There is no required textbook for this course.
 
-Recommended references:
-
- - [Think Java](https://greenteapress.com/wp/think-java-2e/)
- - [Wikibook: Data Structures](https://en.wikibooks.org/wiki/Data_Structures)
- - [Open Data Structures](https://opendatastructures.org/ods-python/)
- - [Modern Java in Action](https://www.manning.com/books/modern-java-in-action)
+We may use one or more freely licensed online textbooks.
 
 # Grading
 
@@ -129,7 +124,8 @@ of class.
 Minimizing the use of external resources is recommended, and academic
 honesty rules will be strictly enforced.
 
-Homeworks submitted after the deadline loses 1% per hour late.
+Homeworks submitted after the deadline loses 1% per hour late (round
+up).
 
 **Inkfish and Script Grades**
 
@@ -243,7 +239,7 @@ team on team assignments).
 The following things are obvious cheating:
 
  - Submitting code that wasn't written by you (or your team).
-   - Two exceptions: Starter code, small examples in the official
+   - Two exceptions: Starter code; small examples in the official
      documention for the programming language or library we are using.
  - Sharing your soluton code with other students (except teammates).
  - Looking at other solutions to this or similar problems.
@@ -262,7 +258,6 @@ Partner assignment are expected to be done working together. You have
 at least some responsibility for any work submitted for your team.
 
 You may not post solutions for assignments in this class publicly. 
-
 
 ## Tentative Schedule
 
