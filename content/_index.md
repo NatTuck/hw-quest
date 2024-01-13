@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-date: "2023-10-09"
+date: "2024-01-02"
 ---
 
 ## This Semester: Spring 2024
