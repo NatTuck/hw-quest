@@ -3,7 +3,16 @@ title: "Welcome"
 date: "2023-10-09"
 ---
 
-## This Semester
+## This Semester: Spring 2024
+
+ - [CS2370: Introduction to Programming](
+     {{< ref "/classes/2024-01/cs2370" >}})
+ - [CS2381: Data Structures and Intermediate Programming](
+     {{< ref "/classes/2024-01/cs2381" >}})
+
+## Previous Semesters
+
+### Fall 2023
 
  - [CS2381: Data Structures and Intermediate Programming](
      {{< ref "/classes/2023-09/cs2381" >}})

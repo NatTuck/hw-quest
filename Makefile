@@ -11,4 +11,7 @@ ship:
 
 s: server
 
+clean:
+	rm -rf public resources
+
 .PHONY: deps ship s server
