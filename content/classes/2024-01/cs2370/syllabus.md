@@ -325,13 +325,13 @@ The initial plan is for homework to be due at 11:59pm on Thursday.
 </tr>
 <tr>
 	<td>11</td>
-	<td>Apr 8</td>
+	<td>Apr 8 ‡</td>
 	<td>HTML Traversals</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
-	<td>Apr 15 ‡</td>
+	<td>Apr 15</td>
 	<td>Web App Server</td>
 	<td></td>
 </tr>
