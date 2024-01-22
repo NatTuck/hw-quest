@@ -1,18 +1,24 @@
 ---
 title: "cs2381: Required Software"
-date: "2023-09-07"
+date: "2024-01-09"
 ---
 
 The software you need to install to work on a personal machine is:
 
-An Editor:
+A properly configured editor:
 
  - [VS Code](https://code.visualstudio.com/) (>= 1.78) or 
    [VScodium](https://vscodium.com/) with "Extension Pack for Java"
- - Alternatives: [Neovim](https://neovim.io/), 
+ - [Notepad++](https://notepad-plus-plus.org/), 
+   [Bluefish](https://bluefish.openoffice.nl/index.html)
+ - [Neovim](https://neovim.io/), 
    [Emacs](https://www.gnu.org/software/emacs/) (
    [Spacemacs](https://github.com/syl20bnr/spacemacs),
    [Doom Emacs](https://github.com/doomemacs/doomemacs) )
+
+Modern editors tend to provide code completion features. These are
+likely to be more confusing than helpful; it is recommended to disable
+them at least until you're comfortable writing code manually.
 
 The dev tools:
 
@@ -41,7 +47,7 @@ Other recommendations on Windows:
 **Installing Maven on Windows/Mac**
 
 Maven is tricky, because it doesn't come with an installer. Start by
-reading the installation instructions, and then cosider:
+reading the installation instructions, and then consider:
 
  - You should unpack the archive outside your Downloads folder.
  - You need to add the "bin" directory to your PATH environment variable.
