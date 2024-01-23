@@ -36,7 +36,6 @@ scratch without external help.
  - Pick a long enough password.
  - Hit "all classes" and request access to this class.
 
-
 **First Teams, Pair Programming**
 
  - You will usually be working with a partner in lab.
@@ -59,8 +58,54 @@ Why?
    discuss it with.
  - Better chance to catch non-obvious mistakes.
 
+**Content we need for this lab**
+
+ - A Python program is a series of statements (think "commands")
+ - The Python interpreter (a program called "python") executes the
+   program in such a way that it looks like the statements run in
+   order.
+ - The print function prints something out.
+
+```python
+print("Input x")
+text = input("> ")
+x = int(text)
+print("x + 4 =", x + 4)
+```
+
+This example has a several new compliications:
+
+ - The "input" function reads a line of text from the user.
+ - Execution of the program stops until the user finishes typing and presses enter.
+ - We can store things in variables, giving them a name so we can refer to them later.
+ - We have two different types of value: strings and integers.
+ - Functions sometimes accept more than one argument, seperated by commas.
+
+Interactive examples:
+
+```
+>>> 3 + 2
+>>> a = 3
+>>> a + 2
+
+>>> "3" + 2
+>>> int("3")
+>>> '3'
+>>> str(3)
+>>> 2 + int("3")
+>>> "2" + str(3)
+
+>>> print("hi")
+>>> print("a", "b")
+>>> print("a", 3, "b")
+>>> type('hi')
+>>> type(3)
+>>> type(3 / 2)
+```
 
 **The Mechanics of Completing a Lab**
+
+(Walk through completing the first part of Lab 01)
 
  - Download the starter code.
  - Figure out where the download went.
@@ -91,3 +136,5 @@ Important tactical suggestions:
  
 
 **Lab 01**
+
+Now you do the (rest of the) lab.
