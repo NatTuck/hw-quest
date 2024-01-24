@@ -32,7 +32,7 @@ lab. Falls and Springs.
  - Lecture: Mon, Wed at 08:40-09:55am in D&M 442
  - Lab: Friday at 08:15-09:55am in D&M 404
  - Course Site: https://homework.quest/ click "cs2381"
- - Final Exam: Mon Dec 11th, 11am-1:30pm in D&M 442
+ - Final Exam: TBA
  - Office Hours: See course site
 
 ## Student Learning Outcomes
