@@ -14,7 +14,7 @@ Data Structures and Intermediate Programming
    - Office: D&M 305
  - Lecture: Mon, Wed at 08:40-09:55am in D&M 442
  - Lab: Friday at 08:15-09:55am in D&M 404
- - Office Hours: Wed noon-1pm, Fri 10-11am
+ - Office Hours: Monday noon-1pm, Friday 10-11am
 
 # Essential Resources
 

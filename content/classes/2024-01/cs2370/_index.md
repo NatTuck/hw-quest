@@ -14,7 +14,7 @@ Introduction to Programming
    - Office: D&M 305
  - Lecture: Mon, Wed, Fri at 1:25-2:15pm in D&M 442
  - Lab: Tuesday at 2:00-3:40pm in D&M 404
- - Office Hours: Wed noon-1pm, Fri 10-11am
+ - Office Hours: Monday noon-1pm, Friday 10-11am
 
 # Essential Resources
 

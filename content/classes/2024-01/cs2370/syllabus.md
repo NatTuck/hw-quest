@@ -26,7 +26,7 @@ Three lecture hours and 2 hours of computer lab. Springs and Falls.
  - Office: D&M 305
  - Lecture: Mon, Wed, Fri at 1:25-2:15pm in D&M 442
  - Lab: Tuesday at 2:00-3:40pm in D&M 404
- - Office Hours: Wed noon-1pm, Fri 10-11am
+ - Office Hours: See course website (edited from initial version)
  - Course Site: https://homework.quest/ click "cs2370"
 
 ## Student Learning Outcomes
