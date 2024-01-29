@@ -125,3 +125,9 @@ static boolean passingScore(float score) {
 
 Run the tests. Fix the bug.
 
+
+## More examples:
+
+ - Calculate the area of a rectangle.
+   - Two args, no single primary, so we'll do something with
+     both.
