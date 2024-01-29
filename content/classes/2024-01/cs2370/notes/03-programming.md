@@ -31,6 +31,27 @@ date: "2024-01-25"
      - In other languages, "function" may be seperated from
        "procedure" or "subroutine".
 
+## Arithmetic
+
+**Numbers**
+
+```
+>>> 1 + 2
+>>> 2 - 4
+>>> 3 * 7
+>>> 5 / 3
+
+>>> 5 // 3
+>>> 5 % 3         # modulus, not remainder
+```
+
+**Strings**
+
+```
+>>> "zz" + "XX"
+>>> "hello " * 3
+```
+
 
 ## Making choices
 
@@ -39,6 +60,59 @@ Conditionals:
  - if
  - if / else
 
+```python
+print("one")
+
+if True:   # False:
+    print("two")
+#else:
+#    print("three")
+
+print("four")
+```
+
+Boolean Expressions:
+
+```
+>>> True and True
+>>> True and False
+>>> True or True
+>>> True or False
+>>> not True
+```
+
+ - Write out the truth tables for those.
+
+Example:
+
+```
+aa = int(input("aa = "))
+bb = int(input("aa = "))
+
+if aa > 10 and bb > 10:
+   print("Both")
+
+if aa > 10 or bb > 10:
+   print("Either)
+   
+if aa <= 10 && bb <= 10:
+    print("Neither")
+```
+
+Example 2:
+
+```
+word = input("enter word: ")
+
+if word < "n":
+    print(word.capitalize())
+else:
+    print(word)
+```
+
+
 While loops:
 
  - while
+ - let's write a script that left-pads strings to 40 chars in
+   a loop
