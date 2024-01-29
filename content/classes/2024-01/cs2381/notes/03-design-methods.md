@@ -9,25 +9,24 @@ date: "2024-01-28"
 
 To design a method, follow the design recipe:
 
- - Stub method
-   - Name, return type, argument names with types, static?
-   - Trivial return statement if needed
  - Javadoc
    - Purpose statement
    - @param lines
    - @return line
- - Examples
-   - Based on the problem statement, write one or more examples
- - Initial Tests
-   - Translate the examples into tests
- - Template
-   - Based on the arguments to your method, figure out what you
-     have to work with and write that down.
+ - Stub method
+   - static, Name, return type, argument names with types
+ - Tests
+   - Based on problem statement, write one or more tests
+ - Standard pattern
+   - Which argument are you primarily operating on?
+   - Based on the type of the primary argument to the method, what’s
+     the normal thing you do with one of those?
  - Write the function body
  - More tests
    - Add tests that exercize any code in the function body
      that isn't covered yet.
    - Add tests for edge cases.
+
 
 ## Example problem
 
@@ -40,18 +39,6 @@ indicating whether that score would pass the class.
 
 We'll start with the demo starter from the course website.
 
-**Stub method**
-
-```java
-// In new file main/.../Prob.java
-
-// public class Prob {
-
-static boolean passingScore(float score) {
-    return false;
-}
-```
-
 **Javadoc**
 
 ```java
@@ -63,11 +50,16 @@ static boolean passingScore(float score) {
  */
 ```
 
-**Examples**
+**Stub method**
 
 ```java
-// 75.0 => true
-// 30.7 => false
+// In new file main/.../Prob.java
+
+// public class Prob {
+
+static boolean passingScore(float score) {
+    return false;
+}
 ```
 
 **Initial Tests**
@@ -86,12 +78,9 @@ public class ProbShould {
     }
 ```
 
-**Template**
+**Standard Pattern**
 
-What do we have access to in this function body?
-
- - The arguments
- - "this", if the method isn't static
+ - We're doing something with ```score```.
 
 ```java
 static boolean passingScore(float score) {
@@ -104,6 +93,18 @@ static boolean passingScore(float score) {
 Pull up the course syllabus to find the pass threshold.
 
 Note: Generally want no top level "if" in boolean function.
+
+
+```java
+static boolean passingScore(float score) {
+    if (score > 60) {
+       return true;
+    }
+    else {
+       return false; 
+    }
+}
+```
 
 ```java
 static boolean passingScore(float score) {

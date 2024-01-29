@@ -16,6 +16,7 @@ Data Structures and Intermediate Programming
  - Lab: Friday at 08:15-09:55am in D&M 404
  - Office Hours: Monday noon-1pm, Friday 10-11am
 
+
 # Essential Resources
 
  - Read the [Syllabus](./syllabus)
@@ -23,6 +24,7 @@ Data Structures and Intermediate Programming
  - Notes and stuff from class are in the [scratch repository](
    https://github.com/NatTuck/scratch-2024-01)
  - Install [required software](./required-software) to work on your personal machine
+
 
 # Suggested Resources
 
@@ -41,6 +43,11 @@ Data Structures and Intermediate Programming
    - [Wikibook: Data Structures](https://en.wikibooks.org/wiki/Data_Structures)
    - [Open Data Structures](https://opendatastructures.org/ods-python/)
    - [Modern Java in Action](https://www.manning.com/books/modern-java-in-action)
+
+
+# Useful Stuff:
+
+ - [Mvn Demo App](https://homework.quest/classes/2023-09/cs2381/mvn-demo/)
 
 
 # Hints:

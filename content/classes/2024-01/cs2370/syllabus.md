@@ -28,7 +28,6 @@ Three lecture hours and 2 hours of computer lab. Springs and Falls.
  - Lab: Tuesday at 2:00-3:40pm in D&M 404
  - Office Hours: See course website (edited from initial version)
  - Final Exam: TBA
->>>>>>> 3976428f644b3d3a6ab70e64628c8d43699b8e3b
  - Course Site: https://homework.quest/ click "cs2370"
 
 ## Student Learning Outcomes
@@ -257,7 +256,7 @@ You may not post solutions for assignments in this class publicly.
 
 ## Tentative Schedule
 
-The initial plan is for homework to be due at 11:59pm on Thursday.
+The initial plan is for homework to be due at 11:59pm on Monday.
 
 {{< schedule >}}
 

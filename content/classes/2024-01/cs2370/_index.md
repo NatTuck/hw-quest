@@ -24,10 +24,16 @@ Introduction to Programming
    https://github.com/NatTuck/scratch-2024-01)
  - Install [required software](./required-software) to work on your personal machine
 
-# Textbooks
+# Textbooks and References
+
+Textbooks:
 
  - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
  - [Think Python](https://greenteapress.com/wp/think-python-2e/)
+ 
+References:
+
+ - [Command Line Cheat Sheet](./command-line)
 
 # Suggested Resources
 
