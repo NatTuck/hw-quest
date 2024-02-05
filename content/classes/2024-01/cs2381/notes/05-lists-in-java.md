@@ -120,3 +120,10 @@ that integer appers in the list.
 Example: [1, 1, 1, 2, 4, 2] => [3, 3, 3, 2, 1, 2]
 
 What is the asymtotic complexity (as O notation) for this method?
+
+
+
+
+**Second Biggest**
+
+Find the second largest integer in a list. How about the k'th.
