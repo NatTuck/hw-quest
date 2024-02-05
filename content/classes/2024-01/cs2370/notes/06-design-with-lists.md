@@ -10,6 +10,7 @@ date: "2024-02-01"
  - Examples
  - Stub
  - Standard pattern
+ - Write the body
  - Asserts
 
 
