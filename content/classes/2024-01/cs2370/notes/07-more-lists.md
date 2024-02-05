@@ -51,3 +51,40 @@ def insert(xs, y):
     return lt + [y] + gt
 ```
 
+Using built-in insert
+
+https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
+
+```python
+# [number] -> [number]
+def sort2(xs):
+    ys = []
+  
+    for xx in xs:
+        insert2(ys, xx)
+        
+    return ys
+
+
+# [number], number -> None
+def insert2(xs, yy):
+    ii = 0
+    
+    while ii < len(ys):
+        if xx < ys[ii]:
+            ii += 1
+        else:
+            break
+            
+    ys.insert(ii, xx)
+```
+
+
+More problems:
+
+ - Given a list of integers and an integer, determine how many times
+   the integer appears in the list.
+ - Given a list of integers, produce a list showing the number of
+   times the list in that position in the input appears in the input.
+   Example: [4,4,4,1,1] -> [3,3,3,2,2]
+ - Finding prime numbers.
