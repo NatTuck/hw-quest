@@ -27,7 +27,7 @@ On this site:
 
  - Read the [Syllabus](./syllabus)
  - Install [required software](./required-software) to work on your personal machine
- - Follow the [Design Recipe](./design-recipe.md)
+ - Follow the [Design Recipe](./design-recipe)
  
 
 # Suggested Resources
