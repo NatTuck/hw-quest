@@ -25,4 +25,4 @@ From the hw03 starter code:
 
 Here's an explosion:
 
- - [boom.png](./images/boom.png)
+ - [boom.png](../images/boom.png)
