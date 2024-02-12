@@ -31,9 +31,10 @@ lab. Falls and Springs.
  - Office: D&M 305
  - Lecture: Mon, Wed at 08:40-09:55am in D&M 442
  - Lab: Friday at 08:15-09:55am in D&M 404
+ - Final Exam: [Mon May 6th @ 8:00-10:30am](
+ https://www.plymouth.edu/sites/default/files/media/2024-01/spring-2024-final-exam-schedule.pdf)
+ - Office Hours: See course website (edited from initial version)
  - Course Site: https://homework.quest/ click "cs2381"
- - Final Exam: TBA
- - Office Hours: See course site
 
 ## Student Learning Outcomes
 

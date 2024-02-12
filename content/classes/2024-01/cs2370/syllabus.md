@@ -27,7 +27,7 @@ Three lecture hours and 2 hours of computer lab. Springs and Falls.
  - Lecture: Mon, Wed, Fri at 1:25-2:15pm in D&M 442
  - Lab: Tuesday at 2:00-3:40pm in D&M 404
  - Office Hours: See course website (edited from initial version)
- - Final Exam: TBA
+ - Final Exam: Wed May 8th @ 2:00-4:30pm
  - Course Site: https://homework.quest/ click "cs2370"
 
 ## Student Learning Outcomes
