@@ -81,3 +81,4 @@ How many times through a loop in each case?
 Next example:
 
  - Calculate a recipt total for a list of (item, count, price each) tuples.
+
