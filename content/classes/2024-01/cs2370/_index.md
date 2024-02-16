@@ -34,6 +34,7 @@ Textbooks:
 References:
 
  - [Command Line Cheat Sheet](./command-line)
+ - [Design Recipe for a Function](./design-recipe)
 
 # Suggested Resources
 
