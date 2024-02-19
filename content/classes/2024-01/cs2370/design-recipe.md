@@ -163,6 +163,10 @@ return value is probably a function of the input.
 
 ### Patterns for Lists
 
+A string should use the standard pattern for a list if it's being treated
+as a sequence of characters.
+
+
 **Standard patterns for a list argument**
 
 ```python
@@ -227,6 +231,29 @@ def funkify(xs):
 A function that takes a list and return a list probably builds the new
 list based on the elements of the old one.
 
+### Patterns for tuples:
+
+**Argument**
+
+```python
+# (str, str) -> None
+def wumpus(name):
+    (first, last) = name
+```
+
+If there's an input tuple, unpack it.
+
+
+```python
+# None -> (str, str)
+def wumpus():
+    return ('blue', 'jay')
+```
+
+If there's an output tuple, build it with appropriate values.
+
+
+
 
 ### Patterns for Dictionaries
 
@@ -281,7 +308,7 @@ def giraffize(things):
 
 ### Mixing Patterns
 
-A pattern that takes a list and produces a dictionary:
+**Take a list and produces a dictionary**
 
 ```python
 # Takes a list
@@ -312,5 +339,28 @@ def list_to_dict(xs):
 ```
 
 
+**Take two lists and produce a list**
+
+A list-to-list function:
+
+```python
+# [int] -> [int]
+def funkify(xs):
+    ys = []
+    for xx in xs:
+        ys.append(... xx ...)
+    return ys
+```
+
+Add a second list argument:
+
+```python
+# [int], [int] -> [int]
+def funkify(xs):
+    ys = []
+    for xx in xs:
+        ys.append(... xx ...)
+    return ys
+```
 
 
