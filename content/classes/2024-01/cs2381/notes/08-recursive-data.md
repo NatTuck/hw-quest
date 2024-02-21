@@ -233,10 +233,6 @@ Overflow - design more methods:
 
 Next step: Make it generic
 
-More methods:
-
- - Reverse
-
 
 
 
