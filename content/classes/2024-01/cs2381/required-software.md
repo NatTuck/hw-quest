@@ -20,6 +20,22 @@ Modern editors tend to provide code completion features. These are
 likely to be more confusing than helpful; it is recommended to disable
 them at least until you're comfortable writing code manually.
 
+Disabling awful popups in VSCode isn't exposed in the settings editor.
+To get into the config file editor, press Ctrl+Shift+P and find
+"Preferences: Open User Settings (JSON)", then add the following to 
+your config object. The second option here removes parameter hints, which
+is really helpful.
+
+
+```json
+    "editor.quickSuggestions":{
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.parameterHints.enabled": false,
+```
+
 The dev tools:
 
  - [OpenJDK](https://adoptium.net/temurin/releases/?os=any&arch=x64&package=jdk) >= 17
