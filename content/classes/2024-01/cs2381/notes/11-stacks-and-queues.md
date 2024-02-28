@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 13 Stacks and Queues"
+title: "cs2381 Notes: 11 Stacks and Queues"
 date: "2024-02-27"
 ---
 
