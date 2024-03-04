@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 12 Queues"
-date: "2024-03-02"
+date: "2024-03-03"
 ---
 
 **Queues**
@@ -274,4 +274,62 @@ Example worst case:
  - Alternate shift/unshift, pop/push. Every removal is O(n).
 
 
+# Doubly Linked List
+
+
+```java
+    public static void main(String[] args) {
+        var queue = new DoubleList<Integer>();
+        for (int ii = 0; ii < 5; ++ii) {
+            queue.push(ii);
+        }
+       
+        for (int ii = 0; ii < 3; ++ii) {
+            System.out.println(queue.shift());
+        }
+    }
+
+
+public class DoubleList<T> {
+    Cell<T> head;
+    Cell<T> tail;
+
+    DoubleList() {
+        head = null;
+        tail = null;
+    }
+
+    void push(T item) {
+        var oldTail = this.tail;
+        this.tail = new Cell<T>(tail, item, null);
+        if (oldTail == null) {
+            this.head = this.tail;
+        }
+        else {
+            oldTail.next = this.tail;
+        }
+    }
+
+    T shift() {
+        T item = head.data;
+        this.head = this.head.next;
+        if (this.head != null) {
+            this.head.prev = null;
+        }
+        return item;
+    }
+}
+
+class Cell<T> {
+    T data;
+    Cell<T> prev;
+    Cell<T> next;
+
+    Cell(Cell<T> prev, T data, Cell<T> next) {
+        this.data = data;
+        this.prev = prev;
+        this.next = next;
+    }
+}
+```
 
