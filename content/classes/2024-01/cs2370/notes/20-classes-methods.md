@@ -1,5 +1,5 @@
 ---
-title: "cs2370 Notes: 19 Classes and Methods"
+title: "cs2370 Notes: 20 Classes and Methods"
 date: "2024-03-14"
 ---
 
