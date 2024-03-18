@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 20 Binary Search Trees"
-date: "2023-13-15"
+title: "cs2381 Notes: 15 Binary Search Trees"
+date: "2024-03-18"
 ---
 
 **Binary Trees**

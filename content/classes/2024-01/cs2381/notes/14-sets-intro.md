@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 19 Intro to Sets"
+title: "cs2381 Notes: 14 Intro to Sets"
 date: "2024-03-14"
 ---
 

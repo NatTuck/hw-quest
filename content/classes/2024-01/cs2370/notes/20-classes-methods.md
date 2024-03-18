@@ -31,3 +31,6 @@ class Circle:
         return pi * pow(self.radius, 2)
 ```
 
+Example:
+
+[flappy bat](../code/flappy-bat.py)
