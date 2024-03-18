@@ -49,7 +49,7 @@ The minimum height of a tree with n items is log(n).
 What's a log?
 
  - Inverse of exponent
- - specifically, we're talking about log base 2, log_2(n).
+ - specifically, we're talking about log base 2, log\_2(n).
  - How many digits do we need to represent the number (base 2, so binary digits).
  - This grows very slowly. O(log(n)) is much more efficient than O(n).
 
