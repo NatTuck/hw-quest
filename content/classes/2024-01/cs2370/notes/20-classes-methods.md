@@ -33,4 +33,4 @@ class Circle:
 
 Example:
 
-[flappy bat](../code/flappy-bat.py)
+[flappy bat v1](../code/flappy-bat-v1.py)
