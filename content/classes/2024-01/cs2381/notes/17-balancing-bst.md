@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 23 Balancing a BST"
+title: "cs2381 Notes: 27 Balancing a BST"
 date: "2024-03-26"
 ---
 
