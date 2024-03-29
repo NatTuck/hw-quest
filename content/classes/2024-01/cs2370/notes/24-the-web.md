@@ -1,6 +1,6 @@
 ---
-title: "cs2370 Notes: 23 Introducing the Web"
-date: "2024-03-24"
+title: "cs2370 Notes: 24 Introducing the Web"
+date: "2024-03-26"
 ---
 
 What is the Web?
