@@ -1,6 +1,6 @@
 ---
-title: "cs2370 Notes: 24 Web Scraping"
-date: "2024-03-24"
+title: "cs2370 Notes: 25 Web Scraping"
+date: "2024-03-29"
 ---
 
 

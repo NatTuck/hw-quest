@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 25 Introducing Hash Tables"
-date: "2024-03-21"
+title: "cs2381 Notes: 18 Introducing Hash Tables"
+date: "2024-03-29"
 ---
 
 **Propagating Traversal State**
