@@ -54,5 +54,8 @@ $ python -m pip install selenium
 
 ```python
 browser = webdriver.Firefox()
-browser.get("https://neal.fun/password-game")
+browser.get("https://vault.homework.quest")
 ```
+
+We're going to explore the textbook to figure out how to hack the vault.
+
