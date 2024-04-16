@@ -346,13 +346,13 @@ The initial plan is for homework to be due at 11:59pm on Monday.
 </tr>
 <tr>
 	<td>14</td>
-	<td>May 1</td>
+	<td>Apr 29</td>
 	<td>Wrap-Up, Review</td>
 	<td></td>
 </tr>
 <tr>
 	<td>-</td>
-	<td>May 7</td>
+	<td>May 6</td>
 	<td>Finals Week</td>
 	<td>Final Exam</td>
 </tr>
