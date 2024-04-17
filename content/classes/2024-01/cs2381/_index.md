@@ -28,7 +28,7 @@ On this site:
  - Read the [Syllabus](./syllabus)
  - Install [required software](./required-software) to work on your personal machine
  - Follow the [Design Recipe](./design-recipe)
- 
+ - See the [Sample Final](./sample-final)
 
 # Suggested Resources
 
