@@ -9,16 +9,31 @@ Future weeks:
 
 ## Week 12
 
- - ??
+ - done
+
 
 ## Week 13
 
- - Lab 12 
+ - Lab: Redo a Lab
+ - Homework: Redo a HW, AI
 
+Lectures:
+
+ - Binary Trees
+ - Generative AI
+ - Generative AI
+ 
 
 ## Week 14
 
- - Lab: Redo a Lab
- - Homework: Redo a HW
+ - Lab: Generative AI
+ - No HW
+
+Lectures:
+
+ - More AI
+ - Exam Review
+ - Semester Review
+
 
 ## Finals Week

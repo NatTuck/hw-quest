@@ -41,6 +41,7 @@ References:
  - If you're not comfortable touch typing, now's a good time to learn that skill.
    [TypingClub](https://www.typingclub.com/) seems like it might be decent.
  - The [official documentation for Python](https://docs.python.org/3/).
+ - [Practice Exam](./practice-exam)
 
 # Hints:
 
