@@ -21,8 +21,7 @@ Lectures:
 
  - Binary Trees
  - Generative AI
- - Generative AI
- 
+ - Anaconda / Jupyter env
 
 ## Week 14
 
