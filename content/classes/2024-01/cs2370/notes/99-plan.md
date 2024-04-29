@@ -30,7 +30,7 @@ Lectures:
 
 Lectures:
 
- - More AI
+ - Websockets ; HW 14
  - Exam Review
  - Semester Review
 
