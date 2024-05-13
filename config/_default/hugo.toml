@@ -1,7 +1,7 @@
 baseURL = 'https://homework.quest/'
 languageCode = 'en-us'
 title = 'Learning resources from Prof. Nat Tuck'
-theme = 'congo'
+theme = ['congo', 'github.com/dzello/reveal-hugo']
 
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -13,3 +13,13 @@ staticDir = ['static']
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+custom_theme = "css/robot-lung-n.css"
+custom_theme_compile = true
+slide_number = true
