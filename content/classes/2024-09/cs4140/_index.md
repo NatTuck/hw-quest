@@ -1,6 +1,6 @@
 ---
-title: "CS4140 Fall 2023: Course Site"
-date: "2023-08-27"
+title: "CS 4140 Fall 2024: Course Site"
+date: "2024-08-22"
 ---
 
 {{< lead >}}
@@ -9,11 +9,8 @@ Software Engineering
 
 # Course Info
 
- - Instructor: Nat Tuck 
-   - Email: <nathaniel.tuck@plymouth.edu>
-   - Office: D&M 305
- - Lecture: Mon, Wed, Fri at 10:10am-11am in D&M 419
- - Office Hours: Mon 1-2pm, Wed 9-10am
+ - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
+ - Office 
 
 # Essential Resources
 

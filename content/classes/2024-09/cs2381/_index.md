@@ -1,6 +1,6 @@
 ---
-title: "CS 2381 Spring 2024: Course Site"
-date: "2024-08-01"
+title: "CS 2381 Fall 2024: Course Site"
+date: "2024-08-22"
 ---
 
 {{< lead >}}
@@ -9,8 +9,7 @@ Data Structures and Intermediate Programming
 
 # Course Info
 
- - Instructor: Nat Tuck <nathaniel.tuck@plymouth.edu>
- - Office Hours in D&M 305: Monday @ 1-2pm, Tuesday @ 2-3pm, Friday @ 12:30-1:30pm
+ - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
  - Read the [Syllabus](./syllabus)
 
 # Essential Resources

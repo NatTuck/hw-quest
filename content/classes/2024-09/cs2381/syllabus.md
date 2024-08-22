@@ -33,7 +33,7 @@ lab. Falls and Springs.
    - Section 02: Tuesday at noon-1:40pm
  - Final Exam: [Mon Dec 9 @ 11am - 1:30pm](
 https://www.plymouth.edu/sites/default/files/media/2024-07/fall-2024-final-exam-schedule-7-3-24.pdf)
- - Office Hours: See course website
+ - Office Hours: See instructor website at https://homework.quest/
  - Course Site: https://homework.quest/ click "cs2381"
 
 ## Student Learning Outcomes
