@@ -25,7 +25,7 @@ lab. Falls and Springs.
 # Course Info
 
  - Instructor: Nat Tuck 
- - Email: <nathaniel.tuck@plymouth.edu>
+ - Email: \<<nathaniel.tuck@plymouth.edu>\>
  - Office: D&M 305
  - Lecture: Monday, Wednesday, Friday at 11:15am-12:05pm
  - Labs:
@@ -33,8 +33,8 @@ lab. Falls and Springs.
    - Section 02: Tuesday at noon-1:40pm
  - Final Exam: [Mon Dec 9 @ 11am - 1:30pm](
 https://www.plymouth.edu/sites/default/files/media/2024-07/fall-2024-final-exam-schedule-7-3-24.pdf)
- - Office Hours: See instructor website at https://homework.quest/
  - Course Site: https://homework.quest/ click "cs2381"
+ - Office Hours: See course site.
 
 ## Student Learning Outcomes
 
@@ -352,7 +352,7 @@ The initial plan is for homework to be due at 11:59pm on Monday.
 <tr>
 	<td>14</td>
 	<td>Nov 25 ‡</td>
-	<td>Bonus Topic, Thanksgiving</th>
+	<td>🦃</th>
 	<td></td>
 </tr>
 <tr>
@@ -370,5 +370,6 @@ The initial plan is for homework to be due at 11:59pm on Monday.
 
 {{< /schedule >}}
 
- - † No class on Monday, Sep 02 (Labor Day) or Monday, Nov 11 (Labor Day)
- - ‡ No class on Monday, Apr 8 (Eclipse Day)
+ - † No class on Monday, Sep 02 (Labor Day) or 
+     Monday, Nov 11 (Veterans Day)
+ - ‡ No class Wed, Thu, Fri (Thanksgiving)

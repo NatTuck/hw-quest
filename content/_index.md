@@ -14,13 +14,7 @@ Courses:
  - [CS4140: Software Engineering](
      {{< ref "/classes/2024-09/cs4140" >}})
 
-Office Hours in D&M 305:
-
- - Monday @ 1-2pm
- - Tuesday @ 2-3pm
- - Friday @ 12:30-1:30pm
-
-{{ partial "office-hours/2024-09.html" . }}
+{{< officehours "2024-09" >}}
 
 ## Previous Semesters
 

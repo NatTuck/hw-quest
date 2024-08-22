@@ -12,6 +12,8 @@ Data Structures and Intermediate Programming
  - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
  - Read the [Syllabus](./syllabus)
 
+{{< officehours "2024-09" >}}
+
 # Essential Resources
 
  - See [Inkfish](https://inkfish.homework.quest) for assignments

@@ -10,14 +10,14 @@ Software Engineering
 # Course Info
 
  - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
- - Office 
+ - Read the [Syllabus](./syllabus)
+
+{{< officehours "2024-09" >}}
 
 # Essential Resources
 
- - Read the [Syllabus](./syllabus)
  - See [Inkfish](https://inkfish.homework.quest) for assignments.
  - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2023-09)
- - [Assigned Tasks](./assigned-tasks)
 
 # Development Workflow and Policies
 

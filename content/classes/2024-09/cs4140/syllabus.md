@@ -1,6 +1,6 @@
 ---
-title: "cs4140 Fall 2023: Syllabus"
-date: "2023-08-27"
+title: "cs4140 Fall 2024: Syllabus"
+date: "2024-08-22"
 ---
 
 {{< lead >}}
@@ -10,7 +10,7 @@ Software Engineering
 [&larr; Back to Course Site](../)
 
 <blockquote> 
-<b>Course Catalog:</b><br> 
+<b>Course Catalog:</b><br>
 Presents fundamental principles of software engineering. Emphasizes
 software design, implementation and maintenance. Techniques used in
 the major phases of the software life cycle such as rapid prototyping,
@@ -20,19 +20,16 @@ design and implementation. Falls.
 <br>Prereqs: CS 2381 and CS 3720.
 </blockquote>
 
+
 # Course Info
 
  - Instructor: Nat Tuck 
-   - Email: <nathaniel.tuck@plymouth.edu>
+   - Email: \<<nathaniel.tuck@plymouth.edu>\>
    - Office: D&M 305
+ - Lecture: 
  - Course Site: https://homework.quest/ click "cs4140"
- - Semester: Fall 2023 (Aug 28 - Dec 15)
- - Lecture: Mon, Wed, Fri at 10:10am-11am in D&M 419
- - Final Exam: Fri Dec 15th, 8am-10:30am in D&M 419
- - Office Hours:
-   - Mon 1-2pm @ D&M 305
-   - Wed 9-10am @ D&M 305
-   - By appointment
+ - Office Hours: see course site
+ 
 
 ## Student Learning Outcomes
 
@@ -53,9 +50,11 @@ Successful students will:
  - Deploy to a commodity virtual private server.
  - Collect and implement user stories from a person outside the team.
 
+
 ## Texts
 
 There is no required textbook 🪳 for this course.
+
 
 ## Course Supplies
 
@@ -69,6 +68,7 @@ This can be done for under $20 for the semester.
 
 Please wait to get these until the task is assigned, as there are
 several specific requirements.
+
 
 ## Software Project
 
@@ -92,6 +92,7 @@ semester.
 A major focus of this class is on the elements of software development
 other than writing application code, so expect those things to take a
 significant portion of your time and effort in this class.
+
 
 # Grading
 
@@ -216,6 +217,7 @@ bonus to everyone's final grade. This bonus applies if at least 75%
 of the students complete their evaluations by 10am on the Monday
 of finals week.
 
+
 # Accomodations
 
 Plymouth State University is committed to providing students with
@@ -228,6 +230,7 @@ considered for students who have registered with CAS. If you have
 authorized CAS to electronically deliver a Letter of Accommodations
 for this course, please communicate with your instructor to review
 your accommodations.
+
 
 # Academic Integrity
 
@@ -275,6 +278,7 @@ Not OK:
    code for other teams, except in the case of an open source library
    included through a package manager.
 
+
 # Tentative Topics and Dates
 
 The initial plan is for reports to be due at 11:59pm on Monday.
@@ -283,103 +287,104 @@ The initial plan is for reports to be due at 11:59pm on Monday.
 
 <tr>
 	<td>1</td>
-	<td>Aug 28</td>
+	<td>Aug 26</td>
 	<td>Welcome, Github, Teams</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2</td>
-	<td>Sep 4 †</td>
+	<td>Sep 02 †</td>
 	<td>Web Dev, Agile</td>
 	<td></td>
 </tr>
 <tr>
 	<td>3</td>
-	<td>Sep 11</td>
+	<td>Sep 09</td>
 	<td>Testing, Features, DB Migrations</td>
 	<td></td>
 </tr>
 <tr>
 	<td>4</td>
-	<td>Sep 18</td>
+	<td>Sep 16</td>
 	<td>CI, Deployment, TLS</td>
 	<td></td>
 </tr>
 <tr>
 	<td>5</td>
-	<td>Sep 25</td>
+	<td>Sep 23</td>
 	<td>CD, Documentation</td>
 	<td></td>
 </tr>
 <tr>
 	<td>6</td>
-	<td>Oct 2</td>
+	<td>Sep 30</td>
 	<td>Projects, Customers</td>
 	<td>Midterm Cumulative Report</td>
 </tr>
 <tr>
 	<td>7</td>
-	<td>Oct 9</td>
+	<td>Oct 07</td>
 	<td>Backups, Customer Meetings</td>
 	<td></td>
 </tr>
 <tr>
 	<td>8</td>
-	<td>Oct 16</td>
+	<td>Oct 14</td>
 	<td>Coverage, Design</td>
 	<td></td>
 </tr>
 <tr>
 	<td>9</td>
-	<td>Oct 23</td>
+	<td>Oct 21</td>
 	<td>Database, State</td>
 	<td></td>
 </tr>
 <tr>
 	<td>10</td>
-	<td>Oct 30</td>
+	<td>Oct 28</td>
 	<td>Load Time, Interactivity</td>
 	<td></td>
 </tr>
 <tr>
 	<td>11</td>
-	<td>Nov 6</td>
+	<td>Nov 4</td>
 	<td>Security</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
-	<td>Nov 13</td>
+	<td>Nov 11 †</td>
 	<td>Monitoring</td>
 	<td></td>
 </tr>
 <tr>
 	<td>13</td>
-	<td>Nov 20 ‡</td>
-	<td>🦃</td>
-	<td></td>
-</tr>
-<tr>
-	<td>14</td>
-	<td>Nov 27</td>
+	<td>Nov 18</td>
 	<td>Redundancy, Mirroring, Failover</td>
 	<td></td>
 </tr>
 <tr>
+	<td>14</td>
+	<td>Nov 25 ‡</td>
+	<td>🦃</td>
+	<td></td>
+</tr>
+<tr>
 	<td>15</td>
-	<td>Dec 4</td>
+	<td>Dec 02</td>
 	<td>Polish, Handoff</td>
 	<td></td>
 </tr>
 <tr>
 	<td>-</td>
-	<td>Dec 11</td>
+	<td>Dec 09</td>
 	<td>Finals Week</td>
 	<td>Presentations</td>
 </tr>
 
 {{< /schedule >}}
 
- - † No class on Monday (Labor Day)
+ - † No class on Monday, Sep 02 (Labor Day) or 
+     Monday, Nov 11 (Veterans Day)
  - ‡ No class Wed, Thu, Fri (Thanksgiving)
 

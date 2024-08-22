@@ -12,6 +12,8 @@ Computing Fundamentals
  - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
  - Read the [Syllabus](./syllabus)
 
+{{< officehours "2024-09" >}}
+
 # Essential Resources
 
  - See [Canvas](https://mycourses.plymouth.edu/courses/19457) for assignments.
