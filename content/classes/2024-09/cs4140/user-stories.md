@@ -1,6 +1,6 @@
 ---
 title: "cs4140: User Stories"
-date: "2023-08-27"
+date: "2024-08-23"
 ---
 
 A user story is a thing a user wants to do that the developers can build

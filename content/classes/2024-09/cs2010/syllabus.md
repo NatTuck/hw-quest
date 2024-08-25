@@ -10,7 +10,7 @@ Computing Fundamentals
 [&larr; Back to Course Site](../)
 
 <blockquote>
-<p><b>Course Catalog:</b><br>
+<b>Course Catalog:</b><br>
 To explore some topical applications and technologies such as
 robotics, artificial intelligence, and networking, examines some of
 the fundamental aspects of computing, including how a computing
@@ -21,7 +21,7 @@ expressing computational solutions in various computer languages from
 assembly through icon-driven graphical languages (4GLs); historical,
 social and theoretical issues. Includes a weekly hands-on lab through
 which students experience a variety of computing environments.
-(TECH)(TECO)</p>
+(TECH)(TECO)
 </blockquote>
 
 

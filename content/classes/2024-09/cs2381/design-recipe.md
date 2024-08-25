@@ -3,6 +3,8 @@ title: "cs2381: Design Recipe"
 date: "2024-01-24"
 ---
 
+[&larr; Back to Course Site](../)
+
 ## Design Recipe for a static method
 
 To design a static method, follow this design recipe:

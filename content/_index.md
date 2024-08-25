@@ -8,11 +8,11 @@ date: "2024-01-02"
 Courses:
  
  - [CS2010: Computing Fundamentals](
-     {{< ref "/classes/2024-09/cs2010" >}})
+     ./classes/2024-09/cs2010)
  - [CS2381: Data Structures and Intermediate Programming](
-     {{< ref "/classes/2024-09/cs2381" >}})
+     ./classes/2024-09/cs2381)
  - [CS4140: Software Engineering](
-     {{< ref "/classes/2024-09/cs4140" >}})
+     ./classes/2024-09/cs4140)
 
 {{< officehours "2024-09" >}}
 

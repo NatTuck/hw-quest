@@ -30,9 +30,9 @@ On this site:
 # Suggested Resources
 
  - The official documentation for Java: 
-   - [The Language](https://docs.oracle.com/javase/specs/jls/se17/html/index.html)
+   - [The Language](https://docs.oracle.com/javase/specs/jls/se21/html/index.html)
    - [The Standard Library](
-     https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html)
+     https://docs.oracle.com/en/java/javase/21/docs/api/java.base/module-summary.html)
  - Open Licenced Textbooks:
    - [Think Java](https://greenteapress.com/wp/think-java-2e/)
    - [Wikibook: Data Structures](https://en.wikibooks.org/wiki/Data_Structures)

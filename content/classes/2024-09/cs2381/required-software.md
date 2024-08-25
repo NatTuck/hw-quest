@@ -3,6 +3,8 @@ title: "cs2381: Required Software"
 date: "2024-08-01"
 ---
 
+[&larr; Back to Course Site](../)
+
 The software you need to install to work on a personal machine is:
 
 A properly configured editor:

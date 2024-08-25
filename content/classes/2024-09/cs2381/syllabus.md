@@ -324,6 +324,7 @@ The initial plan is for homework to be due at 11:59pm on Monday.
 	<td>9</td>
 	<td>Oct 21</td>
 	<td>Skip Lists</td>
+    <td></td>
 </tr>
 <tr>
 	<td>10</td>
