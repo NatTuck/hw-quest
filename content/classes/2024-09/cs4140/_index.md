@@ -17,6 +17,7 @@ Software Engineering
 # Essential Resources
 
  - See [Inkfish](https://inkfish.homework.quest) for assignments.
+ - Some [Lecture Notes](./notes) are available.
  - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2024-09)
 
 # Development Workflow and Policies

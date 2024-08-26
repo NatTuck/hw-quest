@@ -17,6 +17,7 @@ Data Structures and Intermediate Programming
 # Essential Resources
 
  - See [Inkfish](https://inkfish.homework.quest) for assignments
+ - Some [Lecture notes](./notes) are available.
  - Notes and stuff from class are in the [scratch repository](
    https://github.com/NatTuck/scratch-2024-09)
 

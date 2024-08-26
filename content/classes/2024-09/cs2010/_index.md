@@ -17,8 +17,10 @@ Computing Fundamentals
 # Essential Resources
 
  - See [Canvas](https://mycourses.plymouth.edu/courses/19457) for assignments.
+ - Some [Lecture notes](./notes) are available.
 
 # Hints:
 
  - If you're not comfortable touch typing, now's a good time to learn that skill.
    [TypingClub](https://www.typingclub.com/) seems like it might be decent.
+

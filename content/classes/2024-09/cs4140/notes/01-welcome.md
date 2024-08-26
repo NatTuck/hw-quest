@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 01 Welcome"
-date: "2023-08-27"
+date: "2024-08-25"
 ---
 
 Sw Eng First Day:
