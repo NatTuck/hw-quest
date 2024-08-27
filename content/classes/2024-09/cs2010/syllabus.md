@@ -9,6 +9,8 @@ Computing Fundamentals
 
 [&larr; Back to Course Site](../)
 
+Update 2024-08-26: Changed the bonus point policy for course evaluations. 
+
 <blockquote>
 <b>Course Catalog:</b><br>
 To explore some topical applications and technologies such as
@@ -186,9 +188,9 @@ discuss completing any missed assignments as soon as possible.
 Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate.
 
-To encourage more responses, any student who completes their course
-evaluation before the start of finals week will get a 5% bonus to
-their final exam grade.
+To encourage more responses, if 75% of students complete their course
+evaluations before the start of finals week every student will get a
+10% bonus to their final exam grade.
 
 **Email**
 
