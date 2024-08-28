@@ -5,12 +5,83 @@ date: "2024-08-01"
 
 [&larr; Back to Course Site](../)
 
-The software you need to install to work on a personal machine is:
+To do class assignments on a computer, you'll need several things:
 
-A properly configured editor:
+ * The Java Development Kit
+ * The Maven build tool
+ * A properly configured programming editor
+ * On Windows, several other tools are recommended
 
- - [VS Code](https://code.visualstudio.com/) (>= 1.78) or 
-   [VScodium](https://vscodium.com/) with "Extension Pack for Java"
+## Installing the Java Development Kit
+
+For this class we want version 17 of OpenJDK.
+
+Later versions will work, earlier ones may not.
+
+**Linux (Ubuntu, Debian, Mint, or related)**
+
+```bash
+sudo apt install openjdk-17-jdk
+```
+
+**Windows / Mac**
+
+ - Download the appropriate package for your OS from 
+   https://adoptium.net/temurin/archive/?version=17
+ - Install as normal for your OS.
+ - If on Mac, make sure you know whether your machine is amd64 or
+   aarch64 and pick the right package.
+
+## Installing Maven
+
+**Linux (Ubuntu, Debian, Mint, or related)**
+
+```bash
+sudo apt install maven
+```
+
+**Windows / Mac**
+
+ - Visit the [Apache Maven](https://maven.apache.org/) website.
+ - Follow the directions to install.
+ - There is no simple installer program, so you will need to
+   read the instructions and possibly search for details about
+   how to accomplish individual steps.
+ - The current release version should be fine.
+
+## Installing an Editor
+
+**Visual Studio Code**
+
+Our default editor for this course will be [Visual Studio Code](
+https://code.visualstudio.com/). Visit the site and follow the
+instructions to install it.
+
+Once you've installed it, it needs some configuration. First, install
+"Extension Pack for Java". Then, press Press F1, type "> open user
+settings" and select "Open User Settings (JSON)". Paste in the
+following blob as the complete config file:
+
+```json
+{
+    "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestionsDelay": 10,
+    "editor.wordBasedSuggestions": "off", 
+    "editor.parameterHints.enabled": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "java.inlayHints.parameterNames.enabled": "none",
+}
+```
+
+**Other Options**
+
+Using Visual Studio Code is not required. There are several other
+editors worth exploring, including:
+
+ - [VScodium](https://vscodium.com/) with "Extension Pack for Java"
  - [Notepad++](https://notepad-plus-plus.org/), 
    [Bluefish](https://bluefish.openoffice.nl/index.html)
  - [Neovim](https://neovim.io/), 
@@ -18,56 +89,19 @@ A properly configured editor:
    [Spacemacs](https://github.com/syl20bnr/spacemacs),
    [Doom Emacs](https://github.com/doomemacs/doomemacs) )
 
-Modern editors tend to provide code completion features. These are
-likely to be more confusing than helpful; it is recommended to disable
-them at least until you're comfortable writing code manually.
-
-Disabling awful popups in VSCode isn't exposed in the settings editor.
-To get into the config file editor, press Ctrl+Shift+P and find
-"Preferences: Open User Settings (JSON)", then add the following to 
-your config object. The second option here removes parameter hints, which
-is really helpful.
+You want to make sure your editor is intended for programming and
+provides syntax highlighting.
 
 
-```json
-    "editor.quickSuggestions":{
-        "other": false,
-        "comments": false,
-        "strings": false
-    },
-    "editor.parameterHints.enabled": false,
-```
+## Other Software for Windows
 
-The dev tools:
+Both Linux and Mac provide reasoanbly complete terminal environments
+by default. On Windows, installing some extra stuff helps. Perl
+especially will allow you to run the test script locally.
 
- - [OpenJDK](https://adoptium.net/temurin/releases/?os=any&arch=x64&package=jdk) (>= 21)
- - [Apache Maven](https://maven.apache.org/) (>= 3.6)
-
-On Linux (Mint, Ubuntu, Debian), that's:
-
-```bash
-sudo apt install openjdk-21-jdk maven
-```
-
-To run the test script and see how autograding will go:
-
- - Windows: [Strawberry Perl](https://strawberryperl.com/) (>= 5.32 64 bit)
- - Linux and Mac: Perl is probably installed by default. On Linux, a missing
-   "Foo::Bar" is generally the "libfoo-bar-perl" package.
-
-Other recommendations on Windows:
-
+ - [Strawberry Perl](https://strawberryperl.com/) (>= 5.32 64 bit)
  - Linux commands in Windows command prompt: [GoW](https://github.com/bmatzelle/gow/releases)
  - Just get a whole Linux on Windows: [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) 
    with Debian or Ubuntu
  - The [7-Zip](https://www.7-zip.org/) archive tool might help for inspecting .tar.gz archives
 
-**Installing Maven on Windows/Mac**
-
-Maven is tricky, because it doesn't come with an installer. Start by
-reading the installation instructions, and then consider:
-
- - You should unpack the archive outside your Downloads folder.
- - You need to add the "bin" directory to your PATH environment variable.
-
-To change your PATH, try searching for "Add directory to windows/mac/linux path".
