@@ -3,18 +3,6 @@ title: "cs4140 Notes: 02 Web Development"
 date: "2023-08-27"
 ---
 
-# Hello Again
-
- - Course Site
- - Inkfish registratoin
- - Passwords must be > 12 characters
-
-## Extra Discussion
-
- - We want persistent chat.
- - How much do people hate Microsoft Teams?
- - Someone want to spin up a rocket.chat?
-
 # Full Stack Web Frameworks
 
 ## Overview of How Web Apps Work
@@ -70,9 +58,6 @@ In the general case, a web application is a program that:
  - Ruby on Rails
  - Next JS
  - Remix JS
- - Elixir / Phoenix
  - Scala / Lift
+ - Elixir / Phoenix
  - ...
-
-I'd prefer to not see PHP here. I don't really want to contribute to filling anyone's brain with that.
-
