@@ -63,6 +63,8 @@ Fundamentals First Day
    - Screen
    - Network interface
 
+# (stopped here)
+
 ## Data
 
 Computer hardware typically stores data as electrical signals that are
@@ -108,40 +110,6 @@ computer programs as sequences of bits.
 Importantly, there's typically multiple options for how to represent
 data, and those options have advantages and disadvantages.
 
-
-## Algorithms
-
-An algorithm is a sequence of steps to accomplish something.
-
-Example:
-
- - Get a large mixing bowl
- - Add 1.5 cups of flour
- - Add 3.5 teaspoons of baking powder
- - Add 1 tablespoon of sugar
- - Mix the ingredients
- - Add 1.25 cups of milk
- - Add 3 tablespoons of melted butter
- - Add one egg
- - Mix
- - Add one scoop to frying pan.
- - When holes form on top, flip.
- - When done cooking, remove.
- - Repeat until out of batter.
- - Serve
-
-Ambiguity?
-
-Textbook definition of algorithm:
-
-A well-orderecd collection of unabigiously and effectively
-computable operations that, when executed, produces a result
-and halts in a finite amount of time.
-
- - Well-ordered collection?
- - Effectively computable?
- - Produces a result?
- - Halts in finite time?
 
 
 ## Topics This Semester
