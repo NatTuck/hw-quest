@@ -121,6 +121,8 @@ Differences:
 
 # Data in Python
 
+(stopped after talking about ints)
+
  - Primitive Types
    - Number (int vs float), String
  - Tuples
