@@ -30,5 +30,5 @@ and halts in a finite amount of time.
  
 
 Some Slides: [ODP](../lec-2-short-slides.odp), 
-    [PDF](../lec-2-short-slides.odp)
+    [PDF](../lec-2-short-slides.pdf)
 
