@@ -42,7 +42,7 @@ On this site:
 
 # Useful Stuff:
 
- - [Mvn Demo App](https://homework.quest/classes/2023-09/cs2381/mvn-demo/)
+ - [Mvn Demo App](./cs2381-maven-demo-app.tar.gz)
 
 # Hints:
 
