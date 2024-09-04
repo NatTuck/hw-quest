@@ -44,6 +44,12 @@ In the general case, a web application is a program that:
  - Template
  - Asset Pipeline
 
+## Admin Interlude
+
+ - Task: Sign up for Github
+ - Attendence
+
+
 ## What do we want in a framework
 
  - Provides good support for application logic on a web server.
@@ -59,5 +65,7 @@ In the general case, a web application is a program that:
  - Next JS
  - Remix JS
  - Scala / Lift
- - Elixir / Phoenix
- - ...
+ - This semester: Elixir / Phoenix
+
+
+## Start Up a Phoenix project
