@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 02 Web Development"
-date: "2023-08-27"
+date: "2024-09-03"
 ---
 
 # Full Stack Web Frameworks

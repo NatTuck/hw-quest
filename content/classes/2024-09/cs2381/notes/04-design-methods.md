@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 04 Designing Static Methods"
-date: "2024-01-28"
+date: "2024-09-03"
 ---
 
 ## Startup
