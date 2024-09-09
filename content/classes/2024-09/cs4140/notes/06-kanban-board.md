@@ -5,6 +5,10 @@ date: "2024-09-07"
 
 ## Kanban Board / Taiga.io
 
+ - Go to Taiga.io
+ - Sign in with Github
+ - Start coming up with user stories for Party Animal app
+
 ### User Stories
 
 Conceptually, a user story should be a description of something that
@@ -110,30 +114,26 @@ a story if it's been done for a full week.
 
 # Example
 
-## Pull Down and Demo Sphinx
+## Create a Party Animal app with Phoenix
 
- - https://github.com/NatTuck/sphinx
  - Show installing deps to get it to work.
  - Start up the app
- - Create Teacher, create a quiz with a question
- - Create Student, answer the question
 
 ## Walk through the whole change process
 
 **Plan Feature in Taiga**
 
  - Go to https://tree.taiga.io
- - Create a New Project: Kanban, Public
 
 Add a story:
 
 <blockquote>
-As a student,<br>
-I want to see my score on a quiz,<br>
-So I know how I did.<br>
+As an event host,<br>
+I want to create events,
+So I can share them with my guests.
 <br>
-When I look at the quiz page,<br>
-I see my score for the whole quiz
+When I look at the home page,
+I can get to the new event form.
 </blockquote>
 
 Edit in acceptance requirements:
@@ -148,17 +148,7 @@ Mess with Kanban board:
 
 **Implement Feature in Code**
 
- - Clone repo to local machine.
- - Conceputally, we should write automated tests first.
- - Automated tests are critical for working on a team - they make sure
-   the other developers don't break your fuctionality. Anything that
-   isn't covered by the test suite is already dead, it just hasn't
-   fallen over yet.
- - Implement ```Answers.list_answers_for_student_quiz```
- - Implement ```Quiz.get_student_score```
- - Edit quiz_html/show.html.eex to show the score for the current user.
-
-Run automated tests locally. "These should pass, and have good code coverage."
+ - 
 
 **Pull Request**
 
