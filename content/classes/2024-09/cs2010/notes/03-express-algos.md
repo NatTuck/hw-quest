@@ -1,5 +1,5 @@
 ---
-title: "cs2010 Notes: 02 Algos"
+title: "cs2010 Notes: 03 Expressing Algos"
 date: "2024-09-05"
 ---
 
