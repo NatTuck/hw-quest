@@ -1,5 +1,5 @@
 ---
-title: "cs2010 Notes: 04 Computer Numbers"
+title: "cs2010 Notes: 05 Base Conversions"
 date: "2024-09-08"
 ---
 
