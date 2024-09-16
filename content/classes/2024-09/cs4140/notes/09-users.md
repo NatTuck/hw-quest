@@ -1,7 +1,6 @@
 ---
 title: "cs4140 Notes: 09 Add Users"
 date: "2024-09-13"
-draft: true
 ---
 
 ## Adding More Features to Party Animal
