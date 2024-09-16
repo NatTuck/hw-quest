@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 07 ArrayList"
+title: "cs2381 Notes: 08 ArrayList"
 date: "2024-09-11"
 ---
 

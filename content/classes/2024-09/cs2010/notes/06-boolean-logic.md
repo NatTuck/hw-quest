@@ -66,3 +66,7 @@ Satisfiability:
    produced by evalating (extended) boolean expressions.
  - Digital circuits are made up of logic gates, which are boolean operators
    implemented in hardware. 
+
+**Boolean Algebra**
+
+http://www.toomey.org/tutor/harolds_cheat_sheets/Harolds_Discrete_Boolean_Algebra_Cheat_Sheet_2021.pdf
