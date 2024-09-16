@@ -5,26 +5,31 @@ date: "2024-09-08"
 
 **AND (∧, ·, &)**
 
+```
 A  B  A & B 
 0  0    0
 0  1    0
 1  0    0
 1  1    1
+```
 
 **OR (∨, +, |)**
 
+```
 A  B  A | B
 0  0    0
 0  1    1
 1  0    1
 1  1    1
-
+```
 
 **NOT (¬, ~, !)**
 
+```
 A  !A
 0   1
 1   0
+```
 
 **Single Concrete Expressions**
 
@@ -41,6 +46,7 @@ We can use parens for grouping.
 
 Truth table:
 
+```
 A  B  C  =
 0  0  0  0
 0  0  1  1
@@ -50,6 +56,7 @@ A  B  C  =
 1  0  1  1
 1  1  0  1
 1  1  1  1
+```
 
 Algebraic simplifcation:
 
