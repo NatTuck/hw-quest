@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 10 Recursive Data"
-date: "2024-09-17"
+title: "cs2381 Notes: 11 Gerneric List"
+date: "2024-09-18"
 ---
 
 If we can avoid using null values, the langugage will do more work for
