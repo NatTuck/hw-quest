@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 12 Really Intro Stack"
+title: "cs2381 Notes: 13 Really Intro Stack"
 date: "2024-09-24"
 ---
 
