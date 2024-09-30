@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 13 Automated Testing"
+title: "cs4140 Notes: 14 Testing and Meeting"
 date: "2024-09-24"
 ---
 
