@@ -1,5 +1,5 @@
 ---
-title: "cs2010 Notes: 08 Circut Design"
+title: "cs2010 Notes: 09 More Circuits"
 date: "2024-09-25"
 ---
 
