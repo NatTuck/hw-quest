@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 16 Queues to Dequeues"
-date: "2024-02-27"
+date: "2024-10-01"
 ---
 
 **Building a queue with an Array or ArrayList: Ring Buffer**
