@@ -7,6 +7,7 @@ date: "2024-10-03"
 
 Refs:
 
+ - https://github.com/NatTuck/party_animal/blob/main/.github/workflows/deploy.yml
  - https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#workflow_run
  - https://github.com/appleboy/ssh-action
 
