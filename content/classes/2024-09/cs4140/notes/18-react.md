@@ -3,6 +3,14 @@ title: "cs4140 Notes: 18 React"
 date: "2024-10-03"
 ---
 
+**First, Continuous Deployment**
+
+Refs:
+
+ - https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#workflow_run
+ - https://github.com/appleboy/ssh-action
+
+
 **Let's set up React and a React component for PartyAnimal**
 
 ```
