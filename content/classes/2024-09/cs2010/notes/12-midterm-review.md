@@ -6,7 +6,7 @@ date: "2024-10-05"
 
 Exam is this Friday.
 
-Here's a practice midterm: (Practice Midterm Fall 2024)[../practice-midterm.pdf]
+Here's a practice midterm: [Practice Midterm Fall 2024](../sample-midterm.pdf)
 
 Review topics:
 
