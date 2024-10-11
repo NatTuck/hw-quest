@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 19 Binary Search Trees"
-date: "2024-10-06"
+title: "cs2381 Notes: 20 Binary Search Trees"
+date: "2024-10-09"
 ---
 
 **Binary Trees**
@@ -10,6 +10,10 @@ ConsList has a reference to one other cell. This produces a sequence
 of nodes.
 
 What if we have nodes with more than one reference to other nodes?
+
+Last time we looked at a generaliztion of linked lists kind of like
+this called skip lists, but it was weird and complicated - so let's
+consider other options.
 
 The general case of this is a structure called a graph.
 
