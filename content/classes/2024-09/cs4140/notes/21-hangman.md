@@ -12,5 +12,6 @@ Steps:
  - Create a React component for the UI
  - Hook them together with a Phoenix Channel
    - Initially, state goes in the channel
- - Create a GenServer
-   - Make it multiplayer
+  
+Work went in:  https://github.com/NatTuck/party_animal/tree/hangman
+  
