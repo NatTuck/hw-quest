@@ -1,0 +1,66 @@
+
+digraph {
+  // Programming Sequence
+  cs2010 [label="\N Prog Fundamentals"]
+
+  cs2370 [label="\N Programming 2"]
+  cs2010 -> cs2370
+
+  cs2381 [label="\N Data Structures"]
+  cs2370 -> cs2381
+
+  // Low Level and OS
+  cs2220 [label="\N Computer Hardware"]
+  cs2010 -> cs2220
+
+  cs2470 [label="\N Systems Programming in C/C++"]
+  cs2370 -> cs2470
+
+  cs4250 [label="\N Computer Archetecture"]
+  cs2220 -> cs4250
+  cs2470 -> cs4250
+
+  cs4310 [label="\N Operating Systems"]
+  cs4250 -> cs4310
+
+  // Algo and Theory
+  ma2450 [label="\N Mathematical Reasoning"]
+
+  cs3221 [label="\N Algorithm Analysis"]
+  cs2381 -> cs3221
+  ma2450 -> cs3221
+
+  cs3780 [label="\N Computational Theory"]
+  cs3221 -> cs3780
+
+  // Software Design
+  cs3600 [label="\N Web Dev"]
+  cs2370 -> cs3600
+
+  cs3720 [label="\N Systems Analysis and Design"]
+  cs3600 -> cs3720
+
+  cs4140 [label="\N Software Engineering"]
+  cs3720 -> cs4140
+
+  // Ethics
+  cs4520 [label="\N Cyberethics"]
+
+  // Math Reqs
+  ma2300 [label="\N Statistics I"]
+
+  ma2550 [label="\N Calc I"]
+
+  ma2560 [label="\N Calc II"]
+  ma2550 -> ma2560
+
+  // Final Project
+  cs4760 [label="\N Senior Project"]
+  cs3780 -> cs4760
+  cs4310 -> cs4760
+  cs4140 -> cs4760
+  cs4520 -> cs4760
+  ma2300 -> cs4760
+  ma2560 -> cs4760
+}
+
