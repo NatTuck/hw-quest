@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 24 Next and CORS"
+title: "cs4140 Notes: 25 Cross-Site Auth"
 date: "2024-10-22"
 ---
 
