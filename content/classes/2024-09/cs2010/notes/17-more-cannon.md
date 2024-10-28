@@ -1,5 +1,5 @@
 ---
-title: "cs2010 Notes: 16 Cannon"
+title: "cs2010 Notes: 17 More Cannon"
 date: "2024-10-20"
 ---
 
