@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 27 Licensing and Dependencies"
-date: "2023-10-27"
+date: "2024-10-27"
 ---
 
 ## Dependencies
