@@ -1,6 +1,6 @@
 ---
 title: "cs2010 Notes: 18 Autocannon"
-date: "2024-10-20"
+date: "2024-10-25"
 ---
 
 
