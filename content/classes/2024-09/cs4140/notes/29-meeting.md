@@ -15,3 +15,4 @@ By next meeting, each student should complete a story that:
 
 I'll be manually checking those features by working through the
 documented acceptance test process when grading next week's reports.
+
