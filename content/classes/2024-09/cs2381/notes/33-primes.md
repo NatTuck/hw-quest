@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 33 Primes"
-date: "2023-11-07"
+date: "2024-11-07"
 ---
 
 App code:
