@@ -17,7 +17,7 @@ Computing Fundamentals
 # Essential Resources
 
  - See [Canvas](https://mycourses.plymouth.edu/courses/19457) for assignments.
- - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2023-09)
+ - Notes and stuff from class are in the [scratch repository](https://github.com/NatTuck/scratch-2024-09)
  - Some [Lecture notes](./notes) are available.
 
 # Hints:
