@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 34 Primes"
+title: "cs2381 Notes: 34 Pathfinding"
 date: "2024-11-14"
 ---
 

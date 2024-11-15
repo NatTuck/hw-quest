@@ -20,9 +20,11 @@ several times to write a whole program.
 It's frequently useful to name a type of object. For example, we
 might say:
 
+```js
 // A Car has these fields:
 //  - tankSize: Number, in gallons
 //  - mileage: Number, in miles/gallon
+```
 
 Once we've done that, we can talk about Car in our signatures.
 
