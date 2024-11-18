@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 34 Pathfinding"
+title: "cs2381 Notes: 35 Pathfinding pt2"
 date: "2024-11-14"
 ---
 
