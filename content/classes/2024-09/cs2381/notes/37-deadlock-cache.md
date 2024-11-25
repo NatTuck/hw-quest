@@ -1,6 +1,6 @@
 ---
 title: "Notes: 32 Deadlock, Cache, etc"
-date: "2023-11-14"
+date: "2024-11-21"
 ---
 
 ## First, do the sum101 with lock demo
