@@ -3,6 +3,14 @@ title: "Notes: 39 Networking, Word Game"
 date: "2024-12-01"
 ---
 
+**Overhead**
+
+ - Last week of classes
+ - Final Exam: Mon Dec 9 @ 11am - 1:30pm
+ - The practice final from last semester is up on the course site. This is a good
+   indication of what might be on the final this time too.
+   
+
 **Topic: Networking & Internet**
 
  - Every computer on the internet has an IP address
