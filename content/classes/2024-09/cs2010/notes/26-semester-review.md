@@ -180,6 +180,35 @@ Examples:
  - HTTP Server
 
 
+## New Exam Topics
+
+Since the midterm, we've covered one main topic: Programming.
+
+There will be programming questions on the exam.
+
+Here are three example questions:
+
+### Translate from Flowchart to code.
+
+ /input temp/
+ 
+ if (temp < 50) {
+   console.log("cold");
+ }
+ else {
+   console.log("not cold"); 
+ }
+
+
+### What does this print?
+
+let xs = [10, 20, 30, 40];
+for (let xx of xs) {
+  console.log(xx + 2);
+}
+console.log(xs[2]);
+
+
 ### That's it. Questions?
 
 
