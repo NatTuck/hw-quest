@@ -99,32 +99,6 @@ upcoming due dates.
 Homeworks submitted after the deadline loses 1% per hour late (round
 up).
 
-**Labs**
-
-Several times during the semester there will be a lab assignment to
-complete during the class period. Labs will only be accepted before
-the end of the lab period, and only when submitted from a lab
-workstation.
-
-The purpose of this course is to teach the skill of computer
-programming. Students need to practice writing programs themselves
-without external help. Therefore, the following rules apply to
-lab assignments:
-
- - Personal electronics may not be used. If they are brought to
-   lab, they must be kept in a closed container like a backpack.
- - Only approved web resources can be used: Inkfish, the course site,
-   provided lecture notes, the textbooks(s), the offical programming
-   language documentation, and anything directly linked from the
-   current lab assignment.
- - Students who intentionally or repeatedly violate this policy will
-   be asked to leave and will not be able to complete that lab
-   assignment.
- - These specific rules may be overridden by the instructions in
-   individual lab assignments.
-
-During the final exam period we will do one final lab.
-
 
 **Inkfish and Script Grades**
 
@@ -159,10 +133,8 @@ should not be doing work for team assignments on your own.
 
 **Project**
 
-At the end of the semester there will be a programming project.
-
-This is like a homework, but it's larger, more difficult, and worth
-more points.
+There will be 1-3 programming projects. These are like homework, but
+larger, more difficult, and worth more points.
 
 **Grade Appeals**
 
@@ -358,7 +330,7 @@ You may not post solutions for assignments in this class publicly.
 	<td>-</td>
 	<td>May 5</td>
 	<td>Finals Week</td>
-	<td>Final Lab</td>
+	<td>FIXME: Final Lab?</td>
 </tr>
 
 {{< /schedule >}}
