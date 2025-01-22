@@ -16,18 +16,18 @@
   weight = 10
 
 [[main]]
-  name = "cs2010"
-  pageRef = "/classes/2024-09/cs2010"
+  name = "cs2370"
+  pageRef = "/classes/2025-01/cs2370"
   weight = 20
 
 [[main]]
-  name = "cs2381"
-  pageRef = "/classes/2024-09/cs2381"
+  name = "cs2470"
+  pageRef = "/classes/2025-01/cs2470"
   weight = 30
 
 [[main]]
-  name = "cs4140"
-  pageRef = "/classes/2024-09/cs4140"
+  name = "cs4310"
+  pageRef = "/classes/2025-01/cs4310"
   weight = 40
 
 [[main]]

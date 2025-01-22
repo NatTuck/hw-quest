@@ -25,7 +25,7 @@ software on a machine. Springs.
  - Office: D&M 305
  - Lecture: Mon, Wed at 10:10-11:00am in D&M 404
  - Office Hours: See https://homework.quest/ 
- - Final Exam: [Fri May 9th @ 8:00-10:30am](
+ - Final Exam Period: [Fri May 9th @ 8:00-10:30am](
  https://www.plymouth.edu/sites/default/files/media/2024-12/spring-2025-final-exam-schedule.pdf
  )
  - Course Site: https://homework.quest/ 
@@ -194,6 +194,10 @@ to circumstances that were unforseen and reasonably unavoidable
 contact the professor to discuss making up the assignment. If you know
 you will miss something and are reasonable able to contact the
 professor to discuss alternatives beforehand you must do so.
+See the
+[Excused Absence Policy](https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf)
+for further details.
+
 
 **Late Registration**
 

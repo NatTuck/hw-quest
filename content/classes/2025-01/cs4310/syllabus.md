@@ -93,11 +93,26 @@ completed outside of class.
 Minimizing the use of external resources is recommended, and academic
 honesty rules will be strictly enforced.
 
-Homework will be posted on Inkfish. Check Inkfish regularly for
-upcoming due dates.
+Homework assignments will be posted on Inkfish. Check Inkfish
+regularly for upcoming due dates.
 
 Homeworks submitted after the deadline loses 1% per hour late (round
 up).
+
+**Final Homework**
+
+We will use the final exam period in one of two ways:
+
+ - A final programming homework, to be completed from the classroom
+   workstations.
+ - A presentation about the last project.
+
+Either way the activity during the exam period will be graded as a
+homework assignment, possibly with greater weight than the other
+homework assignments.
+
+This final homework assignment will be due at the end of the exam
+period; late submissions will not be accepted.
 
 
 **Inkfish and Script Grades**
@@ -131,10 +146,10 @@ All team members are responsible for and get credit for any work
 submitted as a team. Keep in mind that pair programming means you
 should not be doing work for team assignments on your own.
 
-**Project**
+**Projects**
 
-There will be 1-3 programming projects. These are like homework, but
-larger, more difficult, and worth more points.
+There will be several programming projects. These are like homework,
+but larger, more difficult, and worth more points.
 
 **Grade Appeals**
 
@@ -160,6 +175,9 @@ to circumstances that were unforseen and reasonably unavoidable
 contact the professor to discuss making up the assignment. If you know
 you will miss something and are reasonable able to contact the
 professor to discuss alternatives beforehand you must do so.
+See the
+[Excused Absence Policy](https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf)
+for further details.
 
 **Late Registration**
 
@@ -172,6 +190,10 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
+**Class Annoucements**
+
+Class annoucements will be posted on Canvas and/or sent to your
+university email address. Make sure to check both regularly.
 
 # Resources
 
@@ -216,16 +238,10 @@ The following things are obvious cheating:
      examples in the lecture notes, textbook, or official documention.
  - Sharing your soluton code with other students (except teammates).
  - Looking at other solutions to this or similar problems.
- - Accessing unauthorized resources in a lab or exam.
+ - Accessing unauthorized resources during a supervised assignemnt.
 
-Cheating will be handled as follows:
-
- - During an exam or lab, if you are caught cheating or acting in a
-   way that appears to facilitate cheating (e.g. using unauthorized
-   electronics) you will be asked to leave and will not be allowed to
-   complete the assignment. In lab, you may get a warning first.
- - The default penalty for cheating on any assignment is zero grade on
-   that assignment.
+The default penalty for cheating on any assignment is zero grade on
+that assignment.
 
 Partner assignment are expected to be done working together. You have
 at least some responsibility for any work submitted for your team.
@@ -246,43 +262,43 @@ You may not post solutions for assignments in this class publicly.
 <tr>
 	<td>2</td>
 	<td>Jan 27</d>
-	<td>Linux Shell</td>
+	<td>Assembly Review</td>
 	<td></td>
 </tr>
 <tr>
 	<td>3</td>
 	<td>Feb 3</td>
-	<td>C Language Intro</td>
+	<td>System Calls</td>
 	<td></td>
 </tr>
 <tr>
 	<td>4</td>
 	<td>Feb 10 ‡</td>
-	<td>C and Assembly</td>
+	<td>Virtual Memory</td>
 	<td></td>
 </tr>
 <tr>
 	<td>5</td>
 	<td>Feb 17</td>
-	<td>The Stack</td>
+	<td>mmap(2)</td>
 	<td></td>
 </tr>
 <tr>
 	<td>6</td>
 	<td>Feb 24</td>
-	<td>The Heap, Address Space</td>
+	<td>Simple Malloc</td>
 	<td></td>
 </tr>
 <tr>
 	<td>7</td>
 	<td>Mar 3</td>
-	<td>File I/O</td>
+	<td>Forks and threads</td>
 	<td></td>
 </tr>
 <tr>
 	<td>8</td>
 	<td>Mar 10</td>
-	<td>Command parsing</td>
+	<td>Synchronization</td>
 </tr>
 <tr>
 	<td>--</td>
@@ -293,44 +309,44 @@ You may not post solutions for assignments in this class publicly.
 <tr>
 	<td>9</td>
 	<td>Mar 24</td>
-	<td>System Call I/O</td>
+	<td>Advanced malloc</td>
 	<td></td>
 </tr>
 <tr>
 	<td>10</td>
 	<td>Mar 31</td>
-	<td>Processes and fork()</td>
+	<td>OS Kernel</td>
 	<td></td>
 </tr>
 <tr>
 	<td>11</td>
 	<td>Apr 7</td>
-	<td>Pipes</td>
+    <td>Implementing a System Call</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
 	<td>Apr 14</td>
-    <td>Shell logic, continued</td>
+	<td>Disks and File Systems</td>
 	<td></td>
 </tr>
 <tr>
 	<td>13</td>
 	<td>Apr 21</td>
-	<td>A bit about C++</td>
+	<td>More about File Systems</td>
 	<td></td>
 </tr>
 <tr>
 	<td>14</td>
 	<td>Apr 28</td>
-	<td>Wrap-up, Review</td>
+	<td>Semester Review</td>
 	<td></td>
 </tr>
 <tr>
 	<td>-</td>
 	<td>May 5</td>
 	<td>Finals Week</td>
-	<td>FIXME: Final Lab?</td>
+	<td></td>
 </tr>
 
 {{< /schedule >}}

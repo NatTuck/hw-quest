@@ -203,6 +203,10 @@ to circumstances that were unforseen and reasonably unavoidable
 contact the professor to discuss making up the assignment. If you know
 you will miss something and are reasonable able to contact the
 professor to discuss alternatives beforehand you must do so.
+See the
+[Excused Absence Policy](https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf)
+for further details.
+
 
 **Late Registration**
 
@@ -215,6 +219,10 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
+**Class Annoucements**
+
+Class annoucements will be posted on Canvas and/or sent to your
+university email address. Make sure to check both regularly.
 
 # Resources
 
