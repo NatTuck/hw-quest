@@ -1,13 +1,7 @@
 ---
-title: "cs2370 Notes: 03 Programming"
-date: "2024-01-25"
+title: "cs2370 Notes: 02 Programming"
+date: "2025-01-24"
 ---
-
-## General Advice
-
- - Attendence is strongly recommended.
- - Also, eating and sleeping.
-
 
 ## Python: Parts of speech
 
@@ -83,36 +77,3 @@ Boolean Expressions:
 
  - Write out the truth tables for those.
 
-Example:
-
-```
-aa = int(input("aa = "))
-bb = int(input("aa = "))
-
-if aa > 10 and bb > 10:
-   print("Both")
-
-if aa > 10 or bb > 10:
-   print("Either)
-   
-if aa <= 10 && bb <= 10:
-    print("Neither")
-```
-
-Example 2:
-
-```
-word = input("enter word: ")
-
-if word < "n":
-    print(word.capitalize())
-else:
-    print(word)
-```
-
-
-While loops:
-
- - while
- - let's write a script that left-pads strings to 40 chars in
-   a loop
