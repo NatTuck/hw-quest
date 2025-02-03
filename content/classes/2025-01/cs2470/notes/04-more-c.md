@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 04 The C Language"
-date: "2025-01-24"
+title: "Lecture Notes: 04 More C"
+date: "2025-02-01"
 ---
 
 
