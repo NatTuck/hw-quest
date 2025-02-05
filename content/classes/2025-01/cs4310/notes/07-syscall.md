@@ -1,41 +1,7 @@
 ---
-title: "Lecture Notes: 05 More Assembly Examples"
-date: "2025-02-01"
+title: "Lecture Notes: 07 Syscalls"
+date: "2025-02-03"
 ---
-
-args.S
-
-```asm
-   .global main
-    .text
-
-main:
-    push %r12 // argv
-    push %r13 // argc
-    enter $0, $0
-
-    mov %rdi, %r13
-    mov %rsi, %r12
-aa:
-    mov (%r12), %rdi
-    cmp $0, %rdi
-    je bb
-
-    call puts
-   
-    add $8, %r12
-    jmp aa
-
-bb:
-    leave
-    pop %r13
-    pop %r12
-    ret
-```
-
-
-
-
 
 lines.S
 
@@ -57,6 +23,7 @@ main(int argc, char* argv[])
 
  - Talk about stdin, stdout, stderr
  - Talk about file descriptor table
+ - Rewrite this with syscall wrappers.
 
 
 ```asm
@@ -146,3 +113,16 @@ fmt: .string "lines = %ld\n"
 ```
 
 ref: https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+
+
+
+## Malloc and Brk
+
+ - malloc
+ - sbrk
+
+The brk syscall:
+
+ - Returns current brk on 0 argument.
+ - Lets you set a higher brk.
+ 
