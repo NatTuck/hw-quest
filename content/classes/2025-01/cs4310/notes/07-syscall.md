@@ -116,13 +116,3 @@ ref: https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
 
 
 
-## Malloc and Brk
-
- - malloc
- - sbrk
-
-The brk syscall:
-
- - Returns current brk on 0 argument.
- - Lets you set a higher brk.
- 
