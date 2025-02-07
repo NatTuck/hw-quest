@@ -21,8 +21,3 @@ date: "2025-02-03"
      - math.h: ceil, sqrt -- show manpage, talk about libm
    - Casts. For numbers, these convert.
 
-## More allocation and array stuff
-
- - 2D arrays:
-   - One array with manual indexing
-   - Array of arrays
