@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 08 Brk"
+title: "Lecture Notes: 09 Brk"
 date: "2025-02-06"
 ---
 
@@ -25,3 +25,6 @@ The brk syscall:
  - Lets you set a higher brk.
  
 
+## Some extra time for stuff
+
+ - We implemented free with fixed 100 byte blocks.
