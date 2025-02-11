@@ -21,6 +21,7 @@ Three lecture hours and 2 hours of computer lab. Springs and Falls.
 
 # Course Info
 
+ - Credits: 4
  - Instructor: Nat Tuck 
  - Email: <nathaniel.tuck@plymouth.edu>
  - Office: D&M 305

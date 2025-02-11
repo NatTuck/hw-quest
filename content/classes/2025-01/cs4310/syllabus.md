@@ -22,6 +22,7 @@ or more projects form a significant part of this course. Springs.
 
 # Course Info
 
+ - Credits: 3
  - Instructor: Nat Tuck 
  - Email: <nathaniel.tuck@plymouth.edu>
  - Office: D&M 305
