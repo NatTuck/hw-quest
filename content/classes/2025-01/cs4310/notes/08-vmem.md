@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 08 Brk"
+title: "Lecture Notes: 08 Virtual Memory"
 date: "2025-02-06"
 ---
 
