@@ -1,10 +1,10 @@
 ---
-title: "cs2370 Notes: 12 Snake"
-date: "2025-03-13"
+title: "cs2370 Notes: 10 Snake"
+date: "2025-02-18"
 ---
 
 ```python
-
+...
 
 
 ```
