@@ -14,11 +14,37 @@ $ gdb
 
 
 ```C
+typedef struct cell {
+    int head;
+    struct cell* tail;
+} cell;
+
+cell*
+cons(int hd, cell* tl)
+{
+    cell* xs = malloc(sizeof(cell));
+    xs->head = hd;
+    xs->tail = tl;
+    return xs;
+}
+
+int
+sum(cell* xs)
+{
+    if (xs) {
+       return xs->head + sum(xs->tail);
+    }
+    else {
+        return 0;
+    }
+}
+
 int
 main(int argc, char* argv[])
 {
-
-
+    cell* xs = cons(10, cons(20, cons(30, cons(40, cons(50, 60)))));
+    printf("%d\n", sum(xs));
+    return 0;
 }
 ```
 
@@ -35,3 +61,6 @@ main(int argc, char* argv[])
  - 'next' (don't enter fucntion calls)
  - 'step' (step into any function calls)
  - 'list' (see where we are in context)
+
+
+Next meeting: A lab assignment.
