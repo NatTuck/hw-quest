@@ -19,7 +19,7 @@ software on a machine. Springs.
 </blockquote>
 
 # Course Info
-k
+
  - Credits: 2
  - Instructor: Nat Tuck 
  - Email: <nathaniel.tuck@plymouth.edu>
