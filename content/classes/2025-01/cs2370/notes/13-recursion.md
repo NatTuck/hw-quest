@@ -1,6 +1,6 @@
 ---
 title: "cs2370 Notes: 13 Iteration and Recursion"
-date: "2025-02-18"
+date: "2025-02-25"
 ---
 
 **Directory Traversals**
