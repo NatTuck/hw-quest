@@ -1,5 +1,5 @@
 ---
-title: "cs2370 Notes: 16 Sorting Fast"
+title: "cs2370 Notes: 17 Primes"
 date: "2025-03-04"
 ---
 

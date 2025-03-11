@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 10 Slice Demo"
-date: "2025-02-20"
+title: "Lecture Notes: 12 Slice Demo Redux"
+date: "2025-03-08"
 ---
 
 ```C
