@@ -129,8 +129,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require('tailwindcss-tables')(),
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };

@@ -38,7 +38,7 @@ The language code in the language config filename should match the `languageCode
 
 title = "My awesome website"
 
-[author]
+[params.author]
 name = "My name"
 image = "img/author.jpg"
 headline = "A generally awesome human"
@@ -48,7 +48,7 @@ links = [
 ]
 ```
 
-The `[author]` configuration determines how the author information is displayed on the website. The image should be placed in the site's `assets/` folder. Links will be displayed in the order they are listed.
+The `[params.author]` configuration determines how the author information is displayed on the website. The image should be placed in the site's `assets/` folder. Links will be displayed in the order they are listed.
 
 If you need extra detail, further information about each of these configuration options, is covered in the [Configuration]({{< ref "configuration" >}}) section.
 
@@ -231,9 +231,10 @@ Further customisation can be achieved through the use of special theme parameter
 
 There is a special case for creating menu items for links that take theme actions. These are denoted using the `action` parameter, and a value of the action the link should perform. Action links allow for all the same custom parameters as other links and can be styled with an icon or text name.
 
-There are two valid theme actions:
+There are three valid theme actions:
 
 - `appearance` will create a link to the appearance switcher
+- `locale` will create a drop down picker to access translated content
 - `search` will create a link to the site search
 
 Both menus are completely optional and can be commented out if not required. Use the template provided in the default file as a guide.

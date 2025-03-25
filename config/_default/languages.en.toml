@@ -15,7 +15,7 @@ title = 'Classes w/ Prof. Nat Tuck'
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"
 
-[author]
+[params.author]
   name = "Nat Tuck"
   image = "img/author.jpg"
   # headline = "I'm only human"

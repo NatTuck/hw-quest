@@ -10,18 +10,46 @@ tags: ["partials", "analytics", "privacy", "comments", "favicons", "icon", "docs
 
 ## Analytics
 
-Congo provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy. If you're interested you can use this affiliate link to [receive $10 credit](https://usefathom.com/ref/RLAJSV) and try the service.
+Congo provides support for various analytics providers out of the box, as well as the ability to include custom code for any provider of your choice. If you don't currently have an analytics provider, check out Fathom Analytics.
 
 ### Fathom Analytics
 
-To enable Fathom Analytics support, simply provide your Fathom site code in the `config/_default/params.toml` file. If you also use the custom domain feature of Fathom and would like to serve their script from your domain, you can also additionally provide the `domain` configuration value. If you don't provide a `domain` value, the script will load directly from Fathom DNS.
+Fathom Analytics is a privacy-first service that is a great alternative to Google Analytics. It allows you to get all the visitor information you need, without spying on them. As a Congo user, you can use this affiliate link to [receive $10 credit](https://usefathom.com/ref/RLAJSV) and try the service.
+
+[![Fathom Analytics. Website analytics without compromise. Zero cookies, GDPR compliant, and privacy-first. Start a free trial.](fathom-analytics.jpg)](https://usefathom.com/ref/RLAJSV)
+
+To enable Fathom Analytics support, simply provide your Fathom site code in the `config/_default/params.toml` file. The script will load in your site directly from the Fathom Analytics CDN.
 
 ```toml
 # config/_default/params.toml
 
 [fathomAnalytics]
   site = "ABC12345"
-  domain = "llama.yoursite.com"
+```
+
+### Plausible Analytics
+
+To enable Plausible analytics support, simply provide the domain of the website you want to track in the `config/_default/params.toml` file. If you are using a self-hosted Plausible, or wish to use a [proxied analytics](https://plausible.io/docs/proxy/introduction) script and event API router, you can also provide additional `event` and `script` configuration values. If you do not provide these two values, the script will load directly with Plausible's default managed service. Refer to [Using a proxy for analytics](https://plausible.io/docs/proxy/introduction) for more details.
+
+```toml
+# config/_default/params.toml
+
+[plausibleAnalytics]
+  domain = "blog.yoursite.com"
+  event = "https://plausible.yoursite.com/api/event"
+  script = "https://plausible.yoursite.com/js/script.js"
+```
+
+### Umami Analytics
+
+To enable support for Umami Analytics, insert the _tracking code token_ provided by Umami into the `site` parameter to monitor the site. You can also insert a `region` parameter to indicate the region of Umami Analytics servers that you want to connect to. The values can be `eu` or `us`. Refer to [getting started section at umami.is](https://umami.is/docs/getting-started) for more details.
+
+```toml
+# config/_default/params.toml
+
+[umamiAnalytics]
+  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  region = "eu"  # can be either "eu" or "us"
 ```
 
 ### Google Analytics
