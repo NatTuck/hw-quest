@@ -3,7 +3,6 @@ title: "Lecture Notes: 25 xv6 Syscall"
 date: "2025-03-26"
 ---
 
-
 ## Today 
  
  - Let's take a look at xv6
