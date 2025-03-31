@@ -1,36 +1,9 @@
 ---
-title: "cs2370 Notes: 25 Classes and Methods"
+title: "cs2370 Notes: 26 Operator Overloading"
 date: "2025-03-27"
 ---
 
-**Classes**
 
-```python
-from math import pi
-
-class Circle:
-    radius = 5
-    color = "blue"
-   
-    def __init__(self, rad):
-        self.radius = rad
-    
-    def area(self):
-        return self.radius * pow(pi, 2)
-
-
-def Square:
-    def __init__(self, width):
-        self.width = width
-
-    def area(self):
-        return self.width * self.width
-```
-
- * Draw the scoping diagram to resolve instance vs. class fields.
- * Duck typing.
- * Inheritence, default methods and class fields.
- 
 **Operator overloading**
 
 ref: https://web.mit.edu/fluids-modules/www/exper_techniques/2.Propagation_of_Uncertaint.pdf
