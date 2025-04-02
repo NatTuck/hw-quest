@@ -68,4 +68,5 @@ class NumErr:
         return f"{self.val}±{self.err}"
 ```
 
-
+In this lecture, we also covered function scoping
+and nested functions. 

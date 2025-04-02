@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 25 xv6 Syscall"
+title: "Lecture Notes: 26 Disks"
 date: "2025-03-29"
 ---
 
