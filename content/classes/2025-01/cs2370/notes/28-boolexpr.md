@@ -5,12 +5,8 @@ date: "2025-04-03"
 
 Boolean Expression Review:
 
- - Three operations
- - Symbols: ab+b!c, parens
-
-
-
-
+- Three operations
+- Symbols: ab+b!c, parens
 
 ```python
 class Expr:
@@ -64,4 +60,3 @@ class Not(Expr):
     def __repr__(self):
         return f"!()"
 ```
-
