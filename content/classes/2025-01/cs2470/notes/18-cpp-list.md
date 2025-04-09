@@ -3,7 +3,12 @@ title: "Lecture Notes: 18 A ConsList in C++"
 date: "2025-04-06"
 ---
 
+## LazyVim Book
+
+https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/
+
 ## A List in C++
+
 
 ### list.hh
 
