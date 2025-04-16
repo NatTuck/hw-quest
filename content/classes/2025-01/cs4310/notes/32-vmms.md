@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 31 Virtual Machines"
+title: "Lecture Notes: 32 Virtual Machines"
 date: "2025-04-12"
 ---
 
