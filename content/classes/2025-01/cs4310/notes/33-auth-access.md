@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 33 Auth and Access Control"
-date: "2025-04-12"
+date: "2025-04-14"
 ---
 
 First, finish VM slides:
