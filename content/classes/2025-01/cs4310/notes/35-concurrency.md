@@ -5,18 +5,7 @@ date: "2025-04-17"
 
 Start with the [Sync Slides](https://homework.quest/classes/2025-01/cs4310/christo-slides/5_Synchronization.pptx), Slide 50 (Beyond Locks)
 
-Then [Concurrency Demos](./35-concurrency)
-
-# Computer Systems
-
-Last couple lectures:
-
- - Today: 
-   - COW FS commentary
-   - Solutions for Concurrency and Parallelism
- - Next Tuesday is our final lecture, where we'll do quick semester review.
-
-## Solutions for Concurrency and Parallelism
+Then [Concurrency Demos](https://github.com/NatTuck/scratch-2025-01/tree/main/4310/35/35-concurrency)
 
 The problem (parallelism):
 
