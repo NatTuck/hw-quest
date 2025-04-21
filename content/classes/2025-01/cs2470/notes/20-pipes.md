@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 20 Pipes"
-date: "2025-04-17"
+date: "2025-04-19"
 ---
 
 ## Shell Operators
@@ -68,6 +68,8 @@ Demonstrate each of these in a shell:
      - in child/parent: wait on child/child
    - in parent: wait on child
 
+Demo #1:
+
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -110,7 +112,70 @@ main(int _ac, char* _av[])
     return 0;
 }
 ```
+
+Demo #2:
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+void
+check_rv(int rv)
+{
+    if (rv == -1) {
+        perror("fail");
+        exit(1);
+    }
+}
+
+int
+main(int _ac, char* _av[])
+{
+    int rv;
+    
+    int pipe_fds[2];
+    rv = pipe(pipe_fds);
+    check_rv(rv);
+  
+    int p_read  = pipe_fds[0];
+    int p_write = pipe_fds[1];
+    int cpid;
+
+    if ((cpid = fork())) {
+        if (cpid == -1) {
+            perror("fork");
+            return -1;
+        }
+
+        // In the parent.
+        close(p_read);
+        printf("Parent pid = %d, child pid = %d\n", getpid(), cpid);
+
+        char msg[] = "Hello, pipe.\n";
+
+        rv = write(p_write, msg, strlen(msg));
+        check_rv(rv);
+    }
+    else {
+        // In the child
+        close(p_write);
+        printf("Child pid = %d, parent pid = %d\n", getpid(), getppid());
+
+        char temp[100];
+        rv = read(p_read, temp, 100);
+        check_rv(rv);
+        temp[rv] = 0;
+
+        rv = write(1, temp, strlen(temp));
+        check_rv(rv);
+    }
+
+    return 0;
+}
 ```
 
-FIXME: Pull in the rest of the stuff from
-ntuck-neu/content/2021-01/cs3650/notes/10-fork
+Demo #3:
+
+https://github.com/NatTuck/ntuck-neu/tree/master/content/2021-01/cs3650/notes/10-fork/sort-pipe
