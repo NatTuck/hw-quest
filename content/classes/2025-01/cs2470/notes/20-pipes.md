@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 20 Pipes"
-date: "2025-04-17"
+date: "2025-04-19"
 ---
 
 ## Shell Operators
