@@ -39,3 +39,14 @@ for x in xs: print("[", x, "]")
 
 
  - https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon
+
+
+## The Lottery
+
+https://nhlottery.com/Winning-Numbers
+
+- There’s a class for each game.
+- There’s a class for numbers.
+- Print out numbers.
+
+
