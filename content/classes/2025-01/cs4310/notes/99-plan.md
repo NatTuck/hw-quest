@@ -16,12 +16,16 @@ Week 14:
  - Semester Review
  - Final Prep
 
-Topics:
+Topics (used):
 
  - Scheduling
  - Concurrency, lock free data structures, message passing, transactional memory
  - Authentication and Access Control
+
+Candidates for Monday:
+
  - Distributed systems
  - Network file systems
  - IPFS / Trustless Distributed Systems
  - Embedded OS
+
