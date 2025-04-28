@@ -1,5 +1,5 @@
 ---
-title: "cs2370 Notes: 35 Web Apps"
+title: "cs2370 Notes: 36 Web Apps"
 date: "2025-04-21"
 ---
 
