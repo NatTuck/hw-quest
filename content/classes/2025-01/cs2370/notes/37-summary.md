@@ -61,7 +61,7 @@ Throughout the semester, we built several practical applications:
 ## Programming Practices
 
 We emphasized good programming practices:
-- **Documentation**: Clear purpose statements and comments
+- **Documentation**: Clear purpose statements and naming
 - **Testing**: Writing tests before implementation
 - **Code Organization**: Structuring code for readability and maintainability
 - **Debugging**: Strategies for finding and fixing errors
