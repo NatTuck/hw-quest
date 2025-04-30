@@ -17,6 +17,87 @@ This semester, we've explored the fundamental concepts of operating systems, foc
 - **System Calls**: Direct hardware interaction through syscall instruction
 - **C to Assembly Translation**: Understanding how high-level code maps to machine instructions
 
+#### Assembly Demo
+
+```asm
+# gcc -no-pie -o hello hello.s
+
+.section .text
+.global main
+
+main:
+    # Save registers
+    addi sp, sp, -16
+    sd ra, 8(sp)
+    sd s0, 0(sp)
+
+    # Check if argc >= 2
+    li t0, 2
+    blt a0, t0, exit   # Exit if not enough arguments
+
+    # Get argv[1] (name)
+    addi a1, a1, 8     # Skip argv[0]
+    ld a0, 0(a1)       # Load name pointer
+
+    # Call hello function
+    jal ra, hello
+
+exit:
+    # Restore registers and return
+    ld ra, 8(sp)
+    ld s0, 0(sp)
+    addi sp, sp, 16
+    li a0, 0           # Return 0
+    ret
+
+hello:
+    # Save registers
+    addi sp, sp, -16
+    sd ra, 8(sp)
+    sd s0, 0(sp)
+
+    # Save name pointer
+    mv s0, a0
+
+    # Write "Hello, "
+    li a7, 64          # Syscall: write
+    li a0, 1           # File descriptor: stdout
+    la a1, hello_msg   # Message pointer
+    li a2, 7           # Message length
+    ecall
+
+    # Get name length using strlen
+    mv a0, s0          # Name pointer
+    jal ra, strlen     # Call strlen
+    mv a2, a0          # Length in a2
+
+    # Write name
+    li a7, 64          # Syscall: write
+    li a0, 1           # File descriptor: stdout
+    mv a1, s0          # Name pointer
+    ecall
+
+    # Write newline
+    li a7, 64          # Syscall: write
+    li a0, 1           # File descriptor: stdout
+    la a1, newline     # Newline pointer
+    li a2, 1           # Newline length
+    ecall
+
+    # Restore registers
+    ld ra, 8(sp)
+    ld s0, 0(sp)
+    addi sp, sp, 16
+    ret
+
+.section .data
+hello_msg: .string "Hello, "
+newline: .string "\n"
+
+# Declare external libc function
+.extern strlen
+```
+
 ### Memory Management
 - **Virtual Memory**: Address translation, page tables, TLB
 - **Memory Allocation**: Implementation of malloc/free
