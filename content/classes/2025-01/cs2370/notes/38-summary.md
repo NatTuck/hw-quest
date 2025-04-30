@@ -1,5 +1,5 @@
 ---
-title: "cs2370 Notes: 37 Semester Summary"
+title: "cs2370 Notes: 38 Semester Summary"
 date: "2025-04-28"
 ---
 

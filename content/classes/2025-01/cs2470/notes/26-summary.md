@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 23 Semester Summary"
+title: "Lecture Notes: 26 Semester Summary"
 date: "2025-04-29"
 ---
 
