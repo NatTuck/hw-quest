@@ -144,4 +144,206 @@ Solution:
 - Linux provides a couple of syscalls that do this. Today we'll use
   select(2).
 
+Network server with non-blocking I/O:
 
+```C
+#define _GNU_SOURCE
+#include <arpa/inet.h>
+#include <assert.h>
+#include <errno.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+#define PORT 9090
+#define BUFFER_SIZE 1024
+#define MAX_CLIENTS 10
+
+typedef struct conn_state {
+    int fd;
+    char buffer[BUFFER_SIZE];
+} conn_state;
+
+conn_state state[MAX_CLIENTS];
+
+void
+accept_conn(int server_fd)
+{
+    int client_fd;
+    struct sockaddr_in client_addr;
+    socklen_t client_len = sizeof(client_addr);
+
+    client_fd = accept4(server_fd,
+        (struct sockaddr*)&client_addr,
+        &client_len,
+        SOCK_NONBLOCK);
+    if (client_fd < 0) {
+        if (errno != EWOULDBLOCK) {
+            perror("Accept failed");
+        }
+        return;
+    }
+
+    printf("Connection accepted from %s:%d\n",
+        inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+
+    for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+        if (state[ii].fd == -1) {
+            state[ii].fd = client_fd;
+            memset(state[ii].buffer, 0, BUFFER_SIZE);
+            return;
+        }
+    }
+
+    fprintf(stderr, "Too many clients.\n");
+    close(client_fd);
+}
+
+void
+print_lines(int fd, char* buffer)
+{
+    int ii = 0;
+    for (; ii < BUFFER_SIZE; ++ii) {
+        if (buffer[ii] == 0) {
+            return;
+        }
+        if (buffer[ii] == '\n') {
+            ii++;
+            break;
+        }
+    }
+
+    write(fd, buffer, ii);
+
+    char temp[BUFFER_SIZE];
+    memset(temp, 0, BUFFER_SIZE);
+    memcpy(temp, buffer + ii, BUFFER_SIZE - ii);
+    memcpy(buffer, temp, BUFFER_SIZE);
+
+    print_lines(fd, buffer);
+}
+
+void
+read_data(int fd)
+{
+    char* buffer = 0;
+
+    for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+        if (state[ii].fd == fd) {
+            buffer = state[ii].buffer;
+            break;
+        }
+    }
+
+    assert(buffer != 0);
+
+    int bytes_read;
+    while ((bytes_read = read(fd, buffer, BUFFER_SIZE - 1)) > 0) {
+        buffer[bytes_read] = '\0';
+        printf("Received: %s", buffer);
+
+        print_lines(fd, buffer);
+    }
+
+    if (bytes_read == 0) {
+        printf("Connection closed\n");
+        close(fd);
+        for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+            if (state[ii].fd == fd) {
+                state[ii].fd = -1;
+            }
+        }
+    }
+
+    if (bytes_read < 0) {
+        if (errno == EWOULDBLOCK) {
+            return;
+        }
+
+        perror("Read error");
+        exit(1);
+    }
+}
+
+int
+main(int argc, char* argv[])
+{
+    int server_fd;
+    struct sockaddr_in server_addr;
+    char buffer[BUFFER_SIZE];
+    int opt = 1;
+    fd_set fds;
+
+    for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+        state[ii].fd = -1;
+    }
+
+    // NOTE: Add SOCK_NONBLOCK
+    if ((server_fd = socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK, 0)) < 0) {
+        perror("Socket creation failed");
+        exit(1);
+    }
+
+    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt))) {
+        perror("setsockopt failed");
+        exit(1);
+    }
+
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(PORT);
+
+    if (bind(server_fd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Bind failed");
+        exit(1);
+    }
+
+    if (listen(server_fd, 5) < 0) {
+        perror("Listen failed");
+        exit(1);
+    }
+
+    printf("TCP Echo Server listening on port %d\n", PORT);
+
+    while (1) {
+        // Figure out which file descriptors we're dealing with.
+        FD_ZERO(&fds);
+        FD_SET(server_fd, &fds);
+        int max_fd = server_fd;
+        for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+            if (state[ii].fd != -1) {
+                FD_SET(state[ii].fd, &fds);
+                if (state[ii].fd > max_fd) {
+                    max_fd = state[ii].fd;
+                }
+            }
+        }
+
+        struct timeval timeout;
+        timeout.tv_sec = 1;
+        timeout.tv_usec = 0;
+        int rv = select(max_fd + 1, &fds, 0, 0, &timeout);
+        if (rv < 0) {
+            perror("select");
+            exit(1);
+        }
+        if (rv > 0) {
+            if (FD_ISSET(server_fd, &fds)) {
+                accept_conn(server_fd);
+            }
+            for (int ii = 0; ii < MAX_CLIENTS; ++ii) {
+                if (FD_ISSET(state[ii].fd, &fds)) {
+                    read_data(state[ii].fd);
+                }
+            }
+        }
+    }
+
+    close(server_fd);
+    return 0;
+}
+```

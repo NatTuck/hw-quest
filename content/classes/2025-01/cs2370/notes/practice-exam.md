@@ -7,6 +7,8 @@ date: "2025-05-01"
 
 This practice exam covers material from the CS2370 course.
 
+This is what the exam should be according to Google's Gemini.
+
 ## Questions
 
 **Code Output/Return Value Questions**
