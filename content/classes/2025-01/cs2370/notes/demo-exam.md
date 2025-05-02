@@ -1,11 +1,11 @@
 ---
-title: "cs2370 Practice Exam"
+title: "cs2370 Demo Exam"
 date: "2025-05-01"
 ---
 
-# CS2370 Practice Exam
+# CS2370 Demo Exam
 
-This practice exam covers material from the CS2370 course.
+This demo exam covers material from the CS2370 course.
 
 This is what the exam should be according to Google's Gemini.
 
@@ -116,15 +116,22 @@ This is what the exam should be according to Google's Gemini.
 
 15. What is the base case in a recursive function? Why is it essential?
 
-16. Explain the concept of inheritance in Object-Oriented Programming. What does the `super()` function typically do?
+16. What is the difference between `O(n)` and `O(n^2)` complexity? Which one is generally preferred for large inputs?
 
-17. What is the difference between `O(n)` and `O(n^2)` complexity? Which one is generally preferred for large inputs?
+**Unlikely Stuff the AI Suggests**
 
-18. What is the purpose of the `requests` library in Python, in the context of web programming?
+17. What is the purpose of the `requests` library in Python, in the context of web programming?
 
-19. What does it mean to "scrape" a web page? Which Python library is commonly used for parsing HTML during web scraping?
+18. What does it mean to "scrape" a web page? Which Python library is commonly used for parsing HTML during web scraping?
 
-20. What are the three fundamental boolean operations used in boolean algebra and logic circuits?
+19. What are the three fundamental boolean operations used in boolean algebra and logic circuits?
+
+**Likely Stuff the AI Didn't Suggest**
+
+20. Write a function in Python that takes a list of
+integers and returns that sequence of integers with
+all odd values doubled. Show all 5 steps of the design
+recipe.
 
 ---
 
@@ -145,8 +152,8 @@ This is what the exam should be according to Google's Gemini.
 13. Use a dictionary when you need efficient lookups based on a unique key. The advantage is typically O(1) (constant time) lookup, whereas list lookup is O(n) (linear time).
 14. `self` refers to the instance of the class on which the method is being called. It allows the method to access and modify the instance's attributes.
 15. The base case is the condition under which the recursion stops. It's essential to prevent infinite recursion.
-16. Inheritance allows a new class (subclass/derived class) to inherit attributes and methods from an existing class (superclass/base class). `super()` is often used in the subclass's `__init__` method to call the superclass's `__init__` method, ensuring proper initialization.
-17. `O(n)` (linear time) means the execution time grows proportionally to the input size `n`. `O(n^2)` (quadratic time) means the execution time grows proportionally to the square of the input size. `O(n)` is generally preferred for large inputs as it scales much better.
-18. The `requests` library is used to send HTTP requests (like GET, POST) to web servers and receive their responses.
-19. Web scraping is the process of automatically extracting data from HTML web pages. BeautifulSoup is commonly used for parsing the HTML structure.
-20. AND, OR, NOT.
+16. `O(n)` (linear time) means the execution time grows proportionally to the input size `n`. `O(n^2)` (quadratic time) means the execution time grows proportionally to the square of the input size. `O(n)` is generally preferred for large inputs as it scales much better.
+17. The `requests` library is used to send HTTP requests (like GET, POST) to web servers and receive their responses.
+18. Web scraping is the process of automatically extracting data from HTML web pages. BeautifulSoup is commonly used for parsing the HTML structure.
+19. AND, OR, NOT.
+20. Left as an exercise for the reader.
