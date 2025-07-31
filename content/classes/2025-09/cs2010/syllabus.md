@@ -236,3 +236,123 @@ submitting work that you didn't produce and providing solutions to
 other students are unacceptable in this course and will result in a
 penalty as described above.
 
+# Tentative Schedule
+
+{{< schedule >}}
+
+<tr>
+	<td>1</td>
+	<td>Aug 25</td>
+	<td>Introduction</td>
+	<td></td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>Sep 1 ‡</td>
+	<td>Binary Numbers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>Sep 8</td>
+	<td>Hexadecimal Numbers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>Sep 15</td>
+	<td>Text Encoding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>Sep 22</td>
+	<td>Logic Gates</td>
+	<td></td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>Sep 29</td>
+	<td>Combinational Circuits</td>
+	<td></td>
+</tr>
+<tr>
+	<td>7</td>
+	<td>Oct 6</td>
+	<td>Sequential Circuits</td>
+	<td></td>
+</tr>
+<tr>
+	<td>8</td>
+	<td>Oct 13 §</td>
+	<td>Review; Midterm Exam</td>
+	<td>Midterm</td>
+</tr>
+<tr>
+	<td>--</td>
+	<td>Oct 17</td>
+	<td colspan="2" style="text-align: center">---- End of First Half Term ----</td>
+	<td></td>
+</tr>
+<tr>
+	<td>9</td>
+	<td>Oct 20</td>
+	<td>Algorithms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>10</td>
+	<td>Oct 27</td>
+	<td>Programming Languages</td>
+	<td></td>
+</tr>
+<tr>
+	<td>11</td>
+	<td>Nov 3</td>
+	<td>Software Development</td>
+	<td></td>
+</tr>
+<tr>
+	<td>12</td>
+	<td>Nov 10 ¶</td>
+	<td>Operating Systems</td>
+	<td></td>
+</tr>
+<tr>
+	<td>13</td>
+	<td>Nov 17</td>
+	<td>Networking</td>
+	<td></td>
+</tr>
+<tr>
+	<td>14</td>
+	<td>Nov 24</td>
+	<td>Artificial Intelligence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>--</td>
+	<td>Nov 26-28</td>
+	<td colspan="2" style="text-align: center">---- Thanksgiving Break ----</td>
+	<td></td>
+</tr>
+<tr>
+	<td>15</td>
+	<td>Dec 1</td>
+	<td>Review</td>
+	<td></td>
+</tr>
+<tr>
+	<td>-</td>
+	<td>Dec 8-12</td>
+	<td>Finals Week</td>
+	<td>Final Exam</td>
+</tr>
+
+{{< /schedule >}}
+
+ - ‡ No class on Monday, Sep 1 (Labor Day)
+ - § Indigenous People's Day - Classes are in session
+ - ¶ No class on Monday, Nov 10 (Veterans Day)
+```
+
