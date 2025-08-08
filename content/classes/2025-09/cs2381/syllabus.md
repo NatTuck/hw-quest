@@ -275,103 +275,103 @@ The initial plan is for homework to be due at 11:59pm on Monday.
 
 <tr>
 	<td>1</td>
-	<td>Aug 26</td>
+	<td>Aug 25</td>
 	<td>Intros: Class, Java, Data</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2</td>
-	<td>Sep 02 †</td>
+	<td>Sep 1 ‡</td>
 	<td>Data Types</td>
 	<td></td>
 </tr>
 <tr>
 	<td>3</td>
-	<td>Sep 09</td>
+	<td>Sep 8</td>
     <td>OOP Review, Records</td>
 	<td></td>
 </tr>
 <tr>
 	<td>4</td>
-	<td>Sep 16</td>
+	<td>Sep 15</td>
 	<td>Lists, Generics 🪳</td>
 	<td></td>
 </tr>
 <tr>
 	<td>5</td>
-	<td>Sep 23</td>
+	<td>Sep 22</td>
 	<td>Arrays, ArrayList</td>
 	<td></td>
 </tr>
 <tr>
 	<td>6</td>
-	<td>Sep 30</td>
+	<td>Sep 29</td>
 	<td>Stacks, Queues</td>
 	<td></td>
 </tr>
 <tr>
 	<td>7</td>
-	<td>Oct 07</td>
+	<td>Oct 6</td>
 	<td>Deques</td>
 	<td></td>
 </tr>
 <tr>
 	<td>8</td>
-	<td>Oct 14</td>
+	<td>Oct 13</td>
 	<td>Sets, Association Lists</td>
 	<td></td>
 </tr>
 <tr>
 	<td>9</td>
-	<td>Oct 21</td>
+	<td>Oct 20</td>
 	<td>Skip Lists</td>
     <td></td>
 </tr>
 <tr>
 	<td>10</td>
-	<td>Oct 28</td>
+	<td>Oct 27</td>
 	<td>BSTs</td>
 	<td></td>
 </tr>
 <tr>
 	<td>11</td>
-	<td>Nov 04</td>
+	<td>Nov 3</td>
 	<td>Priority Queue</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
-	<td>Nov 11 †</td>
+	<td>Nov 10 ¶</td>
 	<td>Hash Tables</td>
 	<td></td>
 </tr>
 <tr>
 	<td>13</td>
-	<td>Nov 18</td>
+	<td>Nov 17</td>
 	<td>Threads</td>
 	<td></td>
 </tr>
 <tr>
 	<td>14</td>
-	<td>Nov 25 ‡</td>
+	<td>Nov 24 §</td>
 	<td>🦃</th>
 	<td></td>
 </tr>
 <tr>
 	<td>15</td>
-	<td>Dec 02</td>
+	<td>Dec 1</td>
 	<td>Wrap-Up, Review</td>
 	<td></td>
 </tr>
 <tr>
 	<td>-</td>
-	<td>Dec 09</td>
+	<td>Dec 8-12</td>
 	<td>Finals Week</td>
 	<td>Final Exam</td>
 </tr>
 
 {{< /schedule >}}
 
- - † No class on Monday, Sep 02 (Labor Day) or 
-     Monday, Nov 11 (Veterans Day)
- - ‡ No class Wed, Thu, Fri (Thanksgiving)
+ - ‡ No class on Monday, Sep 1 (Labor Day)
+ - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
+ - ¶ No class on Monday, Nov 10 (Veterans Day)
