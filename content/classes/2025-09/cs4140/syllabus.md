@@ -48,7 +48,7 @@ Successful students will:
  - Contribute to allocation of tasks between team members then
    personally do a fair share of the work.
  - Deploy to a commodity virtual private server.
- - Collect and implement user stories from a person outside the team.
+ - Collect and implement user stories.
 
 
 ## Texts
@@ -59,12 +59,13 @@ There is no required textbook 🪳 for this course.
 ## Course Supplies
 
 In an early task, each student will be required to purchase the
-following services and maintain them for remainder of the semester:
+following services:
 
- - A commodity virtual private server
+ - A commodity virtual private server for the full semester.
  - A domain name
- 
-This can be done for under $20 for the semester.
+ - A $10 credit on OpenRouter.
+
+This can be done for under $30.
 
 Please wait to get these until the task is assigned, as there are
 several specific requirements.
@@ -74,20 +75,9 @@ several specific requirements.
 
 In this course you will work in a team to build a software project.
 
-For the first phase of the course, we will introduce the tools and
-processes we will be using for development by working on a simple
-example application.
-
-For the second phase of the course, each team will work on an
-application for a "customer" outside the team. These may be actual
-external people outside the class, it may just be the instructor, or
-it may be a mix of the two.
-
-In this second phase, teams will use a simple agile methodology to
-make as much progress as they can on the application before the
-semester ends while following the class development policies. New
-development policies will be introduced in lectures throughout the
-semester.
+This semester the plan is for the whole class to work as one big team to build a
+single application using a simple agile methodology. Tools and processes will be
+introduced as we go.
 
 A major focus of this class is on the elements of software development
 other than writing application code, so expect those things to take a
@@ -99,27 +89,31 @@ significant portion of your time and effort in this class.
 <table class="table table-striped">
   <thead>
     <tr>
-	  <td>Thing</td>
-	  <td>Weight</td>
-	</tr>
+		  <td>Thing</td>
+		  <td>Weight</td>
+		</tr>
   </thead>
   <tbody>
-	<tr>
-	  <td>Final Presentation</td>
-	  <td>30</td>
-	</tr>
+		<tr>
+		  <td>Final Presentation</td>
+		  <td>20</td>
+		</tr>
+		<tr>
+		  <td>Semester Checklist</td>
+		  <td>30</td>
+		</tr>
     <tr>
-	  <td>Team Reports</td>
-	  <td>30</td>
-	</tr>
+		  <td>Weekly Reports</td>
+		  <td>20</td>
+		</tr>
     <tr>
-	  <td>Individual Reports</td>
-	  <td>30</td>
-	</tr>
+		  <td>Project Tasks</td>
+		  <td>20</td>
+		</tr>
     <tr>
-	  <td>Team Meeting Attendence</td>
-	  <td>10</td>
-	</tr>
+		  <td>Attendance</td>
+		  <td>10</td>
+		</tr>
   </tbody>
 </table>
 
@@ -134,56 +128,67 @@ exceed the denominator used in the grade calculation.
 &ge; 67 &rarr; D+, &ge; 63 &rarr; D, &ge; 60 &rarr; D-, <br>
 else (&lt; 60) &rarr; F
 
-**Team and Individual Reports**
-
-For this class you will be primarily working in a team of around 3-5
-students. Your team will submit a weekly report answering questions
-and summarizing course work and progress. The team will get one grade
-on this report, reflecting an evaluation of both the report itself and
-the work it describes.
-
-In addition to the weekly team report, each student will submit an
-individual report. Each student will recieve a grade on their own
-report, reflecting the report itself and their individual
-contributions as reported by themselves and their teammates.
-
-Report templates will be provided through an online system called
-Inkfish. All assignments must be submitted through that system.
-Unsolicited emailed assignments will not be accepted.
-
-Each week there may be assigned tasks or new project requirements
-which will be reported on in one or both of that week's reports. Not
-doing the task or managing the requirement will lose you points.
-Claiming in a report that you did tasks or managed requirements when
-you did not loses double points.
-
 **Final Presentation**
 
-At the end of the semester each team will give a presentation on what
-they accomplished during the semester. The grade for this will cover
-both the presentation itself and the work it describes.
+At the end of the semester each student (or small group) will give a
+presentation on something interesting they did during during the semester. The
+grade for this will cover both the presentation itself and the work it
+describes.
 
 A component of this grade may be from peer evaluations.
 
-**Team Meeting Attendence**
+**Semester Checklist**
 
-Class each Friday will include a mandatory team meeting. If we don't
-have class Friday, the meeting is the following Monday.
+Over the course of the semester you must accomplish a set of specific tasks
+(e.g. creating some number of pull requests, doing code reviews, working on
+specific components of the app).
 
-Each student starts with four points. Unexcused absenses lose a point.
+The full checklist will be available by mid-semester, and you'll have to submit
+a summary at the end of the semester showing what you did to satisfy the
+checklist requirements.
 
-Example: Having 7 unexcused absences from team meetings gives you a
-score of -3 out of 4. So if you earn 100% in the other categories your
-final grade will be an 82.5.
+**Weekly Reports**
+
+Each week you'll have to write a quick report summarizing what you did that
+week.
+
+**Project Tasks**
+
+Each week you'll be assigned multiple specific tasks to complete. There will be
+some overlap in grading between completing tasks and summarizing those tasks in
+your weekly report.
+
+**Attendance**
+
+Attendance is required for all class meetings. You must check in to
+the online attendance tool within 5 minutes of the start of the period
+to receive full attendance credit.
+
+If you are unable to attend class or complete any course task by the specified
+deadline for some reason that would be covered by the university [Excused Absence
+Policy](https://www.plymouth.edu/sites/default/files/media/2022-11/psu-excused-absence-policy.pdf),
+email the professor as soon as possible for an exception. If you reasonably can
+email before the meeting or deadline, you must do so to receive an exception.
+
+**Peer Evaluation**
+
+Some of your tasks will be to evaluate work done by your classmates, both in the
+form of code reviews and checklist-based confirmation of task completion.
+
+This means your work will be evaluated by peers as well. In many cases, these
+evaluations will directly become task scores and influence final grades. Do the
+best you can to provide a fair and accurate evaluation.
 
 **Grade Appeals**
 
-If you think you recieved an incorrect grade, send me an email
+If you think you received an incorrect grade, send me an email
 describing why your grade is wrong and how you think it should be
 corrected.
 
 If the grade isn't clearly wrong, I will ask you to stop by my office
 hours so we can discuss the issue in more detail.
+
+This applies both to instructor and peer evaluations.
 
 **Fair Grading Policy**
 
@@ -192,7 +197,15 @@ https://coursecatalog.plymouth.edu/university-policies-procedures/).
 
 **Late Work**
 
-Work submitted after the deadline loses 1% per hour late.
+Please start early and submit your work on time.
+
+In many cases other students won't be able to start their tasks until you
+complete yours. Please try to avoid inconveniencing your classmates.
+
+The penalty for late submission will be whatever the submission tool (Inkfish,
+Canvas, or maybe something else) is configured to impose. This may be no credit
+for late work, half credit for work submitted no more than 1 day late, or some
+other penalty. Assume no credit for late work unless otherwise specified.
 
 If you are unable to submit an assignment on time due to a
 circumstance covered by the university [Excused Absence Policy](
@@ -211,12 +224,6 @@ discuss completing any missed assignments as soon as possible.
 
 Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate.
-
-To encourage more responses, each class has the chance to earn a 1%
-bonus to everyone's final grade. This bonus applies if at least 75%
-of the students complete their evaluations by 10am on the Monday
-of finals week.
-
 
 # Accomodations
 
@@ -266,17 +273,14 @@ Using code produced by generative AI is OK as long as:
 
  - You specify what generative AI tool (e.g. name, url, version, date
    as appropriate) was used for what code.
- - You include the full prompt, chat session, or whatever used to
-   generate the code in a comment or in a documentation file.
+ - The default aider commit comment is sufficient. 
 
 Not OK:
 
  - Copying code you didn't produce yourself into your project without
    clear attribution.
  - Copyright infringement (including for non-code assets)
- - Getting people not on your team to write code for you or writing
-   code for other teams, except in the case of an open source library
-   included through a package manager.
+ - Getting other people to write code for you, especially non-classmates.
 
 
 # Tentative Topics and Dates
@@ -288,13 +292,13 @@ The initial plan is for reports to be due at 11:59pm on Monday.
 <tr>
 	<td>1</td>
 	<td>Aug 25</td>
-	<td>Welcome, Github, Teams</td>
+	<td>Welcome, Github, WebDev</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>Sep 01 †</td>
-	<td>Web Dev, Agile</td>
+	<td>Agile, Testing</td>
 	<td></td>
 </tr>
 <tr>
@@ -342,19 +346,19 @@ The initial plan is for reports to be due at 11:59pm on Monday.
 <tr>
 	<td>10</td>
 	<td>Oct 27</td>
-	<td>Load Time, Interactivity</td>
+	<td>Big Feature Planning</td>
 	<td></td>
 </tr>
 <tr>
 	<td>11</td>
 	<td>Nov 03</td>
-	<td>Security</td>
+	<td>Load Time, Interactivity</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
 	<td>Nov 10 †</td>
-	<td>Monitoring</td>
+	<td>Security, Monitoring</td>
 	<td></td>
 </tr>
 <tr>

@@ -21,7 +21,6 @@ expressing computational solutions in various computer languages from
 assembly through icon-driven graphical languages (4GLs); historical,
 social and theoretical issues. Includes a weekly hands-on lab through
 which students experience a variety of computing environments.
-(TECH)(TECO)
 </blockquote>
 
 
@@ -47,8 +46,8 @@ Successful students will:
    and how they are developed and implemented
  - Be able to identify the components of a computer (hardware and
    software) and explain their function
- - Use the software development process to create problem-solving programs 
- - Design and implement (using a software tool) a logic circuit solution to a simple problem 
+ - Build simple computer programs
+ - Build simple logic circuits
  - Be able to read and write decimal values and text in binary and hex 
  - Be familiar with CS and IT majors as offered in the University 
  - Be familiar with career possibilities in CS and IT 
@@ -56,42 +55,50 @@ Successful students will:
 
 ## Texts
 
- 
+No required textbook.
 
+Online texts we're likely to use:
+
+ - [Praveen and Magesh, Digital Logic and Computer Archetecture in Minecraft](https://cmsc-389e.github.io/digital-logic-computer-architecture-minecraft/index.html)
+ - [Carpinelli, An Animated Introduction to Digital Logic Design](
+ https://digitalcommons.njit.edu/oat/1/)
+ - [Ierusalimschy, Programming in Lua](https://www.lua.org/pil/1.html)
+
+
+## Required Materials
+
+ - [Minecraft: Java Edition ($30)](https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D)
+ - [OpenRouter Credits ($10)](https://openrouter.ai/)
 
 ## Grading
 
 <table class="table table-striped">
   <thead>
-    <tr>
+  <tr>
 	  <td>Thing</td>
 	  <td>Weight</td>
 	</tr>
   </thead>
   <tbody>
 	<tr>
+	  <td>Homework</td>
+	  <td>25</td>
+	</tr>
+  <tr>
 	  <td>Labs</td>
 	  <td>25</td>
 	</tr>
-    <tr>
-	  <td>Homework</td>
+	<tr>
+	  <td>Attendance</td>
 	  <td>10</td>
 	</tr>
-    <tr>
-	  <td>Quizes</td>
-	  <td>10</td>
-	</tr>
-    <tr>
-	  <td>Attendence</td>
-	  <td>5</td>
-	</tr>
-    <tr>
+  <tr>
 	  <td>Midterm Exam</td>
-	  <td>25</td>
+	  <td>20</td>
 	</tr>
-    <tr>
+  <tr>
 	  <td>Final Exam</td>
-	  <td>25</td>
+	  <td>20</td>
 	</tr>
   </tbody>
 </table>
@@ -130,37 +137,40 @@ Towards that end:
 Each week there will be a homework assignment to be completed outside
 of class.
 
-Minimizing the use of external resources is recommended, and academic
-honesty rules will be strictly enforced.
+Each assignment will have guidelines on what resources to use. Follow the
+guidelines and complete the assignment as instructed.
 
-**Quizzes**
+Assignments submitted after the deadline will not be accepted, unless submission
+was prevented by an unexpected event that would qualify as an excused absence.
+Start early to ensure you have enough time to complete the assignments.
 
-There will be quizzes in lecture and/or lab throughout the semester.
+There may be extra assignments that are counted as homework for
+administrative tasks like completing course evaluations.
 
-**Attendence and Excused Absences**
+**Attendance**
 
-Attendence is required for both lectures and labs.
+Attendance is required for both lectures and labs. You must check in to
+the online attendance tool within 5 minutes of the start of the period
+to receive full attendance credit.
 
-If you are unable to attend class or submit homework due to a
-circumstance covered by the university [Excused Absence Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/),
-contact the professor by email to avoid losing attendence credit and
-discuss options for making up missed work. If it is reasonably
-feasible to send this email before the class you will miss you must do
-so.
+If you are unable to attend class or submit homework due to a circumstance
+covered by the university [Excused Absence
+Policy](https://www.plymouth.edu/sites/default/files/media/2022-11/psu-excused-absence-policy.pdf),
+email the professor as soon as possible for an exception. If you reasonably can
+email before the meeting or deadline, you must do so to receive an exception.
 
-Your final grade in the class will drop by one letter grade after the
-fourth unexcused absence.
+**Exams**
 
-**Late Work**
+There will be two exams, a midterm and a final.
 
-Work submitted after the assignment deadline will not be accepted.
-Start early to guarantee you have enough time to complete your
-homework assignments.
+The exams will most likely be on paper, with no access to electronic
+resources.
+
+Graded exams can be reviewed during office hours or by appointment.
 
 **Grade Appeals**
 
-If you think you recieved an incorrect grade, send me an email
+If you think you received an incorrect grade, send me an email
 describing why your grade is wrong and how you think it should be
 corrected.
 
@@ -180,11 +190,8 @@ discuss completing any missed assignments as soon as possible.
 **Course Evaluations**
 
 Course evaluations can be a valuable tool to determine how the
-semester went. They're more useful with a higher response rate.
-
-To encourage more responses, if 75% of students complete their course
-evaluations before the start of finals week every student will get a
-10% bonus to their final exam grade.
+semester went. They're more useful with a higher response rate, so
+please complete your course evaluations.
 
 **Email**
 
@@ -220,6 +227,7 @@ your accommodations.
 Please carefully read and be familiar with the unversity [Academic
 Integrity Policy](
 https://coursecatalog.plymouth.edu/university-policies-procedures/).
+
 Especially don't do any of the things in the list of examples of
 academic integrity violations. Make sure to review the penalties for
 repeated offenses.
@@ -236,6 +244,11 @@ submitting work that you didn't produce and providing solutions to
 other students are unacceptable in this course and will result in a
 penalty as described above.
 
+Some assignments in this course allow the use of generative AI tools. Such tools
+should not be used to generate assignment solutions except as explicitly
+described in a given assignment.
+
+
 # Tentative Schedule
 
 {{< schedule >}}
@@ -243,97 +256,85 @@ penalty as described above.
 <tr>
 	<td>1</td>
 	<td>Aug 25</td>
-	<td>Introduction</td>
+	<td>Introduction; Computers; AI Tools</td>
 	<td></td>
 </tr>
 <tr>
 	<td>2</td>
 	<td>Sep 1 ‡</td>
-	<td>Binary Numbers</td>
+	<td>Data; Algorithms; Minecraft</td>
 	<td></td>
 </tr>
 <tr>
 	<td>3</td>
 	<td>Sep 8</td>
-	<td>Hexadecimal Numbers</td>
+	<td>Binary; Hexadecimal Numbers</td>
 	<td></td>
 </tr>
 <tr>
 	<td>4</td>
 	<td>Sep 15</td>
-	<td>Text Encoding</td>
+	<td>Boolean Logic and Gates</td>
 	<td></td>
 </tr>
 <tr>
 	<td>5</td>
 	<td>Sep 22</td>
-	<td>Logic Gates</td>
+	<td>Logic Circuits</td>
 	<td></td>
 </tr>
 <tr>
 	<td>6</td>
 	<td>Sep 29</td>
-	<td>Combinational Circuits</td>
+	<td>Simplifying Circuits</td>
 	<td></td>
 </tr>
 <tr>
 	<td>7</td>
 	<td>Oct 6</td>
-	<td>Sequential Circuits</td>
-	<td></td>
+	<td>Review; Midterm Exam</td>
+	<td>Midterm is Friday, Oct 10</td>
 </tr>
 <tr>
 	<td>8</td>
-	<td>Oct 13 §</td>
-	<td>Review; Midterm Exam</td>
-	<td>Midterm</td>
-</tr>
-<tr>
-	<td>--</td>
-	<td>Oct 17</td>
-	<td colspan="2" style="text-align: center">---- End of First Half Term ----</td>
+	<td>Oct 13</td>
+	<td>Programming Basics</td>
 	<td></td>
 </tr>
 <tr>
 	<td>9</td>
 	<td>Oct 20</td>
-	<td>Algorithms</td>
+	<td>Layers of Abstraction</td>
 	<td></td>
 </tr>
 <tr>
 	<td>10</td>
 	<td>Oct 27</td>
-	<td>Programming Languages</td>
+	<td>Git and Github</td>
 	<td></td>
 </tr>
 <tr>
 	<td>11</td>
 	<td>Nov 3</td>
-	<td>Software Development</td>
+	<td>Vibe Coding</td>
 	<td></td>
 </tr>
 <tr>
 	<td>12</td>
 	<td>Nov 10 ¶</td>
-	<td>Operating Systems</td>
+	<td>Robot Control</td>
 	<td></td>
 </tr>
 <tr>
 	<td>13</td>
 	<td>Nov 17</td>
-	<td>Networking</td>
+	<td>Robot Control, pt2</td>
 	<td></td>
 </tr>
 <tr>
 	<td>14</td>
-	<td>Nov 24</td>
-	<td>Artificial Intelligence</td>
-	<td></td>
-</tr>
-<tr>
-	<td>--</td>
-	<td>Nov 26-28</td>
-	<td colspan="2" style="text-align: center">---- Thanksgiving Break ----</td>
+	<td>Nov 24 §</td>
+	<td>Bonus Topic</td>
 	<td></td>
 </tr>
 <tr>
@@ -352,7 +353,7 @@ penalty as described above.
 {{< /schedule >}}
 
  - ‡ No class on Monday, Sep 1 (Labor Day)
- - § Indigenous People's Day - Classes are in session
+ - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
  - ¶ No class on Monday, Nov 10 (Veterans Day)
 ```
 
