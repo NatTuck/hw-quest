@@ -31,7 +31,8 @@ lab. Falls and Springs.
  - Labs:
    - Section 01: Tuesday at 10-11:40am
    - Section 02: Tuesday at noon-1:40pm
- - Final Exam: TBA
+ - Final Exam: [Monday, December 8 @ 11am-1:30pm](
+ 	 https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
  - Course Site: https://homework.quest/ click "cs2381"
  - Office Hours: See course site.
 

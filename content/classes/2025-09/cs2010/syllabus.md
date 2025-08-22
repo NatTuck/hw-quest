@@ -33,7 +33,8 @@ which students experience a variety of computing environments.
  - Labs:
    - Section 01: Monday at 2:30-4:10pm
    - Section 02: Friday at 2:30-4:10pm
- - Final Exam: TBA
+ - Final Exam: [Wednesday, December 10 @ 8-10:30am](
+ 	 https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
  - Course Site: https://homework.quest/ click "cs2010"
 
 {{< officehours "2025-09" >}}

@@ -7,7 +7,7 @@ date: "2025-08-16"
 
 Courses:
  
- - [CS2010: Intro to Programming](
+ - [CS2010: Computing Fundamentals](
      ./classes/2025-09/cs2010)
  - [CS2381: Data Structures and Intermediate Programming](
      ./classes/2025-09/cs2381)

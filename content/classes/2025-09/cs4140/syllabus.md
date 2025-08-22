@@ -26,9 +26,10 @@ design and implementation. Falls.
  - Instructor: Nat Tuck 
    - Email: \<<nathaniel.tuck@plymouth.edu>\>
    - Office: D&M 305
- - Lecture: 
+ - Lecture: Mon, Wed, Fri @ 10:10 - 11:00am in D&M 432
+ - Final Exam: [Friday, December 12 @ 8-10:30am](
+  https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
  - Course Site: https://homework.quest/ click "cs4140"
- - Office Hours: see course site
  
 {{< officehours "2025-09" >}}
 
