@@ -35,6 +35,7 @@ lab. Falls and Springs.
  - Course Site: https://homework.quest/ click "cs2381"
  - Office Hours: See course site.
 
+{{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 

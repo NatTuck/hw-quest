@@ -30,6 +30,7 @@ design and implementation. Falls.
  - Course Site: https://homework.quest/ click "cs4140"
  - Office Hours: see course site
  
+{{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 

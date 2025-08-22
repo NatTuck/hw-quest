@@ -35,8 +35,8 @@ which students experience a variety of computing environments.
    - Section 02: Friday at 2:30-4:10pm
  - Final Exam: TBA
  - Course Site: https://homework.quest/ click "cs2010"
- - Office Hours: See course site.
 
+{{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 

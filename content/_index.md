@@ -14,7 +14,7 @@ Courses:
  - [CS4140: Software Engineering](
      ./classes/2025-09/cs4140)
 
-{{< officehours "2025-01" >}}
+{{< officehours "2025-09" >}}
 
 ## Previous Semesters
 
@@ -25,6 +25,7 @@ Courses:
  - [CS2470: Systems Programming in C/C++](
      ./classes/2025-01/cs2470)
  - [CS4310: Operating Systems](
+     ./classes/2025-01/cs4310)
 
 ### Fall 2024
 
