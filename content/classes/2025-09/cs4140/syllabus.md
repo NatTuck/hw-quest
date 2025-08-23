@@ -4,7 +4,7 @@ date: "2025-08-22"
 ---
 
 {{< lead >}}
-Software Engineering
+Software Engineering (3 credits)
 {{< /lead >}}
 
 [&larr; Back to Course Site](../)
@@ -23,13 +23,13 @@ design and implementation. Falls.
 
 # Course Info
 
- - Instructor: Nat Tuck 
-   - Email: \<<nathaniel.tuck@plymouth.edu>\>
-   - Office: D&M 305
- - Lecture: Mon, Wed, Fri @ 10:10 - 11:00am in D&M 432
- - Final Exam: [Friday, December 12 @ 8-10:30am](
-  https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
- - Course Site: https://homework.quest/ click "cs4140"
+- Instructor: Nat Tuck 
+  - Email: \<<nathaniel.tuck@plymouth.edu>\>
+  - Office: D&M 305
+- Lecture: Mon, Wed, Fri @ 10:10 - 11:00am in D&M 432
+- Final Exam: [Friday, December 12 @ 8-10:30am](
+ https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
+- Course Site: https://homework.quest/ click "cs4140"
  
 {{< officehours "2025-09" >}}
 
@@ -58,9 +58,9 @@ Successful students will:
 There is no required textbook 🪳 for this course.
 
 
-## Course Supplies
+## Course Materials
 
-In an early task, each student will be required to purchase the
+During the course of the semester, each student will be required to purchase the
 following services:
 
  - A commodity virtual private server for the full semester.
@@ -160,18 +160,6 @@ Each week you'll be assigned multiple specific tasks to complete. There will be
 some overlap in grading between completing tasks and summarizing those tasks in
 your weekly report.
 
-**Attendance**
-
-Attendance is required for all class meetings. You must check in to
-the online attendance tool within 5 minutes of the start of the period
-to receive full attendance credit.
-
-If you are unable to attend class or complete any course task by the specified
-deadline for some reason that would be covered by the university [Excused Absence
-Policy](https://www.plymouth.edu/sites/default/files/media/2022-11/psu-excused-absence-policy.pdf),
-email the professor as soon as possible for an exception. If you reasonably can
-email before the meeting or deadline, you must do so to receive an exception.
-
 **Peer Evaluation**
 
 Some of your tasks will be to evaluate work done by your classmates, both in the
@@ -180,22 +168,6 @@ form of code reviews and checklist-based confirmation of task completion.
 This means your work will be evaluated by peers as well. In many cases, these
 evaluations will directly become task scores and influence final grades. Do the
 best you can to provide a fair and accurate evaluation.
-
-**Grade Appeals**
-
-If you think you received an incorrect grade, send me an email
-describing why your grade is wrong and how you think it should be
-corrected.
-
-If the grade isn't clearly wrong, I will ask you to stop by my office
-hours so we can discuss the issue in more detail.
-
-This applies both to instructor and peer evaluations.
-
-**Fair Grading Policy**
-
-All grading in this class is subject to the university [Fair Grading Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
 
 **Late Work**
 
@@ -209,85 +181,39 @@ Canvas, or maybe something else) is configured to impose. This may be no credit
 for late work, half credit for work submitted no more than 1 day late, or some
 other penalty. Assume no credit for late work unless otherwise specified.
 
-If you are unable to submit an assignment on time due to a
-circumstance covered by the university [Excused Absence Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/)
-then you can request an extension. If you are granted an extension and
-submit by the extended deadline then the late penalty will be removed.
-If such an extension could reasonably be requested before the
-assignment deadline then it must be.
-
-**Late Registration**
-
-If you register late for the course please contact the professor to
-discuss completing any missed assignments as soon as possible.
-
-**Course Evaluations**
-
-Course evaluations can be a valuable tool to determine how the
-semester went. They're more useful with a higher response rate.
-
-# Accomodations
-
-Plymouth State University is committed to providing students with
-documented disabilities equal access to all university programs and
-facilities. If you think you have a disability requiring
-accommodations, you should contact Campus Accessibility Services
-(CAS), located in Speare (535-3300) to determine whether you are
-eligible for such accommodations. Academic accommodations will only be
-considered for students who have registered with CAS. If you have
-authorized CAS to electronically deliver a Letter of Accommodations
-for this course, please communicate with your instructor to review
-your accommodations.
-
-
-# Academic Integrity
-
-Please carefully read and be familiar with the unversity [Academic
-Integrity Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
-Especially don't do any of the things in the list of examples of
-academic integrity violations.
-
-For the projects in this class you will be developing software source
-code and making the results publicly available.
+# Copyright and Attribution
 
 To avoid plagarism, the following are clearly OK:
 
  - If a member of your team wrote code.
  - If a member of your team generated boilerplate code with a non-AI
-   code generation tool (e.g. scaffolding in Ruby on Rails).
+   code generation tool (e.g. mix phx.gen.html in Phoenix)
  - Using external open source libraries through package management
    tools.
 
 Copying code from other sources is OK if you provide clear attribution
 and:
 
- - The code is a documentation sample clearly intended to be adapted
-   and used by developers.
- - The code is licensed under an open source license compatible with
-   your project license. Make sure to follow the license.
- - Attribution should be identify the author if possible, how to
-   find the resource (e.g. URL, book citation, etc), and any relevent
-   licensing info.
+- The code is a documentation sample clearly intended to be adapted and used by
+developers OR the code is licensed under an open source license compatible with
+your project license. Make sure to follow the license.
+- Attribution should be identify the author if possible, how to find the
+resource (e.g. URL, book citation, etc), and any relevant licensing info.
 
 Using code produced by generative AI is OK as long as:
 
- - You specify what generative AI tool (e.g. name, url, version, date
-   as appropriate) was used for what code.
- - The default aider commit comment is sufficient. 
+- You specify what generative AI tool (e.g. name, url, version, date
+  as appropriate) was used for what code.
+- The default aider commit comment is sufficient. 
 
 Not OK:
 
- - Copying code you didn't produce yourself into your project without
-   clear attribution.
- - Copyright infringement (including for non-code assets)
- - Getting other people to write code for you, especially non-classmates.
-
+- Copying code you didn't produce yourself into your project without
+  clear attribution.
+- Copyright infringement (including for non-code assets)
+- Getting other people to write code for you, especially non-classmates.
 
 # Tentative Topics and Dates
-
-The initial plan is for reports to be due at 11:59pm on Monday.
 
 {{< schedule >}}
 
@@ -393,3 +319,5 @@ The initial plan is for reports to be due at 11:59pm on Monday.
  - † No class on Monday, Sep 01 (Labor Day) or 
      Monday, Nov 10 (Veterans Day)
  - ‡ No class Wed, Thu, Fri (Thanksgiving)
+
+{{< syllabus-common "2025-09" >}}

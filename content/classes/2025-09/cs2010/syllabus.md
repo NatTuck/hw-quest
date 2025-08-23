@@ -4,7 +4,7 @@ date: "2025-08-01"
 ---
 
 {{< lead >}}
-Computing Fundamentals
+Computing Fundamentals (3 credits)
 {{< /lead >}}
 
 [&larr; Back to Course Site](../)
@@ -26,16 +26,16 @@ which students experience a variety of computing environments.
 
 # Course Info
 
- - Instructor: Nat Tuck 
- - Email: \<<nathaniel.tuck@plymouth.edu>\>
- - Office: D&M 305
- - Lecture: Monday, Friday @ 9:05-9:55am
- - Labs:
-   - Section 01: Monday at 2:30-4:10pm
-   - Section 02: Friday at 2:30-4:10pm
- - Final Exam: [Wednesday, December 10 @ 8-10:30am](
- 	 https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
- - Course Site: https://homework.quest/ click "cs2010"
+- Instructor: Nat Tuck 
+- Email: \<<nathaniel.tuck@plymouth.edu>\>
+- Office: D&M 305
+- Lecture: Monday, Friday @ 9:05-9:55am
+- Labs:
+  - Section 01: Monday at 2:30-4:10pm
+  - Section 02: Friday at 2:30-4:10pm
+- Final Exam: [Wednesday, December 10 @ 8-10:30am](
+  https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
+- Course Site: https://homework.quest/ click "cs2010"
 
 {{< officehours "2025-09" >}}
 
@@ -43,16 +43,15 @@ which students experience a variety of computing environments.
 
 Successful students will: 
 
- - Be able to describe the characteristics of computer applications
-   and how they are developed and implemented
- - Be able to identify the components of a computer (hardware and
-   software) and explain their function
- - Build simple computer programs
- - Build simple logic circuits
- - Be able to read and write decimal values and text in binary and hex 
- - Be familiar with CS and IT majors as offered in the University 
- - Be familiar with career possibilities in CS and IT 
-
+- Be able to describe the characteristics of computer applications
+  and how they are developed and implemented
+- Be able to identify the components of a computer (hardware and
+  software) and explain their function
+- Build simple computer programs
+- Build simple logic circuits
+- Be able to read and write decimal values and text in binary and hex 
+- Be familiar with CS and IT majors as offered in the University 
+- Be familiar with career possibilities in CS and IT 
 
 ## Texts
 
@@ -104,14 +103,6 @@ Online texts we're likely to use:
   </tbody>
 </table>
 
-**Letter grades**
-
-&ge; 93 &rarr; A, &ge; 90 &rarr; A-, <br>
-&ge; 87 &rarr; B+, &ge; 83 &rarr; B, &ge; 80 &rarr; B-, <br>
-&ge; 77 &rarr; C+, &ge; 73 &rarr; C, &ge; 70 &rarr; C-, <br>
-&ge; 67 &rarr; D+, &ge; 63 &rarr; D, &ge; 60 &rarr; D-, <br>
-else (&lt; 60) &rarr; F
-
 **Labs**
 
 Each week there will be a lab assignment to complete during the lab
@@ -148,18 +139,6 @@ Start early to ensure you have enough time to complete the assignments.
 There may be extra assignments that are counted as homework for
 administrative tasks like completing course evaluations.
 
-**Attendance**
-
-Attendance is required for both lectures and labs. You must check in to
-the online attendance tool within 5 minutes of the start of the period
-to receive full attendance credit.
-
-If you are unable to attend class or submit homework due to a circumstance
-covered by the university [Excused Absence
-Policy](https://www.plymouth.edu/sites/default/files/media/2022-11/psu-excused-absence-policy.pdf),
-email the professor as soon as possible for an exception. If you reasonably can
-email before the meeting or deadline, you must do so to receive an exception.
-
 **Exams**
 
 There will be two exams, a midterm and a final.
@@ -168,87 +147,6 @@ The exams will most likely be on paper, with no access to electronic
 resources.
 
 Graded exams can be reviewed during office hours or by appointment.
-
-**Grade Appeals**
-
-If you think you received an incorrect grade, send me an email
-describing why your grade is wrong and how you think it should be
-corrected.
-
-If the grade isn't clearly wrong, I will ask you to stop by my office
-hours so we can discuss the issue in more detail.
-
-**Fair Grading Policy**
-
-All grading in this class is subject to the university [Fair Grading Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
-
-**Late Registration**
-
-If you register late for the course please contact the professor to
-discuss completing any missed assignments as soon as possible.
-
-**Course Evaluations**
-
-Course evaluations can be a valuable tool to determine how the
-semester went. They're more useful with a higher response rate, so
-please complete your course evaluations.
-
-**Email**
-
-Some communication about this class will be done through email
-to your University address. Please check your email; you are
-responsible for any email communications you miss.
-
-
-# Resources
-
-## Tutoring
-
-There is evening tutoring in the lab classroom. See the course website
-for more details. The [PASS Office](
-https://www.plymouth.edu/academics/plymouth-academic-support-services)
-also offers individual tutoring.
-
-## Accomodations
-
-Plymouth State University is committed to providing students with
-documented disabilities equal access to all university programs and
-facilities. If you think you have a disability requiring
-accommodations, you should contact Campus Accessibility Services
-(CAS), located in Speare (535-3300) to determine whether you are
-eligible for such accommodations. Academic accommodations will only be
-considered for students who have registered with CAS. If you have
-authorized CAS to electronically deliver a Letter of Accommodations
-for this course, please communicate with your instructor to review
-your accommodations.
-
-# Academic Integrity
-
-Please carefully read and be familiar with the unversity [Academic
-Integrity Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
-
-Especially don't do any of the things in the list of examples of
-academic integrity violations. Make sure to review the penalties for
-repeated offenses.
-
-The maximum penalty for academic dishonestly is a grade of "AF" in
-this course. In addition, the student's name may be sumitted the the
-appropriate university authorities for further diciplinary action
-which may result in penalties up to dismissal from the University.
-
-The most likely violation for this course is plagarism, which is when
-a student submits a solution for an assignment that wasn't produced by
-them (or their assigned team in the case of a group assignment). Both
-submitting work that you didn't produce and providing solutions to
-other students are unacceptable in this course and will result in a
-penalty as described above.
-
-Some assignments in this course allow the use of generative AI tools. Such tools
-should not be used to generate assignment solutions except as explicitly
-described in a given assignment.
-
 
 # Tentative Schedule
 
@@ -356,5 +254,5 @@ described in a given assignment.
  - ‡ No class on Monday, Sep 1 (Labor Day)
  - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
  - ¶ No class on Monday, Nov 10 (Veterans Day)
-```
 
+{{< syllabus-common "2025-09" >}}

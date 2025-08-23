@@ -4,7 +4,7 @@ date: "2024-08-01"
 ---
 
 {{< lead >}}
-Data Structures and Intermediate Programming
+Data Structures and Intermediate Programming (4 credits)
 {{< /lead >}}
 
 [&larr; Back to Course Site](../)
@@ -34,7 +34,6 @@ lab. Falls and Springs.
  - Final Exam: [Monday, December 8 @ 11am-1:30pm](
  	 https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
  - Course Site: https://homework.quest/ click "cs2381"
- - Office Hours: See course site.
 
 {{< officehours "2025-09" >}}
 
@@ -42,22 +41,25 @@ lab. Falls and Springs.
 
 Successful students will: 
 
- - Understand how to structure data in computer programs, including
-   the roles of several common data structures.
- - Be comfortable writing medium-sized programs in a modern
-   programming language like Java.
- - Be able to determine the computational complexity of many
-   operations and algorithms.
- - Practice reading and understanding computer code.
- - Consider creative solutions to programming problems.
+- Understand how to structure data in computer programs, including
+  the roles of several common data structures.
+- Be comfortable writing medium-sized programs in a modern
+  programming language like Java.
+- Be able to determine the computational complexity of many
+  operations and algorithms.
+- Practice reading and understanding computer code.
+- Consider creative solutions to programming problems.
 
 ## Texts
 
 We will be using the following free online textbooks:
 
- - https://greenteapress.com/wp/think-data-structures/
- - https://greenteapress.com/wp/think-java-2e/
+- [Think Java 2nd Edition](https://greenteapress.com/wp/think-java-2e/)
+- [Think Data Structures](https://greenteapress.com/wp/think-data-structures/)
 
+## Required Materials
+
+- [OpenRouter Credits ($10)](https://openrouter.ai/)
 
 # Grading
 
@@ -92,26 +94,6 @@ The number of points available in an assessment may (or may not)
 exceed the denominator used in the grade calculation. For example, if
 the final exam offers 104 points out of 100, then a perfect score
 would count as 26% towards the final course grade.
-
-**Letter grades**
-
-&ge; 93 &rarr; A, &ge; 90 &rarr; A-, <br>
-&ge; 87 &rarr; B+, &ge; 83 &rarr; B, &ge; 80 &rarr; B-, <br>
-&ge; 77 &rarr; C+, &ge; 73 &rarr; C, &ge; 70 &rarr; C-, <br>
-&ge; 67 &rarr; D+, &ge; 63 &rarr; D, &ge; 60 &rarr; D-, <br>
-else (&lt; 60) &rarr; F
-
-**Attendance**
-
-Attendance is required for both lectures and labs. You must check in to
-the online attendance tool within 5 minutes of the start of the period
-to receive full attendance credit.
-
-If you are unable to attend class or submit homework due to a circumstance
-covered by the university [Excused Absence Policy](
-https://www.plymouth.edu/sites/default/files/media/2022-11/psu-excused-absence-policy.pdf),
-email the professor as soon as possible for an exception. If you reasonably can
-email before the meeting or deadline, you must do so to receive an exception.
 
 **Labs**
 
@@ -193,46 +175,6 @@ No electronics are allowed in exams.
 
 Graded exams can be reviewed during office hours or by appointment.
 
-**Grade Appeals**
-
-If you think you received an incorrect grade, send me an email
-describing why your grade is wrong and how you think it should be
-corrected.
-
-If the grade isn't clearly wrong, I will ask you to stop by my office
-hours so we can discuss the issue in more detail.
-
-Requests to correct grades must be sent within a week of the grade
-being posted and before the start of finals week or they won't be
-considered unless there is a good reason to make an exception.
-
-**Fair Grading Policy**
-
-All grading in this class is subject to the university [Fair Grading Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
-
-**Excused Absences**
-
-If you are unable to submit an assignment or take an exam on time due
-to a circumstance covered by the university [Excused Absence Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/),
-contact the professor to discuss making up the assignment. If you are
-able to contact the professor before the assignment deadline or exam
-date you must do so.
-
-**Late Registration**
-
-If you register late for the course please contact the professor to
-discuss completing any missed assignments as soon as possible and
-whether you need an extension on at most one additional homework.
-
-**Course Evaluations**
-
-Course evaluations can be a valuable tool to determine how the
-semester went. They're more useful with a higher response rate,
-so please complete your course evaluation survey.
-
-
 # Resources
 
 ## Tutoring
@@ -254,46 +196,6 @@ considered for students who have registered with CAS. If you have
 authorized CAS to electronically deliver a Letter of Accommodations
 for this course, please communicate with your instructor to review
 your accommodations.
-
-# Academic Integrity
-
-Please carefully read and be familiar with the unversity [Academic
-Integrity Policy](
-https://coursecatalog.plymouth.edu/university-policies-procedures/).
-Especially don't do any of the things in the list of examples of
-academic integrity violations. Make sure to review the penalties for
-repeated offenses.
-
-The primary subject of this class is writing small computer programs.
-In order to learn that skill, you need to practice it by completing
-the programming assignments by writing code yourself (or with your
-team on team assignments).
-
-The following things are obvious cheating:
-
- - Submitting code that wasn't written by you (or your team).
-   - Exception 1: Starter code. 
-   - Exception 2: Small examples in the official documentation for 
-     the programming language or library we are using.
-   - Exception 3: Code generated by tools according to explicit
-     assignment instructions.
- - Sharing your solution code with other students (except teammates).
- - Looking at other solutions to this or similar problems.
- - Accessing unauthorized resources in a lab or exam.
-
-Cheating will be handled as follows:
-
- - During an exam or lab, if you are caught cheating or acting in a
-   way that appears to facilitate cheating (e.g. using unauthorized
-   electronics) you will be asked to leave and will not be allowed to
-   complete the assignment.
- - The default penalty for cheating on any assignment is zero grade on
-   that assignment.
-
-Partner assignment are expected to be done working together. You have
-at least some responsibility for any work submitted for your team.
-
-You may not post solutions for assignments in this class publicly. 
 
 ## Tentative Schedule
 
@@ -400,3 +302,5 @@ You may not post solutions for assignments in this class publicly.
  - ‡ No class on Monday, Sep 1 (Labor Day)
  - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
  - ¶ No class on Monday, Nov 10 (Veterans Day)
+
+{{< syllabus-common "2025-09" >}}

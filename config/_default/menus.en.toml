@@ -15,18 +15,18 @@ pageRef = "/"
 weight = 10
 
 [[main]]
-name = "cs2370"
-pageRef = "/classes/2025-01/cs2370"
+name = "cs2010"
+pageRef = "/classes/2025-09/cs2010"
 weight = 20
 
 [[main]]
-name = "cs2470"
-pageRef = "/classes/2025-01/cs2470"
+name = "cs2381"
+pageRef = "/classes/2025-09/cs2381"
 weight = 30
 
 [[main]]
-name = "cs4310"
-pageRef = "/classes/2025-01/cs4310"
+name = "cs4140"
+pageRef = "/classes/2025-09/cs4140"
 weight = 40
 
 [[main]]
