@@ -67,7 +67,7 @@ following services:
  - A domain name
  - A $10 credit on OpenRouter.
 
-This can be done for under $30.
+This can be done for under $50.
 
 Please wait to get these until the task is assigned, as there are
 several specific requirements.

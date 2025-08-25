@@ -175,28 +175,6 @@ No electronics are allowed in exams.
 
 Graded exams can be reviewed during office hours or by appointment.
 
-# Resources
-
-## Tutoring
-
-There is evening tutoring in the lab classroom. See the course website
-for more details. The [PASS Office](
-https://www.plymouth.edu/academics/plymouth-academic-support-services)
-also offers individual tutoring.
-
-## Accomodations
-
-Plymouth State University is committed to providing students with
-documented disabilities equal access to all university programs and
-facilities. If you think you have a disability requiring
-accommodations, you should contact Campus Accessibility Services
-(CAS), located in Speare (535-3300) to determine whether you are
-eligible for such accommodations. Academic accommodations will only be
-considered for students who have registered with CAS. If you have
-authorized CAS to electronically deliver a Letter of Accommodations
-for this course, please communicate with your instructor to review
-your accommodations.
-
 ## Tentative Schedule
 
 {{< schedule >}}
