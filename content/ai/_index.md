@@ -37,6 +37,8 @@ Tools:
 programming assistance using various APIs.
 - [Cline](https://cline.bot/) if you really like VSCode, then cline provides
 a similar workflow as an IDE plugin.
+- [Roo](https://roocode.com/) is another VSCode plugin that might
+be worth trying.
 
 Chat-based tools are strongly recommended over autocomplete-based tools. I
 recommend fully disabling autocomplete in your editor; it's a distraction. 
