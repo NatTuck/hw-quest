@@ -25,6 +25,10 @@ date: "2025-08-26"
 
 ## Agile Software Project Management
 
+"Agile" is a popular buzzword for how to manage software development. Like any
+good buzzword, it has some good ideas and also whole industry of consultants who
+get paid to overhype their products and services.
+
 According to professional "Agile Consultants", the story starts like this:
 
 "In the bad old days, there was Waterfalll..."
@@ -49,9 +53,9 @@ Specifically, if the software is reasonably simple, solves a
 well-defined problem, needs to be nearly 100% reliable, and there's
 plenty of time and money to available to build it.
 
-A good example of this is software for spacecraft. You've got millions
-of dollars and several years to write a five thousand line program
-that needs to work perfectly and can't be patched once deployed.
+A good example of this is software for spacecraft. You've got millions of
+dollars and several years to write a five thousand line program that needs to
+work perfectly and can't be patched once deployed.
 
 But for more typical software projects this runs into problems right away:
 
@@ -147,11 +151,15 @@ Our plan is to be vaguely agile.
 
 ## Tasks
 
+In assignment:
+
 - Sign up for Github
-- Sign up for Taiga.io
 - Sign up for Mattermost
+- Give OpenRouter $10
+- Write a whole fighting game and stick it on Github Pages
 
+Extra now:
 
-
+- Sign up for Taiga.io
 
 
