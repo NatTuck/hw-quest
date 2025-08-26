@@ -17,15 +17,13 @@ Data Structures and Intermediate Programming
 # Essential Resources
 
  - See [Inkfish](https://inkfish.homework.quest) for assignments
- - Some [Lecture notes](./notes) are available.
+ - Install the [required softwware](./required-software).
+ - Some Lecture notes are available; linked at the bottom of this page.
  - Notes and stuff from class are in the scratch repo.
 
 On this site:
 
  - Read the [Syllabus](./syllabus)
- - Install [required software](./required-software) to work on your personal machine
- - Follow the [Design Recipe](./design-recipe)
- - See last semester's [Spring 2024 Sample Final](./spring-sample-final)
 
 # Suggested Resources
 
@@ -35,6 +33,7 @@ On this site:
      https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html)
  - Open Licenced Textbooks:
    - [Think Java](https://greenteapress.com/wp/think-java-2e/)
+   - [Think Data Structures](https://greenteapress.com/wp/think-data-structures/)
    - [Wikibook: Data Structures](https://en.wikibooks.org/wiki/Data_Structures)
    - [Open Data Structures](https://opendatastructures.org/ods-python/)
    - [Modern Java in Action](https://www.manning.com/books/modern-java-in-action)
@@ -56,3 +55,4 @@ On this site:
  - College is an excellent time to learn to work with desktop Linux.
    Installing Linux Mint on a refurbished laptop is recommended. Look
    for the Thinkpad x13 or t14 on Amazon or eBay.
+
