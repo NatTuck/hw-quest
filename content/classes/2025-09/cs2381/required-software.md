@@ -53,8 +53,7 @@ sudo apt install maven
 
 **A Basic Programmer's Editor**
 
-Using Visual Studio Code is not required. There are several other
-editors worth exploring, including:
+For this class, a traditional programming editor is recommended.
 
  - [Notepad++](https://notepad-plus-plus.org/), 
    [Bluefish](https://bluefish.openoffice.nl/index.html)
@@ -65,7 +64,8 @@ editors worth exploring, including:
    [Doom Emacs](https://github.com/doomemacs/doomemacs) )
 
 You want to make sure your editor is intended for programming and
-provides syntax highlighting.
+provides syntax highlighting. I recommend turning any autocomplete
+functionality off.
 
 
 **Visual Studio Code**
