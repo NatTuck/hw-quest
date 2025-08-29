@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 08-29 Maven and Methods"
-date: "2024-09-03"
+date: "2025-08-27"
 ---
 
 ## Startup
