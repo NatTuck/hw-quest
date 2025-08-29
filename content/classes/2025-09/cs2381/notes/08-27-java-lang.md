@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 08-27 Java Language"
-date: "2024-08-27"
+date: "2025-08-26"
 ---
 
 ## Introducing Java

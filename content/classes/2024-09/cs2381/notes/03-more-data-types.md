@@ -44,7 +44,7 @@ public static void main(String args[]) {
 }
 ```
  
- 
+
 Classes: Data or code structure?
 
 **Records**: Halfway between tuples and classes?
