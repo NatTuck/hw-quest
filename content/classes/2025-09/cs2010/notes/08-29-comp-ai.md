@@ -1,6 +1,6 @@
 ---
-title: "cs2010 Notes: 08-25 Computers and AI"
-date: "2025-08-23"
+title: "cs2010 Notes: 08-29 Computers and AI"
+date: "2025-08-27"
 ---
 
 Computing Fundamentals is about computers, so let's talk a bit more about

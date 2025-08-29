@@ -1,6 +1,6 @@
 ---
 title: "cs2381: Required Software"
-date: "2024-08-01"
+date: "2025-08-01"
 ---
 
 [&larr; Back to Course Site](../)

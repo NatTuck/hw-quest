@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 04 Designing Static Methods"
+title: "cs2381 Notes: 08-29 Maven and Methods"
 date: "2024-09-03"
 ---
 

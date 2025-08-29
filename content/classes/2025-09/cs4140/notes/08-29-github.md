@@ -46,6 +46,8 @@ Setting up Taiga.io:
 ## First Taiga Stories
 
 - One story each to add each person's name to the CREDITS file.
+  - Let's look at the Process Notes on the course website.
+  - Specifically, can we push these to READY?
 - New teamset on Inkfish
   - These teams aren't for working together; they're code reviewer pairs.
   - Your teammate reviews and merges your work, and visa-versa.

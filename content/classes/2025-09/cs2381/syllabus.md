@@ -1,6 +1,6 @@
 ---
-title: "CS 2381 Fall 2024: Syllabus"
-date: "2024-08-01"
+title: "CS 2381 Fall 2025: Syllabus"
+date: "2025-08-01"
 ---
 
 {{< lead >}}
