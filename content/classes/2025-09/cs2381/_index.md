@@ -19,11 +19,8 @@ Data Structures and Intermediate Programming
  - See [Inkfish](https://inkfish.homework.quest) for assignments
  - Install the [required softwware](./required-software).
  - Some Lecture notes are available; linked at the bottom of this page.
- - Notes and stuff from class are in the scratch repo.
-
-On this site:
-
- - Read the [Syllabus](./syllabus)
+ - Notes and stuff from class are in the [scratch repo](
+   https://github.com/NatTuck/scratch-2025-09).
 
 # Suggested Resources
 
@@ -40,7 +37,7 @@ On this site:
 
 # Useful Stuff:
 
- - [Mvn Demo App](./cs2381-maven-demo-app.tar.gz)
+ - [Mvn Demo App](./mvn-demo-app.tar.gz)
 
 # Hints:
 
