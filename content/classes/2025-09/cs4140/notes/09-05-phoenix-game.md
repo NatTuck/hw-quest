@@ -1,62 +1,33 @@
 ---
-title: "cs4140 Notes: 08-03 Elixir and Basic Design"
-date: "2025-09-01"
+title: "cs4140 Notes: 09-05 Phoenix and Basic Game Design"
+date: "2025-09-02"
 ---
 
-## Web Development
+## Really quick rundown of Elixir
 
-Initial concept:
+- A collection of modules, typically one per file.
+- Each module has functions.
+  - Show syntax, including exprs and implicit returns.
+  - Show pattern matching
+- Language is impurely functional: No mutation, but side effects
+  are allowed.
+- No mutation forces explicit state management. That's a good thing
+  for reliability when stuff might break.
+- Compiled like Java.
+- .exs scripts
 
-- Web pages / web sites.
-- Server just sends files via HTTP protocol.
-- Browser displays non-interactive pages.
+## Quick Run through Phoenix Structure
 
-Expansions:
+- App starts at application.ex, that launches endpoint, which does HTTP
+- Remember: HTTP Request -> Processing -> HTTP Response
+- %Conn{} structure
+- Router
+- Controller
+- Template
 
-- Multimedia
-- JavaScript
-- The server doesn't need to just send files.
-- The client doesn't need to be a browser.
+(Pull up Inkfish)
 
-Observations:
-
-- Browsers natively run JavaScript. So writing in-browser code in JS
-is easiest.
-- Server code runs on our server and just needs to output valid HTTP,
-HTML, etc. So it can be any language, although FORTRAN is probably wrong.
-
-
-## Elixir and Phoenix
-
-What makes a good server-side language:
-
-- Fast I/O.
-- Good error handling.
-- Handles concurrency well.
-
-**Elixir**
-
-Elixir runs on the Erlang VM. Erlang was designed for telecom switches,
-where the goal was zero downtime. To get zero downtime in the face of hardware
-failure, you need redundant hardware. That means the software has to deal
-with being a distributed system.
-
-All of that's good for web apps, especially ones with real time communication.
-
-## Let's Run Our New App
-
-**Setting Up Deps**
-
-- Our app uses a PostgreSQL DB, which is a sane modern default for a
-  RDBMS.
-- But it takes a little bit of setup.
-- Let's do that - see the REAMDE for he pg-dev-db branch.
-  - Install a bunch of deps.
-  - Install Erlang / Elixir / NodeJS with ASDF.
-  - Enable pg localhost connections with password auth.
-  - Create the pg user.
-- Then we can do `mix ecto.setup` to create our DB.
-- And `mix test` will work.
+- Contexts
 
 ## Game Design
 
@@ -112,6 +83,4 @@ State:
 
 That's complicated. What's the simplest reasonable version of this
 we can build to start with?
-
-
 
