@@ -1,33 +1,7 @@
 ---
-title: "cs4140 Notes: 09-05 Phoenix and Basic Game Design"
+title: "cs4140 Notes: 09-05 Basic Game Design"
 date: "2025-09-02"
 ---
-
-## Really quick rundown of Elixir
-
-- A collection of modules, typically one per file.
-- Each module has functions.
-  - Show syntax, including exprs and implicit returns.
-  - Show pattern matching
-- Language is impurely functional: No mutation, but side effects
-  are allowed.
-- No mutation forces explicit state management. That's a good thing
-  for reliability when stuff might break.
-- Compiled like Java.
-- .exs scripts
-
-## Quick Run through Phoenix Structure
-
-- App starts at application.ex, that launches endpoint, which does HTTP
-- Remember: HTTP Request -> Processing -> HTTP Response
-- %Conn{} structure
-- Router
-- Controller
-- Template
-
-(Pull up Inkfish)
-
-- Contexts
 
 ## Game Design
 
