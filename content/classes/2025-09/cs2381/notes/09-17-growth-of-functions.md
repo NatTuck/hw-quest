@@ -1,5 +1,5 @@
 ---
-title: "cs2381 Notes: 09-17 Complexity"
+title: "cs2381 Notes: 09-17 Growth of Functions"
 date: "2025-09-15"
 ---
 
