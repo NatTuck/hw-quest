@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 09-17 Code Complexity"
-date: "2025-09-15"
+title: "cs2381 Notes: 09-19 Code Complexity"
+date: "2025-09-17"
 ---
 
 Last time, we separated numerical functions into orders of growth.
