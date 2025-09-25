@@ -1,46 +1,7 @@
 ---
-title: "cs2381 Notes: 09-24 Intro to Queue"
-date: "2025-09-22"
+title: "cs2381 Notes: 09-26 Ring Buffer, Dequeue"
+date: "2025-09-24"
 ---
-
-## Analysis of toString
-
-We had this:
-
-
-```java
-record ApplyOp(ArithExpr a1, String op, ArithExpr a2) implements StackThing {
-    public String toString() {
-        var sb = new StringBuilder(); // O(1)
-        sb.add("("); // O(1)
-        sb.add(a1.toString()); // ??
-        sb.add(op);  // O(1)
-        sb.add(a2.toString()); // ??
-        sb.add(")");  // O(1)
-        return sb.toString();
-    }
-}
-```
-
-
-How do the recursive calls add up?
-
-Let's draw a tree.
-
-I think this ends up as N*log(n), but let's think about it a bit. Maybe
-we can prove that it adds up to N.
-
-Solution: Instead of toString, call an "addToString(StringBuilder)".
-
-
-## ConsStack
-
-Next, let's also build a concrete implementation using ConsList.
-
-We figured out all the operations last time, so this should be quick.
-
-Start from the lab starter code.
-
 
 # Queues
 
