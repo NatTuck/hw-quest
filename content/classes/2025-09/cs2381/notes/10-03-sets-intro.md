@@ -30,7 +30,7 @@ The Java standard library has a Set interface, missing most of those
 methods: [Java17 Set](
 https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html)
 
-You can use the Java Set methods to build the mathmatical set methods easily
+You can use the Java Set methods to build the mathematical set methods easily
 enough, but that's still silly, so we'll talk mostly about our own Set
 interfaces.
 
