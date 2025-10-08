@@ -1,3 +1,9 @@
+---
+title: "CS 2026 Proposal - Changes"
+date: "2025-10-08"
+---
+
+
 # CS Revision 2026
 
 Changes:
