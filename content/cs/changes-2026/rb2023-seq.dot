@@ -1,0 +1,152 @@
+digraph {
+  rankdir=TB;
+  
+  // Year 1
+  subgraph cluster_year1 {
+    label = "Year 1";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 1
+    subgraph cluster_fall1 {
+      label = "Year 1 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2010 [label="CS 2010\nFundamentals"]
+      ma2130 [label="MA 2130\nPrecalculus"]
+    }
+
+    // Spring Year 1
+    subgraph cluster_spring1 {
+      label = "Year 1 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2370 [label="CS 2370\nIntro to Programming"]
+      ma2550 [label="MA 2550\nCalculus I"]
+    }
+    
+    // Ensure fall is above spring
+    cs2010 -> cs2370 [style=invis]
+  }
+  
+  // Year 2
+  subgraph cluster_year2 {
+    label = "Year 2";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 2
+    subgraph cluster_fall2 {
+      label = "Year 2 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2220 [label="CS 2220\nComputer Hardware"]
+      cs2470 [label="CS 2470\nSystems Programming in C/C++"]
+      cs2900 [label="CS 2900\nDigital and Analog Circuits"]
+      cs2901 [label="CS 2901\nMaterials, Design and Fabrication"]
+      ph2510 [label="PH 2510\nUniversity Physics I"]
+    }
+
+    // Spring Year 2
+    subgraph cluster_spring2 {
+      label = "Year 2 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2905 [label="CS 2905\nPLC Programming"]
+      cs3690 [label="CS 3690\nApplied Robotics"]
+      ph2520 [label="PH 2520\nUniversity Physics II"]
+    }
+    
+    // Ensure fall is above spring
+    cs2220 -> cs2905 [style=invis]
+  }
+  
+  // Year 3
+  subgraph cluster_year3 {
+    label = "Year 3";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 3
+    subgraph cluster_fall3 {
+      label = "Year 3 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs3500 [label="CS 3500\nIntroduction to Artificial Intelligence", style=filled, fillcolor=lightblue]
+      cs3890 [label="CS 3890\nEngineering Design", style=filled, fillcolor=lightblue]
+      cs3901 [label="CS 3901\nIndustrial Robotics"]
+      cs3902 [label="CS 3902\nAdaptive Control Systems"]
+    }
+
+    // Spring Year 3
+    subgraph cluster_spring3 {
+      label = "Year 3 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs3905 [label="CS 3905\nMobility, Autonomy, and Teleoperation", style=filled, fillcolor=lightblue]
+      cs4520 [label="CS 4520\nCyberethics"]
+    }
+    
+    // Ensure fall is above spring
+    cs3500 -> cs3905 [style=invis]
+  }
+  
+  // Year 4
+  subgraph cluster_year4 {
+    label = "Year 4";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 4
+    subgraph cluster_fall4 {
+      label = "Year 4 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs4790 [label="CS 4790\nRobotics Capstone"]
+    }
+
+    // Spring Year 4
+    subgraph cluster_spring4 {
+      label = "Year 4 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+    }
+    
+    // Ensure fall is above spring
+    cs4790 -> cs4790 [style=invis]
+  }
+
+  // Prerequisites
+  cs2010 -> cs2370
+  cs2370 -> cs2220
+  cs2370 -> cs2470
+  cs2370 -> cs2900
+  cs2370 -> cs2901
+  cs2370 -> cs3690
+  cs2220 -> cs2905
+  cs2900 -> cs3690
+  cs2901 -> cs3690
+  cs2905 -> cs3901
+  cs3690 -> cs3901
+  ph2510 -> cs3902
+  cs2900 -> cs3902
+  ph2510 -> cs3890
+  cs3690 -> cs3890
+  cs3221 -> cs3500
+  cs2370 -> cs3420
+  cs3420 -> cs4420
+  ph2510 -> cs3905
+  cs3690 -> cs3905
+  cs3901 -> cs4790
+  ma2130 -> ma2550
+  ma2550 -> ph2510
+  ph2510 -> ph2520
+}

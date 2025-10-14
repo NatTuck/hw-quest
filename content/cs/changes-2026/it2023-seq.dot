@@ -1,0 +1,147 @@
+digraph {
+  rankdir=TB;
+  
+  // Year 1
+  subgraph cluster_year1 {
+    label = "Year 1";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 1
+    subgraph cluster_fall1 {
+      label = "Year 1 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2010 [label="CS 2010\nFundamentals"]
+      ma2130 [label="MA 2130\nPrecalculus"]
+      ma2210 [label="MA 2210\nFinite Math with Business Statistics"]
+    }
+
+    // Spring Year 1
+    subgraph cluster_spring1 {
+      label = "Year 1 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2370 [label="CS 2370\nIntro to Programming"]
+      ma2300 [label="MA 2300\nStatistics I"]
+      ma2450 [label="MA 2450\nMathematical Reasoning"]
+    }
+    
+    // Ensure fall is above spring
+    cs2010 -> cs2370 [style=invis]
+  }
+  
+  // Year 2
+  subgraph cluster_year2 {
+    label = "Year 2";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 2
+    subgraph cluster_fall2 {
+      label = "Year 2 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2220 [label="CS 2220\nComputer Hardware"]
+      cs3240 [label="CS 3240\nData Communication and Computer Networks"]
+      cs3420 [label="CS 3420\nIntro to Cybersecurity"]
+    }
+
+    // Spring Year 2
+    subgraph cluster_spring2 {
+      label = "Year 2 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs3600 [label="CS 3600\nDatabase Management Systems & Security"]
+      cs3820 [label="CS 3820\nHuman-Computer Interaction"]
+      cs4230 [label="CS 4230\nSystem Administration"]
+    }
+    
+    // Ensure fall is above spring
+    cs2220 -> cs3600 [style=invis]
+  }
+  
+  // Year 3
+  subgraph cluster_year3 {
+    label = "Year 3";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 3
+    subgraph cluster_fall3 {
+      label = "Year 3 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs3650 [label="CS 3650\nBig Data Administration and Analysis"]
+      cs3720 [label="CS 3720\nSystems Analysis and Design"]
+      cs4400 [label="CS 4400\nComputer Networks and Protocols"]
+    }
+
+    // Spring Year 3
+    subgraph cluster_spring3 {
+      label = "Year 3 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs4420 [label="CS 4420\nComputer Security"]
+      cs4520 [label="CS 4520\nCyberethics"]
+    }
+    
+    // Ensure fall is above spring
+    cs3650 -> cs4420 [style=invis]
+  }
+  
+  // Year 4
+  subgraph cluster_year4 {
+    label = "Year 4";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 4
+    subgraph cluster_fall4 {
+      label = "Year 4 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs4760 [label="CS 4760\nSenior Project"]
+      cm3095 [label="CM 3095\nTechnical Communication"]
+    }
+
+    // Spring Year 4 (empty since no courses are shown in spring)
+    subgraph cluster_spring4 {
+      label = "Year 4 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+    }
+    
+    // Ensure fall is above spring
+    cs4760 -> cs4760 [style=invis]
+  }
+
+  // Prerequisites
+  cs2010 -> cs2370
+  cs2370 -> cs2220
+  cs2370 -> cs3240
+  cs2370 -> cs3420
+  cs2370 -> cs3600
+  cs2370 -> cs3820
+  cs2370 -> cs4230
+  cs3240 -> cs4400
+  cs3420 -> cs4420
+  cs3240 -> cs4420
+  cs3600 -> cs3650
+  cs3600 -> cs3720
+  cs3600 -> cs4420
+  cs3600 -> cs4760
+  cs3240 -> cs4760
+  cs3420 -> cs4760
+  cs3650 -> cs4760
+  cs3720 -> cs4760
+  cs3820 -> cs4760
+}

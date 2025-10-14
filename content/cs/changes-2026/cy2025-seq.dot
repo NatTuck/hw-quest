@@ -1,0 +1,121 @@
+digraph {
+  rankdir=TB;
+  
+  // Year 1
+  subgraph cluster_year1 {
+    label = "Year 1";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 1
+    subgraph cluster_fall1 {
+      label = "Year 1 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2010 [label="CS 2010\nComputing Fundamentals"]
+      ma1800 [label="MA 1800\nCollege Algebra"]
+    }
+
+    // Spring Year 1
+    subgraph cluster_spring1 {
+      label = "Year 1 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs2370 [label="CS 2370\nIntroduction to Programming"]
+      ma2210 [label="MA 2210\nFinite Math with Business Statistics"]
+      cy2020 [label="CY 2020\nCybersecurity Fundamentals"]
+    }
+    
+    // Ensure fall is above spring
+    cs2010 -> cs2370 [style=invis]
+  }
+  
+  // Year 2
+  subgraph cluster_year2 {
+    label = "Year 2";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 2
+    subgraph cluster_fall2 {
+      label = "Year 2 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cs3240 [label="CS 3240\nData Communication and Computer Networks"]
+      cs3600 [label="CS 3600\nDatabase Management Systems & Security"]
+      mgm3100 [label="MGM 3100\nCybersecurity and Privacy for Business"]
+    }
+
+    // Spring Year 2
+    subgraph cluster_spring2 {
+      label = "Year 2 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cs4400 [label="CS 4400\nComputer Networks and Protocols"]
+      cy3010 [label="CY 3010\nEthical Hacking & Pentesting"]
+    }
+    
+    // Ensure fall is above spring
+    cs3240 -> cs4400 [style=invis]
+  }
+  
+  // Year 3
+  subgraph cluster_year3 {
+    label = "Year 3";
+    style = filled;
+    color = lightgrey;
+    
+    // Fall Year 3
+    subgraph cluster_fall3 {
+      label = "Year 3 Fall";
+      style = filled;
+      color = white;
+      rank = same;
+      cy3020 [label="CY 3020\nNetwork Security"]
+      cy3030 [label="CY 3030\nDigital Forensics & Incident Response"]
+      cs4230 [label="CS 4230\nSystem Administration"]
+      cs4520 [label="CS 4520\nCyberEthics"]
+    }
+
+    // Spring Year 3
+    subgraph cluster_spring3 {
+      label = "Year 3 Spring";
+      style = filled;
+      color = white;
+      rank = same;
+      cy3040 [label="CY 3040\nCloud Security and Privacy"]
+      cy3100 [label="CY 3100\nRed Team/Blue Team Capstone"]
+      cs3720 [label="CS 3720\nSystems Analysis and Design"]
+    }
+    
+    // Ensure fall is above spring
+    cy3020 -> cy3040 [style=invis]
+  }
+
+  // Prerequisites
+  cs2010 -> cs2370
+  cs2370 -> cs3240
+  cs2370 -> cs3600
+  cs2370 -> cy2020
+  cs2370 -> cs4230
+  cs2370 -> cs4400
+  cy2020 -> cy3010
+  cy2020 -> cy3020
+  cy2020 -> cy3030
+  cs3240 -> cs4400
+  cs3240 -> cy3020
+  cs3600 -> cy3030
+  cs3600 -> cy3040
+  cs3600 -> cs3720
+  cy3010 -> cy3100
+  cy3020 -> cy3100
+  cy3030 -> cy3100
+  cs4230 -> cy3100
+  cs3720 -> cy3100
+  cs4400 -> cy3100
+  cs4520 -> cy3100
+}
