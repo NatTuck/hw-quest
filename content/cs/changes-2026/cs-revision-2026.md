@@ -22,11 +22,22 @@ Changes:
   - Data structures is in the name
 - Operating Systems
   - Requires C Programming, Not Architecture
-- Databases: Gone
-- Calc 2 -> Calc Stats, Basic Stats Gone
-- Added AI
-- Added Programming Languages (also acts as "Advanced Programming")
+- Databases: Gone (-4 credits)
+- Calc 2 -> Calc Stats, Basic Stats Gone (-4 credits)
+- Added AI (+3)
+- Added Programming Languages (also acts as "Advanced Programming") (+3)
 - Still need to clean up credit numbers.
+
+**Tweaking Credits**
+
+- Systems Programming wants to be 3 credits, we can add "And security" if we
+must.
+- That leaves us 1 credit.
+
+- But Elman wants Web Dev & DB.
+- Fundamentals could be 2 credits (1 + 1 lab).
+- Algo could conceptually be 3 credits (2 + 1 lab); some of the overflow could
+get pushed into Theory of Computation.
 
 **Implications for RB, CY, IT**
 
