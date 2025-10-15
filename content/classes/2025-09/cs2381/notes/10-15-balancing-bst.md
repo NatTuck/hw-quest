@@ -1,6 +1,6 @@
 ---
-title: "cs2381 Notes: 10-12 Balancing a BST"
-date: "2025-10-12"
+title: "cs2381 Notes: 10-15 Balancing a BST"
+date: "2025-10-13"
 ---
 
 **Balancing a Binary Search Tree**
