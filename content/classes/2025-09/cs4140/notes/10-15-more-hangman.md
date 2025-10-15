@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 10-13 Hangman"
+title: "cs4140 Notes: 10-15 More Hangman"
 date: "2025-10-13"
 ---
 
