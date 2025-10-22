@@ -18,6 +18,9 @@ date: "2025-10-08"
   - With a focus on common security issues
   - This is intended to be a required IT and Cybersec course,
     with the intentional design of major-mixed teams.
+  - Short term compromise: Cross-list with existing
+    web dev course. CS majors then will have one more programming
+    course.
 - Fundamentals remains 3 credits.
   - Covers SQL basics
   - Weeks 2 and 3 of SQL DBs go to Web Dev
