@@ -9,7 +9,7 @@ Software Engineering (3 credits)
 
 [&larr; Back to Course Site](../)
 
-<blockquote> 
+<blockquote>
 <b>Course Catalog:</b><br>
 Presents fundamental principles of software engineering. Emphasizes
 software design, implementation and maintenance. Techniques used in
@@ -20,58 +20,54 @@ design and implementation. Falls.
 <br>Prereqs: CS 2381 and CS 3720.
 </blockquote>
 
-
 # Course Info
 
-- Instructor: Nat Tuck 
+- Instructor: Nat Tuck
   - Email: \<<nathaniel.tuck@plymouth.edu>\>
   - Office: D&M 305
 - Lecture: Mon, Wed, Fri @ 10:10 - 11:00am in D&M 432
 - Final Exam: [Friday, December 12 @ 8-10:30am](
  https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
-- Course Site: https://homework.quest/ click "cs4140"
- 
+- Course Site: <https://homework.quest/> click "cs4140"
+
 {{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 
-Successful students will: 
+Successful students will:
 
- - Work in a team to develop a complex web application.
- - Publish the resulting application as a public git repository
+- Work in a team to develop a complex web application.
+- Publish the resulting application as a public git repository
    released under an open source license.
- - Use a selection of specific tools, techniques, and methodologies
+- Use a selection of specific tools, techniques, and methodologies
    for software engineering, software development, and project
    management.
- - Engage in self-directed learning to gain knowlege and experience
+- Engage in self-directed learning to gain knowlege and experience
    with new web development languages, frameworks, libraries, and
    tools.
- - Discover project tasks and break large tasks down into smaller pieces.
- - Contribute to allocation of tasks between team members then
+- Discover project tasks and break large tasks down into smaller pieces.
+- Contribute to allocation of tasks between team members then
    personally do a fair share of the work.
- - Deploy to a commodity virtual private server.
- - Collect and implement user stories.
-
+- Deploy to a commodity virtual private server.
+- Collect and implement user stories.
 
 ## Texts
 
 There is no required textbook 🪳 for this course.
-
 
 ## Course Materials
 
 During the course of the semester, each student will be required to purchase the
 following services:
 
- - A commodity virtual private server for the full semester.
- - A domain name
- - A $10 credit on OpenRouter.
+- A commodity virtual private server for the full semester.
+- A domain name
+- A $10 credit on OpenRouter.
 
 This can be done for under $50.
 
 Please wait to get these until the task is assigned, as there are
 several specific requirements.
-
 
 ## Software Project
 
@@ -85,37 +81,36 @@ A major focus of this class is on the elements of software development
 other than writing application code, so expect those things to take a
 significant portion of your time and effort in this class.
 
-
 # Grading
 
 <table class="table table-striped">
   <thead>
     <tr>
-		  <td>Thing</td>
-		  <td>Weight</td>
-		</tr>
+    <td>Thing</td>
+    <td>Weight</td>
+  </tr>
   </thead>
   <tbody>
-		<tr>
-		  <td>Final Presentation</td>
-		  <td>20</td>
-		</tr>
-		<tr>
-		  <td>Semester Checklist</td>
-		  <td>30</td>
-		</tr>
+  <tr>
+    <td>Final Presentation</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Semester Checklist</td>
+    <td>30</td>
+  </tr>
     <tr>
-		  <td>Weekly Reports</td>
-		  <td>20</td>
-		</tr>
+    <td>Weekly Reports</td>
+    <td>20</td>
+  </tr>
     <tr>
-		  <td>Project Tasks</td>
-		  <td>20</td>
-		</tr>
+    <td>Project Tasks</td>
+    <td>20</td>
+  </tr>
     <tr>
-		  <td>Attendance</td>
-		  <td>10</td>
-		</tr>
+    <td>Attendance</td>
+    <td>10</td>
+  </tr>
   </tbody>
 </table>
 
@@ -185,10 +180,10 @@ other penalty. Assume no credit for late work unless otherwise specified.
 
 To avoid plagarism, the following are clearly OK:
 
- - If a member of your team wrote code.
- - If a member of your team generated boilerplate code with a non-AI
+- If a member of your team wrote code.
+- If a member of your team generated boilerplate code with a non-AI
    code generation tool (e.g. mix phx.gen.html in Phoenix)
- - Using external open source libraries through package management
+- Using external open source libraries through package management
    tools.
 
 Copying code from other sources is OK if you provide clear attribution
@@ -204,7 +199,7 @@ Using code produced by generative AI is OK as long as:
 
 - You specify what generative AI tool (e.g. name, url, version, date
   as appropriate) was used for what code.
-- The default aider commit comment is sufficient. 
+- The default aider commit comment is sufficient.
 
 Not OK:
 
@@ -218,106 +213,106 @@ Not OK:
 {{< schedule >}}
 
 <tr>
-	<td>1</td>
-	<td>Aug 25</td>
-	<td>Welcome, Github, WebDev</td>
-	<td></td>
+ <td>1</td>
+ <td>Aug 25</td>
+ <td>Welcome, Github, WebDev</td>
+ <td></td>
 </tr>
 <tr>
-	<td>2</td>
-	<td>Sep 01 †</td>
-	<td>Agile, Testing</td>
-	<td></td>
+ <td>2</td>
+ <td>Sep 01 †</td>
+ <td>Agile, Testing</td>
+ <td></td>
 </tr>
 <tr>
-	<td>3</td>
-	<td>Sep 08</td>
-	<td>Testing, Features, DB Migrations</td>
-	<td></td>
+ <td>3</td>
+ <td>Sep 08</td>
+ <td>Testing, Features, DB Migrations</td>
+ <td></td>
 </tr>
 <tr>
-	<td>4</td>
-	<td>Sep 15</td>
-	<td>CI, Deployment, TLS</td>
-	<td></td>
+ <td>4</td>
+ <td>Sep 15</td>
+ <td>CI, Deployment, TLS</td>
+ <td></td>
 </tr>
 <tr>
-	<td>5</td>
-	<td>Sep 22</td>
-	<td>CD, Documentation</td>
-	<td></td>
+ <td>5</td>
+ <td>Sep 22</td>
+ <td>CD, Documentation</td>
+ <td></td>
 </tr>
 <tr>
-	<td>6</td>
-	<td>Sep 29</td>
-	<td>Projects, Customers</td>
-	<td>Midterm Cumulative Report</td>
+ <td>6</td>
+ <td>Sep 29</td>
+ <td>Projects, Customers</td>
+ <td>Midterm Cumulative Report</td>
 </tr>
 <tr>
-	<td>7</td>
-	<td>Oct 06</td>
-	<td>Backups, Customer Meetings</td>
-	<td></td>
+ <td>7</td>
+ <td>Oct 06</td>
+ <td>Backups, Customer Meetings</td>
+ <td></td>
 </tr>
 <tr>
-	<td>8</td>
-	<td>Oct 13</td>
-	<td>Coverage, Design</td>
-	<td></td>
+ <td>8</td>
+ <td>Oct 13</td>
+ <td>Coverage, Design</td>
+ <td></td>
 </tr>
 <tr>
-	<td>9</td>
-	<td>Oct 20</td>
-	<td>Database, State</td>
-	<td></td>
+ <td>9</td>
+ <td>Oct 20</td>
+ <td>Database, State</td>
+ <td></td>
 </tr>
 <tr>
-	<td>10</td>
-	<td>Oct 27</td>
-	<td>Big Feature Planning</td>
-	<td></td>
+ <td>10</td>
+ <td>Oct 27</td>
+ <td>Big Feature Planning</td>
+ <td></td>
 </tr>
 <tr>
-	<td>11</td>
-	<td>Nov 03</td>
-	<td>Load Time, Interactivity</td>
-	<td></td>
+ <td>11</td>
+ <td>Nov 03</td>
+ <td>Load Time, Interactivity</td>
+ <td></td>
 </tr>
 <tr>
-	<td>12</td>
-	<td>Nov 10 †</td>
-	<td>Security, Monitoring</td>
-	<td></td>
+ <td>12</td>
+ <td>Nov 10 †</td>
+ <td>Security, Monitoring</td>
+ <td></td>
 </tr>
 <tr>
-	<td>13</td>
-	<td>Nov 17</td>
-	<td>Redundancy, Mirroring, Failover</td>
-	<td></td>
+ <td>13</td>
+ <td>Nov 17</td>
+ <td>Redundancy, Mirroring, Failover</td>
+ <td></td>
 </tr>
 <tr>
-	<td>14</td>
-	<td>Nov 24 ‡</td>
-	<td>🦃</td>
-	<td></td>
+ <td>14</td>
+ <td>Nov 24 ‡</td>
+ <td>🦃</td>
+ <td></td>
 </tr>
 <tr>
-	<td>15</td>
-	<td>Dec 01</td>
-	<td>Polish, Handoff</td>
-	<td></td>
+ <td>15</td>
+ <td>Dec 01</td>
+ <td>Polish, Handoff</td>
+ <td></td>
 </tr>
 <tr>
-	<td>-</td>
-	<td>Dec 08-12</td>
-	<td>Finals Week</td>
-	<td>Presentations</td>
+ <td>-</td>
+ <td>Dec 08-12</td>
+ <td>Finals Week</td>
+ <td>Presentations</td>
 </tr>
 
 {{< /schedule >}}
 
- - † No class on Monday, Sep 01 (Labor Day) or 
-     Monday, Nov 10 (Veterans Day)
- - ‡ No class Wed, Thu, Fri (Thanksgiving)
+- † No class on Monday, Sep 01 (Labor Day) or
+     Tuesday, Nov 11 (Veterans Day)
+- ‡ No class Wed, Thu, Fri (Thanksgiving)
 
 {{< syllabus-common "2025-09" >}}

@@ -42,8 +42,6 @@ Traditionally: Centralized Source Control, where the server has the main copy
 Popular recently: Distributed version control, where there is no main copy (at
 least technically)
 
-
-
 - Git is a distributed version control tool.
 - We create a git repo on our machine.
 

@@ -24,22 +24,22 @@ lab. Falls and Springs.
 
 # Course Info
 
- - Instructor: Nat Tuck 
- - Email: \<<nathaniel.tuck@plymouth.edu>\>
- - Office: D&M 305
- - Lecture: Monday, Wednesday, Friday at 11:15am-12:05pm
- - Labs:
-   - Section 01: Tuesday at 10-11:40am
-   - Section 02: Tuesday at noon-1:40pm
- - Final Exam: [Monday, December 8 @ 11am-1:30pm](
- 	 https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
- - Course Site: https://homework.quest/ click "cs2381"
+- Instructor: Nat Tuck
+- Email: \<<nathaniel.tuck@plymouth.edu>\>
+- Office: D&M 305
+- Lecture: Monday, Wednesday, Friday at 11:15am-12:05pm
+- Labs:
+  - Section 01: Tuesday at 10-11:40am
+  - Section 02: Tuesday at noon-1:40pm
+- Final Exam: [Monday, December 8 @ 11am-1:30pm](
+   https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
+- Course Site: <https://homework.quest/> click "cs2381"
 
 {{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 
-Successful students will: 
+Successful students will:
 
 - Understand how to structure data in computer programs, including
   the roles of several common data structures.
@@ -66,27 +66,27 @@ We will be using the following free online textbooks:
 <table class="table table-striped">
   <thead>
     <tr>
-	  <td>Thing</td>
-	  <td>Weight</td>
-	</tr>
+   <td>Thing</td>
+   <td>Weight</td>
+ </tr>
   </thead>
   <tbody>
-	  <tr>
-	    <td>Labs</td>
-	    <td>40</td>
-	  </tr>
+   <tr>
+     <td>Labs</td>
+     <td>40</td>
+   </tr>
     <tr>
-	    <td>Homework</td>
-	    <td>25</td>
-	  </tr>
+     <td>Homework</td>
+     <td>25</td>
+   </tr>
     <tr>
       <td>Attendance</td>
       <td>10</td>
     </tr>
     <tr>
-	    <td>Final Exam</td>
-	    <td>25</td>
-	  </tr>
+     <td>Final Exam</td>
+     <td>25</td>
+   </tr>
   </tbody>
 </table>
 
@@ -106,16 +106,16 @@ programming. Students need to practice writing programs themselves
 without external help. Therefore, the following rules apply to
 lab sessions:
 
- - Personal electronics may not be used. If they are brought to
+- Personal electronics may not be used. If they are brought to
    lab, they must be kept in a closed container like a backpack.
- - Only approved web resources can be used: Inkfish, the course site,
+- Only approved web resources can be used: Inkfish, the course site,
    provided lecture notes, the textbooks(s), the offical programming
    language documentation, and anything directly linked from the
    current lab assignment.
- - Students who intentionally or repeatedly violate this policy will
+- Students who intentionally or repeatedly violate this policy will
    be asked to leave and will not be able to complete that lab
    assignment.
- - These specific rules may be overridden by the instructions in
+- These specific rules may be overridden by the instructions in
    individual lab assignments.
 
 **Homework**
@@ -180,105 +180,105 @@ Graded exams can be reviewed during office hours or by appointment.
 {{< schedule >}}
 
 <tr>
-	<td>1</td>
-	<td>Aug 25</td>
-	<td>Intros: Class, Java; AI Tools</td>
-	<td>ThinkJava: Ch 1-6</td>
+ <td>1</td>
+ <td>Aug 25</td>
+ <td>Intros: Class, Java; AI Tools</td>
+ <td>ThinkJava: Ch 1-6</td>
 </tr>
 <tr>
-	<td>2</td>
-	<td>Sep 1 ‡</td>
-	<td>Reviewing the Basics</td>
-	<td>ThinkJava: Ch 7-12</td>
+ <td>2</td>
+ <td>Sep 1 ‡</td>
+ <td>Reviewing the Basics</td>
+ <td>ThinkJava: Ch 7-12</td>
 </tr>
 <tr>
-	<td>3</td>
-	<td>Sep 8</td>
+ <td>3</td>
+ <td>Sep 8</td>
   <td>Lists, Interfaces, Generics; Java Stdlib</td>
-	<td></td>
+ <td></td>
 </tr>
 <tr>
-	<td>4</td>
-	<td>Sep 15</td>
-	<td>Algorithm Complexity</td>
-	<td></td>
+ <td>4</td>
+ <td>Sep 15</td>
+ <td>Algorithm Complexity</td>
+ <td></td>
 </tr>
 <tr>
-	<td>5</td>
-	<td>Sep 22</td>
-	<td>Building Lists: ConsList, ArrayList</td>
-	<td></td>
+ <td>5</td>
+ <td>Sep 22</td>
+ <td>Building Lists: ConsList, ArrayList</td>
+ <td></td>
 </tr>
 <tr>
-	<td>6</td>
-	<td>Sep 29</td>
-	<td>Stacks, Queues, and Deques</td>
-	<td></td>
+ <td>6</td>
+ <td>Sep 29</td>
+ <td>Stacks, Queues, and Deques</td>
+ <td></td>
 </tr>
 <tr>
-	<td>7</td>
-	<td>Oct 6</td>
-	<td>Iterators, Sets, Maps</td>
-	<td></td>
+ <td>7</td>
+ <td>Oct 6</td>
+ <td>Iterators, Sets, Maps</td>
+ <td></td>
 </tr>
 <tr>
-	<td>8</td>
-	<td>Oct 13</td>
-	<td>Hashing; Building HashSet</td>
+ <td>8</td>
+ <td>Oct 13</td>
+ <td>Hashing; Building HashSet</td>
 </tr>
 <tr>
-	<td>9</td>
-	<td>Oct 20</td>
-	<td>BSTs; Building TreeSet</td>
+ <td>9</td>
+ <td>Oct 20</td>
+ <td>BSTs; Building TreeSet</td>
   <td></td>
 </tr>
 <tr>
-	<td>10</td>
-	<td>Oct 27</td>
-	<td>More Sets / Maps</td>
-	<td></td>
+ <td>10</td>
+ <td>Oct 27</td>
+ <td>More Sets / Maps</td>
+ <td></td>
 </tr>
 <tr>
-	<td>11</td>
-	<td>Nov 3</td>
-	<td>Bit Sets and Bloom Filters</td>
-	<td></td>
+ <td>11</td>
+ <td>Nov 3</td>
+ <td>Bit Sets and Bloom Filters</td>
+ <td></td>
 </tr>
 <tr>
-	<td>12</td>
-	<td>Nov 10 ¶</td>
-	<td>Threads</td>
-	<td></td>
+ <td>12</td>
+ <td>Nov 10 ¶</td>
+ <td>Threads</td>
+ <td></td>
 </tr>
 <tr>
-	<td>13</td>
-	<td>Nov 17</td>
-	<td>Graphs</td>
-	<td></td>
+ <td>13</td>
+ <td>Nov 17</td>
+ <td>Graphs</td>
+ <td></td>
 </tr>
 <tr>
-	<td>14</td>
-	<td>Nov 24 §</td>
-	<td>🦃</td>
-	<td></td>
+ <td>14</td>
+ <td>Nov 24 §</td>
+ <td>🦃</td>
+ <td></td>
 </tr>
 <tr>
-	<td>15</td>
-	<td>Dec 1</td>
-	<td>Wrap-Up, Review</td>
-	<td></td>
+ <td>15</td>
+ <td>Dec 1</td>
+ <td>Wrap-Up, Review</td>
+ <td></td>
 </tr>
 <tr>
-	<td>-</td>
-	<td>Dec 8-12</td>
-	<td>Finals Week</td>
-	<td>Final Exam</td>
+ <td>-</td>
+ <td>Dec 8-12</td>
+ <td>Finals Week</td>
+ <td>Final Exam</td>
 </tr>
 
 {{< /schedule >}}
 
- - ‡ No class on Monday, Sep 1 (Labor Day)
- - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
- - ¶ No class on Monday, Nov 10 (Veterans Day)
+- ‡ No class on Monday, Sep 1 (Labor Day)
+- § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
+- ¶ No class on Tuesday, Nov 11 (Veterans Day)
 
 {{< syllabus-common "2025-09" >}}

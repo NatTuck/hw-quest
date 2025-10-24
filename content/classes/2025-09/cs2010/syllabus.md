@@ -23,10 +23,9 @@ social and theoretical issues. Includes a weekly hands-on lab through
 which students experience a variety of computing environments.
 </blockquote>
 
-
 # Course Info
 
-- Instructor: Nat Tuck 
+- Instructor: Nat Tuck
 - Email: \<<nathaniel.tuck@plymouth.edu>\>
 - Office: D&M 305
 - Lecture: Monday, Friday @ 9:05-9:55am
@@ -35,13 +34,13 @@ which students experience a variety of computing environments.
   - Section 02: Friday at 2:30-4:10pm
 - Final Exam: [Wednesday, December 10 @ 8-10:30am](
   https://www.plymouth.edu/sites/default/files/media/2025-08/Fall%202025%20Final%20Exam%20Schedule.pdf)
-- Course Site: https://homework.quest/ click "cs2010"
+- Course Site: <https://homework.quest/> click "cs2010"
 
 {{< officehours "2025-09" >}}
 
 ## Student Learning Outcomes
 
-Successful students will: 
+Successful students will:
 
 - Be able to describe the characteristics of computer applications
   and how they are developed and implemented
@@ -49,9 +48,9 @@ Successful students will:
   software) and explain their function
 - Build simple computer programs
 - Build simple logic circuits
-- Be able to read and write decimal values and text in binary and hex 
-- Be familiar with CS and IT majors as offered in the University 
-- Be familiar with career possibilities in CS and IT 
+- Be able to read and write decimal values and text in binary and hex
+- Be familiar with CS and IT majors as offered in the University
+- Be familiar with career possibilities in CS and IT
 
 ## Texts
 
@@ -59,47 +58,46 @@ No required textbook.
 
 Online texts we're likely to use:
 
- - [Praveen and Magesh, Digital Logic and Computer Archetecture in Minecraft](https://cmsc-389e.github.io/digital-logic-computer-architecture-minecraft/index.html)
- - [Carpinelli, An Animated Introduction to Digital Logic Design](
+- [Praveen and Magesh, Digital Logic and Computer Archetecture in Minecraft](https://cmsc-389e.github.io/digital-logic-computer-architecture-minecraft/index.html)
+- [Carpinelli, An Animated Introduction to Digital Logic Design](
  https://digitalcommons.njit.edu/oat/1/)
- - [Ierusalimschy, Programming in Lua](https://www.lua.org/pil/1.html)
-
+- [Ierusalimschy, Programming in Lua](https://www.lua.org/pil/1.html)
 
 ## Required Materials
 
- - [Minecraft: Java Edition ($30)](https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D)
- - [OpenRouter Credits ($10)](https://openrouter.ai/)
+- [Minecraft: Java Edition ($30)](https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc?tabs=%7B%22details%22%3A0%7D)
+- [OpenRouter Credits ($10)](https://openrouter.ai/)
 
 ## Grading
 
 <table class="table table-striped">
   <thead>
   <tr>
-	  <td>Thing</td>
-	  <td>Weight</td>
-	</tr>
+   <td>Thing</td>
+   <td>Weight</td>
+ </tr>
   </thead>
   <tbody>
-	<tr>
-	  <td>Homework</td>
-	  <td>25</td>
-	</tr>
+ <tr>
+   <td>Homework</td>
+   <td>25</td>
+ </tr>
   <tr>
-	  <td>Labs</td>
-	  <td>25</td>
-	</tr>
-	<tr>
-	  <td>Attendance</td>
-	  <td>10</td>
-	</tr>
+   <td>Labs</td>
+   <td>25</td>
+ </tr>
+ <tr>
+   <td>Attendance</td>
+   <td>10</td>
+ </tr>
   <tr>
-	  <td>Midterm Exam</td>
-	  <td>20</td>
-	</tr>
+   <td>Midterm Exam</td>
+   <td>20</td>
+ </tr>
   <tr>
-	  <td>Final Exam</td>
-	  <td>20</td>
-	</tr>
+   <td>Final Exam</td>
+   <td>20</td>
+ </tr>
   </tbody>
 </table>
 
@@ -115,12 +113,12 @@ outside help.
 
 Towards that end:
 
- - Personal electronics may not be used. If they are brought to
+- Personal electronics may not be used. If they are brought to
    lab, they must be kept in a closed container like a backpack.
- - Only approved web resources can be used. That includes the course
+- Only approved web resources can be used. That includes the course
    web site, the textbook, the LMS, and nothing else unless explicitly
    listed in the assignment.
- - Students who intentionally or repeatedly violate this policy will
+- Students who intentionally or repeatedly violate this policy will
    be asked to leave and will not be able to complete that lab
    assignment.
 
@@ -153,106 +151,106 @@ Graded exams can be reviewed during office hours or by appointment.
 {{< schedule >}}
 
 <tr>
-	<td>1</td>
-	<td>Aug 25</td>
-	<td>Introduction; Computers; AI Tools</td>
-	<td></td>
+ <td>1</td>
+ <td>Aug 25</td>
+ <td>Introduction; Computers; AI Tools</td>
+ <td></td>
 </tr>
 <tr>
-	<td>2</td>
-	<td>Sep 1 ‡</td>
-	<td>Data; Algorithms; Minecraft</td>
-	<td></td>
+ <td>2</td>
+ <td>Sep 1 ‡</td>
+ <td>Data; Algorithms; Minecraft</td>
+ <td></td>
 </tr>
 <tr>
-	<td>3</td>
-	<td>Sep 8</td>
-	<td>Binary; Hexadecimal Numbers</td>
-	<td></td>
+ <td>3</td>
+ <td>Sep 8</td>
+ <td>Binary; Hexadecimal Numbers</td>
+ <td></td>
 </tr>
 <tr>
-	<td>4</td>
-	<td>Sep 15</td>
-	<td>Boolean Logic and Gates</td>
-	<td></td>
+ <td>4</td>
+ <td>Sep 15</td>
+ <td>Boolean Logic and Gates</td>
+ <td></td>
 </tr>
 <tr>
-	<td>5</td>
-	<td>Sep 22</td>
-	<td>Logic Circuits</td>
-	<td></td>
+ <td>5</td>
+ <td>Sep 22</td>
+ <td>Logic Circuits</td>
+ <td></td>
 </tr>
 <tr>
-	<td>6</td>
-	<td>Sep 29</td>
-	<td>Simplifying Circuits</td>
-	<td></td>
+ <td>6</td>
+ <td>Sep 29</td>
+ <td>Simplifying Circuits</td>
+ <td></td>
 </tr>
 <tr>
-	<td>7</td>
-	<td>Oct 6</td>
-	<td>Review; Midterm Exam</td>
-	<td>Midterm is Friday, Oct 10</td>
+ <td>7</td>
+ <td>Oct 6</td>
+ <td>Review; Midterm Exam</td>
+ <td>Midterm is Friday, Oct 10</td>
 </tr>
 <tr>
-	<td>8</td>
-	<td>Oct 13</td>
-	<td>Programming Basics</td>
-	<td></td>
+ <td>8</td>
+ <td>Oct 13</td>
+ <td>Programming Basics</td>
+ <td></td>
 </tr>
 <tr>
-	<td>9</td>
-	<td>Oct 20</td>
-	<td>Layers of Abstraction</td>
-	<td></td>
+ <td>9</td>
+ <td>Oct 20</td>
+ <td>Layers of Abstraction</td>
+ <td></td>
 </tr>
 <tr>
-	<td>10</td>
-	<td>Oct 27</td>
-	<td>Git and Github</td>
-	<td></td>
+ <td>10</td>
+ <td>Oct 27</td>
+ <td>Git and Github</td>
+ <td></td>
 </tr>
 <tr>
-	<td>11</td>
-	<td>Nov 3</td>
-	<td>Vibe Coding</td>
-	<td></td>
+ <td>11</td>
+ <td>Nov 3</td>
+ <td>Vibe Coding</td>
+ <td></td>
 </tr>
 <tr>
-	<td>12</td>
-	<td>Nov 10 ¶</td>
-	<td>Robot Control</td>
-	<td></td>
+ <td>12</td>
+ <td>Nov 10 ¶</td>
+ <td>Robot Control</td>
+ <td></td>
 </tr>
 <tr>
-	<td>13</td>
-	<td>Nov 17</td>
-	<td>Robot Control, pt2</td>
-	<td></td>
+ <td>13</td>
+ <td>Nov 17</td>
+ <td>Robot Control, pt2</td>
+ <td></td>
 </tr>
 <tr>
-	<td>14</td>
-	<td>Nov 24 §</td>
-	<td>Bonus Topic</td>
-	<td></td>
+ <td>14</td>
+ <td>Nov 24 §</td>
+ <td>Bonus Topic</td>
+ <td></td>
 </tr>
 <tr>
-	<td>15</td>
-	<td>Dec 1</td>
-	<td>Review</td>
-	<td></td>
+ <td>15</td>
+ <td>Dec 1</td>
+ <td>Review</td>
+ <td></td>
 </tr>
 <tr>
-	<td>-</td>
-	<td>Dec 8-12</td>
-	<td>Finals Week</td>
-	<td>Final Exam</td>
+ <td>-</td>
+ <td>Dec 8-12</td>
+ <td>Finals Week</td>
+ <td>Final Exam</td>
 </tr>
 
 {{< /schedule >}}
 
- - ‡ No class on Monday, Sep 1 (Labor Day)
- - § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
- - ¶ No class on Monday, Nov 10 (Veterans Day)
+- ‡ No class on Monday, Sep 1 (Labor Day)
+- § No class on Wednesday, Nov 26 - Friday, Nov 28 (Thanksgiving)
+- ¶ No class on Tuesday, Nov 11 (Veterans Day)
 
 {{< syllabus-common "2025-09" >}}
