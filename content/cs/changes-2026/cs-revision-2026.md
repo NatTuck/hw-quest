@@ -3,8 +3,37 @@ title: "CS 2026 Proposal - Changes"
 date: "2025-10-08"
 ---
 
+## CS Revision 2026
 
-# CS Revision 2026
+### v2 compromise
+
+- Intermediate programming is 3 credits, 2 + 1 lab.
+- New course: Secure Web Development (3xxx, 3 credits)
+  - Prereq: Intermediate Programmming
+  - Postgreq: Software Engineering, Senior Project
+  - Students work in teams.
+  - To build a web app with a modern framework (e.g. Next.js)
+  - Using an SQL database
+  - Deployed to public cloud providers (e.g. Vercel, Prisma)
+  - With a focus on common security issues
+  - This is intended to be a required IT and Cybersec course,
+    with the intentional design of major-mixed teams.
+  - Short term compromise: Cross-list with existing
+    web dev course. CS majors then will have one more programming
+    course.
+- Fundamentals remains 3 credits.
+  - Covers SQL basics
+  - Weeks 2 and 3 of SQL DBs go to Web Dev
+- Systems Programming in C remains 2 credits (blargh)
+
+Other program impacts:
+
+- All: Computing Fundamentals unnests; should still recommend taking it first
+  for IT & Cybersec
+- Robotics: AI now has Intermediate Programming as Prereq, not Algo
+- IT & Cybersec: Need to keep DB until they require Intermediate Programming
+
+### v1
 
 Changes:
 
