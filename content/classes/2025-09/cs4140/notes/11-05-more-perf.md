@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 11-05 More Perf"
-date: "2024-11-03"
+date: "2025-11-03"
 ---
 
 ## Measuring page load time
