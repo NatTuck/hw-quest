@@ -1,6 +1,6 @@
 ---
 title: "cs2381 Notes: 11-12 Graphs"
-date: "2024-11-10"
+date: "2025-11-10"
 ---
 
 ## Graphs
