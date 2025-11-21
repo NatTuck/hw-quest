@@ -18,4 +18,11 @@ print(req.readAll())
 req.close()
 ```
 
-TODO: Finish this client
+Plan:
+
+- Create an "image" text file on Github. Two colors to start.
+- Make code that downloads that file and then
+  uses it as instructions to draw the image with two block colors.
+- Parameterize it on file name.
+- Make another image.
+- Show both file names working.

@@ -45,16 +45,117 @@ Or we can disable by instead including:
 
 Now let's run the starter code.
 
-## Sample Problem: Count ducks in photo
+## Sample Problem: Count animals in picture
 
-Sample problem:
+```bash
+mvn compile exec:java -Dexec.args=/home/nat/Code/hw-quest/content/classes/2025-09/cs2381/notes/z_four_ducks.jpg
+```
 
--
+Test images:
 
-## What do we do with it?
+- [bears](../z_three_bears.jpg)
+- [ducks](../z_four_ducks.jpg)
 
-- Functions that need language understanding.
-  - Unstructured outputs.
-  - Structured outputs.
+This wants to run against a VL model, like
+[Qwen3-VL-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct).
+
+Note that running VL models with llama.cpp requires both the model gguf and a
+mmproj gguf.
+
+```java
+package dslabs;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Base64;
+import java.io.IOException;
+
+import dev.langchain4j.data.message.AiMessage;
+import dev.langchain4j.data.message.UserMessage;
+import dev.langchain4j.data.message.ImageContent;
+import dev.langchain4j.data.message.TextContent;
+import dev.langchain4j.model.output.Response;
+
+public class App {
+    public static void main(String[] args) throws IOException {
+        if (args.length != 1) {
+            throw new RuntimeException("Expected image path as args[1]");
+        }
+
+        var img = new ImageContent(jpegToBase64(args[0]), "image/jpeg");
+        System.out.println("Got image of type " + img.image().mimeType());
+
+        var model = LocalModel.getModel();
+
+        UserMessage userMessage = UserMessage.from(
+                TextContent.from("How many animals are there in the image?"),
+                img);
+
+        var response = model.chat(userMessage);
+
+        System.out.println(response);
+    }
+
+    public static String jpegToBase64(String path) throws IOException {
+        byte[] bytes = Files.readAllBytes(Paths.get(path));
+        return Base64.getEncoder().encodeToString(bytes);
+    }
+}
+```
+
+This works, but there's a minor problem:
+
+- The function we've built is (english text, image) -> (english text).
+- We need an LLM to deal with arbitrary english text.
+- We don't want to be stuck in LLM-land forever, we'd like to get an
+  answer that we can use in normal code.
+- We want (english text, image) -> Integer.
+
+```java
+package dslabs;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Base64;
+import java.io.IOException;
+
+import dev.langchain4j.data.message.ImageContent;
+import dev.langchain4j.service.AiServices;
+import dev.langchain4j.service.UserMessage;
+import dev.langchain4j.service.V;
+
+public class App {
+    interface Counter {
+        @UserMessage("How many {{what}} are in the image?")
+        int getCount(@V("what") String what, @UserMessage ImageContent image);
+    }
+
+    public static void main(String[] args) throws IOException {
+        if (args.length != 1) {
+            throw new RuntimeException("Expected image path as args[1]");
+        }
+
+        var img = new ImageContent(jpegToBase64(args[0]), "image/jpeg");
+        System.out.println("Got image of type " + img.image().mimeType());
+
+        var model = LocalModel.getModel();
+        var svc = AiServices.create(Counter.class, model);
+
+        var response = svc.getCount("animals", img);
+
+        System.out.println(response);
+    }
+
+    public static String jpegToBase64(String path) throws IOException {
+        byte[] bytes = Files.readAllBytes(Paths.get(path));
+        return Base64.getEncoder().encodeToString(bytes);
+    }
+}
+```
+
+## More to discuss
+
+- Tools / Tool calling
+- What the AiServices thing is doing.
 - Multi-stage workflows with tool calling.
 - Agents.
