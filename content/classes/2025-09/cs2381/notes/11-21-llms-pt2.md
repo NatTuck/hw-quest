@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 11-21 Using LLMs"
+title: "cs2381 Notes: 11-21 Using LLMs"
 date: "2025-11-19"
 ---
 

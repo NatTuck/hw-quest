@@ -1,5 +1,5 @@
 ---
-title: "cs4140 Notes: 11-19 Local LLMs"
+title: "cs2381 Notes: 11-19 Local LLMs"
 date: "2025-11-17"
 ---
 
