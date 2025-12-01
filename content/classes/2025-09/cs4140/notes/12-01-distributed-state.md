@@ -1,7 +1,20 @@
 ---
-title: "Notes: 38 Distributed State"
-date: "2024-11-24"
+title: "cs4140 Notes: 12-01 Distributed State"
+date: "2025-11-29"
 ---
+
+## Where are we?
+
+- I put in a PR to let admins generate login links.
+- Let's see if we got any new features over the weekend.
+
+Next couple classes:
+
+- Wednesday: Semester Review
+- Friday: In class multiplayer playtest
+- Next Friday: Final presentations
+
+## Today's Topic: Distributed State
 
 ## Byzantine Generals
 

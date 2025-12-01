@@ -1,0 +1,111 @@
+1
+Student Name:
+
+CS 2010 Fall 2024 Sample Midterm Exam
+Instructions:
+•
+
+Answer the questions completely.
+
+•
+
+Write your name on each page.
+
+•
+
+If no exam with your name on it is turned in then you get a zero.
+
+1. Perform the following base conversions using a method of your choice. Indentify your method and
+show your work:
+1a. Convert (321)4 to binary.
+
+2a. Convert (201102)3 to base 7.
+
+2
+Student Name:
+2. Bits, bytes, and integers.
+2a. Fill in the following table of common integer types:
+Name
+
+Bytes
+
+byte
+
+1
+
+Bits
+
+short
+
+16
+
+int
+
+32
+
+long
+
+8
+
+Max Unsigned
+
+Max Signed
+
+255
+
+127
+
+264-1
+
+263-1
+
+2b. Two’s Complement. Fill in the rest of this table:
+Integer value
+
+Bit representation as 8 bit two’s complement
+
+4
+
+0000 0100
+
+-4
+25
+-25
+127
+-127
+3. Base Conversions. Fill in the rest of this table:
+Decimal (Base 10)
+
+Hexidecimal (Base 16)
+
+Binary (Base 2)
+
+Octal (Base 8)
+
+25
+25
+10101
+25
+250
+250
+abc
+
+3
+Student Name:
+4. Boolean Expressions
+Given: Q(A, B, C, D) = A’B + ACD’ + A’CD + A’B’
+4a. Write the truth table.
+
+4b. Write the K-Map.
+
+4c. Write an equivilent, simplified expression.
+
+4
+Student Name:
+
+5. Circuit Diagrams
+5a. Draw a circuit diagram for Z = (A + B + C)(A’ + B + C)
+
+5b. Draw a circuit diagram for Z = AB + AC + B’C
+
+

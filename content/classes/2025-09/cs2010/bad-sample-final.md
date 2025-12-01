@@ -1,11 +1,15 @@
 ---
-title: "CS 2010 Sample Final Exam"
+title: "CS 2010 Bad Sample Final Exam"
 date: "2025-12-05"
 ---
 
 # CS 2010 Fall 2025 Sample Final Exam
 
+This sample exam is an AI guess. It's a good guess as to what topics
+will be on the final exam, but study other things we covered too.
+
 **Instructions:**
+
 - Answer all questions completely.
 - Write your name on each page.
 - No computers, phones, or AI assistance.
@@ -17,6 +21,7 @@ date: "2025-12-05"
 ## Question 1: Hardware Review (25 points)
 
 ### 1a. Base Conversions (10 points)
+
 Perform the following base conversions. Show your work.
 
 1a-i. Convert (547)_8 to binary.
@@ -26,6 +31,7 @@ Perform the following base conversions. Show your work.
 1a-iii. Convert 255 (decimal) to hex and binary.
 
 ### 1b. Two's Complement (8 points)
+
 For 8-bit two's complement:
 
 | Decimal | 8-bit binary |
@@ -36,13 +42,15 @@ For 8-bit two's complement:
 |         | 01111111     |
 
 ### 1c. Boolean Logic (7 points)
+
 Simplify: `Q = A'B + AC + A'BC'` using Boolean algebra or K-map.
 
 ## Question 2: Lua Basics (15 points)
 
 What does each of the following Lua programs print? Show step-by-step execution.
 
-### 2a.
+### 2a
+
 ```lua
 x = 5
 if x > 3 then
@@ -55,10 +63,15 @@ for i = 1, 3 do
 end
 ```
 
-### 2b.
+### 2b
+
 ```lua
 local a = {1, 2, 3}
 for i, v in ipairs(a) do
+  -- Instructor note: No, you won't need to know random
+  -- functions like ipairs.
+  -- But you should look up ipairs and figure this out
+  -- anyway.
   print(i .. ": " .. v)
 end
 ```
@@ -66,9 +79,11 @@ end
 ## Question 3: Turtle Movement and Dead Reckoning (20 points)
 
 ### 3a. Predict Path (10 points)
+
 A turtle starts at (0,0) facing north (positive Z).
 
 Predict final position after:
+
 ```
 turtle.forward()
 turtle.turnRight()
@@ -79,11 +94,13 @@ turtle.forward()
 ```
 
 ### 3b. Write Turtle Code (10 points)
-Write a Lua function `dig_trench(n)` that digs down and moves forward `n` blocks.
+
+Write a Lua function `dig_trench(n)` that digs down once and moves forward `n` blocks.
 
 ## Question 4: Functions and Scope (15 points)
 
 ### 4a. What does it print? (8 points)
+
 ```lua
 function outer()
   local x = 10
@@ -98,7 +115,9 @@ outer()
 ```
 
 ### 4b. Fix the Bug (7 points)
+
 This tree chopper doesn't return home. Add dead reckoning.
+
 ```lua
 function chop_tree()
   while turtle.inspectUp() do
@@ -112,6 +131,7 @@ end
 ## Question 5: Git and Collaboration (10 points)
 
 Describe the steps to collaborate on a GitHub repo:
+
 1. Fork the repo.
 2. ...
 3. Submit pull request.
@@ -121,7 +141,9 @@ What command resolves a merge conflict after `git pull`?
 ## Question 6: Networking and Web (15 points)
 
 ### 6a. HTTP Client (10 points)
+
 What does this print if the URL returns "hello\nworld"?
+
 ```lua
 local resp = http.get("https://example.com/data")
 if resp then
@@ -132,6 +154,7 @@ end
 ```
 
 ### 6b. Web Concepts (5 points)
+
 Explain DNS -> IP -> TCP -> HTTP in a web request.
 
 ---
