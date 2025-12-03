@@ -1,6 +1,6 @@
 ---
 title: "CS 2010 Bad Sample Final Exam"
-date: "2025-12-05"
+date: "2025-12-01"
 ---
 
 # CS 2010 Fall 2025 Sample Final Exam

@@ -6,6 +6,7 @@ date: "2025-12-03"
 # CS2381: Data Structures & Intermediate Programming - Semester Review
 
 ## Course Goals
+
 - Master data structures: efficient storage & operations (O(1), O(log n), O(n)).
 - Java proficiency: OOP (records, interfaces), Maven, testing (JUnit).
 - Algorithm analysis: Big O, amortized time, growth functions.
@@ -14,6 +15,7 @@ date: "2025-12-03"
 - Modern: LLMs integration.
 
 ## Java Essentials
+
 ```
 - Programs: public class App { public static void main(String[] args) { ... } }
 - Types: primitives (int, double), String, wrappers (Integer), generics <T>.
@@ -24,6 +26,7 @@ date: "2025-12-03"
 ```
 
 **Design Recipe** (for methods):
+
 1. Javadoc (@param, @return).
 2. Stub (static Type name(Type arg)).
 3. Tests (happy path, edges).
@@ -31,6 +34,7 @@ date: "2025-12-03"
 5. Refine tests.
 
 ## Complexity & Growth
+
 ```
 f(n):
 - O(1): constant (array access).
@@ -44,6 +48,7 @@ Growth: drop constants/low terms → 1 < log n < n < n log n < n² < 2ⁿ.
 ```
 
 ## Sequences: Lists
+
 ```
 - ArrayList: O(1) get/set amortized add, poor delete front.
 - LinkedList: O(1) add/remove ends, O(n) random access.
@@ -54,6 +59,7 @@ ListIterator: bidirectional traversal w/ modify.
 ```
 
 ## Stacks, Queues, Deques
+
 ```
 Stack<T> (LIFO): push/pop/peek/empty → ConsList O(1).
 Queue<T> (FIFO): push(shift)/shift/first → RingBuffer (circular array).
@@ -64,6 +70,7 @@ Two-list queue: amortized O(1) w/ reverse on empty front.
 ```
 
 ## Maps & Sets
+
 ```
 Map<K,V>: put/get/del/contains/size.
 - AssocList: O(n) all ops.
@@ -76,6 +83,7 @@ SkipList: probabilistic O(log n) w/ multi-level links (p=0.5).
 ```
 
 ## Trees
+
 ```
 Binary Search Tree (BST): left < data < right.
 - insert/contains/remove: O(h), h=log n balanced → O(log n).
@@ -88,6 +96,7 @@ Scapegoat: rebuild subtree if depth > 2 log n, α=0.7 imbalance.
 ```
 
 ## Graphs
+
 ```
 Graph: V vertices, E⊆V×V edges.
 Reps:
@@ -102,6 +111,7 @@ Shortest Path:
 ```
 
 ## Bits & Space Efficiency
+
 ```
 BitVec: byte[] bits → get/set/add O(1) amortized.
 BitSet: fixed N → union/intersect/diff = bitwise OR/AND/XOR.
@@ -110,6 +120,7 @@ Bloom Filter: k hashes → bit array, approx set (false pos, no false neg).
 ```
 
 ## Concurrency
+
 ```
 Threads: new Thread(Runnable).start()/join().
 Race: shared sum → wrong (ThreadLocal?).
@@ -120,6 +131,7 @@ Primes: sieve + threads + BitSet → 1e9 in <10s.
 ```
 
 ## LLMs Integration
+
 ```
 - llama.cpp: GGUF models (Qwen-VL), OpenAI API.
 - LangChain4J: AiServices.builder(model).create(Tool.class).
@@ -128,6 +140,7 @@ VL: base64 image → (text,img) → structured out.
 ```
 
 ## Final Exam Prep
+
 - Practice: last sem's final on site.
 - Know: complexities, implement stack/queue/map/tree/graph algos.
 - Code: design recipe, tests, Java syntax.
