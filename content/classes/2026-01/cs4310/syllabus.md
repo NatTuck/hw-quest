@@ -27,7 +27,7 @@ or more projects form a significant part of this course. Springs.
 - Email: <nathaniel.tuck@plymouth.edu>
 - Office: D&M 305
 - Lecture: Mon, Wed, Fri at 9:05-9:55am in D&M 442
-- Office Hours: See <https://homework.quest/>
+- Office Hours: M 11:10am-12:10pm, W 1:30-2:30pm, Th 10:30-11:30am, F 1:30-2:30pm
 - Final Exam: [Wed May 6th @ 8:00-10:30am](
 https://www.plymouth.edu/sites/default/files/media/2025-11/Spring%202026%20Final%20Exam%20Schedule.pdf)
 - Course Site: <https://homework.quest/>
