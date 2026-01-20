@@ -21,7 +21,8 @@ Formal study of algorithms, including those for searching, sorting, and graph st
 - Instructor: Nat Tuck
 - Email: <nathaniel.tuck@plymouth.edu>
 - Office: D&M 305
-- Lecture: Wed, Fri at 10:10-11:00am in D&M 404
+- Lecture: Mon, Fri at 12:20-1:10pm in D&M 419
+- Lab: Thu at noon-1:40pm in D&M 404
 - Office Hours: M 11:10am-12:10pm, W 1:30-2:30pm, Th 10:30-11:30am, F 1:30-2:30pm
 - Final Exam Period: [Wed May 6th @ 11:00 AM – 1:30 PM](
 https://www.plymouth.edu/sites/default/files/media/2025-11/Spring%202026%20Final%20Exam%20Schedule.pdf)

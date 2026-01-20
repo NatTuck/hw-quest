@@ -1,9 +1,9 @@
 ---
 title: "Tech Notes on This Site"
-date: "2023-08-27"
+date: "2026-01-19"
 ---
 
 Here's some notes on this site:
 
- - Theme: [Congo](https://jpanther.github.io/congo/)
- - Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes)
+- Theme: [Blowfish](https://blowfish.page/)
+- Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes)
