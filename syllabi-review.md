@@ -6,7 +6,6 @@
 
 - Typo: "unversity" should be "university" in Academic Integrity section.
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
-- Schedule: Missing closing `</td>` in row for Mar 9: `<td>Due: Advisor Eval 2</tr>` should be `<td>Due: Advisor Eval 2</td></tr>`.
 
 ### CS 4760 (Senior Project)
 
@@ -26,16 +25,17 @@
 ### CS 3221 (Analysis of Algorithms)
 
 - Typo: "unversity" should be "university" in Academic Integrity section.
-- Correct spelling of "unforeseen" in Excused Absences – good.
+- Typo: "Accomodations" should be "Accommodations" in Resources.
 
 ### GD 4000 (Game Design Workshop)
 
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
+- Typo: "Accomodations" should be "Accommodations" in Resources.
 - Schedule: Missing opening `<td>` in row for Feb 2: `<td>Start Working<td>` should be `<td>Start Working</td>`.
 
 ## Inconsistencies Between Syllabi
 
-- **Typos and Spelling**: "unversity" vs. "university" – present in CS4310, CS4760, CS2470, CS3221; absent in GD4000. "unforseen" vs. "unforeseen" – present in all except CS3221. "Accomodations" vs. "Accommodations" – only in CS4760. "lanuage" – only in CS2470. These are simple typos that should be standardized to correct spelling for professionalism.
+- **Typos and Spelling**: "unversity" vs. "university" – present in CS4310, CS4760, CS2470, CS3221; absent in GD4000. "unforseen" vs. "unforeseen" – present in CS4310, CS4760, CS2470, GD4000; absent in CS3221. "Accomodations" vs. "Accommodations" – present in CS4760, CS3221, GD4000; absent in CS4310, CS2470. "lanuage" – only in CS2470. These are simple typos that should be standardized to correct spelling for professionalism.
 - **Phone Number**: CS4760 includes "603-" prefix; others do not. This might be reasonable if CS4760 is for a different campus or context, but inconsistency could confuse students – consider standardizing.
 - **Attendance Policies**: Allowed unexcused absences vary (CS4310: 6, CS2470: 4, CS3221: 6, GD4000: 3). This is reasonable as it reflects course intensity/requirements (e.g., labs in CS3221/CS2470, project in GD4000).
 - **Academic Integrity Wording**: CS4760 has a more permissive stance on using external code/assets with attribution, fitting its project-based nature. Others are stricter, which is appropriate for exams/labs. Reasonable variation.
