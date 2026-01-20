@@ -3,11 +3,13 @@
 ## Internal Consistency Issues
 
 ### CS 4310 (Operating Systems)
+
 - Typo: "unversity" should be "university" in Academic Integrity section.
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
 - Schedule: Missing closing `</td>` in row for Mar 9: `<td>Due: Advisor Eval 2</tr>` should be `<td>Due: Advisor Eval 2</td></tr>`.
 
 ### CS 4760 (Senior Project)
+
 - Incomplete section: "## Week 13 Review" ends with "Based on your" – appears truncated.
 - Typo: "unversity" should be "university" in Academic Integrity section.
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
@@ -16,15 +18,18 @@
 - Schedule: Missing closing `</td>` in row for Mar 9: `<td>Due: Advisor Eval 2</tr>` should be `<td>Due: Advisor Eval 2</td></tr>`.
 
 ### CS 2470 (Systems Programming in C/C++)
+
 - Typo: "unversity" should be "university" in Academic Integrity section.
 - Typo: "lanuage" should be "language" in Student Learning Outcomes.
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
 
 ### CS 3221 (Analysis of Algorithms)
+
 - Typo: "unversity" should be "university" in Academic Integrity section.
 - Correct spelling of "unforeseen" in Excused Absences – good.
 
 ### GD 4000 (Game Design Workshop)
+
 - Typo: "unforseen" should be "unforeseen" in Excused Absences.
 - Schedule: Missing opening `<td>` in row for Feb 2: `<td>Start Working<td>` should be `<td>Start Working</td>`.
 
