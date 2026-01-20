@@ -1,83 +1,76 @@
 ---
-title: "CS 2470 Spring 2026: Syllabus"
+title: "CS 4310 Spring 2026: Syllabus"
 date: "2026-01-17"
 ---
 
 {{< lead >}}
-Systems Programming in C/C++
+Operating Systems
 {{< /lead >}}
 
 [&larr; Back to Course Site](../)
 
 <blockquote>
 <b>Course Catalog:</b><br>
-Gives students who are already proficient programmers experience in
-systems-level programming in C/C++. In particular, students learn how
-to create C/C++ programs that interact with the hardware and other
-software on a machine. Springs.
-<br>Prerequisite(s): CS CS2370
+Covers the major concept areas of operating systems for both large and
+small computers and the interrelationship between the operating system
+and computer architecture. Topics include: history, tasking, process
+synchronization, scheduling, memory organization, device management,
+file systems, security issues, distributed and real-time systems. One
+or more projects form a significant part of this course. Springs.
+<br>Prerequisite(s): CS 2381 and CS 4250
 </blockquote>
 
-## Course Info
+# Course Info
 
-- Credits: 2
+- Credits: 3
 - Instructor: Nat Tuck
 - Email: <nathaniel.tuck@plymouth.edu>
 - Office: D&M 305
-- Lecture: Wed, Fri at 10:10-11:00am in D&M 404
+- Lecture: Mon, Wed, Fri at 9:05-9:55am in D&M 442
 - Office Hours: See <https://homework.quest/>
-- Final Exam Period: [Fri May 8th @ 8:00-10:30am](
+- Final Exam: [Wed May 6th @ 8:00-10:30am](
 https://www.plymouth.edu/sites/default/files/media/2025-11/Spring%202026%20Final%20Exam%20Schedule.pdf)
 - Course Site: <https://homework.quest/>
 
-### Student Learning Outcomes
+## Student Learning Outcomes
 
 Successful students will:
 
-- Be able to write and run low level computer programs to accomplish
-   system-level tasks.
-- Be comfortable with the C programming lanuage.
-- Be familiar with basic concepts in Unix-style systems programming
+- Be familiar with the implementation details of several components
+of a UNIX-style operating system.
+- Be able to write code to make system calls from user code.
+- Understand the process by which a system call is handled in kernel code.
+- Be able to write code that will run on a multi-core system.
 
-### Texts
+## Texts
 
 Students are not required to purchase a commercial textbook for this course.
 
-Recommended text:
-
-- The C Programming Language, 2nd Edition, by Kernighan and Ritchie
-
 Freely available textbooks:
 
-- [The Linux Command Line](https://linuxcommand.org/tlcl.php)
-- [Beej's Guide to C](https://beej.us/guide/bgc/)
 - [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [Pointers Tutorial](https://github.com/jflaherty/ptrtut13)
-- [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
+- [xv6 book](https://pdos.csail.mit.edu/6.828/2025/xv6/book-riscv-rev5.pdf)
+- [Beej's Guide to C](https://beej.us/guide/bgc/)
 
-## Grading
+# Grading
 
 <table class="table table-striped">
-  <thead>
-    <tr>
-      <td>Thing</td>
-      <td>Weight</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Homework</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <td>Labs</td>
-      <td>40</td>
-    </tr>
-    <tr>
-      <td>Project</td>
-      <td>20</td>
-    </tr>
-  </tbody>
+ <thead>
+  <tr>
+   <td>Thing</td>
+   <td>Weight</td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Homework</td>
+   <td>75</td>
+  </tr>
+  <tr>
+   <td>Final Exam</td>
+   <td>25</td>
+  </tr>
+ </tbody>
 </table>
 
 The number of points available in an assessment may (or may not)
@@ -97,52 +90,33 @@ else (&lt; 60) &rarr; F
 
 Attendance is required for all class meetings. You must check in to the online
 attendance tool within 5 minutes of the start of the period to receive credit
-for attendance. If you miss more than four meetings then each subsequent
+for attendance. If you miss more than six meetings then each subsequent
 unexcused absence will reduce your final grade by 4 percentage points.
 
-No makeups for unexcused lab absences. Any class meeting might be
-a lab.
+There are no makeups for unexcused exam or in-class activity absences.
 
 **Homework**
 
-Approximately each week there will be a homework assignment to be
-completed outside of class.
+Approximately each week there will be a homework assignment to be completed
+outside of class. There may also be in-class activities graded as homework.
 
 Minimizing the use of external resources is recommended, and academic
 honesty rules will be strictly enforced.
 
-Homework will be posted on Inkfish. Check Inkfish regularly for
-upcoming due dates.
+Homework assignments will be posted on Inkfish. Check Inkfish
+regularly for upcoming due dates.
 
 Homeworks submitted after the deadline loses 1% per hour late (round
-up) to a maximum penalty of 100%.
+up).
 
-**Labs**
+Some homeworks are challenge assignments. Those are more difficult, will take
+more time, and are worth more points.
 
-Approximately every other week there will be a lab assignment to
-complete during the class period. Labs will only be accepted before
-the end of the lab period, and only when submitted from a lab
-workstation.
+**Final Exam**
 
-The purpose of this course is to teach the skill of computer
-programming. Students need to practice writing programs themselves
-without external help. Therefore, the following rules apply to
-lab assignments:
+We'll do an exam during the exam period. Probably on paper.
 
-- Personal electronics may not be used. If they are brought to
-   lab, they must be kept in a closed container like a backpack.
-- Only approved web resources can be used: Inkfish, the course site,
-   provided lecture notes, the textbooks(s), the official programming
-   language documentation, and anything directly linked from the
-   current lab assignment.
-- That means no Google and definitely no LLM Chatbots during labs.
-- Students who intentionally or repeatedly violate this policy will
-   be asked to leave and will not be able to complete that lab
-   assignment.
-- These specific rules may be overridden by the instructions in
-   individual lab assignments.
-
-During the final exam period we will do one final lab.
+No electronics. Paper notes allowed.
 
 **Inkfish and Script Grades**
 
@@ -175,16 +149,9 @@ All team members are responsible for and get credit for any work
 submitted as a team. Keep in mind that pair programming means you
 should not be doing work for team assignments on your own.
 
-**Project**
-
-At the end of the semester there will be a programming project.
-
-This is like a homework, but it's larger, more difficult, and worth
-more points.
-
 **Grade Appeals**
 
-If you think you received an incorrect grade, send me an email
+If you think you recieved an incorrect grade, send me an email
 describing why your grade is wrong and how you think it should be
 corrected.
 
@@ -201,13 +168,14 @@ https://coursecatalog.plymouth.edu/university-policies-procedures/).
 
 **Excused Absences**
 
-Absences will be excused and make-up work allowed only for absences
-covered by the university [Excused Absence Policy](
-https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf).
-
-If you know you will be missing a class meeting in advance you must
-contact the professor before the meeting. For unforseen an unavoidable
-absences, please contact the professor as soon as reasonably possible.
+If you are unable to submit an assignment or take an exam on time due
+to circumstances that were unforseen and reasonably unavoidable
+contact the professor to discuss making up the assignment. If you know
+you will miss something and are reasonable able to contact the
+professor to discuss alternatives beforehand you must do so.
+See the
+[Excused Absence Policy](https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf)
+for further details.
 
 **Late Registration**
 
@@ -220,27 +188,34 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
-## Resources
+**Class Annoucements**
 
-### Tutoring
+Class annoucements will be posted on Canvas and/or sent to your
+university email address. Make sure to check both regularly.
 
-There should be evening tutoring offered by the college. See the course website
+# Resources
+
+## Tutoring
+
+There is evening tutoring in the lab classroom. See the course website
 for more details. The [PASS Office](
 https://www.plymouth.edu/academics/plymouth-academic-support-services)
 also offers individual tutoring.
 
-### Accomodations
+## Accomodations
 
-Plymouth State University is committed to providing students with documented
-disabilities equal access to all university programs and facilities. If you
-think you have a disability requiring accommodations, you should contact Campus
-Accessibility Services (CAS), located in Speare (603-535-3300) to determine
-whether you are eligible for such accommodations. Academic accommodations will
-only be considered for students who have registered with CAS. If you have
-authorized CAS to electronically deliver a Letter of Accommodations for this
-course, please communicate with your instructor to review your accommodations.
+Plymouth State University is committed to providing students with
+documented disabilities equal access to all university programs and
+facilities. If you think you have a disability requiring
+accommodations, you should contact Campus Accessibility Services
+(CAS), located in Speare (535-3300) to determine whether you are
+eligible for such accommodations. Academic accommodations will only be
+considered for students who have registered with CAS. If you have
+authorized CAS to electronically deliver a Letter of Accommodations
+for this course, please communicate with your instructor to review
+your accommodations.
 
-## Academic Integrity
+# Academic Integrity
 
 Please carefully read and be familiar with the unversity [Academic
 Integrity Policy](
@@ -249,10 +224,9 @@ Especially don't do any of the things in the list of examples of
 academic integrity violations. Make sure to review the penalties for
 repeated offenses.
 
-The primary subject of this class is writing small computer programs.
-In order to learn that skill, you need to practice it by completing
-the programming assignments by writing code yourself (or with your
-team on team assignments).
+One of our goals in this class is to practice the skills of low-level
+programming. Towards that end, you should be writing the majority of the code
+yourself and thinking about how to build individual functions and lines of code.
 
 Do not:
 
@@ -260,7 +234,8 @@ Do not:
 who is not on your team.
 - Share solution code for any assignment in this class with anyone who
 is not on your team.
-- Post solutions for assignments in this class publicly.
+- Post solutions for assignments in this class publicly, unless the assignment
+specifically allows it.
 - Access unauthorized resources in a lab or exam.
 - Search the web for solutions to assignments in this class or similar classes.
 
@@ -270,15 +245,16 @@ Do:
 point for your solutions.
 - (On homework, not in labs) Ask LLM chatbots questions to clarify concepts and
 give short code samples to illustrate specifics.
+- Use LLM coding tools when explicitly allowed by a homework assignment.
 
 Cheating will be handled as follows:
 
 - During an exam or lab, if you are caught cheating or acting in a
-   way that appears to facilitate cheating (e.g. using unauthorized
-   electronics) you will be asked to leave and will not be allowed to
-   complete the assignment. In lab, you may get a warning first.
+way that appears to facilitate cheating (e.g. using unauthorized
+electronics) you will be asked to leave and will not be allowed to
+complete the assignment. In lab, you may get a warning first.
 - The default penalty for cheating on any assignment is zero grade on
-   that assignment.
+that assignment.
 
 Partner assignment are expected to be done working together. If your
 partner cheated on an assignment and submitted it without you seeing,
@@ -286,57 +262,54 @@ you still get a zero on that assignment.
 
 ## Tentative Schedule
 
-The initial plan is to have homework due at end-of-day Tuesday.
-
 {{< schedule >}}
 
 <tr>
  <td>1</td>
  <td>Jan 19 †</td>
- <td>Introduction, Shell</td>
+ <td>Introduction</td>
  <td></td>
 </tr>
 <tr>
  <td>2</td>
  <td>Jan 26</td>
- <td>C and Assembly</td>
- <td>HW 01, Lab 01</td>
+ <td>Assembly Review</td>
+ <td></td>
 </tr>
 <tr>
  <td>3</td>
  <td>Feb 2</td>
- <td>C Language Intro</td>
- <td>HW 02</td>
+ <td>System Calls</td>
+ <td></td>
 </tr>
 <tr>
  <td>4</td>
  <td>Feb 9 ‡</td>
- <td>The Stack and Strings</td>
- <td>HW 03, Lab 02</td>
+ <td>Virtual Memory</td>
+ <td></td>
 </tr>
 <tr>
  <td>5</td>
  <td>Feb 16</td>
- <td>malloc() and free()</td>
- <td>HW 04</td>
+ <td>mmap(2)</td>
+ <td></td>
 </tr>
 <tr>
  <td>6</td>
  <td>Feb 23</td>
- <td>The Heap, Address Space</td>
- <td>HW 05, Lab 03</td>
+ <td>Simple Malloc</td>
+ <td></td>
 </tr>
 <tr>
  <td>7</td>
  <td>Mar 2</td>
- <td>File I/O</td>
- <td>HW 06</td>
+ <td>Forks and threads</td>
+ <td></td>
 </tr>
 <tr>
  <td>8</td>
  <td>Mar 9</td>
- <td>Command parsing</td>
- <td>HW 07, Lab 04</td>
+ <td>Synchronization</td>
 </tr>
 <tr>
  <td>--</td>
@@ -347,44 +320,44 @@ The initial plan is to have homework due at end-of-day Tuesday.
 <tr>
  <td>9</td>
  <td>Mar 23</td>
- <td>System Call I/O</td>
- <td>HW 08</td>
+ <td>Advanced malloc</td>
+ <td></td>
 </tr>
 <tr>
  <td>10</td>
  <td>Mar 30</td>
- <td>Processes and fork()</td>
- <td>HW 09, Lab 05</td>
+ <td>OS Kernel</td>
+ <td></td>
 </tr>
 <tr>
  <td>11</td>
  <td>Apr 6</td>
- <td>Network Client</td>
- <td>HW 10, Lab 06</td>
+ <td>Implementing a System Call</td>
+ <td></td>
 </tr>
 <tr>
  <td>12</td>
  <td>Apr 13</td>
- <td>A bit about C++</td>
- <td>HW 11</td>
+ <td>Disks and File Systems</td>
+ <td></td>
 </tr>
 <tr>
  <td>13</td>
  <td>Apr 20</td>
- <td>Redirects and Pipes</td>
- <td>HW 12</td>
+ <td>More about File Systems</td>
+ <td></td>
 </tr>
 <tr>
  <td>14</td>
  <td>Apr 27</td>
- <td>Wrap-up, Review</td>
- <td>Redo a HW and Lab</td>
+ <td>Semester Review</td>
+ <td></td>
 </tr>
 <tr>
  <td>-</td>
  <td>May 4</td>
  <td>Finals Week</td>
- <td>Final Project, Final Lab</td>
+ <td></td>
 </tr>
 
 {{< /schedule >}}

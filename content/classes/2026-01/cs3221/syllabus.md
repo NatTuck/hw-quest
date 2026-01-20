@@ -1,32 +1,29 @@
 ---
-title: "CS 2470 Spring 2026: Syllabus"
+title: "CS 3221 Spring 2026: Syllabus"
 date: "2026-01-17"
 ---
 
 {{< lead >}}
-Systems Programming in C/C++
+Analysis of Algorithms
 {{< /lead >}}
 
 [&larr; Back to Course Site](../)
 
 <blockquote>
 <b>Course Catalog:</b><br>
-Gives students who are already proficient programmers experience in
-systems-level programming in C/C++. In particular, students learn how
-to create C/C++ programs that interact with the hardware and other
-software on a machine. Springs.
-<br>Prerequisite(s): CS CS2370
+Formal study of algorithms, including those for searching, sorting, and graph structure based ones. Addresses several algorithm design issues such as divide-and-conquer, greedy and dynamic programming. Defines, evaluates and analyzes the correctness, time, and space complexity of algorithms. Covers probabilistic, concurrent programming, and other topics such as P, NP, NP-Completeness and approximation algorithms. Springs.
+<br>Prerequisite(s): CS 2381 and (MA 3200 Or MA 2450 Or MA 2250).
 </blockquote>
 
 ## Course Info
 
-- Credits: 2
+- Credits: 4
 - Instructor: Nat Tuck
 - Email: <nathaniel.tuck@plymouth.edu>
 - Office: D&M 305
 - Lecture: Wed, Fri at 10:10-11:00am in D&M 404
 - Office Hours: See <https://homework.quest/>
-- Final Exam Period: [Fri May 8th @ 8:00-10:30am](
+- Final Exam Period: [Wed May 6th @ 11:00 AM – 1:30 PM](
 https://www.plymouth.edu/sites/default/files/media/2025-11/Spring%202026%20Final%20Exam%20Schedule.pdf)
 - Course Site: <https://homework.quest/>
 
@@ -34,26 +31,19 @@ https://www.plymouth.edu/sites/default/files/media/2025-11/Spring%202026%20Final
 
 Successful students will:
 
-- Be able to write and run low level computer programs to accomplish
-   system-level tasks.
-- Be comfortable with the C programming lanuage.
-- Be familiar with basic concepts in Unix-style systems programming
+- Be able to analyze algorithms for performance and correctness.
+- Be able to design algorithms to solve problems using common algorithm
+  design techniques.
+- Be able to implement algorithms in an executable programming language.
+- Be familiar with a variety of commonly studied algorithms.
 
 ### Texts
 
 Students are not required to purchase a commercial textbook for this course.
 
-Recommended text:
-
-- The C Programming Language, 2nd Edition, by Kernighan and Ritchie
-
 Freely available textbooks:
 
-- [The Linux Command Line](https://linuxcommand.org/tlcl.php)
-- [Beej's Guide to C](https://beej.us/guide/bgc/)
-- [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [Pointers Tutorial](https://github.com/jflaherty/ptrtut13)
-- [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
+- [Algorithms by Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/)
 
 ## Grading
 
@@ -66,16 +56,16 @@ Freely available textbooks:
   </thead>
   <tbody>
     <tr>
-      <td>Homework</td>
-      <td>40</td>
+      <td>Problem Sets</td>
+      <td>25</td>
     </tr>
     <tr>
       <td>Labs</td>
-      <td>40</td>
+      <td>25</td>
     </tr>
     <tr>
-      <td>Project</td>
-      <td>20</td>
+      <td>Exams</td>
+      <td>15 + 15 + 20 = 50</td>
     </tr>
   </tbody>
 </table>
@@ -97,37 +87,36 @@ else (&lt; 60) &rarr; F
 
 Attendance is required for all class meetings. You must check in to the online
 attendance tool within 5 minutes of the start of the period to receive credit
-for attendance. If you miss more than four meetings then each subsequent
+for attendance. If you miss more than six meetings then each subsequent
 unexcused absence will reduce your final grade by 4 percentage points.
 
-No makeups for unexcused lab absences. Any class meeting might be
-a lab.
+There are no makeups for unexcused exam or lab absences.
 
-**Homework**
+**Problem Sets**
 
-Approximately each week there will be a homework assignment to be
-completed outside of class.
+Approximately each week there will be a problem set assignment to be completed
+outside of class. Problem sets will involve a combination of written question
+and small programming tasks.
 
-Minimizing the use of external resources is recommended, and academic
-honesty rules will be strictly enforced.
+Minimizing the use of external resources is recommended, and academic honesty
+rules will be strictly enforced.
 
-Homework will be posted on Inkfish. Check Inkfish regularly for
-upcoming due dates.
+Problem sets will be posted on Inkfish. Check Inkfish regularly for upcoming due
+dates.
 
-Homeworks submitted after the deadline loses 1% per hour late (round
-up) to a maximum penalty of 100%.
+Problem sets submitted after the deadline loses 1% per hour late (round up) to a
+maximum penalty of 100%.
 
 **Labs**
 
-Approximately every other week there will be a lab assignment to
-complete during the class period. Labs will only be accepted before
-the end of the lab period, and only when submitted from a lab
-workstation.
+We have a lab meeting each week, and in most lab meetings there will be a lab
+assignment to complete during the class period. Labs will only be accepted
+before the end of the lab period, and only when submitted from a lab
+workstation, unless alternate instructions are explicitly given.
 
-The purpose of this course is to teach the skill of computer
-programming. Students need to practice writing programs themselves
-without external help. Therefore, the following rules apply to
-lab assignments:
+The purpose of this course is to teach algorithm analysis. Students need to
+practice evaluating algorithms themselves. Therefore, the following rules apply
+to lab assignments:
 
 - Personal electronics may not be used. If they are brought to
    lab, they must be kept in a closed container like a backpack.
@@ -142,45 +131,47 @@ lab assignments:
 - These specific rules may be overridden by the instructions in
    individual lab assignments.
 
-During the final exam period we will do one final lab.
+**Exams**
+
+There will be three written exams, each potentially covering any material in the
+class although with extra weight towards material not covered on previous exams.
+
+Exams will involve writing answers to questions on paper.
+
+Exam rules:
+
+- Personal electronics may not be used. If they are brought to the exam, they
+must be kept in a closed container like a backpack.
+- Your written notes on paper are allowed, as are printouts of any provided
+course materials.
 
 **Inkfish and Script Grades**
 
-Labs and homework will be provided through an online web application
-called Inkfish and must be submitted through the same system. Any
-solutions for lab or homework assignment sent by email will not be
-accepted and will incur a 5% grade penalty on the associated
-assignment unless the code is sent as a direct reply to an email
-requesting it.
+Labs and problem sets will be provided through an online web application called
+Inkfish and must be submitted through the same system. Any solutions for lab or
+problem set assignment sent by email will not be accepted and will incur a 5%
+grade penalty on the associated assignment unless the solution is sent as a
+direct reply to an email requesting it.
 
-A portion of your grade for labs and homework assignments may be
-generated by an automatic grading script which runs when you submit
-your work. Unless there is a clear bug 🪳 in the script, the script
-output is that portion of your grade and will not be adjusted
-manually. You are being graded on getting the script to give you
-points. You should review the output, make corrections, and resubmit
+A portion of your grade for labs and homework assignments may be generated by an
+automatic grading script which runs when you submit your work. Unless there is a
+clear bug 🪳 in the script, the script output is that portion of your grade and
+will not be adjusted manually. You are being graded on getting the script to
+give you points. You should review the output, make corrections, and resubmit
 before the deadline if you are unhappy with the script results.
 
-Script grades will be reduced if you submit work inconsistent with the
-text or spirit of the assignment, such as hard-coding outputs that
-should be calculated.
+Script grades will be reduced if you submit work inconsistent with the text or
+spirit of the assignment, such as hard-coding outputs that should be calculated.
 
 **Teams**
 
-You may be assigned to work with a partner. In such cases, pair
-programming is required. In assigning partners, sometimes there ends
+You may be assigned to work with a partner. In such cases, actually working
+together on each task is required. In assigning partners, sometimes there ends
 up being a team of one or (under rare circumstances) three.
 
-All team members are responsible for and get credit for any work
-submitted as a team. Keep in mind that pair programming means you
-should not be doing work for team assignments on your own.
-
-**Project**
-
-At the end of the semester there will be a programming project.
-
-This is like a homework, but it's larger, more difficult, and worth
-more points.
+All team members are responsible for and get credit for any work submitted as a
+team. Keep in mind that pair programming means you should not be doing work for
+team assignments on your own.
 
 **Grade Appeals**
 
@@ -206,7 +197,7 @@ covered by the university [Excused Absence Policy](
 https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf).
 
 If you know you will be missing a class meeting in advance you must
-contact the professor before the meeting. For unforseen an unavoidable
+contact the professor before the meeting. For unforeseen and unavoidable
 absences, please contact the professor as soon as reasonably possible.
 
 **Late Registration**
@@ -256,9 +247,9 @@ team on team assignments).
 
 Do not:
 
-- Submit code that was written for an assignment in this class by someone
+- Submit stuff that was written for an assignment in this class by someone
 who is not on your team.
-- Share solution code for any assignment in this class with anyone who
+- Share solutions code for any assignment in this class with anyone who
 is not on your team.
 - Post solutions for assignments in this class publicly.
 - Access unauthorized resources in a lab or exam.
@@ -268,17 +259,17 @@ Do:
 
 - Use starter code and small snippets from official documentation as a starting
 point for your solutions.
-- (On homework, not in labs) Ask LLM chatbots questions to clarify concepts and
+- (On problem sets, not in labs) Ask LLM chatbots questions to clarify concepts and
 give short code samples to illustrate specifics.
 
 Cheating will be handled as follows:
 
 - During an exam or lab, if you are caught cheating or acting in a
-   way that appears to facilitate cheating (e.g. using unauthorized
-   electronics) you will be asked to leave and will not be allowed to
-   complete the assignment. In lab, you may get a warning first.
+way that appears to facilitate cheating (e.g. using unauthorized
+electronics) you will be asked to leave and will not be allowed to
+complete the assignment. In lab, you may get a warning first.
 - The default penalty for cheating on any assignment is zero grade on
-   that assignment.
+that assignment.
 
 Partner assignment are expected to be done working together. If your
 partner cheated on an assignment and submitted it without you seeing,
@@ -286,57 +277,57 @@ you still get a zero on that assignment.
 
 ## Tentative Schedule
 
-The initial plan is to have homework due at end-of-day Tuesday.
+The initial plan is to have problem sets due at end-of-day Wednesday.
 
 {{< schedule >}}
 
 <tr>
  <td>1</td>
  <td>Jan 19 †</td>
- <td>Introduction, Shell</td>
- <td></td>
+ <td>Welcome, Lab</td>
+ <td>Lab 01</td>
 </tr>
 <tr>
  <td>2</td>
  <td>Jan 26</td>
- <td>C and Assembly</td>
- <td>HW 01, Lab 01</td>
+ <td>Recursion</td>
+ <td>Lab 02, Pset 01</td>
 </tr>
 <tr>
  <td>3</td>
  <td>Feb 2</td>
- <td>C Language Intro</td>
- <td>HW 02</td>
+ <td>Backtracking</td>
+ <td>Lab 03, Pset 02</td>
 </tr>
 <tr>
  <td>4</td>
- <td>Feb 9 ‡</td>
- <td>The Stack and Strings</td>
- <td>HW 03, Lab 02</td>
+ <td>Feb 9</td>
+ <td>Dynamic Programming</td>
+ <td>Lab 04, Pset 03</td>
 </tr>
 <tr>
  <td>5</td>
  <td>Feb 16</td>
- <td>malloc() and free()</td>
- <td>HW 04</td>
+ <td>Greedy Algos</td>
+ <td>Lab 05, Pset 04</td>
 </tr>
 <tr>
  <td>6</td>
  <td>Feb 23</td>
- <td>The Heap, Address Space</td>
- <td>HW 05, Lab 03</td>
+ <td>Exam 1</td>
+ <td>Lab 06, Pset 05</td>
 </tr>
 <tr>
  <td>7</td>
  <td>Mar 2</td>
- <td>File I/O</td>
- <td>HW 06</td>
+ <td>Graph Algos</td>
+ <td>Lab 07, Pset 06</td>
 </tr>
 <tr>
  <td>8</td>
  <td>Mar 9</td>
- <td>Command parsing</td>
- <td>HW 07, Lab 04</td>
+ <td>MST</td>
+ <td>Lab 08, Pset 07</td>
 </tr>
 <tr>
  <td>--</td>
@@ -347,47 +338,47 @@ The initial plan is to have homework due at end-of-day Tuesday.
 <tr>
  <td>9</td>
  <td>Mar 23</td>
- <td>System Call I/O</td>
- <td>HW 08</td>
+ <td>Flows and Cuts</td>
+ <td>Lab 09, Pset 08</td>
 </tr>
 <tr>
  <td>10</td>
  <td>Mar 30</td>
- <td>Processes and fork()</td>
- <td>HW 09, Lab 05</td>
+ <td>Exam 2</td>
+ <td>Lab 10, Pset 09</td>
 </tr>
 <tr>
  <td>11</td>
  <td>Apr 6</td>
- <td>Network Client</td>
- <td>HW 10, Lab 06</td>
+ <td>Parallel Algorithms</td>
+ <td>Lab 11, Pset 10</td>
 </tr>
 <tr>
  <td>12</td>
  <td>Apr 13</td>
- <td>A bit about C++</td>
- <td>HW 11</td>
+ <td>P vs NP</td>
+ <td>Lab 12, Pset 11</td>
 </tr>
 <tr>
  <td>13</td>
  <td>Apr 20</td>
- <td>Redirects and Pipes</td>
- <td>HW 12</td>
+ <td>Even Harder Problems</td>
+ <td>Lab 13, Pset 12</td>
 </tr>
 <tr>
  <td>14</td>
  <td>Apr 27</td>
- <td>Wrap-up, Review</td>
- <td>Redo a HW and Lab</td>
+ <td>Wrap-Up</td>
+ <td>Lab, Pset Redo</td>
 </tr>
 <tr>
  <td>-</td>
  <td>May 4</td>
- <td>Finals Week</td>
- <td>Final Project, Final Lab</td>
+ <td>Finals Week: Final Exam</td>
+ <td></td>
 </tr>
 
 {{< /schedule >}}
 
 - † No class on Monday, Jan 19 (MLK Day)
-- ‡ Ski Day on Wednesday, Feb 11 (no day classes; graduate evening classes will be held)
+- Ski Day doesn't hit us. We don't have class Wednesdays.
