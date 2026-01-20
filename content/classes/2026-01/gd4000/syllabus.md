@@ -149,7 +149,7 @@ covered by the university [Excused Absence Policy](
 https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf).
 
 If you know you will be missing a class meeting in advance you must
-contact the professor before the meeting. For unforseen an unavoidable
+contact the professor before the meeting. For unforeseen an unavoidable
 absences, please contact the professor as soon as reasonably possible.
 
 **Late Registration**
@@ -165,7 +165,7 @@ should do your course evaluations.
 
 ## Resources
 
-### Accomodations
+### Accommodations
 
 Plymouth State University is committed to providing students with documented
 disabilities equal access to all university programs and facilities. If you
@@ -219,7 +219,7 @@ The initial plan is to have tasks due at our meeting.
 <tr>
  <td>3</td>
  <td>Feb 2</td>
- <td>Start Working<td>
+ <td>Start Working</td>
  <td>Due: Project Charter</td>
 </tr>
 <tr>

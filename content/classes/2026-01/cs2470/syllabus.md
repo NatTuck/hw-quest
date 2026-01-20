@@ -36,7 +36,7 @@ Successful students will:
 
 - Be able to write and run low level computer programs to accomplish
    system-level tasks.
-- Be comfortable with the C programming lanuage.
+- Be comfortable with the C programming language.
 - Be familiar with basic concepts in Unix-style systems programming
 
 ### Texts
@@ -206,7 +206,7 @@ covered by the university [Excused Absence Policy](
 https://campus.plymouth.edu/faculty-governance/wp-content/uploads/sites/20/2017/05/PSU-Excused-Absence-Policy.pdf).
 
 If you know you will be missing a class meeting in advance you must
-contact the professor before the meeting. For unforseen an unavoidable
+contact the professor before the meeting. For unforeseen an unavoidable
 absences, please contact the professor as soon as reasonably possible.
 
 **Late Registration**
@@ -220,6 +220,11 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
+**Class Announcements**
+
+Class announcements will be posted on Canvas and/or sent to your
+university email address. Make sure to check both regularly.
+
 ## Resources
 
 ### Tutoring
@@ -229,7 +234,7 @@ for more details. The [PASS Office](
 https://www.plymouth.edu/academics/plymouth-academic-support-services)
 also offers individual tutoring.
 
-### Accomodations
+### Accommodations
 
 Plymouth State University is committed to providing students with documented
 disabilities equal access to all university programs and facilities. If you
@@ -242,7 +247,7 @@ course, please communicate with your instructor to review your accommodations.
 
 ## Academic Integrity
 
-Please carefully read and be familiar with the unversity [Academic
+Please carefully read and be familiar with the university [Academic
 Integrity Policy](
 https://coursecatalog.plymouth.edu/university-policies-procedures/).
 Especially don't do any of the things in the list of examples of

@@ -220,7 +220,7 @@ for more details. The [PASS Office](
 https://www.plymouth.edu/academics/plymouth-academic-support-services)
 also offers individual tutoring.
 
-### Accomodations
+### Accommodations
 
 Plymouth State University is committed to providing students with documented
 disabilities equal access to all university programs and facilities. If you
@@ -233,7 +233,7 @@ course, please communicate with your instructor to review your accommodations.
 
 ## Academic Integrity
 
-Please carefully read and be familiar with the unversity [Academic
+Please carefully read and be familiar with the university [Academic
 Integrity Policy](
 https://coursecatalog.plymouth.edu/university-policies-procedures/).
 Especially don't do any of the things in the list of examples of

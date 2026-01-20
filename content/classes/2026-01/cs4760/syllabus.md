@@ -127,13 +127,14 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
-## Week 13 Review
+**Class Announcements**
 
-Based on your
+Class announcements will be posted on Canvas and/or sent to your
+university email address. Make sure to check both regularly.
 
 ## Resources
 
-### Accomodations
+### Accommodations
 
 Plymouth State University is committed to providing students with documented
 disabilities equal access to all university programs and facilities. If you
@@ -217,7 +218,7 @@ The initial plan is to have tasks due the night before or at our meetings.
  <td>8</td>
  <td>Mar 9</td>
  <td>Working</td>
- <td>Due: Advisor Eval 2
+ <td>Due: Advisor Eval 2</td>
 </tr>
 <tr>
  <td>--</td>

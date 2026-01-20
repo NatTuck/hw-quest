@@ -151,7 +151,7 @@ should not be doing work for team assignments on your own.
 
 **Grade Appeals**
 
-If you think you recieved an incorrect grade, send me an email
+If you think you received an incorrect grade, send me an email
 describing why your grade is wrong and how you think it should be
 corrected.
 
@@ -169,7 +169,7 @@ https://coursecatalog.plymouth.edu/university-policies-procedures/).
 **Excused Absences**
 
 If you are unable to submit an assignment or take an exam on time due
-to circumstances that were unforseen and reasonably unavoidable
+to circumstances that were unforeseen and reasonably unavoidable
 contact the professor to discuss making up the assignment. If you know
 you will miss something and are reasonable able to contact the
 professor to discuss alternatives beforehand you must do so.
@@ -188,9 +188,9 @@ Course evaluations can be a valuable tool to determine how the
 semester went. They're more useful with a higher response rate. You
 should do your course evaluations.
 
-**Class Annoucements**
+**Class Announcements**
 
-Class annoucements will be posted on Canvas and/or sent to your
+Class announcements will be posted on Canvas and/or sent to your
 university email address. Make sure to check both regularly.
 
 # Resources
@@ -202,13 +202,13 @@ for more details. The [PASS Office](
 https://www.plymouth.edu/academics/plymouth-academic-support-services)
 also offers individual tutoring.
 
-## Accomodations
+## Accommodations
 
 Plymouth State University is committed to providing students with
 documented disabilities equal access to all university programs and
 facilities. If you think you have a disability requiring
 accommodations, you should contact Campus Accessibility Services
-(CAS), located in Speare (535-3300) to determine whether you are
+(CAS), located in Speare (603-535-3300) to determine whether you are
 eligible for such accommodations. Academic accommodations will only be
 considered for students who have registered with CAS. If you have
 authorized CAS to electronically deliver a Letter of Accommodations
@@ -217,7 +217,7 @@ your accommodations.
 
 # Academic Integrity
 
-Please carefully read and be familiar with the unversity [Academic
+Please carefully read and be familiar with the university [Academic
 Integrity Policy](
 https://coursecatalog.plymouth.edu/university-policies-procedures/).
 Especially don't do any of the things in the list of examples of
