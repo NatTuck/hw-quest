@@ -1,6 +1,6 @@
 ---
 title: "Some Tool Notes"
-date: "2026-01-20"
+date: "2026-01-18"
 ---
 
 ## A Modern, Open-Source Stack for In-Browser 2D Multiplayer Games
