@@ -1,6 +1,6 @@
 ---
-title: "Notes: 01 Intro Lab"
-date: "2026-01-21"
+title: "Notes: 01-22 Intro Lab"
+date: "2026-01-20"
 ---
 
 Welcome to Analysis of Algorithms
