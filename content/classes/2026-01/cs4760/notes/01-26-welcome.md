@@ -1,5 +1,5 @@
 ---
-title: "Notes: 01-21 Welcome"
+title: "Notes: 01-26 Welcome"
 date: "2026-01-20"
 ---
 

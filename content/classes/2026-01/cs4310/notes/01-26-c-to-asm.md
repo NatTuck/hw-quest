@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 01-26 C to AMD64"
-date: "2025-01-24"
+date: "2026-01-24"
 ---
 
 Actually writing assembly in practice isn't super common, but it's useful to
