@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 02-03 Mem Allocation"
+title: "Lecture Notes: 02-04 Mem Allocation"
 date: "2026-02-01"
 ---
 
