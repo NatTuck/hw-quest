@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 02-09 More Structs"
-date: "2026-02-07"
+title: "Lecture Notes: 02-13 More Structs"
+date: "2026-02-11"
 ---
 
 ## More Goats
