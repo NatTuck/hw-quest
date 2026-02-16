@@ -11,6 +11,7 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = false
+enableKaTeX = true
 
 replyByEmail = false
 

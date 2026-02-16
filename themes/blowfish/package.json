@@ -42,7 +42,7 @@
     "katex": "^0.16.22",
     "lite-youtube-embed": "^0.3.3",
     "medium-zoom": "^1.1.0",
-    "mermaid": "^11.6.0",
+    "mermaid": "^10.9.5",
     "packery": "^3.0.0",
     "prettier": "^3.5.3",
     "prettier-plugin-go-template": "^0.0.15",
@@ -117,7 +117,7 @@
   "dependencies": {
     "@headlessui/react": "^2.2.2",
     "@heroicons/react": "^2.2.0",
-    "@iamtraction/google-translate": "^2.0.1",
+    "@iamtraction/google-translate": "^1.1.2",
     "@tailwindcss/forms": "^0.5.10",
     "commander": "^13.1.0"
   }
