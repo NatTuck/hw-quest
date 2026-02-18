@@ -197,6 +197,9 @@ body.zen-mode-enable {
   ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
     padding-block: 0;
   }
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
   :-moz-ui-invalid {
     box-shadow: none;
   }
@@ -475,7 +478,7 @@ body.zen-mode-enable {
     }
     :where(hr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
       border-color: var(--tw-prose-hr);
-      border-top-width: 1;
+      border-top-width: 1px;
       margin-top: 3em;
       margin-bottom: 3em;
     }
@@ -560,7 +563,7 @@ body.zen-mode-enable {
       font-weight: 600;
       font-family: inherit;
       color: var(--tw-prose-kbd);
-      box-shadow: 0 0 0 1px rgb(var(--tw-prose-kbd-shadows) / 10%), 0 3px 0 rgb(var(--tw-prose-kbd-shadows) / 10%);
+      box-shadow: 0 0 0 1px var(--tw-prose-kbd-shadows), 0 3px 0 var(--tw-prose-kbd-shadows);
       font-size: 0.9rem;
       border-radius: 0.25rem;
       padding-top: 0.1875em;
@@ -706,7 +709,7 @@ body.zen-mode-enable {
     --tw-prose-quote-borders: rgba(var(--color-primary-200), 1);
     --tw-prose-captions: rgba(var(--color-neutral-500), 1);
     --tw-prose-kbd: oklch(21% 0.034 264.665);
-    --tw-prose-kbd-shadows: NaN NaN NaN;
+    --tw-prose-kbd-shadows: color-mix(in oklab, oklch(21% 0.034 264.665) 10%, transparent);
     --tw-prose-code: rgba(var(--color-secondary-700), 1);
     --tw-prose-pre-code: rgba(var(--color-neutral-700), 1);
     --tw-prose-pre-bg: rgba(var(--color-neutral-50), 1);
@@ -724,7 +727,7 @@ body.zen-mode-enable {
     --tw-prose-invert-quote-borders: rgba(var(--color-primary-900), 1);
     --tw-prose-invert-captions: rgba(var(--color-neutral-400), 1);
     --tw-prose-invert-kbd: #fff;
-    --tw-prose-invert-kbd-shadows: 255 255 255;
+    --tw-prose-invert-kbd-shadows: rgb(255 255 255 / 10%);
     --tw-prose-invert-code: rgba(var(--color-secondary-400), 1);
     --tw-prose-invert-pre-code: rgba(var(--color-neutral-200), 1);
     --tw-prose-invert-pre-bg: rgba(var(--color-neutral-700), 1);
@@ -1956,9 +1959,6 @@ body.zen-mode-enable {
   .text-transparent {
     color: transparent;
   }
-  .capitalize {
-    text-transform: capitalize;
-  }
   .lowercase {
     text-transform: lowercase;
   }
@@ -1973,10 +1973,6 @@ body.zen-mode-enable {
   }
   .not-italic {
     font-style: normal;
-  }
-  .ordinal {
-    --tw-ordinal: ordinal;
-    font-variant-numeric: var(--tw-ordinal,) var(--tw-slashed-zero,) var(--tw-numeric-figure,) var(--tw-numeric-spacing,) var(--tw-numeric-fraction,);
   }
   .\!no-underline {
     text-decoration-line: none !important;
@@ -4321,7 +4317,7 @@ pre {
   }
 }
 @layer base {
-  [type='text'],input:where(:not([type])),[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
+  input:where([type='text']),input:where(:not([type])),input:where([type='email']),input:where([type='url']),input:where([type='password']),input:where([type='number']),input:where([type='date']),input:where([type='datetime-local']),input:where([type='month']),input:where([type='search']),input:where([type='tel']),input:where([type='time']),input:where([type='week']),select:where([multiple]),textarea,select {
     appearance: none;
     background-color: #fff;
     border-color: oklch(55.1% 0.027 264.364);
@@ -4375,7 +4371,7 @@ pre {
     padding-right: 2.5rem;
     print-color-adjust: exact;
   }
-  [multiple],[size]:where(select:not([size="1"])) {
+  select:where([multiple]),select:where([size]:not([size="1"])) {
     background-image: initial;
     background-position: initial;
     background-repeat: unset;
@@ -4383,7 +4379,7 @@ pre {
     padding-right: 0.75rem;
     print-color-adjust: unset;
   }
-  [type='checkbox'],[type='radio'] {
+  input:where([type='checkbox']),input:where([type='radio']) {
     appearance: none;
     padding: 0;
     print-color-adjust: exact;
@@ -4400,13 +4396,13 @@ pre {
     border-width: 1px;
     --tw-shadow: 0 0 #0000;
   }
-  [type='checkbox'] {
+  input:where([type='checkbox']) {
     border-radius: 0px;
   }
-  [type='radio'] {
+  input:where([type='radio']) {
     border-radius: 100%;
   }
-  [type='checkbox']:focus,[type='radio']:focus {
+  input:where([type='checkbox']):focus,input:where([type='radio']):focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
     --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -4417,30 +4413,30 @@ pre {
     --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  [type='checkbox']:checked,[type='radio']:checked {
+  input:where([type='checkbox']):checked,input:where([type='radio']):checked {
     border-color: transparent;
     background-color: currentColor;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
   }
-  [type='checkbox']:checked {
+  input:where([type='checkbox']):checked {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
     @media (forced-colors: active) {
       appearance: auto;
     }
   }
-  [type='radio']:checked {
+  input:where([type='radio']):checked {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");
     @media (forced-colors: active) {
       appearance: auto;
     }
   }
-  [type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {
+  input:where([type='checkbox']):checked:hover,input:where([type='checkbox']):checked:focus,input:where([type='radio']):checked:hover,input:where([type='radio']):checked:focus {
     border-color: transparent;
     background-color: currentColor;
   }
-  [type='checkbox']:indeterminate {
+  input:where([type='checkbox']):indeterminate {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");
     border-color: transparent;
     background-color: currentColor;
@@ -4451,11 +4447,11 @@ pre {
       appearance: auto;
     }
   }
-  [type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {
+  input:where([type='checkbox']):indeterminate:hover,input:where([type='checkbox']):indeterminate:focus {
     border-color: transparent;
     background-color: currentColor;
   }
-  [type='file'] {
+  input:where([type='file']) {
     background: unset;
     border-color: inherit;
     border-width: 0;
@@ -4464,7 +4460,7 @@ pre {
     font-size: unset;
     line-height: inherit;
   }
-  [type='file']:focus {
+  input:where([type='file']):focus {
     outline: 1px solid ButtonText;
     outline: 1px auto -webkit-focus-ring-color;
   }
@@ -4605,26 +4601,6 @@ pre {
   inherits: false;
 }
 @property --tw-tracking {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ordinal {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-slashed-zero {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-numeric-figure {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-numeric-spacing {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-numeric-fraction {
   syntax: "*";
   inherits: false;
 }
@@ -4837,11 +4813,6 @@ pre {
       --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
-      --tw-ordinal: initial;
-      --tw-slashed-zero: initial;
-      --tw-numeric-figure: initial;
-      --tw-numeric-spacing: initial;
-      --tw-numeric-fraction: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
