@@ -1,5 +1,5 @@
 ---
-title: "Notes: 02-20 Most Meetings
+title: "Notes: 02-20 Most Meetings"
 date: "2026-02-16"
 ---
 
