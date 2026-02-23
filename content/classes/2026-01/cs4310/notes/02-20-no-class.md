@@ -1,7 +1,9 @@
 ---
-title: "Lecture Notes: 02-19 Simple Malloc"
+title: "Lecture Notes: 02-19 No Class"
 date: "2026-02-18"
 ---
+
+(This class was cancelled.)
 
 Looking for more info on how to approach the allocator assignment?
 [Here are some slides I stole from Christo Wison](

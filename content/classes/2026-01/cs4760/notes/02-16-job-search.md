@@ -1,5 +1,5 @@
 ---
-title: "Notes: 02-16 "
+title: "Notes: 02-16 Job App Overview"
 date: "2026-02-14"
 ---
 

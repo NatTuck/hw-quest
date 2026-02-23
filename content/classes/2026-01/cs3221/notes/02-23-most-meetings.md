@@ -1,6 +1,6 @@
 ---
-title: "Notes: 02-20 Most Meetings"
-date: "2026-02-16"
+title: "Notes: 02-23 Most Meetings"
+date: "2026-02-21"
 ---
 
 ## Grouping Problems
