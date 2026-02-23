@@ -5,7 +5,7 @@ date: "2026-02-21"
 
 Looking for more info on how to approach the allocator assignment?
 [Here are some slides I stole from Christo Wison](
- ../../christo-slides/8_Free_Space_and_GC.pptx).
+ ../../slides/8_Free_Space_and_GC.pptx).
 
 ## Page Table follow-up: Context Switches
 
