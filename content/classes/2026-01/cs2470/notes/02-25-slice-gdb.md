@@ -1,7 +1,18 @@
 ---
-title: "Lecture Notes: 02-20 Debugging Slices"
-date: "2026-02-18"
+title: "Lecture Notes: 02-25 Slice GDB"
+date: "2026-02-23"
 ---
+
+## Process Address Space
+
+Print actual addresses for two processes:
+
+- main function
+- global variable
+- stack
+- heap
+
+## Slice GDB
 
 ```bash
 $ man gdb
