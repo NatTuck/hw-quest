@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 02-27 Syscall I/O"
-date: "2025-02-25"
+date: "2026-02-25"
 ---
 
 First, with line-based I/O.
