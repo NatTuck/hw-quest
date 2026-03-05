@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 03-04 Cond Vars"
-date: "2026-03-02"
+title: "Lecture Notes: 03-06 Cond Vars"
+date: "2026-03-04"
 ---
 
 ```C
