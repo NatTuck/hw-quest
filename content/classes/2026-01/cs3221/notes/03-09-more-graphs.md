@@ -36,9 +36,25 @@ in G.
 - This should be familiar from trees, although because we only recurse
 once and keep a "todo " data structure.
 
+## DFS
+
+```
+DFS(v):
+  mark v
+  PreVisit(v)
+  for each edge (v, w):
+    if w is unmarked:
+      w.parent = v
+      DFS(w)
+  PostVisit(v)
+```
+
+After, parent pointers give us a spanning tree.
+
 ## Depth First Sequencing
 
 ```
+
 Preprocess(G):
   clock 0
 PreVisit(v):
@@ -47,6 +63,7 @@ PreVisit(v):
 PostVisit(v):
   clock = clock + 1
   v.post = clock
+
 ```
 
 ## Detecting Cycles
@@ -54,6 +71,15 @@ PostVisit(v):
 For any edge *u->v*, if u.post < v.post then there's a cycle.
 
 Can we prove that?
+
+## Edge Types
+
+For a given DFS traversal, we end up with some different edge types:
+
+- Tree edges are the spanning tree defined by parent pointers.
+- Forward edges are edges that point down the tree.
+- Cross edges point across the tree.
+- Back edges point up the tree.
 
 ## Topoligical Sort
 
