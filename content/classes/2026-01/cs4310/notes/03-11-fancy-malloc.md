@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 03-11 Complex Malloc"
-date: "2026-03-06"
+title: "Lecture Notes: 03-11 Fancy Malloc"
+date: "2026-03-09"
 ---
 
 ## Crazy-optimized Malloc

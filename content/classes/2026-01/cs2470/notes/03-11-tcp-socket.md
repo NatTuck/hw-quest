@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 03-11 Network Client"
-date: "2025-03-09"
+date: "2026-03-11"
 ---
 
 ## Writing a TCP in C
