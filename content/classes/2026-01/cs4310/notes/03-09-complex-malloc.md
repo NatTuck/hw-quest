@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 03-09 Simple Malloc"
+title: "Lecture Notes: 03-09 Complex Malloc"
 date: "2026-03-06"
 ---
 
