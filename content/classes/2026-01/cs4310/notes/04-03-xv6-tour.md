@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 04-03 xv6 Syscall"
+title: "Lecture Notes: 04-03 xv6 Tour"
 date: "2026-04-01"
 ---
 
@@ -209,6 +209,7 @@ exit:
  ecall           # TRAP: Jump to kernel mode
  ret             # (exit never actually returns here)
 ```
+
 - **`a0`**: Contains the argument `0` (the exit status). According to RISC-V C calling conventions, the first argument to the C function is already in `a0`.
 - **`a7`**: Contains the system call number (`SYS_exit` is defined as `2` in `kernel/syscall.h`).
 - **`ecall`**: This hardware instruction elevates privileges from User Mode to Supervisor Mode and jumps to the address stored in the `stvec` hardware register.
@@ -219,6 +220,7 @@ exit:
 
 **3. The Trampoline (`kernel/trampoline.S`)**
 When `ecall` fires, the CPU jumps to the address in `stvec`. In xv6, `stvec` always points to `uservec` in the "trampoline" page.
+
 - *Why a trampoline?* User page tables don't contain the kernel's memory mapping. The trampoline is mapped at the exact same virtual address in *both* user and kernel page tables (`MAXVA - PGSIZE`).
 - **What it does:**
     1. Saves all 32 user registers into the process's `trapframe`.
