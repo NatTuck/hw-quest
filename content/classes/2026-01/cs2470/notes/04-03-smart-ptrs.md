@@ -1,6 +1,6 @@
 ---
-title: "Lecture Notes: 04-03 Intro to C++"
-date: "2026-04-01"
+title: "Lecture Notes: 04-03 C++ Smart Pointers"
+date: "2026-04-02"
 ---
 
 ## Last time
