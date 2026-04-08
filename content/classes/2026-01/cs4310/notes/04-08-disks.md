@@ -1,6 +1,6 @@
 ---
 title: "Lecture Notes: 04-08 Disks"
-date: "2025-04-06"
+date: "2026-04-06"
 ---
 
 Next topic: Disks
