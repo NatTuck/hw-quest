@@ -1,6 +1,6 @@
 ---
-title: "Notes: 04-03 Applications of Flows, Cuts"
-date: "2026-03-31"
+title: "Notes: 04-06 Exam 2 Review"
+date: "2026-04-01"
 ---
 
 ## Exam 2 Date
