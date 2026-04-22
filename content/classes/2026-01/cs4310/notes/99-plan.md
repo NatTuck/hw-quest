@@ -6,7 +6,8 @@ draft: true
 
 Upcoming lectures:
 
-- W, Apr 22: Last Lab: Duplicate Files
-- F, Apr 24: Make-up a Lab
+- W, Apr 22: Auth/Access
+- F, Apr 24: Exploit Prevention
+- M, Apr 27: Concurrency Rant
 - W, Apr 29: Semester Review
 - F, May 01: Feedback Day, Exam Review
