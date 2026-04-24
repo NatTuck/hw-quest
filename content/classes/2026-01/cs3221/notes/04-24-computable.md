@@ -5,7 +5,7 @@ date: "2026-04-22"
 
 ## Post Correspondence Problem
 
-See demo.
+See demo: <https://pcp-game.homework.quest/>
 
 ## The Halting Problem
 
