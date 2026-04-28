@@ -1,5 +1,5 @@
 ---
-title: "Lecture Notes: 35 Concurrency"
+title: "Lecture Notes: 04-27 Concurrency Rant"
 date: "2026-04-25"
 ---
 
