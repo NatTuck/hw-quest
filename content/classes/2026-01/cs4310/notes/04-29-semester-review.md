@@ -268,4 +268,3 @@ Key difference: **Load/Store Architecture**
 - Working with processes, threads, and synchronization
 - Understanding kernel internals (xv6)
 - Building filesystems (FUSE)
-

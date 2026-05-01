@@ -9,4 +9,4 @@ Upcoming lectures:
 - W, Apr 22: Last Lab: Duplicate Files
 - F, Apr 24: Make-up a Lab
 - W, Apr 29: Semester Review
-- F, May 01: Feedback Day, Exam Review
+- F, May 01: Feedback Day, Final Lab Review
