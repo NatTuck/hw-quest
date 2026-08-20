@@ -1,9 +1,20 @@
 ---
 title: "/"
-date: "2026-01-19"
+date: "2026-08-18"
 ---
 
-## This Semester: Spring 2026
+## This Semester: Fall 2026
+
+- GD2000
+- CS2010
+- CS4140
+- CS4250
+
+{{< officehours "2026-09" >}}
+
+## Previous Semesters
+
+### Spring 2026
 
 Courses:
 
@@ -17,10 +28,6 @@ Courses:
      ./classes/2026-01/cs4760)
 - [GD4000: Game Design Seminar](
      ./classes/2026-01/gd4000)
-
-{{< officehours "2026-01" >}}
-
-## Previous Semesters
 
 ### Fall 2025
 
