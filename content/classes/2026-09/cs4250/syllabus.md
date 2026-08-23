@@ -24,7 +24,7 @@ through a series of short projects. Falls.
 - Email: \<<nathaniel.tuck@plymouth.edu>\>
 - Office: D&M 305
 - Lecture: Monday, Wednesday, Friday @ 10:10-11:00am in D&M 417
-- Final Exam: ([schedule](
+- Final Exam: Friday, Dec 18 @ 8:00-10:30am ([schedule](
 https://www.plymouth.edu/sites/default/files/media/2026-03/Fall%202026%20Final%20Exam%20Schedule.pdf))
 - Course Site: <https://homework.quest/> click "cs4250"
 
@@ -118,7 +118,6 @@ halves of the course respectively.
 &ge; 67 &rarr; D+, &ge; 63 &rarr; D, &ge; 60 &rarr; D-, <br>
 else (&lt; 60) &rarr; F
 
-
 # Tentative Schedule
 
 {{< schedule >}}
@@ -204,7 +203,7 @@ else (&lt; 60) &rarr; F
 <tr>
  <td>14</td>
  <td>Dec 01</td>
- <td>Final Project Work</td>
+ <td>Bonus Topic</td>
  <td></td>
 </tr>
 <tr>

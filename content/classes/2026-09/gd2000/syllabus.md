@@ -25,7 +25,7 @@ required of a game design team.
 - Email: \<<nathaniel.tuck@plymouth.edu>\>
 - Office: D&M 305
 - Lecture: Wednesday, Friday @ 2:30-4:10pm in D&M 404
-- Final Exam: ([schedule](
+- Final Exam: Monday Dec 14 @ 2:00-4:30pm ([schedule](
 https://www.plymouth.edu/sites/default/files/media/2026-03/Fall%202026%20Final%20Exam%20Schedule.pdf))
 - Course Site: <https://homework.quest/> click "gd2000"
 
