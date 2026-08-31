@@ -16,7 +16,8 @@ design as well as to the game design industry. Students will design and develop
 original non-digital prototypes and games, using iteration and playtesting best
 practices. Topics include formal elements of games, mechanics and dynamics,
 decision making, the iterative process, rapid prototyping, and the functions
-required of a game design team.
+required of a game design team.<br>
+Pre-reqs: None
 </blockquote>
 
 # Course Info
@@ -142,7 +143,7 @@ else (&lt; 60) &rarr; F
 </tr>
 <tr>
  <td>2</td>
- <td>Sep 09 †</td>
+ <td>Sep 09&nbsp;†</td>
  <td>Play Game 1</td>
  <td></td>
 </tr>
@@ -196,7 +197,7 @@ else (&lt; 60) &rarr; F
 </tr>
 <tr>
  <td>11</td>
- <td>Nov 11 †</td>
+ <td>Nov 11&nbsp;†</td>
  <td>Make Game D</td>
  <td></td>
 </tr>
@@ -208,7 +209,7 @@ else (&lt; 60) &rarr; F
 </tr>
 <tr>
  <td>13</td>
- <td>Nov 25 ‡</td>
+ <td>Nov 25&nbsp;‡</td>
  <td>Thanksgiving Recess — No Class</td>
  <td></td>
 </tr>

@@ -163,8 +163,8 @@ complete yours. Please try to avoid inconveniencing your classmates.
 </tr>
 <tr>
  <td>2</td>
- <td>Sep 07 †</td>
- <td>Multi-User App Structure<td>
+ <td>Sep 07&nbsp;†</td>
+ <td>Multi-User App Structure</td>
  <td></td>
 </tr>
 <tr>
@@ -217,7 +217,7 @@ complete yours. Please try to avoid inconveniencing your classmates.
 </tr>
 <tr>
  <td>11</td>
- <td>Nov 09 †</td>
+ <td>Nov 09&nbsp;†</td>
  <td>Load Time, Interactivity</td>
  <td></td>
 </tr>
@@ -229,7 +229,7 @@ complete yours. Please try to avoid inconveniencing your classmates.
 </tr>
 <tr>
  <td>13</td>
- <td>Nov 23 ‡</td>
+ <td>Nov 23&nbsp;‡</td>
  <td>🦃</td>
  <td></td>
 </tr>

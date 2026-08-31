@@ -5,10 +5,14 @@ date: "2026-08-18"
 
 ## This Semester: Fall 2026
 
-- GD2000
-- CS2010
-- CS4140
-- CS4250
+- [GD2000: Game Design Principles](
+     ./classes/2026-09/gd2000)
+- [CS2010: Computing Fundamentals](
+     ./classes/2026-09/cs2010)
+- [CS4140: Software Engineering](
+     ./classes/2026-09/cs4140)
+- [CS4250: Computer Architecture](
+     ./classes/2026-09/cs4250)
 
 {{< officehours "2026-09" >}}
 

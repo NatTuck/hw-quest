@@ -15,29 +15,24 @@ pageRef = "/"
 weight = 10
 
 [[main]]
-name = "cs2470"
-pageRef = "/classes/2026-01/cs2470"
+name = "gd2000"
+pageRef = "/classes/2026-09/gd2000"
 weight = 20
 
 [[main]]
-name = "cs3221"
-pageRef = "/classes/2026-01/cs3221"
+name = "cs2010"
+pageRef = "/classes/2026-09/cs2010"
 weight = 30
 
 [[main]]
-name = "cs4310"
-pageRef = "/classes/2026-01/cs4310"
+name = "cs4140"
+pageRef = "/classes/2026-09/cs4140"
 weight = 40
 
 [[main]]
-name = "cs4760"
-pageRef = "/classes/2026-01/cs4760"
+name = "cs4250"
+pageRef = "/classes/2026-09/cs4250"
 weight = 50
-
-[[main]]
-name = "gd4000"
-pageRef = "/classes/2026-01/gd4000"
-weight = 60
 
 [[main]]
 name = "Inkfish"

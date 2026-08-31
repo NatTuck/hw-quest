@@ -9,15 +9,20 @@ Software Engineering
 
 # Course Info
 
- - Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
- - Read the [Syllabus](./syllabus)
+- Instructor: Nat Tuck \<<nathaniel.tuck@plymouth.edu>\>
+- Read the [Syllabus](./syllabus)
 
 {{< officehours "2026-09" >}}
 
 # Essential Resources
 
- - See [Inkfish](https://inkfish.homework.quest) for assignments.
+- See [Inkfish](https://inkfish.homework.quest) for assignments.
 
 # Development Workflow and Policies
 
- - [Github Workflow](./workflow)
+- [Github Workflow](./workflow)
+
+# VPS Providers
+
+- https://us.ovhcloud.com/
+- https://www.ionos.com/servers/vps

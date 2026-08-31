@@ -23,6 +23,19 @@ social and theoretical issues. Includes a weekly hands-on lab through
 which students experience a variety of computing environments.
 </blockquote>
 
+<blockquote> 
+<b>Pathway:</b><br> 
+The Communicating Strategically Pathway focuses on the skill of narrative
+framing and persuasive communication across platforms.   Successfully conveying
+one’s own ideas  and evaluating the communication of others is necessary for
+personal and professional effectiveness. Communicating Strategically prepares
+students to craft persuasive, ethical narratives that shape public understanding
+and drive collective action.  Through the courses in this Pathway, students
+learn the deliberate use of one’s own expressiveness, language, and voice to
+influence audiences across communal and professional domains with strategic
+outcomes in mind. 
+</blockquote>
+
 # Course Info
 
 - Instructor: Nat Tuck
@@ -56,7 +69,10 @@ No required textbook.
 
 ## Required Materials
 
-- [OpenRouter Credits ($10)](https://openrouter.ai/)
+- AI API Credits
+- Virtual Private Server
+
+Required course materials should cost under \$40.
 
 ## Grading
 
@@ -143,7 +159,7 @@ Graded exams can be reviewed during office hours or by appointment.
 </tr>
 <tr>
  <td>2</td>
- <td>Sep 07 †</td>
+ <td>Sep 07&nbsp;†</td>
  <td>Data Representation</td>
  <td></td>
 </tr>
@@ -197,7 +213,7 @@ Graded exams can be reviewed during office hours or by appointment.
 </tr>
 <tr>
  <td>11</td>
- <td>Nov 09 †</td>
+ <td>Nov 09&nbsp;†</td>
  <td>APIs and Image Generation</td>
  <td></td>
 </tr>
@@ -209,7 +225,7 @@ Graded exams can be reviewed during office hours or by appointment.
 </tr>
 <tr>
  <td>13</td>
- <td>Nov 23 ‡</td>
+ <td>Nov 23&nbsp;‡</td>
  <td>Vibe Coding Project</td>
  <td></td>
 </tr>

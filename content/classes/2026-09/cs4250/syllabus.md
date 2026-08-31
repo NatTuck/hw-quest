@@ -16,6 +16,7 @@ performance-oriented approach. Topics include: measurement of performance
 instruction sets design; hardwired and micro-coded processor design;
 pipelining; memory hierarchy; I/O. Assembly language programming is studied
 through a series of short projects. Falls.
+<br>Prereq: CS 2225
 </blockquote>
 
 # Course Info
@@ -107,8 +108,9 @@ topics in computer architecture.
 
 **Exams**
 
-There will be two exams covering material from the first and second
-halves of the course respectively.
+There will be two exams covering material from the first and second thirds of
+the course. The final third of the course will be exam-free so we can focus
+on the semester project.
 
 **Letter Grades**
 
@@ -124,91 +126,91 @@ else (&lt; 60) &rarr; F
 
 <tr>
  <td>1</td>
- <td>Sep 03 †</td>
+ <td>Aug 31</td>
  <td>Intro to Architecture; Order Your Stuff</td>
  <td></td>
 </tr>
 <tr>
  <td>2</td>
- <td>Sep 08</td>
+ <td>Sep 07&nbsp;†</td>
  <td>Electronics: Resistors, Diodes, Transistors</td>
  <td>Lab: GPIO</td>
 </tr>
 <tr>
  <td>3</td>
- <td>Sep 15</td>
+ <td>Sep 14</td>
  <td>Linux on the SG2000</td>
  <td>Project Proposals</td>
 </tr>
 <tr>
  <td>4</td>
- <td>Sep 22</td>
+ <td>Sep 21</td>
  <td>Instruction Set Architectures; RISC-V Assembly</td>
  <td>Lab: Direct Bit Twiddling</td>
 </tr>
 <tr>
  <td>5</td>
- <td>Sep 29</td>
+ <td>Sep 28</td>
  <td>Review; Exam 1</td>
  <td>Exam 1</td>
 </tr>
 <tr>
  <td>6</td>
- <td>Oct 06</td>
+ <td>Oct 05</td>
  <td>FreeRTOS on the SG2000</td>
  <td></td>
 </tr>
 <tr>
  <td>7</td>
- <td>Oct 13</td>
+ <td>Oct 12</td>
  <td>Device I/O</td>
  <td>Lab: I2C Display</td>
 </tr>
 <tr>
  <td>8</td>
- <td>Oct 20</td>
+ <td>Oct 19</td>
  <td>The 8051 on the SG2000</td>
  <td></td>
 </tr>
 <tr>
  <td>9</td>
- <td>Oct 27</td>
+ <td>Oct 26</td>
  <td>Processor Datapath, Pipelining, ILP; Memory Hierarchy</td>
  <td>Lab: CPU Data &amp; Memory Hierarchy</td>
 </tr>
 <tr>
  <td>10</td>
- <td>Nov 03</td>
+ <td>Nov 02</td>
  <td>Review; Exam 2</td>
  <td>Exam 2</td>
 </tr>
 <tr>
  <td>11</td>
- <td>Nov 10 †</td>
+ <td>Nov 09&nbsp;†</td>
  <td>Multiprocessors</td>
  <td>Lab: SG2000 NPU</td>
 </tr>
 <tr>
  <td>12</td>
- <td>Nov 17</td>
+ <td>Nov 16</td>
  <td>Final Project Work</td>
  <td></td>
 </tr>
 <tr>
  <td>13</td>
- <td>Nov 24 ‡</td>
+ <td>Nov 23&nbsp;‡</td>
  <td>Thanksgiving Recess — No Class</td>
  <td></td>
 </tr>
 <tr>
  <td>14</td>
- <td>Dec 01</td>
+ <td>Nov 30</td>
  <td>Bonus Topic</td>
  <td></td>
 </tr>
 <tr>
  <td>15</td>
- <td>Dec 08</td>
+ <td>Dec 07</td>
  <td>Final Project: Polish</td>
  <td></td>
 </tr>
@@ -221,7 +223,7 @@ else (&lt; 60) &rarr; F
 
 {{< /schedule >}}
 
-- † No class on Monday, Sep 01 (Labor Day) or Wednesday, Nov 11 (Veterans Day)
-- ‡ No class Wednesday, Nov 26 through Friday, Nov 28 (Thanksgiving Recess)
+- † No class on Monday, Sep 07 (Labor Day) or Wednesday, Nov 11 (Veterans Day)
+- ‡ No class Wednesday, Nov 25 through Friday, Nov 27 (Thanksgiving Recess)
 
 {{< syllabus-common "2026-09" >}}
