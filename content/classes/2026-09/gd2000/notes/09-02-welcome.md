@@ -1,6 +1,6 @@
 ---
 title: "gd2000 Notes: 09-02 Welcome"
-date: "2026-09-02"
+date: "2026-09-01"
 ---
 
 - This is GD 2000, Game Design Principles

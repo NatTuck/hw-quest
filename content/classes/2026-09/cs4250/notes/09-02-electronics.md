@@ -1,6 +1,6 @@
 ---
 title: "cs4250 Notes: 09-02 Electronics"
-date: "2026-09-02"
+date: "2026-08-31"
 ---
 
 - This is CS 4250 Computer Architecture
@@ -110,23 +110,3 @@ Gonna need a register file.
 That needs SRAM, which is an array of flip-flops. Each flip-flip is 6
 transistors. The overall circuit is is a RAM: you set the address bits,
 the R/W bit, and it either outputs or inputs a word.
-
-Load / store need RAM.
-
-RAM is slow so we want caches, more details later, but there's
-several levels of them.
-
-RAM is slow even with caches, and some operations are slow, so pipelines.
-
-Pipelines stall, so speculative execution.
-
-If we just do multiple things at a time, we're never wrong, so SMT.
-
-If we just copy the core, we can have multiples, so multi-core.
-
-More cores or fast cores? More cores or wide cores? Cores or cache? Cache or
-memory channels?
-
-
-
-

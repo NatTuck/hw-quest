@@ -1,6 +1,6 @@
 ---
 title: "cs4250 Notes: 08-31 Welcome"
-date: "2026-08-29"
+date: "2026-08-28"
 ---
 
 - This is CS 4250 Computer Architecture
