@@ -1,5 +1,5 @@
 ---
-title: "gd2000 Notes: 09-04 Welcome"
+title: "gd2000 Notes: 09-04 Kinds of Game"
 date: "2026-09-02"
 ---
 
