@@ -12,3 +12,8 @@ Computer Architecture
 - the [Syllabus](./syllabus)
 - See [Inkfish](https://inkfish.homework.quest) for assignments
 - Notes and stuff from class are in the scratch repository
+
+## References
+
+- [https://computationstructures.org/](https://computationstructures.org/) - MIT
+  Full Course Content
