@@ -1,5 +1,5 @@
 ---
-title: "cs4250 Notes: 09-09 CPU Arch"
+title: "cs4250 Notes: 09-09 Dev Board"
 date: "2026-09-07"
 ---
 
