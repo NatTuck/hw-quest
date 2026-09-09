@@ -1,7 +1,31 @@
 ---
-title: "cs2010 Notes: 09-09 Base Conversions"
+title: "cs2010 Notes: 09-09 Numbers"
 date: "2026-09-02"
 ---
+
+## The Homework
+
+- The homework due tonight covers the material that we're going over in lecture
+  today.
+- Aside from some hints in lab last week, we haven't covered this at all.
+- And yet:
+  - At least 6 students have submitted reasonable looking answers.
+  - Only one student dropped by my office ours or had any questions on the
+  material at all.
+- Hmm...
+- Hopefully they all found good youtube videos that explained the process
+  and then carefully did the work.
+- The *point* of this kind of assignment is for you to practice.
+- Submitting a perfect answer to a HW like this with no questions tells me you're 
+  ready to see it on an exam.
+- If you want study help from a chat bot, you can give it this worksheet and ask
+  it to generate you another one with different numbers.
+
+## Upcoming Homework - Negatives, Floats, Letters
+
+- We'll cover all of it today.
+
+## Numbers: Non-Negative Integers
 
 **Review: Digit places**
 
@@ -134,4 +158,49 @@ decimal input = 18999
 |  4    |    4   | 0       |
 
 digits from remainder column, reversed: 4A37
+
+
+## Negative Numbers
+
+Concept: Sign bit (initial 0 bit means positive)
+
+Concept: Two's complement (flip all the bits, add 1)
+
+
+
+## Fixed point numbers
+
+Decimal $3.25
+
+Binary point, 1/2, 1/4, etc.
+
+
+## Floating point numbers
+
+E2M1
+
+4 bits:
+
+- Sign bit
+- Exponent (2 bits)
+- Mantissa (1 bit)
+
+Complications:
+
+- Exponent bias
+- Subnormals
+- NaN / inf
+
+Normals: `value = (-1)sign × 2(exponent - 1) × (1 + mantissa / 2)`
+
+Subnormals: `value = (-1)sign × 20 × (mantissa / 2)` (just 0.5)
+
+Values: 0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0
+
+
+IEEE 754 binary 32
+
+- Sign
+- 8 bit exponent
+- 23 (+1) bit mantissa / significand
 
