@@ -1,3 +1,11 @@
+---
+title: "cs2010 Notes: 99 Plan"
+date: "2026-12-25"
+---
+
+
+
+
 
 09-09: Numbers, HW: Numbers
 09-14: Intro Linux Commands, Linux Commands Lab, HW: More Linux Commands
