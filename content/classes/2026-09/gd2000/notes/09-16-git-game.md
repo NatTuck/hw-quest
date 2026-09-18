@@ -1,6 +1,6 @@
 ---
-title: "gd2000 Notes: 09-16 Git"
-date: "2026-09-06"
+title: "gd2000 Notes: 09-16 Git Game"
+date: "2026-09-14"
 ---
 
 First, attendance code on Inkfish.
