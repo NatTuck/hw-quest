@@ -45,30 +45,107 @@ riscv-none-elf-readelf -h build-blink/Blink.ino.elf | grep Entry
 Entry point address:               0x9fe00000
 ```
 
-Load it onto the RT core:
+The little core is controlled through `/sys/class/remoteproc`. Work through the
+steps below in order.
+
+**See the state.** It prints `offline` (not running) or `running` (executing the
+selected firmware):
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/state'
+```
+
+There is normally a single remote processor; `ls /sys/class/remoteproc/` lists
+the ones that exist.
+
+**The state you want before loading is `offline`.** You can only change the
+firmware while the core is offline. If the state above was `running`, stop it:
+
+```bash
+ssh debian@10.42.0.1 'echo stop | sudo tee /sys/class/remoteproc/remoteproc0/state'
+```
+
+Running `stop` on a core that is already `offline` prints `Invalid argument`;
+that is expected and harmless. Confirm the state:
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/state'
+```
+
+You want to see `offline` before continuing.
+
+**Copy the image where the driver looks for it.** The firmware loader reads
+files from `/lib/firmware`. Copy your build in under a short name:
 
 ```bash
 scp build-blink/Blink.ino.elf debian@10.42.0.1:/tmp/blink.elf
+ssh debian@10.42.0.1 'sudo cp /tmp/blink.elf /lib/firmware/blink.elf'
 ```
 
-```bash
-ssh debian@10.42.0.1 '
-  set -e
-  sudo cp /tmp/blink.elf /lib/firmware/blink.elf
-  S=/sys/class/remoteproc/remoteproc0/state
-  [ "$(cat $S)" = running ] && echo stop | sudo tee $S
-  echo blink.elf | sudo tee /sys/class/remoteproc/remoteproc0/firmware
-  echo start | sudo tee $S
-'
-```
+Check that the copy is your build — the two hashes must match:
 
 ```bash
-ssh debian@10.42.0.1 'sudo dmesg | grep -iE "Booting fw|now up" | tail -2'
+ssh debian@10.42.0.1 'md5sum /tmp/blink.elf /lib/firmware/blink.elf'
+```
+
+**Select that file as the firmware.** The `firmware` attribute holds a file
+**name**, not a path; the driver resolves it under `/lib/firmware`. See the
+current selection (it may be the factory `c906-mcu.elf`):
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/firmware'
+```
+
+The name you want is `blink.elf`. Set it:
+
+```bash
+ssh debian@10.42.0.1 'echo blink.elf | sudo tee /sys/class/remoteproc/remoteproc0/firmware'
+```
+
+Read it back to confirm:
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/firmware'
+```
+
+**Start it.**
+
+```bash
+ssh debian@10.42.0.1 'echo start | sudo tee /sys/class/remoteproc/remoteproc0/state'
+```
+
+The state you want now is `running`:
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/state'
+```
+
+The kernel log should show the image being handed to the core:
+
+```bash
+ssh debian@10.42.0.1 'sudo dmesg | grep -iE "Booting fw image|is now up" | tail -2'
 ```
 
 ```text
 [...] remoteproc remoteproc0: Booting fw image blink.elf, size 98256
 [...] remoteproc remoteproc0: remote processor cv181x-c906_1 is now up
+```
+
+**Check the result.** The LED on J3 pin 7 should blink at the sketch's rate. If
+it does not, re-check, in order: the state is `offline` before the load, the
+file exists in `/lib/firmware`, and the `firmware` name matches the file. No
+reboot or driver reload is needed.
+
+**Stop it.**
+
+```bash
+ssh debian@10.42.0.1 'echo stop | sudo tee /sys/class/remoteproc/remoteproc0/state'
+```
+
+The state you want is `offline`, and the LED goes dark:
+
+```bash
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/state'
 ```
 
 ### 3.2 What `digitalWrite` actually does
@@ -152,16 +229,10 @@ void loop() {
 
 ```bash
 arduino-cli compile --fqbn sophgo:SG200X:duos --build-path build-blink4 Blink4
-scp build-blink4/Blink4.ino.elf debian@10.42.0.1:/tmp/blink4.elf
-ssh debian@10.42.0.1 '
-  set -e
-  sudo cp /tmp/blink4.elf /lib/firmware/blink4.elf
-  S=/sys/class/remoteproc/remoteproc0/state
-  [ "$(cat $S)" = running ] && echo stop | sudo tee $S
-  echo blink4.elf | sudo tee /sys/class/remoteproc/remoteproc0/firmware
-  echo start | sudo tee $S
-'
 ```
+
+Load and start it exactly as in §3.1, using `Blink4`,
+`build-blink4/Blink4.ino.elf` and `blink4.elf` in place of the `Blink` names.
 
 Measured with the sampler from section 4:
 
@@ -447,14 +518,11 @@ riscv-none-elf-objdump -d build-gpioasmraw/GpioAsmRaw.ino.elf | sed -n '/<_Z5set
 
 ```bash
 scp build-gpioasm/GpioAsm.ino.elf debian@10.42.0.1:/tmp/gpioasm.elf
-ssh debian@10.42.0.1 '
-  set -e
-  sudo cp /tmp/gpioasm.elf /lib/firmware/gpioasm.elf
-  S=/sys/class/remoteproc/remoteproc0/state
-  [ "$(cat $S)" = running ] && echo stop | sudo tee $S
-  echo gpioasm.elf | sudo tee /sys/class/remoteproc/remoteproc0/firmware
-  echo start | sudo tee $S
-'
+ssh debian@10.42.0.1 'sudo cp /tmp/gpioasm.elf /lib/firmware/gpioasm.elf'
+ssh debian@10.42.0.1 'cat /sys/class/remoteproc/remoteproc0/state'   # want: offline
+ssh debian@10.42.0.1 'echo stop | sudo tee /sys/class/remoteproc/remoteproc0/state'
+ssh debian@10.42.0.1 'echo gpioasm.elf | sudo tee /sys/class/remoteproc/remoteproc0/firmware'
+ssh debian@10.42.0.1 'echo start | sudo tee /sys/class/remoteproc/remoteproc0/state'
 ```
 
 ```bash
