@@ -97,7 +97,6 @@ layers, etc) is determined by the model archetecture.
 output" token.
 
 
-
 ## Training
 
 Like any ML model:
@@ -144,9 +143,35 @@ Nest demo, Coding, Qwen 3.8, thinking on.
 - API details.
 
 
-
 ## What can we do with tools?
 
 - Write markdown files.
 - Use Pandoc to convert markdown to PDF.
 - Write simple computer programs.
+
+
+## Running LLMs
+
+LLMs run on computers. You need a program (an inference engine) that will load
+the model and run it.
+
+How big an LLM can you run?
+
+- LLMs have some number of weights (parameters) (e.g. 4B, 397B-A17B)
+- A full size weight is a 16 bit floating point number, so one weight
+"naturally" takes 2 bytes to store.
+- Weights can be "quantized", or stored with less detail, without messing things
+up too much. Models are typically run in quantized mode with 8 bits per weight
+for good quality or 4 bits per weight for okay quality.
+- At 8 bpw, 1 weight = 1 byte, so a 4B model takes ~4GB.
+- At 4 bpw, 2 weights = 1 byte, so a 4B model takes ~2GB.
+
+To run fast, you want weights to fit in video memory.
+
+You also need to fit something else in video memory: KV cache. That's the
+already-processed active conversation, so every new chat turn doesn't need
+to reprocess the whole thing from the beginning.
+
+
+
+
