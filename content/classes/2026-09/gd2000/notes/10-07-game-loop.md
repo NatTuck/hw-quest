@@ -1,6 +1,6 @@
 ---
-title: "gd2000 Notes: 09-30 Team Shooters"
-date: "2026-09-28"
+title: "gd2000 Notes: 10-07 Game Loops"
+date: "2026-10-06"
 ---
 
 Today we, sadly, have a slide deck.
