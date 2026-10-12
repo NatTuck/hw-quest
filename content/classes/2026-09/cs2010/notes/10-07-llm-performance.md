@@ -38,4 +38,8 @@ date: "2026-10-05"
 - Images
 - Audio
 
+## Scripts that call LLMs
 
+...
+
+## Build the worst animal detector
