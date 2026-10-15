@@ -1,6 +1,6 @@
 ---
 title: "gd2000 Notes: 10-14 Auto Battler"
-date: "2026-10-14"
+date: "2026-10-13"
 ---
 
 First, attendance code on Inkfish.
