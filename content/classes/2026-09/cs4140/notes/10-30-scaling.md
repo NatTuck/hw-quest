@@ -1,6 +1,6 @@
 ---
 title: "cs4140 Notes: 10-30 Scaling and Replication"
-date: "2025-10-28"
+date: "2026-10-28"
 ---
 
 Let's consider a reasonably simple web app: local search.
