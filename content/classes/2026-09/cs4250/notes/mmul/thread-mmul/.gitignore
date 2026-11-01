@@ -1,0 +1,6 @@
+thread-mmul
+thread-mmul-avx
+gen-random
+gen-ident
+print-matrix
+gen-doub
