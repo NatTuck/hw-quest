@@ -17,10 +17,20 @@ Thanksgiving Week:
 
 ## What's on the Exam
 
-- What does an Operating System do?
-- I2C bus, including comparisons to SPI and PCIe
+- Realtime OS Scheduling 
 - Pipelining
 - Caches
 - Multiprocessors and GPUs
+
+## Scheduling
+
+- We create a static set of tasks, each with a priority.
+- Higher numbers are higher priority (in freertos, in linux it's the other way)
+- The scheduler is a function that runs the highest priority
+ready task
+- We start the first task by running the scheduler
+- Timers run on the timer interrupt (which the hardware clock does at fix intervals)
+
+
 
 
