@@ -1,6 +1,6 @@
 ---
-title: "cs4140 Notes: 11-17 Work Day 7"
-date: "2026-11-15"
+title: "cs4140 Notes: 11-18 Work Day"
+date: "2026-11-16"
 ---
 
 ## First Thing
